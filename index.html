@@ -582,6 +582,7 @@ route("menu", async ()=>{
     <button class="btn secondary block" data-action="nav" data-route="#/new">➕ ${t("Новые слова")} ${newCount? `<span class="pill">${newCount}</span>`:""}</button>
     <button class="btn secondary block" data-action="nav" data-route="#/exercises">✏️ ${t("Упражнения")}</button>
     <button class="btn secondary block" data-action="nav" data-route="#/dialogues">💬 ${t("Диалоги")}</button>
+    ${(LEVEL_DATA.calls && LEVEL_DATA.calls.length) ? `<button class="btn secondary block" data-action="nav" data-route="#/calls">📞 ${t("Звонки")}</button>` : ""}
     ${examReady() ? `<button class="btn block" style="background:var(--good)" data-action="nav" data-route="#/exam">🏆 ${t("Сдать экзамен")}</button>` : ""}
   </div>
   <div class="card">
@@ -844,6 +845,68 @@ function renderDialogueDetail(did){
   return `<h2 style="padding:0 4px">${t(d.situation)}</h2>${lines}`;
 }
 
+route("calls", async (parts)=>{
+  document.getElementById("topTitle").textContent = "Звонки";
+  if(parts[0]) return renderCallDetail(parts[0]);
+  const items = (LEVEL_DATA.calls||[]).map(c=>`
+    <div class="list-item" data-action="nav" data-route="#/calls/${c.id}">
+      <b>${t(c.situation)}</b><span>›</span>
+    </div>`).join("");
+  return `<div class="card"><h2>${t("Имитация звонка")}</h2>
+    <p class="muted">Вам звонят и задают вопросы. Слушайте и отвечайте — голосом или выбором варианта.</p>
+    ${items||"<p class='muted'>Пока нет сценариев</p>"}</div>`;
+});
+function callData(cid){ return (LEVEL_DATA.calls||[]).find(c=>c.id===cid); }
+function renderCallDetail(cid){
+  const call = callData(cid);
+  if(!call) return "<div class='card'>Не найдено</div>";
+  document.getElementById("topTitle").textContent = call.situation;
+  if(window.__callId !== cid || window.__callIdx >= call.lines.length){
+    window.__callId = cid; window.__callIdx = 0;
+    if(call.lines[0] && call.lines[0].speaker==="caller") Speech.speak(call.lines[0].en);
+  }
+  return renderCallStep();
+}
+function renderCallStep(){
+  const call = callData(window.__callId);
+  const lines = call.lines;
+  const idx = window.__callIdx;
+  const history = lines.slice(0, idx).map(l=>{
+    if(l.speaker==="caller") return `<div class="card" style="margin-bottom:8px"><span class="pill">📞 Звонящий</span><p style="margin-top:8px">${esc(l.en)}</p><p class="muted">${esc(l.ru)}</p></div>`;
+    const chosen = l._chosen || {en:"…"};
+    return `<div class="card" style="margin-bottom:8px;background:var(--accent-soft)"><span class="pill mastered">🗣 Вы</span><p style="margin-top:8px">${esc(chosen.en)}</p></div>`;
+  }).join("");
+  if(idx>=lines.length){
+    return history + `<div class="empty"><span class="ic">📴</span><p>Звонок завершён.</p><button class="btn" data-action="nav-hash" data-route="#/calls">К списку звонков</button></div>`;
+  }
+  const line = lines[idx];
+  if(line.speaker==="caller"){
+    return history + `
+    <div class="card">
+      <span class="pill">📞 Звонящий</span>
+      <p style="margin-top:8px;font-size:17px">${esc(line.en)}</p>
+      <p class="muted">${esc(line.ru)}</p>
+      <div style="margin-top:10px"><button class="speak-btn" data-action="speak" data-text="${esc(line.en)}">🔊</button></div>
+    </div>
+    <button class="btn block" data-action="call-next">Далее →</button>`;
+  }
+  const opts = line.options||[];
+  return history + `
+  <div class="card">
+    <span class="pill learning">🗣 Ваш ответ</span>
+    <p class="muted" style="margin-top:8px">Выберите ответ или произнесите его вслух</p>
+    <div id="callOpts">${opts.map((o,i)=>`<button class="opt" data-action="call-choose" data-i="${i}">${esc(o.en)}</button>`).join("")}</div>
+    ${Speech.recogSupported && STATE.settings.recognitionEnabled ? `<button class="btn secondary block" style="margin-top:10px" id="callMic" data-action="call-speak">🎤 Ответить голосом</button><p id="callMicResult" class="muted center" style="margin-top:6px"></p>` : ""}
+  </div>`;
+}
+function callAdvance(){
+  const call = callData(window.__callId);
+  window.__callIdx++;
+  document.getElementById("screen-root").innerHTML = renderCallStep();
+  const next = call.lines[window.__callIdx];
+  if(next && next.speaker==="caller") Speech.speak(next.en);
+}
+
 route("exam", async ()=>{
   document.getElementById("topTitle").textContent = "Экзамен";
   if(!examReady()){
@@ -1048,6 +1111,40 @@ document.addEventListener("click", async (ev)=>{
       setTimeout(()=>{ el.textContent = original; }, 1600);
     }).catch(err=>{
       el.textContent = original; el.disabled = false;
+      toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
+    });
+    return;
+  }
+  if(action==="call-next"){ callAdvance(); return; }
+  if(action==="call-choose"){
+    const call = callData(window.__callId);
+    const line = call.lines[window.__callIdx];
+    const opt = line.options[Number(el.dataset.i)];
+    line._chosen = opt;
+    const optButtons = [...document.querySelectorAll("#callOpts .opt")];
+    optButtons.forEach(b=>b.disabled=true);
+    el.classList.add(opt.correct?"correct":"wrong");
+    if(!opt.correct){
+      const correctIdx = line.options.findIndex(o=>o.correct);
+      if(correctIdx>=0 && optButtons[correctIdx]) optButtons[correctIdx].classList.add("correct");
+    }
+    setTimeout(callAdvance, 1200);
+    return;
+  }
+  if(action==="call-speak"){
+    const call = callData(window.__callId);
+    const line = call.lines[window.__callIdx];
+    const btn = el;
+    btn.textContent = "🎙 Слушаю…"; btn.disabled = true;
+    Speech.recognize().then(alts=>{
+      const matched = line.options.find(o=>alts.some(a=>similar(a, o.en)));
+      const ok = matched ? matched.correct : false;
+      line._chosen = matched || {en: alts[0]};
+      document.getElementById("callMicResult").textContent = ok ? "✅ Отлично, засчитано!" : "❌ Не совсем то. Идём дальше.";
+      btn.textContent = "🎤 Ответить голосом"; btn.disabled = false;
+      setTimeout(callAdvance, 1400);
+    }).catch(err=>{
+      btn.textContent = "🎤 Ответить голосом"; btn.disabled = false;
       toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
     });
     return;
