@@ -1,0 +1,6094 @@
+{
+  "level": "A1",
+  "title": "Начальный уровень",
+  "passingThreshold": 0.9,
+  "topics": [
+    {
+      "id": "greetings",
+      "title": "Приветствие и знакомство",
+      "words": [
+        "w_001",
+        "w_002",
+        "w_003",
+        "w_004",
+        "w_005",
+        "w_006",
+        "w_007",
+        "w_008",
+        "w_009",
+        "w_010",
+        "w_011",
+        "w_012",
+        "w_013",
+        "w_014",
+        "w_015",
+        "w_016",
+        "w_017",
+        "w_018",
+        "w_019",
+        "w_020"
+      ],
+      "grammar": [
+        "g_001"
+      ]
+    },
+    {
+      "id": "personal_info",
+      "title": "Личная информация",
+      "words": [
+        "w_021",
+        "w_022",
+        "w_023",
+        "w_024",
+        "w_025",
+        "w_026",
+        "w_027",
+        "w_028",
+        "w_029",
+        "w_030",
+        "w_031",
+        "w_032",
+        "w_033",
+        "w_034",
+        "w_035",
+        "w_036",
+        "w_037",
+        "w_038",
+        "w_039",
+        "w_040"
+      ],
+      "grammar": [
+        "g_001",
+        "g_002"
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Числа",
+      "words": [
+        "w_041",
+        "w_042",
+        "w_043",
+        "w_044",
+        "w_045",
+        "w_046",
+        "w_047",
+        "w_048",
+        "w_049",
+        "w_050",
+        "w_051",
+        "w_052",
+        "w_053",
+        "w_054",
+        "w_055",
+        "w_056",
+        "w_057",
+        "w_058",
+        "w_059",
+        "w_060",
+        "w_061",
+        "w_062",
+        "w_063",
+        "w_064",
+        "w_065",
+        "w_066",
+        "w_067",
+        "w_068",
+        "w_069",
+        "w_070",
+        "w_071",
+        "w_072",
+        "w_073",
+        "w_074"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "colors",
+      "title": "Цвета",
+      "words": [
+        "w_075",
+        "w_076",
+        "w_077",
+        "w_078",
+        "w_079",
+        "w_080",
+        "w_081",
+        "w_082",
+        "w_083",
+        "w_084",
+        "w_085",
+        "w_086"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "days_months_time",
+      "title": "Дни, месяцы и время",
+      "words": [
+        "w_087",
+        "w_088",
+        "w_089",
+        "w_090",
+        "w_091",
+        "w_092",
+        "w_093",
+        "w_094",
+        "w_095",
+        "w_096",
+        "w_097",
+        "w_098",
+        "w_099",
+        "w_100",
+        "w_101",
+        "w_102",
+        "w_103",
+        "w_104",
+        "w_105",
+        "w_106",
+        "w_107",
+        "w_108",
+        "w_109",
+        "w_110",
+        "w_111",
+        "w_112",
+        "w_113",
+        "w_114",
+        "w_115"
+      ],
+      "grammar": [
+        "g_009"
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Семья",
+      "words": [
+        "w_116",
+        "w_117",
+        "w_118",
+        "w_119",
+        "w_120",
+        "w_121",
+        "w_122",
+        "w_123",
+        "w_124",
+        "w_125",
+        "w_126",
+        "w_127",
+        "w_128",
+        "w_129",
+        "w_130",
+        "w_131",
+        "w_132",
+        "w_133",
+        "w_134",
+        "w_135"
+      ],
+      "grammar": [
+        "g_002"
+      ]
+    },
+    {
+      "id": "food_drink",
+      "title": "Еда и напитки",
+      "words": [
+        "w_136",
+        "w_137",
+        "w_138",
+        "w_139",
+        "w_140",
+        "w_141",
+        "w_142",
+        "w_143",
+        "w_144",
+        "w_145",
+        "w_146",
+        "w_147",
+        "w_148",
+        "w_149",
+        "w_150",
+        "w_151",
+        "w_152",
+        "w_153",
+        "w_154",
+        "w_155",
+        "w_156",
+        "w_157",
+        "w_158",
+        "w_159",
+        "w_160",
+        "w_161",
+        "w_162",
+        "w_163",
+        "w_164",
+        "w_165",
+        "w_166",
+        "w_167",
+        "w_168",
+        "w_169",
+        "w_170",
+        "w_171",
+        "w_172",
+        "w_173",
+        "w_174",
+        "w_175",
+        "w_176",
+        "w_177",
+        "w_178",
+        "w_179",
+        "w_180"
+      ],
+      "grammar": [
+        "g_004"
+      ]
+    },
+    {
+      "id": "home_objects",
+      "title": "Дом и предметы дома",
+      "words": [
+        "w_181",
+        "w_182",
+        "w_183",
+        "w_184",
+        "w_185",
+        "w_186",
+        "w_187",
+        "w_188",
+        "w_189",
+        "w_190",
+        "w_191",
+        "w_192",
+        "w_193",
+        "w_194",
+        "w_195",
+        "w_196",
+        "w_197",
+        "w_198",
+        "w_199",
+        "w_200",
+        "w_201",
+        "w_202",
+        "w_203",
+        "w_204",
+        "w_205",
+        "w_206",
+        "w_207",
+        "w_208",
+        "w_209",
+        "w_210",
+        "w_211",
+        "w_212",
+        "w_213",
+        "w_214"
+      ],
+      "grammar": [
+        "g_006",
+        "g_008"
+      ]
+    },
+    {
+      "id": "clothes",
+      "title": "Одежда",
+      "words": [
+        "w_215",
+        "w_216",
+        "w_217",
+        "w_218",
+        "w_219",
+        "w_220",
+        "w_221",
+        "w_222",
+        "w_223",
+        "w_224",
+        "w_225",
+        "w_226",
+        "w_227",
+        "w_228",
+        "w_229",
+        "w_230",
+        "w_231",
+        "w_232"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "body_health",
+      "title": "Тело и здоровье",
+      "words": [
+        "w_233",
+        "w_234",
+        "w_235",
+        "w_236",
+        "w_237",
+        "w_238",
+        "w_239",
+        "w_240",
+        "w_241",
+        "w_242",
+        "w_243",
+        "w_244",
+        "w_245",
+        "w_246",
+        "w_247",
+        "w_248",
+        "w_249",
+        "w_250",
+        "w_251",
+        "w_252",
+        "w_253",
+        "w_254",
+        "w_255",
+        "w_256"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "actions_verbs",
+      "title": "Частотные глаголы",
+      "words": [
+        "w_257",
+        "w_258",
+        "w_259",
+        "w_260",
+        "w_261",
+        "w_262",
+        "w_263",
+        "w_264",
+        "w_265",
+        "w_266",
+        "w_267",
+        "w_268",
+        "w_269",
+        "w_270",
+        "w_271",
+        "w_272",
+        "w_273",
+        "w_274",
+        "w_275",
+        "w_276",
+        "w_277",
+        "w_278",
+        "w_279",
+        "w_280",
+        "w_281",
+        "w_282",
+        "w_283",
+        "w_284",
+        "w_285",
+        "w_286",
+        "w_287",
+        "w_288",
+        "w_289",
+        "w_290",
+        "w_291",
+        "w_292",
+        "w_293",
+        "w_294",
+        "w_295",
+        "w_296",
+        "w_297",
+        "w_298",
+        "w_299",
+        "w_300",
+        "w_301",
+        "w_302",
+        "w_303",
+        "w_304",
+        "w_305",
+        "w_306",
+        "w_307",
+        "w_308",
+        "w_309"
+      ],
+      "grammar": [
+        "g_003",
+        "g_005",
+        "g_007"
+      ]
+    },
+    {
+      "id": "adjectives_basic",
+      "title": "Прилагательные",
+      "words": [
+        "w_310",
+        "w_311",
+        "w_312",
+        "w_313",
+        "w_314",
+        "w_315",
+        "w_316",
+        "w_317",
+        "w_318",
+        "w_319",
+        "w_320",
+        "w_321",
+        "w_322",
+        "w_323",
+        "w_324",
+        "w_325",
+        "w_326",
+        "w_327",
+        "w_328",
+        "w_329",
+        "w_330",
+        "w_331",
+        "w_332",
+        "w_333",
+        "w_334",
+        "w_335",
+        "w_336",
+        "w_337",
+        "w_338",
+        "w_339",
+        "w_340",
+        "w_341",
+        "w_342",
+        "w_343",
+        "w_344",
+        "w_345"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "shopping",
+      "title": "Магазин",
+      "words": [
+        "w_346",
+        "w_347",
+        "w_348",
+        "w_349",
+        "w_350",
+        "w_351",
+        "w_352",
+        "w_353",
+        "w_354",
+        "w_355",
+        "w_356",
+        "w_357",
+        "w_358",
+        "w_359",
+        "w_360",
+        "w_361",
+        "w_362",
+        "w_363",
+        "w_364",
+        "w_365"
+      ],
+      "grammar": [
+        "g_004"
+      ]
+    },
+    {
+      "id": "directions_transport",
+      "title": "Направления и транспорт",
+      "words": [
+        "w_366",
+        "w_367",
+        "w_368",
+        "w_369",
+        "w_370",
+        "w_371",
+        "w_372",
+        "w_373",
+        "w_374",
+        "w_375",
+        "w_376",
+        "w_377",
+        "w_378",
+        "w_379",
+        "w_380",
+        "w_381",
+        "w_382",
+        "w_383",
+        "w_384",
+        "w_385",
+        "w_386",
+        "w_387",
+        "w_388",
+        "w_389"
+      ],
+      "grammar": [
+        "g_008"
+      ]
+    },
+    {
+      "id": "pharmacy_doctor",
+      "title": "Аптека и врач",
+      "words": [
+        "w_390",
+        "w_391",
+        "w_392",
+        "w_393",
+        "w_394",
+        "w_395",
+        "w_396",
+        "w_397",
+        "w_398",
+        "w_399",
+        "w_400",
+        "w_401",
+        "w_402",
+        "w_403",
+        "w_404",
+        "w_405",
+        "w_406",
+        "w_407",
+        "w_408",
+        "w_409"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "documents_bank",
+      "title": "Документы и банк",
+      "words": [
+        "w_410",
+        "w_411",
+        "w_412",
+        "w_413",
+        "w_414",
+        "w_415",
+        "w_416",
+        "w_417",
+        "w_418",
+        "w_419",
+        "w_420",
+        "w_421",
+        "w_422",
+        "w_423",
+        "w_424",
+        "w_425",
+        "w_426",
+        "w_427",
+        "w_428",
+        "w_429"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "work_basic",
+      "title": "Работа",
+      "words": [
+        "w_430",
+        "w_431",
+        "w_432",
+        "w_433",
+        "w_434",
+        "w_435",
+        "w_436",
+        "w_437",
+        "w_438",
+        "w_439",
+        "w_440",
+        "w_441",
+        "w_442",
+        "w_443",
+        "w_444",
+        "w_445",
+        "w_446",
+        "w_447"
+      ],
+      "grammar": [
+        "g_003"
+      ]
+    },
+    {
+      "id": "weather_seasons",
+      "title": "Погода и времена года",
+      "words": [
+        "w_448",
+        "w_449",
+        "w_450",
+        "w_451",
+        "w_452",
+        "w_453",
+        "w_454",
+        "w_455",
+        "w_456",
+        "w_457",
+        "w_458",
+        "w_459",
+        "w_460",
+        "w_461",
+        "w_462",
+        "w_463",
+        "w_464",
+        "w_465"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "prepositions",
+      "title": "Предлоги места и времени",
+      "words": [
+        "w_466",
+        "w_467",
+        "w_468",
+        "w_469",
+        "w_470",
+        "w_471",
+        "w_472",
+        "w_473",
+        "w_474",
+        "w_475",
+        "w_476",
+        "w_477",
+        "w_478",
+        "w_479",
+        "w_480",
+        "w_481",
+        "w_482",
+        "w_483",
+        "w_484",
+        "w_485"
+      ],
+      "grammar": [
+        "g_008",
+        "g_009"
+      ]
+    },
+    {
+      "id": "question_words",
+      "title": "Вопросительные слова",
+      "words": [
+        "w_486",
+        "w_487",
+        "w_488",
+        "w_489",
+        "w_490",
+        "w_491",
+        "w_492",
+        "w_493"
+      ],
+      "grammar": [
+        "g_005"
+      ]
+    },
+    {
+      "id": "everyday_words",
+      "title": "Повседневные слова",
+      "words": [
+        "w_494",
+        "w_495",
+        "w_496",
+        "w_497",
+        "w_498",
+        "w_499",
+        "w_500",
+        "w_501",
+        "w_502",
+        "w_503",
+        "w_504",
+        "w_505",
+        "w_506",
+        "w_507",
+        "w_508",
+        "w_509"
+      ],
+      "grammar": []
+    }
+  ],
+  "words": [
+    {
+      "id": "w_001",
+      "en": "hello",
+      "ru": "привет",
+      "partOfSpeech": "interjection",
+      "topic": "greetings",
+      "exampleEn": "Hello! My name is Anna.",
+      "exampleRu": "Привет! Меня зовут Анна."
+    },
+    {
+      "id": "w_002",
+      "en": "hi",
+      "ru": "привет (неформ.)",
+      "partOfSpeech": "interjection",
+      "topic": "greetings",
+      "exampleEn": "Hi! How are you?",
+      "exampleRu": "Привет! Как дела?"
+    },
+    {
+      "id": "w_003",
+      "en": "goodbye",
+      "ru": "до свидания",
+      "partOfSpeech": "interjection",
+      "topic": "greetings",
+      "exampleEn": "Goodbye! See you tomorrow.",
+      "exampleRu": "До свидания! До завтра."
+    },
+    {
+      "id": "w_004",
+      "en": "bye",
+      "ru": "пока",
+      "partOfSpeech": "interjection",
+      "topic": "greetings",
+      "exampleEn": "Bye! Have a good day.",
+      "exampleRu": "Пока! Хорошего дня."
+    },
+    {
+      "id": "w_005",
+      "en": "good morning",
+      "ru": "доброе утро",
+      "partOfSpeech": "phrase",
+      "topic": "greetings",
+      "exampleEn": "Good morning! Did you sleep well?",
+      "exampleRu": "Доброе утро! Ты хорошо спал?"
+    },
+    {
+      "id": "w_006",
+      "en": "good night",
+      "ru": "спокойной ночи",
+      "partOfSpeech": "phrase",
+      "topic": "greetings",
+      "exampleEn": "Good night! Sleep well.",
+      "exampleRu": "Спокойной ночи! Спи хорошо."
+    },
+    {
+      "id": "w_007",
+      "en": "please",
+      "ru": "пожалуйста",
+      "partOfSpeech": "adverb",
+      "topic": "greetings",
+      "exampleEn": "Help me, please.",
+      "exampleRu": "Помоги мне, пожалуйста."
+    },
+    {
+      "id": "w_008",
+      "en": "thank you",
+      "ru": "спасибо",
+      "partOfSpeech": "phrase",
+      "topic": "greetings",
+      "exampleEn": "Thank you very much.",
+      "exampleRu": "Большое спасибо."
+    },
+    {
+      "id": "w_009",
+      "en": "you're welcome",
+      "ru": "пожалуйста (в ответ)",
+      "partOfSpeech": "phrase",
+      "topic": "greetings",
+      "exampleEn": "Thank you! You're welcome.",
+      "exampleRu": "Спасибо! Пожалуйста."
+    },
+    {
+      "id": "w_010",
+      "en": "sorry",
+      "ru": "извини(те)",
+      "partOfSpeech": "interjection",
+      "topic": "greetings",
+      "exampleEn": "Sorry, I am late.",
+      "exampleRu": "Извините, я опоздал."
+    },
+    {
+      "id": "w_011",
+      "en": "excuse me",
+      "ru": "извините",
+      "partOfSpeech": "phrase",
+      "topic": "greetings",
+      "exampleEn": "Excuse me, where is the bank?",
+      "exampleRu": "Извините, где банк?"
+    },
+    {
+      "id": "w_012",
+      "en": "yes",
+      "ru": "да",
+      "partOfSpeech": "adverb",
+      "topic": "greetings",
+      "exampleEn": "Yes, I understand.",
+      "exampleRu": "Да, я понимаю."
+    },
+    {
+      "id": "w_013",
+      "en": "no",
+      "ru": "нет",
+      "partOfSpeech": "adverb",
+      "topic": "greetings",
+      "exampleEn": "No, thank you.",
+      "exampleRu": "Нет, спасибо."
+    },
+    {
+      "id": "w_014",
+      "en": "name",
+      "ru": "имя",
+      "partOfSpeech": "noun",
+      "topic": "greetings",
+      "exampleEn": "What is your name?",
+      "exampleRu": "Как тебя зовут?"
+    },
+    {
+      "id": "w_015",
+      "en": "nice to meet you",
+      "ru": "приятно познакомиться",
+      "partOfSpeech": "phrase",
+      "topic": "greetings",
+      "exampleEn": "Nice to meet you!",
+      "exampleRu": "Приятно познакомиться!"
+    },
+    {
+      "id": "w_016",
+      "en": "friend",
+      "ru": "друг",
+      "partOfSpeech": "noun",
+      "topic": "greetings",
+      "exampleEn": "This is my friend.",
+      "exampleRu": "Это мой друг."
+    },
+    {
+      "id": "w_017",
+      "en": "welcome",
+      "ru": "добро пожаловать",
+      "partOfSpeech": "interjection",
+      "topic": "greetings",
+      "exampleEn": "Welcome to New York!",
+      "exampleRu": "Добро пожаловать в Нью-Йорк!"
+    },
+    {
+      "id": "w_018",
+      "en": "how are you",
+      "ru": "как дела",
+      "partOfSpeech": "phrase",
+      "topic": "greetings",
+      "exampleEn": "How are you today?",
+      "exampleRu": "Как у тебя дела сегодня?"
+    },
+    {
+      "id": "w_019",
+      "en": "fine",
+      "ru": "хорошо (о самочувствии)",
+      "partOfSpeech": "adjective",
+      "topic": "greetings",
+      "exampleEn": "I am fine, thank you.",
+      "exampleRu": "У меня всё хорошо, спасибо."
+    },
+    {
+      "id": "w_020",
+      "en": "see you later",
+      "ru": "увидимся позже",
+      "partOfSpeech": "phrase",
+      "topic": "greetings",
+      "exampleEn": "See you later!",
+      "exampleRu": "Увидимся позже!"
+    },
+    {
+      "id": "w_021",
+      "en": "I",
+      "ru": "я",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "I am a student.",
+      "exampleRu": "Я студент."
+    },
+    {
+      "id": "w_022",
+      "en": "you",
+      "ru": "ты, вы",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "You are my friend.",
+      "exampleRu": "Ты мой друг."
+    },
+    {
+      "id": "w_023",
+      "en": "he",
+      "ru": "он",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "He is a doctor.",
+      "exampleRu": "Он врач."
+    },
+    {
+      "id": "w_024",
+      "en": "she",
+      "ru": "она",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "She is a teacher.",
+      "exampleRu": "Она учитель."
+    },
+    {
+      "id": "w_025",
+      "en": "it",
+      "ru": "оно, это",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "It is a small dog.",
+      "exampleRu": "Это маленькая собака."
+    },
+    {
+      "id": "w_026",
+      "en": "we",
+      "ru": "мы",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "We are at home.",
+      "exampleRu": "Мы дома."
+    },
+    {
+      "id": "w_027",
+      "en": "they",
+      "ru": "они",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "They are my parents.",
+      "exampleRu": "Они мои родители."
+    },
+    {
+      "id": "w_028",
+      "en": "my",
+      "ru": "мой",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "This is my house.",
+      "exampleRu": "Это мой дом."
+    },
+    {
+      "id": "w_029",
+      "en": "your",
+      "ru": "твой, ваш",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "What is your address?",
+      "exampleRu": "Какой у тебя адрес?"
+    },
+    {
+      "id": "w_030",
+      "en": "his",
+      "ru": "его",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "His name is Tom.",
+      "exampleRu": "Его зовут Том."
+    },
+    {
+      "id": "w_031",
+      "en": "her",
+      "ru": "её",
+      "partOfSpeech": "pronoun",
+      "topic": "personal_info",
+      "exampleEn": "Her name is Kate.",
+      "exampleRu": "Её зовут Кейт."
+    },
+    {
+      "id": "w_032",
+      "en": "age",
+      "ru": "возраст",
+      "partOfSpeech": "noun",
+      "topic": "personal_info",
+      "exampleEn": "What is your age?",
+      "exampleRu": "Сколько тебе лет?"
+    },
+    {
+      "id": "w_033",
+      "en": "years old",
+      "ru": "лет (возраст)",
+      "partOfSpeech": "phrase",
+      "topic": "personal_info",
+      "exampleEn": "I am thirty years old.",
+      "exampleRu": "Мне тридцать лет."
+    },
+    {
+      "id": "w_034",
+      "en": "address",
+      "ru": "адрес",
+      "partOfSpeech": "noun",
+      "topic": "personal_info",
+      "exampleEn": "What is your address?",
+      "exampleRu": "Какой у вас адрес?"
+    },
+    {
+      "id": "w_035",
+      "en": "phone number",
+      "ru": "номер телефона",
+      "partOfSpeech": "noun",
+      "topic": "personal_info",
+      "exampleEn": "What is your phone number?",
+      "exampleRu": "Какой у вас номер телефона?"
+    },
+    {
+      "id": "w_036",
+      "en": "live",
+      "ru": "жить",
+      "partOfSpeech": "verb",
+      "topic": "personal_info",
+      "exampleEn": "I live in Miami.",
+      "exampleRu": "Я живу в Майами."
+    },
+    {
+      "id": "w_037",
+      "en": "from",
+      "ru": "из (страны, города)",
+      "partOfSpeech": "preposition",
+      "topic": "personal_info",
+      "exampleEn": "I am from Russia.",
+      "exampleRu": "Я из России."
+    },
+    {
+      "id": "w_038",
+      "en": "country",
+      "ru": "страна",
+      "partOfSpeech": "noun",
+      "topic": "personal_info",
+      "exampleEn": "What country are you from?",
+      "exampleRu": "Из какой ты страны?"
+    },
+    {
+      "id": "w_039",
+      "en": "city",
+      "ru": "город",
+      "partOfSpeech": "noun",
+      "topic": "personal_info",
+      "exampleEn": "I live in a big city.",
+      "exampleRu": "Я живу в большом городе."
+    },
+    {
+      "id": "w_040",
+      "en": "email",
+      "ru": "электронная почта",
+      "partOfSpeech": "noun",
+      "topic": "personal_info",
+      "exampleEn": "What is your email?",
+      "exampleRu": "Какая у тебя электронная почта?"
+    },
+    {
+      "id": "w_041",
+      "en": "zero",
+      "ru": "ноль",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "The temperature is zero.",
+      "exampleRu": "Температура ноль градусов."
+    },
+    {
+      "id": "w_042",
+      "en": "one",
+      "ru": "один",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "I have one brother.",
+      "exampleRu": "У меня один брат."
+    },
+    {
+      "id": "w_043",
+      "en": "two",
+      "ru": "два",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "I have two sisters.",
+      "exampleRu": "У меня две сестры."
+    },
+    {
+      "id": "w_044",
+      "en": "three",
+      "ru": "три",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "There are three books.",
+      "exampleRu": "Здесь три книги."
+    },
+    {
+      "id": "w_045",
+      "en": "four",
+      "ru": "четыре",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "It is four o'clock.",
+      "exampleRu": "Сейчас четыре часа."
+    },
+    {
+      "id": "w_046",
+      "en": "five",
+      "ru": "пять",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "I need five dollars.",
+      "exampleRu": "Мне нужно пять долларов."
+    },
+    {
+      "id": "w_047",
+      "en": "six",
+      "ru": "шесть",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "We have six chairs.",
+      "exampleRu": "У нас шесть стульев."
+    },
+    {
+      "id": "w_048",
+      "en": "seven",
+      "ru": "семь",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "There are seven days in a week.",
+      "exampleRu": "В неделе семь дней."
+    },
+    {
+      "id": "w_049",
+      "en": "eight",
+      "ru": "восемь",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "The shop opens at eight.",
+      "exampleRu": "Магазин открывается в восемь."
+    },
+    {
+      "id": "w_050",
+      "en": "nine",
+      "ru": "девять",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "I go to bed at nine.",
+      "exampleRu": "Я ложусь спать в девять."
+    },
+    {
+      "id": "w_051",
+      "en": "ten",
+      "ru": "десять",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "I have ten fingers.",
+      "exampleRu": "У меня десять пальцев."
+    },
+    {
+      "id": "w_052",
+      "en": "eleven",
+      "ru": "одиннадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "The bus comes at eleven.",
+      "exampleRu": "Автобус приходит в одиннадцать."
+    },
+    {
+      "id": "w_053",
+      "en": "twelve",
+      "ru": "двенадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "There are twelve months.",
+      "exampleRu": "В году двенадцать месяцев."
+    },
+    {
+      "id": "w_054",
+      "en": "thirteen",
+      "ru": "тринадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "She is thirteen years old.",
+      "exampleRu": "Ей тринадцать лет."
+    },
+    {
+      "id": "w_055",
+      "en": "fourteen",
+      "ru": "четырнадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "I have fourteen dollars.",
+      "exampleRu": "У меня четырнадцать долларов."
+    },
+    {
+      "id": "w_056",
+      "en": "fifteen",
+      "ru": "пятнадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "It takes fifteen minutes.",
+      "exampleRu": "Это занимает пятнадцать минут."
+    },
+    {
+      "id": "w_057",
+      "en": "sixteen",
+      "ru": "шестнадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "He is sixteen years old.",
+      "exampleRu": "Ему шестнадцать лет."
+    },
+    {
+      "id": "w_058",
+      "en": "seventeen",
+      "ru": "семнадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "There are seventeen students.",
+      "exampleRu": "Здесь семнадцать студентов."
+    },
+    {
+      "id": "w_059",
+      "en": "eighteen",
+      "ru": "восемнадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "You can drive at eighteen.",
+      "exampleRu": "Можно водить машину с восемнадцати лет."
+    },
+    {
+      "id": "w_060",
+      "en": "nineteen",
+      "ru": "девятнадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "I have nineteen dollars.",
+      "exampleRu": "У меня девятнадцать долларов."
+    },
+    {
+      "id": "w_061",
+      "en": "twenty",
+      "ru": "двадцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "There are twenty people here.",
+      "exampleRu": "Здесь двадцать человек."
+    },
+    {
+      "id": "w_062",
+      "en": "thirty",
+      "ru": "тридцать",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "I am thirty years old.",
+      "exampleRu": "Мне тридцать лет."
+    },
+    {
+      "id": "w_063",
+      "en": "forty",
+      "ru": "сорок",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "It costs forty dollars.",
+      "exampleRu": "Это стоит сорок долларов."
+    },
+    {
+      "id": "w_064",
+      "en": "fifty",
+      "ru": "пятьдесят",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "There are fifty states.",
+      "exampleRu": "Здесь пятьдесят штатов."
+    },
+    {
+      "id": "w_065",
+      "en": "sixty",
+      "ru": "шестьдесят",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "The trip takes sixty minutes.",
+      "exampleRu": "Поездка занимает шестьдесят минут."
+    },
+    {
+      "id": "w_066",
+      "en": "seventy",
+      "ru": "семьдесят",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "My grandfather is seventy.",
+      "exampleRu": "Моему дедушке семьдесят лет."
+    },
+    {
+      "id": "w_067",
+      "en": "eighty",
+      "ru": "восемьдесят",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "It costs eighty dollars.",
+      "exampleRu": "Это стоит восемьдесят долларов."
+    },
+    {
+      "id": "w_068",
+      "en": "ninety",
+      "ru": "девяносто",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "The room number is ninety.",
+      "exampleRu": "Номер комнаты — девяносто."
+    },
+    {
+      "id": "w_069",
+      "en": "hundred",
+      "ru": "сто",
+      "partOfSpeech": "number",
+      "topic": "numbers",
+      "exampleEn": "I have one hundred dollars.",
+      "exampleRu": "У меня сто долларов."
+    },
+    {
+      "id": "w_070",
+      "en": "first",
+      "ru": "первый",
+      "partOfSpeech": "adjective",
+      "topic": "numbers",
+      "exampleEn": "This is my first day.",
+      "exampleRu": "Это мой первый день."
+    },
+    {
+      "id": "w_071",
+      "en": "second",
+      "ru": "второй",
+      "partOfSpeech": "adjective",
+      "topic": "numbers",
+      "exampleEn": "Take the second street.",
+      "exampleRu": "Сверни на вторую улицу."
+    },
+    {
+      "id": "w_072",
+      "en": "third",
+      "ru": "третий",
+      "partOfSpeech": "adjective",
+      "topic": "numbers",
+      "exampleEn": "It is on the third floor.",
+      "exampleRu": "Это на третьем этаже."
+    },
+    {
+      "id": "w_073",
+      "en": "how many",
+      "ru": "сколько",
+      "partOfSpeech": "phrase",
+      "topic": "numbers",
+      "exampleEn": "How many books do you have?",
+      "exampleRu": "Сколько у тебя книг?"
+    },
+    {
+      "id": "w_074",
+      "en": "number",
+      "ru": "число, номер",
+      "partOfSpeech": "noun",
+      "topic": "numbers",
+      "exampleEn": "What is your room number?",
+      "exampleRu": "Какой у тебя номер комнаты?"
+    },
+    {
+      "id": "w_075",
+      "en": "red",
+      "ru": "красный",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "The apple is red.",
+      "exampleRu": "Яблоко красное."
+    },
+    {
+      "id": "w_076",
+      "en": "orange",
+      "ru": "оранжевый",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "I like the orange car.",
+      "exampleRu": "Мне нравится оранжевая машина."
+    },
+    {
+      "id": "w_077",
+      "en": "yellow",
+      "ru": "жёлтый",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "The sun is yellow.",
+      "exampleRu": "Солнце жёлтое."
+    },
+    {
+      "id": "w_078",
+      "en": "green",
+      "ru": "зелёный",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "The grass is green.",
+      "exampleRu": "Трава зелёная."
+    },
+    {
+      "id": "w_079",
+      "en": "blue",
+      "ru": "синий",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "The sky is blue.",
+      "exampleRu": "Небо синее."
+    },
+    {
+      "id": "w_080",
+      "en": "purple",
+      "ru": "фиолетовый",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "She likes purple flowers.",
+      "exampleRu": "Ей нравятся фиолетовые цветы."
+    },
+    {
+      "id": "w_081",
+      "en": "pink",
+      "ru": "розовый",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "The dress is pink.",
+      "exampleRu": "Платье розовое."
+    },
+    {
+      "id": "w_082",
+      "en": "black",
+      "ru": "чёрный",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "He has a black car.",
+      "exampleRu": "У него чёрная машина."
+    },
+    {
+      "id": "w_083",
+      "en": "white",
+      "ru": "белый",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "Snow is white.",
+      "exampleRu": "Снег белый."
+    },
+    {
+      "id": "w_084",
+      "en": "gray",
+      "ru": "серый",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "The sky is gray today.",
+      "exampleRu": "Небо сегодня серое."
+    },
+    {
+      "id": "w_085",
+      "en": "brown",
+      "ru": "коричневый, карий",
+      "partOfSpeech": "adjective",
+      "topic": "colors",
+      "exampleEn": "I have brown eyes.",
+      "exampleRu": "У меня карие глаза."
+    },
+    {
+      "id": "w_086",
+      "en": "color",
+      "ru": "цвет",
+      "partOfSpeech": "noun",
+      "topic": "colors",
+      "exampleEn": "What color is your car?",
+      "exampleRu": "Какого цвета твоя машина?"
+    },
+    {
+      "id": "w_087",
+      "en": "Monday",
+      "ru": "понедельник",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "I work on Monday.",
+      "exampleRu": "Я работаю в понедельник."
+    },
+    {
+      "id": "w_088",
+      "en": "Tuesday",
+      "ru": "вторник",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "We have a meeting on Tuesday.",
+      "exampleRu": "У нас встреча во вторник."
+    },
+    {
+      "id": "w_089",
+      "en": "Wednesday",
+      "ru": "среда",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "The class is on Wednesday.",
+      "exampleRu": "Занятие в среду."
+    },
+    {
+      "id": "w_090",
+      "en": "Thursday",
+      "ru": "четверг",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "I am busy on Thursday.",
+      "exampleRu": "Я занят в четверг."
+    },
+    {
+      "id": "w_091",
+      "en": "Friday",
+      "ru": "пятница",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "See you on Friday!",
+      "exampleRu": "Увидимся в пятницу!"
+    },
+    {
+      "id": "w_092",
+      "en": "Saturday",
+      "ru": "суббота",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "We rest on Saturday.",
+      "exampleRu": "Мы отдыхаем в субботу."
+    },
+    {
+      "id": "w_093",
+      "en": "Sunday",
+      "ru": "воскресенье",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "The shop is closed on Sunday.",
+      "exampleRu": "Магазин закрыт по воскресеньям."
+    },
+    {
+      "id": "w_094",
+      "en": "January",
+      "ru": "январь",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "My birthday is in January.",
+      "exampleRu": "Мой день рождения в январе."
+    },
+    {
+      "id": "w_095",
+      "en": "February",
+      "ru": "февраль",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "It is cold in February.",
+      "exampleRu": "В феврале холодно."
+    },
+    {
+      "id": "w_096",
+      "en": "March",
+      "ru": "март",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "Spring starts in March.",
+      "exampleRu": "Весна начинается в марте."
+    },
+    {
+      "id": "w_097",
+      "en": "April",
+      "ru": "апрель",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "It often rains in April.",
+      "exampleRu": "В апреле часто идёт дождь."
+    },
+    {
+      "id": "w_098",
+      "en": "May",
+      "ru": "май",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "The flowers bloom in May.",
+      "exampleRu": "Цветы цветут в мае."
+    },
+    {
+      "id": "w_099",
+      "en": "June",
+      "ru": "июнь",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "School ends in June.",
+      "exampleRu": "Учебный год заканчивается в июне."
+    },
+    {
+      "id": "w_100",
+      "en": "July",
+      "ru": "июль",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "It is hot in July.",
+      "exampleRu": "В июле жарко."
+    },
+    {
+      "id": "w_101",
+      "en": "August",
+      "ru": "август",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "We go on vacation in August.",
+      "exampleRu": "Мы едем в отпуск в августе."
+    },
+    {
+      "id": "w_102",
+      "en": "September",
+      "ru": "сентябрь",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "School starts in September.",
+      "exampleRu": "Учёба начинается в сентябре."
+    },
+    {
+      "id": "w_103",
+      "en": "October",
+      "ru": "октябрь",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "The leaves fall in October.",
+      "exampleRu": "Листья падают в октябре."
+    },
+    {
+      "id": "w_104",
+      "en": "November",
+      "ru": "ноябрь",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "Thanksgiving is in November.",
+      "exampleRu": "День благодарения в ноябре."
+    },
+    {
+      "id": "w_105",
+      "en": "December",
+      "ru": "декабрь",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "Christmas is in December.",
+      "exampleRu": "Рождество в декабре."
+    },
+    {
+      "id": "w_106",
+      "en": "today",
+      "ru": "сегодня",
+      "partOfSpeech": "adverb",
+      "topic": "days_months_time",
+      "exampleEn": "What day is it today?",
+      "exampleRu": "Какой сегодня день?"
+    },
+    {
+      "id": "w_107",
+      "en": "tomorrow",
+      "ru": "завтра",
+      "partOfSpeech": "adverb",
+      "topic": "days_months_time",
+      "exampleEn": "See you tomorrow.",
+      "exampleRu": "Увидимся завтра."
+    },
+    {
+      "id": "w_108",
+      "en": "yesterday",
+      "ru": "вчера",
+      "partOfSpeech": "adverb",
+      "topic": "days_months_time",
+      "exampleEn": "I was busy yesterday.",
+      "exampleRu": "Вчера я был занят."
+    },
+    {
+      "id": "w_109",
+      "en": "week",
+      "ru": "неделя",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "I work five days a week.",
+      "exampleRu": "Я работаю пять дней в неделю."
+    },
+    {
+      "id": "w_110",
+      "en": "month",
+      "ru": "месяц",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "I pay rent every month.",
+      "exampleRu": "Я плачу за аренду каждый месяц."
+    },
+    {
+      "id": "w_111",
+      "en": "year",
+      "ru": "год",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "I moved here last year.",
+      "exampleRu": "Я переехал сюда в прошлом году."
+    },
+    {
+      "id": "w_112",
+      "en": "day",
+      "ru": "день",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "Have a nice day!",
+      "exampleRu": "Хорошего дня!"
+    },
+    {
+      "id": "w_113",
+      "en": "hour",
+      "ru": "час (продолжительность)",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "The meeting is one hour.",
+      "exampleRu": "Встреча длится один час."
+    },
+    {
+      "id": "w_114",
+      "en": "minute",
+      "ru": "минута",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "Wait one minute, please.",
+      "exampleRu": "Подождите одну минуту, пожалуйста."
+    },
+    {
+      "id": "w_115",
+      "en": "o'clock",
+      "ru": "час(ы) (время)",
+      "partOfSpeech": "noun",
+      "topic": "days_months_time",
+      "exampleEn": "It is three o'clock.",
+      "exampleRu": "Сейчас три часа."
+    },
+    {
+      "id": "w_116",
+      "en": "mother",
+      "ru": "мама",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "This is my mother.",
+      "exampleRu": "Это моя мама."
+    },
+    {
+      "id": "w_117",
+      "en": "father",
+      "ru": "папа",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "My father works in a bank.",
+      "exampleRu": "Мой папа работает в банке."
+    },
+    {
+      "id": "w_118",
+      "en": "parents",
+      "ru": "родители",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "I live with my parents.",
+      "exampleRu": "Я живу с родителями."
+    },
+    {
+      "id": "w_119",
+      "en": "sister",
+      "ru": "сестра",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "I have one sister.",
+      "exampleRu": "У меня есть сестра."
+    },
+    {
+      "id": "w_120",
+      "en": "brother",
+      "ru": "брат",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "My brother is a student.",
+      "exampleRu": "Мой брат — студент."
+    },
+    {
+      "id": "w_121",
+      "en": "son",
+      "ru": "сын",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "He has a son.",
+      "exampleRu": "У него есть сын."
+    },
+    {
+      "id": "w_122",
+      "en": "daughter",
+      "ru": "дочь",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "She has a daughter.",
+      "exampleRu": "У неё есть дочь."
+    },
+    {
+      "id": "w_123",
+      "en": "child",
+      "ru": "ребёнок",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "The child is happy.",
+      "exampleRu": "Ребёнок счастлив."
+    },
+    {
+      "id": "w_124",
+      "en": "children",
+      "ru": "дети",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "We have two children.",
+      "exampleRu": "У нас двое детей."
+    },
+    {
+      "id": "w_125",
+      "en": "baby",
+      "ru": "младенец",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "The baby is sleeping.",
+      "exampleRu": "Младенец спит."
+    },
+    {
+      "id": "w_126",
+      "en": "husband",
+      "ru": "муж",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "My husband works late.",
+      "exampleRu": "Мой муж работает допоздна."
+    },
+    {
+      "id": "w_127",
+      "en": "wife",
+      "ru": "жена",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "His wife is a nurse.",
+      "exampleRu": "Его жена — медсестра."
+    },
+    {
+      "id": "w_128",
+      "en": "grandmother",
+      "ru": "бабушка",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "My grandmother cooks well.",
+      "exampleRu": "Моя бабушка хорошо готовит."
+    },
+    {
+      "id": "w_129",
+      "en": "grandfather",
+      "ru": "дедушка",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "My grandfather is seventy.",
+      "exampleRu": "Моему дедушке семьдесят лет."
+    },
+    {
+      "id": "w_130",
+      "en": "aunt",
+      "ru": "тётя",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "My aunt lives in Texas.",
+      "exampleRu": "Моя тётя живёт в Техасе."
+    },
+    {
+      "id": "w_131",
+      "en": "uncle",
+      "ru": "дядя",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "My uncle has a car.",
+      "exampleRu": "У моего дяди есть машина."
+    },
+    {
+      "id": "w_132",
+      "en": "cousin",
+      "ru": "двоюродный брат/сестра",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "My cousin is my friend.",
+      "exampleRu": "Мой двоюродный брат — мой друг."
+    },
+    {
+      "id": "w_133",
+      "en": "family",
+      "ru": "семья",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "I love my family.",
+      "exampleRu": "Я люблю свою семью."
+    },
+    {
+      "id": "w_134",
+      "en": "relative",
+      "ru": "родственник",
+      "partOfSpeech": "noun",
+      "topic": "family",
+      "exampleEn": "She is my relative.",
+      "exampleRu": "Она моя родственница."
+    },
+    {
+      "id": "w_135",
+      "en": "married",
+      "ru": "женат, замужем",
+      "partOfSpeech": "adjective",
+      "topic": "family",
+      "exampleEn": "I am married.",
+      "exampleRu": "Я женат."
+    },
+    {
+      "id": "w_136",
+      "en": "bread",
+      "ru": "хлеб",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I eat bread every morning.",
+      "exampleRu": "Я ем хлеб каждое утро."
+    },
+    {
+      "id": "w_137",
+      "en": "butter",
+      "ru": "сливочное масло",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Put butter on the bread.",
+      "exampleRu": "Намажь хлеб маслом."
+    },
+    {
+      "id": "w_138",
+      "en": "milk",
+      "ru": "молоко",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I drink milk every day.",
+      "exampleRu": "Я пью молоко каждый день."
+    },
+    {
+      "id": "w_139",
+      "en": "water",
+      "ru": "вода",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Can I have some water?",
+      "exampleRu": "Можно мне воды?"
+    },
+    {
+      "id": "w_140",
+      "en": "juice",
+      "ru": "сок",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I like orange juice.",
+      "exampleRu": "Мне нравится апельсиновый сок."
+    },
+    {
+      "id": "w_141",
+      "en": "coffee",
+      "ru": "кофе",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I drink coffee in the morning.",
+      "exampleRu": "Я пью кофе утром."
+    },
+    {
+      "id": "w_142",
+      "en": "tea",
+      "ru": "чай",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Would you like some tea?",
+      "exampleRu": "Хотите чаю?"
+    },
+    {
+      "id": "w_143",
+      "en": "sugar",
+      "ru": "сахар",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I don't take sugar.",
+      "exampleRu": "Я не кладу сахар."
+    },
+    {
+      "id": "w_144",
+      "en": "salt",
+      "ru": "соль",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Pass the salt, please.",
+      "exampleRu": "Передайте соль, пожалуйста."
+    },
+    {
+      "id": "w_145",
+      "en": "egg",
+      "ru": "яйцо",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I eat an egg for breakfast.",
+      "exampleRu": "Я ем яйцо на завтрак."
+    },
+    {
+      "id": "w_146",
+      "en": "cheese",
+      "ru": "сыр",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I like cheese sandwiches.",
+      "exampleRu": "Мне нравятся бутерброды с сыром."
+    },
+    {
+      "id": "w_147",
+      "en": "meat",
+      "ru": "мясо",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "He doesn't eat meat.",
+      "exampleRu": "Он не ест мясо."
+    },
+    {
+      "id": "w_148",
+      "en": "chicken",
+      "ru": "курица",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "We have chicken for dinner.",
+      "exampleRu": "У нас курица на ужин."
+    },
+    {
+      "id": "w_149",
+      "en": "fish",
+      "ru": "рыба",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I eat fish on Fridays.",
+      "exampleRu": "Я ем рыбу по пятницам."
+    },
+    {
+      "id": "w_150",
+      "en": "rice",
+      "ru": "рис",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Rice is cheap and healthy.",
+      "exampleRu": "Рис дешёвый и полезный."
+    },
+    {
+      "id": "w_151",
+      "en": "soup",
+      "ru": "суп",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "The soup is hot.",
+      "exampleRu": "Суп горячий."
+    },
+    {
+      "id": "w_152",
+      "en": "salad",
+      "ru": "салат",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I want a salad, please.",
+      "exampleRu": "Я хочу салат, пожалуйста."
+    },
+    {
+      "id": "w_153",
+      "en": "apple",
+      "ru": "яблоко",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "An apple a day is healthy.",
+      "exampleRu": "Яблоко в день полезно."
+    },
+    {
+      "id": "w_154",
+      "en": "banana",
+      "ru": "банан",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "The banana is yellow.",
+      "exampleRu": "Банан жёлтый."
+    },
+    {
+      "id": "w_155",
+      "en": "pizza",
+      "ru": "пицца",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Let's order pizza tonight.",
+      "exampleRu": "Давай закажем пиццу сегодня вечером."
+    },
+    {
+      "id": "w_156",
+      "en": "sandwich",
+      "ru": "бутерброд",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I want a sandwich for lunch.",
+      "exampleRu": "Я хочу бутерброд на обед."
+    },
+    {
+      "id": "w_157",
+      "en": "breakfast",
+      "ru": "завтрак",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I have breakfast at seven.",
+      "exampleRu": "Я завтракаю в семь."
+    },
+    {
+      "id": "w_158",
+      "en": "lunch",
+      "ru": "обед",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "We have lunch at noon.",
+      "exampleRu": "Мы обедаем в полдень."
+    },
+    {
+      "id": "w_159",
+      "en": "dinner",
+      "ru": "ужин",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Dinner is ready.",
+      "exampleRu": "Ужин готов."
+    },
+    {
+      "id": "w_160",
+      "en": "restaurant",
+      "ru": "ресторан",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Let's go to a restaurant.",
+      "exampleRu": "Давай сходим в ресторан."
+    },
+    {
+      "id": "w_161",
+      "en": "menu",
+      "ru": "меню",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Can I see the menu?",
+      "exampleRu": "Можно посмотреть меню?"
+    },
+    {
+      "id": "w_162",
+      "en": "food",
+      "ru": "еда",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "This food is delicious.",
+      "exampleRu": "Эта еда вкусная."
+    },
+    {
+      "id": "w_163",
+      "en": "hungry",
+      "ru": "голодный",
+      "partOfSpeech": "adjective",
+      "topic": "food_drink",
+      "exampleEn": "I am hungry.",
+      "exampleRu": "Я голоден."
+    },
+    {
+      "id": "w_164",
+      "en": "thirsty",
+      "ru": "хочется пить",
+      "partOfSpeech": "adjective",
+      "topic": "food_drink",
+      "exampleEn": "I am thirsty.",
+      "exampleRu": "Мне хочется пить."
+    },
+    {
+      "id": "w_165",
+      "en": "cook",
+      "ru": "готовить (еду)",
+      "partOfSpeech": "verb",
+      "topic": "food_drink",
+      "exampleEn": "I cook dinner every day.",
+      "exampleRu": "Я готовлю ужин каждый день."
+    },
+    {
+      "id": "w_166",
+      "en": "eat",
+      "ru": "есть, кушать",
+      "partOfSpeech": "verb",
+      "topic": "food_drink",
+      "exampleEn": "I eat lunch at noon.",
+      "exampleRu": "Я обедаю в полдень."
+    },
+    {
+      "id": "w_167",
+      "en": "drink",
+      "ru": "пить",
+      "partOfSpeech": "verb",
+      "topic": "food_drink",
+      "exampleEn": "I drink water every day.",
+      "exampleRu": "Я пью воду каждый день."
+    },
+    {
+      "id": "w_168",
+      "en": "sweet",
+      "ru": "сладкий",
+      "partOfSpeech": "adjective",
+      "topic": "food_drink",
+      "exampleEn": "This cake is very sweet.",
+      "exampleRu": "Этот торт очень сладкий."
+    },
+    {
+      "id": "w_169",
+      "en": "delicious",
+      "ru": "вкусный",
+      "partOfSpeech": "adjective",
+      "topic": "food_drink",
+      "exampleEn": "The soup is delicious.",
+      "exampleRu": "Суп очень вкусный."
+    },
+    {
+      "id": "w_170",
+      "en": "vegetable",
+      "ru": "овощ",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I eat vegetables every day.",
+      "exampleRu": "Я ем овощи каждый день."
+    },
+    {
+      "id": "w_171",
+      "en": "potato",
+      "ru": "картофель",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I like baked potato.",
+      "exampleRu": "Мне нравится печёная картошка."
+    },
+    {
+      "id": "w_172",
+      "en": "tomato",
+      "ru": "помидор",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "The tomato is red.",
+      "exampleRu": "Помидор красный."
+    },
+    {
+      "id": "w_173",
+      "en": "onion",
+      "ru": "лук",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Cut the onion, please.",
+      "exampleRu": "Нарежь лук, пожалуйста."
+    },
+    {
+      "id": "w_174",
+      "en": "fruit",
+      "ru": "фрукт",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Fruit is good for you.",
+      "exampleRu": "Фрукты полезны для тебя."
+    },
+    {
+      "id": "w_175",
+      "en": "cup",
+      "ru": "чашка",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "A cup of coffee, please.",
+      "exampleRu": "Чашку кофе, пожалуйста."
+    },
+    {
+      "id": "w_176",
+      "en": "plate",
+      "ru": "тарелка",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Put the food on the plate.",
+      "exampleRu": "Положи еду на тарелку."
+    },
+    {
+      "id": "w_177",
+      "en": "spoon",
+      "ru": "ложка",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "I need a spoon.",
+      "exampleRu": "Мне нужна ложка."
+    },
+    {
+      "id": "w_178",
+      "en": "fork",
+      "ru": "вилка",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "Can I have a fork?",
+      "exampleRu": "Можно мне вилку?"
+    },
+    {
+      "id": "w_179",
+      "en": "knife",
+      "ru": "нож",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "The knife is sharp.",
+      "exampleRu": "Нож острый."
+    },
+    {
+      "id": "w_180",
+      "en": "glass",
+      "ru": "стакан",
+      "partOfSpeech": "noun",
+      "topic": "food_drink",
+      "exampleEn": "A glass of water, please.",
+      "exampleRu": "Стакан воды, пожалуйста."
+    },
+    {
+      "id": "w_181",
+      "en": "house",
+      "ru": "дом",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "This is my house.",
+      "exampleRu": "Это мой дом."
+    },
+    {
+      "id": "w_182",
+      "en": "apartment",
+      "ru": "квартира",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "I live in an apartment.",
+      "exampleRu": "Я живу в квартире."
+    },
+    {
+      "id": "w_183",
+      "en": "room",
+      "ru": "комната",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "This room is big.",
+      "exampleRu": "Эта комната большая."
+    },
+    {
+      "id": "w_184",
+      "en": "kitchen",
+      "ru": "кухня",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The kitchen is small.",
+      "exampleRu": "Кухня маленькая."
+    },
+    {
+      "id": "w_185",
+      "en": "bathroom",
+      "ru": "ванная",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The bathroom is upstairs.",
+      "exampleRu": "Ванная наверху."
+    },
+    {
+      "id": "w_186",
+      "en": "bedroom",
+      "ru": "спальня",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "My bedroom has a big bed.",
+      "exampleRu": "В моей спальне большая кровать."
+    },
+    {
+      "id": "w_187",
+      "en": "living room",
+      "ru": "гостиная",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "We watch TV in the living room.",
+      "exampleRu": "Мы смотрим телевизор в гостиной."
+    },
+    {
+      "id": "w_188",
+      "en": "door",
+      "ru": "дверь",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "Please close the door.",
+      "exampleRu": "Пожалуйста, закрой дверь."
+    },
+    {
+      "id": "w_189",
+      "en": "window",
+      "ru": "окно",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "Open the window, please.",
+      "exampleRu": "Открой окно, пожалуйста."
+    },
+    {
+      "id": "w_190",
+      "en": "table",
+      "ru": "стол",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The book is on the table.",
+      "exampleRu": "Книга на столе."
+    },
+    {
+      "id": "w_191",
+      "en": "chair",
+      "ru": "стул",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "Please sit on the chair.",
+      "exampleRu": "Пожалуйста, сядь на стул."
+    },
+    {
+      "id": "w_192",
+      "en": "bed",
+      "ru": "кровать",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "I sleep in my bed.",
+      "exampleRu": "Я сплю в своей кровати."
+    },
+    {
+      "id": "w_193",
+      "en": "sofa",
+      "ru": "диван",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "We sit on the sofa.",
+      "exampleRu": "Мы сидим на диване."
+    },
+    {
+      "id": "w_194",
+      "en": "TV",
+      "ru": "телевизор",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "We watch TV in the evening.",
+      "exampleRu": "Мы смотрим телевизор вечером."
+    },
+    {
+      "id": "w_195",
+      "en": "lamp",
+      "ru": "лампа",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "Turn on the lamp.",
+      "exampleRu": "Включи лампу."
+    },
+    {
+      "id": "w_196",
+      "en": "phone",
+      "ru": "телефон",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "My phone is new.",
+      "exampleRu": "Мой телефон новый."
+    },
+    {
+      "id": "w_197",
+      "en": "computer",
+      "ru": "компьютер",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "I work on my computer.",
+      "exampleRu": "Я работаю за компьютером."
+    },
+    {
+      "id": "w_198",
+      "en": "key",
+      "ru": "ключ",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "I lost my key.",
+      "exampleRu": "Я потерял ключ."
+    },
+    {
+      "id": "w_199",
+      "en": "wall",
+      "ru": "стена",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "There is a picture on the wall.",
+      "exampleRu": "На стене висит картина."
+    },
+    {
+      "id": "w_200",
+      "en": "floor",
+      "ru": "пол, этаж",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The floor is clean.",
+      "exampleRu": "Пол чистый."
+    },
+    {
+      "id": "w_201",
+      "en": "roof",
+      "ru": "крыша",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The roof is new.",
+      "exampleRu": "Крыша новая."
+    },
+    {
+      "id": "w_202",
+      "en": "garden",
+      "ru": "сад",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "We have a small garden.",
+      "exampleRu": "У нас маленький сад."
+    },
+    {
+      "id": "w_203",
+      "en": "garage",
+      "ru": "гараж",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The car is in the garage.",
+      "exampleRu": "Машина в гараже."
+    },
+    {
+      "id": "w_204",
+      "en": "mirror",
+      "ru": "зеркало",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "Look in the mirror.",
+      "exampleRu": "Посмотри в зеркало."
+    },
+    {
+      "id": "w_205",
+      "en": "clock",
+      "ru": "часы (настенные)",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The clock is on the wall.",
+      "exampleRu": "Часы висят на стене."
+    },
+    {
+      "id": "w_206",
+      "en": "closet",
+      "ru": "шкаф",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "Put your clothes in the closet.",
+      "exampleRu": "Положи одежду в шкаф."
+    },
+    {
+      "id": "w_207",
+      "en": "shower",
+      "ru": "душ",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "I take a shower every morning.",
+      "exampleRu": "Я принимаю душ каждое утро."
+    },
+    {
+      "id": "w_208",
+      "en": "sink",
+      "ru": "раковина",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "Wash your hands in the sink.",
+      "exampleRu": "Помой руки в раковине."
+    },
+    {
+      "id": "w_209",
+      "en": "towel",
+      "ru": "полотенце",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "Give me a towel, please.",
+      "exampleRu": "Дай мне полотенце, пожалуйста."
+    },
+    {
+      "id": "w_210",
+      "en": "blanket",
+      "ru": "одеяло",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The blanket is warm.",
+      "exampleRu": "Одеяло тёплое."
+    },
+    {
+      "id": "w_211",
+      "en": "pillow",
+      "ru": "подушка",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "My pillow is soft.",
+      "exampleRu": "Моя подушка мягкая."
+    },
+    {
+      "id": "w_212",
+      "en": "furniture",
+      "ru": "мебель",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "We need new furniture.",
+      "exampleRu": "Нам нужна новая мебель."
+    },
+    {
+      "id": "w_213",
+      "en": "refrigerator",
+      "ru": "холодильник",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The milk is in the refrigerator.",
+      "exampleRu": "Молоко в холодильнике."
+    },
+    {
+      "id": "w_214",
+      "en": "stove",
+      "ru": "плита",
+      "partOfSpeech": "noun",
+      "topic": "home_objects",
+      "exampleEn": "The stove is hot.",
+      "exampleRu": "Плита горячая."
+    },
+    {
+      "id": "w_215",
+      "en": "shirt",
+      "ru": "рубашка",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "He is wearing a blue shirt.",
+      "exampleRu": "На нём синяя рубашка."
+    },
+    {
+      "id": "w_216",
+      "en": "T-shirt",
+      "ru": "футболка",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "I bought a new T-shirt.",
+      "exampleRu": "Я купил новую футболку."
+    },
+    {
+      "id": "w_217",
+      "en": "pants",
+      "ru": "брюки",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "These pants are too long.",
+      "exampleRu": "Эти брюки слишком длинные."
+    },
+    {
+      "id": "w_218",
+      "en": "jeans",
+      "ru": "джинсы",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "I like these jeans.",
+      "exampleRu": "Мне нравятся эти джинсы."
+    },
+    {
+      "id": "w_219",
+      "en": "dress",
+      "ru": "платье",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "She is wearing a red dress.",
+      "exampleRu": "На ней красное платье."
+    },
+    {
+      "id": "w_220",
+      "en": "skirt",
+      "ru": "юбка",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "The skirt is short.",
+      "exampleRu": "Юбка короткая."
+    },
+    {
+      "id": "w_221",
+      "en": "shoes",
+      "ru": "обувь, туфли",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "I need new shoes.",
+      "exampleRu": "Мне нужна новая обувь."
+    },
+    {
+      "id": "w_222",
+      "en": "socks",
+      "ru": "носки",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "My socks are wet.",
+      "exampleRu": "Мои носки мокрые."
+    },
+    {
+      "id": "w_223",
+      "en": "jacket",
+      "ru": "куртка",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "Wear a jacket, it's cold.",
+      "exampleRu": "Надень куртку, холодно."
+    },
+    {
+      "id": "w_224",
+      "en": "coat",
+      "ru": "пальто",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "Take your coat.",
+      "exampleRu": "Возьми пальто."
+    },
+    {
+      "id": "w_225",
+      "en": "hat",
+      "ru": "шапка, шляпа",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "He is wearing a hat.",
+      "exampleRu": "На нём шапка."
+    },
+    {
+      "id": "w_226",
+      "en": "gloves",
+      "ru": "перчатки",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "Put on your gloves.",
+      "exampleRu": "Надень перчатки."
+    },
+    {
+      "id": "w_227",
+      "en": "scarf",
+      "ru": "шарф",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "She has a warm scarf.",
+      "exampleRu": "У неё тёплый шарф."
+    },
+    {
+      "id": "w_228",
+      "en": "sweater",
+      "ru": "свитер",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "This sweater is warm.",
+      "exampleRu": "Этот свитер тёплый."
+    },
+    {
+      "id": "w_229",
+      "en": "shorts",
+      "ru": "шорты",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "I wear shorts in summer.",
+      "exampleRu": "Летом я ношу шорты."
+    },
+    {
+      "id": "w_230",
+      "en": "boots",
+      "ru": "сапоги, ботинки",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "I need warm boots.",
+      "exampleRu": "Мне нужны тёплые сапоги."
+    },
+    {
+      "id": "w_231",
+      "en": "belt",
+      "ru": "ремень",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "The belt is black.",
+      "exampleRu": "Ремень чёрный."
+    },
+    {
+      "id": "w_232",
+      "en": "clothes",
+      "ru": "одежда",
+      "partOfSpeech": "noun",
+      "topic": "clothes",
+      "exampleEn": "I need to buy new clothes.",
+      "exampleRu": "Мне нужно купить новую одежду."
+    },
+    {
+      "id": "w_233",
+      "en": "head",
+      "ru": "голова",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My head hurts.",
+      "exampleRu": "У меня болит голова."
+    },
+    {
+      "id": "w_234",
+      "en": "hair",
+      "ru": "волосы",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "She has long hair.",
+      "exampleRu": "У неё длинные волосы."
+    },
+    {
+      "id": "w_235",
+      "en": "face",
+      "ru": "лицо",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "Wash your face.",
+      "exampleRu": "Умой лицо."
+    },
+    {
+      "id": "w_236",
+      "en": "eye",
+      "ru": "глаз",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "He has blue eyes.",
+      "exampleRu": "У него голубые глаза."
+    },
+    {
+      "id": "w_237",
+      "en": "ear",
+      "ru": "ухо",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My ear hurts.",
+      "exampleRu": "У меня болит ухо."
+    },
+    {
+      "id": "w_238",
+      "en": "nose",
+      "ru": "нос",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My nose is cold.",
+      "exampleRu": "У меня холодный нос."
+    },
+    {
+      "id": "w_239",
+      "en": "mouth",
+      "ru": "рот",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "Open your mouth, please.",
+      "exampleRu": "Откройте рот, пожалуйста."
+    },
+    {
+      "id": "w_240",
+      "en": "tooth",
+      "ru": "зуб",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My tooth hurts.",
+      "exampleRu": "У меня болит зуб."
+    },
+    {
+      "id": "w_241",
+      "en": "hand",
+      "ru": "рука (кисть)",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "Wash your hands.",
+      "exampleRu": "Помой руки."
+    },
+    {
+      "id": "w_242",
+      "en": "arm",
+      "ru": "рука (от плеча)",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My arm hurts.",
+      "exampleRu": "У меня болит рука."
+    },
+    {
+      "id": "w_243",
+      "en": "leg",
+      "ru": "нога",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My leg hurts.",
+      "exampleRu": "У меня болит нога."
+    },
+    {
+      "id": "w_244",
+      "en": "foot",
+      "ru": "стопa",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My foot hurts.",
+      "exampleRu": "У меня болит стопа."
+    },
+    {
+      "id": "w_245",
+      "en": "back",
+      "ru": "спина",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My back hurts.",
+      "exampleRu": "У меня болит спина."
+    },
+    {
+      "id": "w_246",
+      "en": "stomach",
+      "ru": "живот",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My stomach hurts.",
+      "exampleRu": "У меня болит живот."
+    },
+    {
+      "id": "w_247",
+      "en": "heart",
+      "ru": "сердце",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "My heart beats fast.",
+      "exampleRu": "Моё сердце бьётся быстро."
+    },
+    {
+      "id": "w_248",
+      "en": "body",
+      "ru": "тело",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "Drink water for your body.",
+      "exampleRu": "Пей воду для своего тела."
+    },
+    {
+      "id": "w_249",
+      "en": "sick",
+      "ru": "больной",
+      "partOfSpeech": "adjective",
+      "topic": "body_health",
+      "exampleEn": "I am sick today.",
+      "exampleRu": "Сегодня я болею."
+    },
+    {
+      "id": "w_250",
+      "en": "healthy",
+      "ru": "здоровый",
+      "partOfSpeech": "adjective",
+      "topic": "body_health",
+      "exampleEn": "Eat healthy food.",
+      "exampleRu": "Ешь здоровую еду."
+    },
+    {
+      "id": "w_251",
+      "en": "pain",
+      "ru": "боль",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "I have pain in my back.",
+      "exampleRu": "У меня боль в спине."
+    },
+    {
+      "id": "w_252",
+      "en": "headache",
+      "ru": "головная боль",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "I have a headache.",
+      "exampleRu": "У меня болит голова."
+    },
+    {
+      "id": "w_253",
+      "en": "fever",
+      "ru": "температура, жар",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "The child has a fever.",
+      "exampleRu": "У ребёнка температура."
+    },
+    {
+      "id": "w_254",
+      "en": "doctor",
+      "ru": "врач",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "I need to see a doctor.",
+      "exampleRu": "Мне нужно к врачу."
+    },
+    {
+      "id": "w_255",
+      "en": "hospital",
+      "ru": "больница",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "He is in the hospital.",
+      "exampleRu": "Он в больнице."
+    },
+    {
+      "id": "w_256",
+      "en": "medicine",
+      "ru": "лекарство",
+      "partOfSpeech": "noun",
+      "topic": "body_health",
+      "exampleEn": "Take this medicine twice a day.",
+      "exampleRu": "Принимай это лекарство дважды в день."
+    },
+    {
+      "id": "w_257",
+      "en": "be",
+      "ru": "быть",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I want to be a doctor.",
+      "exampleRu": "Я хочу быть врачом."
+    },
+    {
+      "id": "w_258",
+      "en": "have",
+      "ru": "иметь",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I have a car.",
+      "exampleRu": "У меня есть машина."
+    },
+    {
+      "id": "w_259",
+      "en": "go",
+      "ru": "идти, ехать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I go to work every day.",
+      "exampleRu": "Я хожу на работу каждый день."
+    },
+    {
+      "id": "w_260",
+      "en": "want",
+      "ru": "хотеть",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I want a coffee.",
+      "exampleRu": "Я хочу кофе."
+    },
+    {
+      "id": "w_261",
+      "en": "like",
+      "ru": "нравиться",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I like this song.",
+      "exampleRu": "Мне нравится эта песня."
+    },
+    {
+      "id": "w_262",
+      "en": "can",
+      "ru": "мочь, уметь",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I can swim.",
+      "exampleRu": "Я умею плавать."
+    },
+    {
+      "id": "w_263",
+      "en": "need",
+      "ru": "нуждаться",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I need help.",
+      "exampleRu": "Мне нужна помощь."
+    },
+    {
+      "id": "w_264",
+      "en": "do",
+      "ru": "делать (вспом./полнозн.)",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "What do you do?",
+      "exampleRu": "Чем ты занимаешься?"
+    },
+    {
+      "id": "w_265",
+      "en": "make",
+      "ru": "делать, готовить",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I make dinner every day.",
+      "exampleRu": "Я готовлю ужин каждый день."
+    },
+    {
+      "id": "w_266",
+      "en": "take",
+      "ru": "брать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Take my hand.",
+      "exampleRu": "Возьми меня за руку."
+    },
+    {
+      "id": "w_267",
+      "en": "get",
+      "ru": "получать, добираться",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I get up at seven.",
+      "exampleRu": "Я встаю в семь."
+    },
+    {
+      "id": "w_268",
+      "en": "give",
+      "ru": "давать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Give me your phone number.",
+      "exampleRu": "Дай мне свой номер телефона."
+    },
+    {
+      "id": "w_269",
+      "en": "see",
+      "ru": "видеть",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I see a bird.",
+      "exampleRu": "Я вижу птицу."
+    },
+    {
+      "id": "w_270",
+      "en": "look",
+      "ru": "смотреть",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Look at this picture.",
+      "exampleRu": "Посмотри на эту картинку."
+    },
+    {
+      "id": "w_271",
+      "en": "know",
+      "ru": "знать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I know the answer.",
+      "exampleRu": "Я знаю ответ."
+    },
+    {
+      "id": "w_272",
+      "en": "think",
+      "ru": "думать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I think you are right.",
+      "exampleRu": "Я думаю, ты прав."
+    },
+    {
+      "id": "w_273",
+      "en": "say",
+      "ru": "говорить, сказать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "What did you say?",
+      "exampleRu": "Что ты сказал?"
+    },
+    {
+      "id": "w_274",
+      "en": "tell",
+      "ru": "рассказать, сказать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Tell me your name.",
+      "exampleRu": "Скажи мне своё имя."
+    },
+    {
+      "id": "w_275",
+      "en": "ask",
+      "ru": "спрашивать, просить",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Can I ask a question?",
+      "exampleRu": "Можно задать вопрос?"
+    },
+    {
+      "id": "w_276",
+      "en": "answer",
+      "ru": "отвечать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Please answer the question.",
+      "exampleRu": "Пожалуйста, ответь на вопрос."
+    },
+    {
+      "id": "w_277",
+      "en": "come",
+      "ru": "приходить",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Come here, please.",
+      "exampleRu": "Подойди сюда, пожалуйста."
+    },
+    {
+      "id": "w_278",
+      "en": "leave",
+      "ru": "уходить, уезжать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I leave home at eight.",
+      "exampleRu": "Я выхожу из дома в восемь."
+    },
+    {
+      "id": "w_279",
+      "en": "work",
+      "ru": "работать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I work in an office.",
+      "exampleRu": "Я работаю в офисе."
+    },
+    {
+      "id": "w_280",
+      "en": "study",
+      "ru": "учиться, изучать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I study English.",
+      "exampleRu": "Я изучаю английский."
+    },
+    {
+      "id": "w_281",
+      "en": "learn",
+      "ru": "учить, узнавать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I want to learn English.",
+      "exampleRu": "Я хочу выучить английский."
+    },
+    {
+      "id": "w_282",
+      "en": "read",
+      "ru": "читать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I read every night.",
+      "exampleRu": "Я читаю каждый вечер."
+    },
+    {
+      "id": "w_283",
+      "en": "write",
+      "ru": "писать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Write your name here.",
+      "exampleRu": "Напиши здесь своё имя."
+    },
+    {
+      "id": "w_284",
+      "en": "speak",
+      "ru": "говорить (на языке)",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Do you speak English?",
+      "exampleRu": "Ты говоришь по-английски?"
+    },
+    {
+      "id": "w_285",
+      "en": "listen",
+      "ru": "слушать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Listen to me, please.",
+      "exampleRu": "Послушай меня, пожалуйста."
+    },
+    {
+      "id": "w_286",
+      "en": "understand",
+      "ru": "понимать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I understand you.",
+      "exampleRu": "Я тебя понимаю."
+    },
+    {
+      "id": "w_287",
+      "en": "help",
+      "ru": "помогать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Can you help me?",
+      "exampleRu": "Ты можешь мне помочь?"
+    },
+    {
+      "id": "w_288",
+      "en": "stay",
+      "ru": "оставаться",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Stay here, please.",
+      "exampleRu": "Останься здесь, пожалуйста."
+    },
+    {
+      "id": "w_289",
+      "en": "sleep",
+      "ru": "спать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I sleep eight hours.",
+      "exampleRu": "Я сплю восемь часов."
+    },
+    {
+      "id": "w_290",
+      "en": "wash",
+      "ru": "мыть, стирать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I wash my hands.",
+      "exampleRu": "Я мою руки."
+    },
+    {
+      "id": "w_291",
+      "en": "clean up",
+      "ru": "убирать, наводить порядок",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I clean up my room on Sunday.",
+      "exampleRu": "Я убираю в комнате по воскресеньям."
+    },
+    {
+      "id": "w_292",
+      "en": "buy",
+      "ru": "покупать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I want to buy a car.",
+      "exampleRu": "Я хочу купить машину."
+    },
+    {
+      "id": "w_293",
+      "en": "sell",
+      "ru": "продавать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "They sell fresh fruit.",
+      "exampleRu": "Они продают свежие фрукты."
+    },
+    {
+      "id": "w_294",
+      "en": "pay",
+      "ru": "платить",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I pay with a credit card.",
+      "exampleRu": "Я плачу кредитной картой."
+    },
+    {
+      "id": "w_295",
+      "en": "cost",
+      "ru": "стоить",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "How much does it cost?",
+      "exampleRu": "Сколько это стоит?"
+    },
+    {
+      "id": "w_296",
+      "en": "open",
+      "ru": "открывать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Open the door, please.",
+      "exampleRu": "Открой дверь, пожалуйста."
+    },
+    {
+      "id": "w_297",
+      "en": "close",
+      "ru": "закрывать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Close the window, please.",
+      "exampleRu": "Закрой окно, пожалуйста."
+    },
+    {
+      "id": "w_298",
+      "en": "start",
+      "ru": "начинать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "The class starts at nine.",
+      "exampleRu": "Занятие начинается в девять."
+    },
+    {
+      "id": "w_299",
+      "en": "finish",
+      "ru": "заканчивать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I finish work at five.",
+      "exampleRu": "Я заканчиваю работу в пять."
+    },
+    {
+      "id": "w_300",
+      "en": "play",
+      "ru": "играть",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Children play in the park.",
+      "exampleRu": "Дети играют в парке."
+    },
+    {
+      "id": "w_301",
+      "en": "watch",
+      "ru": "смотреть (за чем-то)",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I watch movies on weekends.",
+      "exampleRu": "Я смотрю фильмы по выходным."
+    },
+    {
+      "id": "w_302",
+      "en": "meet",
+      "ru": "встречать(ся)",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Let's meet at six.",
+      "exampleRu": "Давай встретимся в шесть."
+    },
+    {
+      "id": "w_303",
+      "en": "call",
+      "ru": "звонить",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Call me tonight.",
+      "exampleRu": "Позвони мне сегодня вечером."
+    },
+    {
+      "id": "w_304",
+      "en": "wait",
+      "ru": "ждать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Wait for me, please.",
+      "exampleRu": "Подожди меня, пожалуйста."
+    },
+    {
+      "id": "w_305",
+      "en": "walk",
+      "ru": "идти пешком, гулять",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I walk to work.",
+      "exampleRu": "Я хожу на работу пешком."
+    },
+    {
+      "id": "w_306",
+      "en": "run",
+      "ru": "бежать",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I run every morning.",
+      "exampleRu": "Я бегаю каждое утро."
+    },
+    {
+      "id": "w_307",
+      "en": "drive",
+      "ru": "водить машину",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "I drive to work.",
+      "exampleRu": "Я езжу на работу на машине."
+    },
+    {
+      "id": "w_308",
+      "en": "sit",
+      "ru": "сидеть",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Please sit down.",
+      "exampleRu": "Пожалуйста, садитесь."
+    },
+    {
+      "id": "w_309",
+      "en": "stand",
+      "ru": "стоять",
+      "partOfSpeech": "verb",
+      "topic": "actions_verbs",
+      "exampleEn": "Please stand up.",
+      "exampleRu": "Пожалуйста, встаньте."
+    },
+    {
+      "id": "w_310",
+      "en": "big",
+      "ru": "большой",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The house is big.",
+      "exampleRu": "Дом большой."
+    },
+    {
+      "id": "w_311",
+      "en": "small",
+      "ru": "маленький",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The room is small.",
+      "exampleRu": "Комната маленькая."
+    },
+    {
+      "id": "w_312",
+      "en": "hot",
+      "ru": "горячий, жаркий",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The soup is hot.",
+      "exampleRu": "Суп горячий."
+    },
+    {
+      "id": "w_313",
+      "en": "cold",
+      "ru": "холодный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The water is cold.",
+      "exampleRu": "Вода холодная."
+    },
+    {
+      "id": "w_314",
+      "en": "good",
+      "ru": "хороший",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "This is a good idea.",
+      "exampleRu": "Это хорошая идея."
+    },
+    {
+      "id": "w_315",
+      "en": "bad",
+      "ru": "плохой",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The weather is bad today.",
+      "exampleRu": "Сегодня плохая погода."
+    },
+    {
+      "id": "w_316",
+      "en": "new",
+      "ru": "новый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "I have a new phone.",
+      "exampleRu": "У меня новый телефон."
+    },
+    {
+      "id": "w_317",
+      "en": "old",
+      "ru": "старый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "This is an old house.",
+      "exampleRu": "Это старый дом."
+    },
+    {
+      "id": "w_318",
+      "en": "happy",
+      "ru": "счастливый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "She is very happy.",
+      "exampleRu": "Она очень счастлива."
+    },
+    {
+      "id": "w_319",
+      "en": "sad",
+      "ru": "грустный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "He looks sad today.",
+      "exampleRu": "Он сегодня выглядит грустным."
+    },
+    {
+      "id": "w_320",
+      "en": "easy",
+      "ru": "лёгкий, простой",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "This exercise is easy.",
+      "exampleRu": "Это упражнение лёгкое."
+    },
+    {
+      "id": "w_321",
+      "en": "difficult",
+      "ru": "трудный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "English grammar is difficult.",
+      "exampleRu": "Английская грамматика трудная."
+    },
+    {
+      "id": "w_322",
+      "en": "fast",
+      "ru": "быстрый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "This car is fast.",
+      "exampleRu": "Эта машина быстрая."
+    },
+    {
+      "id": "w_323",
+      "en": "slow",
+      "ru": "медленный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The internet is slow.",
+      "exampleRu": "Интернет медленный."
+    },
+    {
+      "id": "w_324",
+      "en": "tall",
+      "ru": "высокий (о человеке)",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "My brother is tall.",
+      "exampleRu": "Мой брат высокий."
+    },
+    {
+      "id": "w_325",
+      "en": "short",
+      "ru": "низкий, короткий",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The line is short.",
+      "exampleRu": "Очередь короткая."
+    },
+    {
+      "id": "w_326",
+      "en": "young",
+      "ru": "молодой",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "She is very young.",
+      "exampleRu": "Она очень молодая."
+    },
+    {
+      "id": "w_327",
+      "en": "beautiful",
+      "ru": "красивый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The city is beautiful.",
+      "exampleRu": "Город красивый."
+    },
+    {
+      "id": "w_328",
+      "en": "clean",
+      "ru": "чистый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The kitchen is clean.",
+      "exampleRu": "Кухня чистая."
+    },
+    {
+      "id": "w_329",
+      "en": "dirty",
+      "ru": "грязный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "My shoes are dirty.",
+      "exampleRu": "Мои туфли грязные."
+    },
+    {
+      "id": "w_330",
+      "en": "expensive",
+      "ru": "дорогой",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "This car is expensive.",
+      "exampleRu": "Эта машина дорогая."
+    },
+    {
+      "id": "w_331",
+      "en": "cheap",
+      "ru": "дешёвый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The tickets are cheap.",
+      "exampleRu": "Билеты дешёвые."
+    },
+    {
+      "id": "w_332",
+      "en": "strong",
+      "ru": "сильный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "He is very strong.",
+      "exampleRu": "Он очень сильный."
+    },
+    {
+      "id": "w_333",
+      "en": "weak",
+      "ru": "слабый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "I feel weak today.",
+      "exampleRu": "Сегодня я чувствую слабость."
+    },
+    {
+      "id": "w_334",
+      "en": "full",
+      "ru": "полный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The bus is full.",
+      "exampleRu": "Автобус полный."
+    },
+    {
+      "id": "w_335",
+      "en": "empty",
+      "ru": "пустой",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The box is empty.",
+      "exampleRu": "Коробка пустая."
+    },
+    {
+      "id": "w_336",
+      "en": "near",
+      "ru": "близкий, рядом",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The store is near my house.",
+      "exampleRu": "Магазин рядом с моим домом."
+    },
+    {
+      "id": "w_337",
+      "en": "far",
+      "ru": "далёкий, далеко",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "The airport is far from here.",
+      "exampleRu": "Аэропорт далеко отсюда."
+    },
+    {
+      "id": "w_338",
+      "en": "early",
+      "ru": "ранний, рано",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "I wake up early.",
+      "exampleRu": "Я просыпаюсь рано."
+    },
+    {
+      "id": "w_339",
+      "en": "late",
+      "ru": "поздний, поздно",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "I am late for work.",
+      "exampleRu": "Я опаздываю на работу."
+    },
+    {
+      "id": "w_340",
+      "en": "important",
+      "ru": "важный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "This document is important.",
+      "exampleRu": "Этот документ важный."
+    },
+    {
+      "id": "w_341",
+      "en": "tired",
+      "ru": "уставший",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "I am tired today.",
+      "exampleRu": "Сегодня я устал."
+    },
+    {
+      "id": "w_342",
+      "en": "busy",
+      "ru": "занятой",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "She is busy this week.",
+      "exampleRu": "На этой неделе она занята."
+    },
+    {
+      "id": "w_343",
+      "en": "free",
+      "ru": "свободный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "Are you free tomorrow?",
+      "exampleRu": "Ты свободен завтра?"
+    },
+    {
+      "id": "w_344",
+      "en": "different",
+      "ru": "другой, разный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "We have different opinions.",
+      "exampleRu": "У нас разные мнения."
+    },
+    {
+      "id": "w_345",
+      "en": "same",
+      "ru": "такой же, одинаковый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_basic",
+      "exampleEn": "We have the same phone.",
+      "exampleRu": "У нас одинаковые телефоны."
+    },
+    {
+      "id": "w_346",
+      "en": "shop",
+      "ru": "магазин",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "This shop sells shoes.",
+      "exampleRu": "Этот магазин продаёт обувь."
+    },
+    {
+      "id": "w_347",
+      "en": "store",
+      "ru": "магазин",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "The store is open until nine.",
+      "exampleRu": "Магазин открыт до девяти."
+    },
+    {
+      "id": "w_348",
+      "en": "supermarket",
+      "ru": "супермаркет",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "I buy food at the supermarket.",
+      "exampleRu": "Я покупаю еду в супермаркете."
+    },
+    {
+      "id": "w_349",
+      "en": "market",
+      "ru": "рынок",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "We buy vegetables at the market.",
+      "exampleRu": "Мы покупаем овощи на рынке."
+    },
+    {
+      "id": "w_350",
+      "en": "money",
+      "ru": "деньги",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "I don't have much money.",
+      "exampleRu": "У меня немного денег."
+    },
+    {
+      "id": "w_351",
+      "en": "price",
+      "ru": "цена",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "What is the price of this shirt?",
+      "exampleRu": "Какая цена у этой рубашки?"
+    },
+    {
+      "id": "w_352",
+      "en": "cash",
+      "ru": "наличные",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "Do you accept cash?",
+      "exampleRu": "Вы принимаете наличные?"
+    },
+    {
+      "id": "w_353",
+      "en": "credit card",
+      "ru": "кредитная карта",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "I pay with a credit card.",
+      "exampleRu": "Я плачу кредитной картой."
+    },
+    {
+      "id": "w_354",
+      "en": "receipt",
+      "ru": "чек",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "Can I have the receipt, please?",
+      "exampleRu": "Можно чек, пожалуйста?"
+    },
+    {
+      "id": "w_355",
+      "en": "bag",
+      "ru": "сумка, пакет",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "Put it in the bag, please.",
+      "exampleRu": "Положите это в пакет, пожалуйста."
+    },
+    {
+      "id": "w_356",
+      "en": "size",
+      "ru": "размер",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "What size do you need?",
+      "exampleRu": "Какой размер вам нужен?"
+    },
+    {
+      "id": "w_357",
+      "en": "discount",
+      "ru": "скидка",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "There is a discount today.",
+      "exampleRu": "Сегодня действует скидка."
+    },
+    {
+      "id": "w_358",
+      "en": "sale",
+      "ru": "распродажа",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "There is a big sale today.",
+      "exampleRu": "Сегодня большая распродажа."
+    },
+    {
+      "id": "w_359",
+      "en": "cashier",
+      "ru": "кассир",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "The cashier is very friendly.",
+      "exampleRu": "Кассир очень дружелюбный."
+    },
+    {
+      "id": "w_360",
+      "en": "customer",
+      "ru": "покупатель, клиент",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "The customer is always right.",
+      "exampleRu": "Клиент всегда прав."
+    },
+    {
+      "id": "w_361",
+      "en": "change",
+      "ru": "сдача",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "Here is your change.",
+      "exampleRu": "Вот ваша сдача."
+    },
+    {
+      "id": "w_362",
+      "en": "wallet",
+      "ru": "кошелёк",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "I lost my wallet.",
+      "exampleRu": "Я потерял свой кошелёк."
+    },
+    {
+      "id": "w_363",
+      "en": "gift",
+      "ru": "подарок",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "This is a gift for you.",
+      "exampleRu": "Это подарок для тебя."
+    },
+    {
+      "id": "w_364",
+      "en": "shopping list",
+      "ru": "список покупок",
+      "partOfSpeech": "noun",
+      "topic": "shopping",
+      "exampleEn": "I wrote a shopping list.",
+      "exampleRu": "Я написал список покупок."
+    },
+    {
+      "id": "w_365",
+      "en": "free of charge",
+      "ru": "бесплатный",
+      "partOfSpeech": "adjective",
+      "topic": "shopping",
+      "exampleEn": "This service is free.",
+      "exampleRu": "Эта услуга бесплатная."
+    },
+    {
+      "id": "w_366",
+      "en": "left",
+      "ru": "налево, левый",
+      "partOfSpeech": "adverb",
+      "topic": "directions_transport",
+      "exampleEn": "Turn left at the corner.",
+      "exampleRu": "Поверни налево на углу."
+    },
+    {
+      "id": "w_367",
+      "en": "right",
+      "ru": "направо, правый",
+      "partOfSpeech": "adverb",
+      "topic": "directions_transport",
+      "exampleEn": "Turn right here.",
+      "exampleRu": "Поверни здесь направо."
+    },
+    {
+      "id": "w_368",
+      "en": "straight",
+      "ru": "прямо",
+      "partOfSpeech": "adverb",
+      "topic": "directions_transport",
+      "exampleEn": "Go straight ahead.",
+      "exampleRu": "Иди прямо."
+    },
+    {
+      "id": "w_369",
+      "en": "street",
+      "ru": "улица",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "I live on Main Street.",
+      "exampleRu": "Я живу на Мейн-стрит."
+    },
+    {
+      "id": "w_370",
+      "en": "road",
+      "ru": "дорога",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "The road is busy today.",
+      "exampleRu": "Дорога сегодня загружена."
+    },
+    {
+      "id": "w_371",
+      "en": "corner",
+      "ru": "угол, перекрёсток",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "The store is on the corner.",
+      "exampleRu": "Магазин на углу."
+    },
+    {
+      "id": "w_372",
+      "en": "map",
+      "ru": "карта",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "Can you show me on the map?",
+      "exampleRu": "Можешь показать мне на карте?"
+    },
+    {
+      "id": "w_373",
+      "en": "bus",
+      "ru": "автобус",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "I take the bus to work.",
+      "exampleRu": "Я езжу на работу на автобусе."
+    },
+    {
+      "id": "w_374",
+      "en": "train",
+      "ru": "поезд",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "The train is late.",
+      "exampleRu": "Поезд опаздывает."
+    },
+    {
+      "id": "w_375",
+      "en": "car",
+      "ru": "машина",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "I have a new car.",
+      "exampleRu": "У меня новая машина."
+    },
+    {
+      "id": "w_376",
+      "en": "taxi",
+      "ru": "такси",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "Let's take a taxi.",
+      "exampleRu": "Давай возьмём такси."
+    },
+    {
+      "id": "w_377",
+      "en": "bike",
+      "ru": "велосипед",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "I ride my bike to school.",
+      "exampleRu": "Я езжу в школу на велосипеде."
+    },
+    {
+      "id": "w_378",
+      "en": "airplane",
+      "ru": "самолёт",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "The airplane is flying high.",
+      "exampleRu": "Самолёт летит высоко."
+    },
+    {
+      "id": "w_379",
+      "en": "station",
+      "ru": "станция, вокзал",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "Where is the train station?",
+      "exampleRu": "Где находится вокзал?"
+    },
+    {
+      "id": "w_380",
+      "en": "airport",
+      "ru": "аэропорт",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "The airport is far from here.",
+      "exampleRu": "Аэропорт далеко отсюда."
+    },
+    {
+      "id": "w_381",
+      "en": "ticket",
+      "ru": "билет",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "I need one ticket, please.",
+      "exampleRu": "Мне нужен один билет, пожалуйста."
+    },
+    {
+      "id": "w_382",
+      "en": "stop",
+      "ru": "остановка",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "The bus stop is near here.",
+      "exampleRu": "Автобусная остановка рядом."
+    },
+    {
+      "id": "w_383",
+      "en": "turn",
+      "ru": "поворачивать",
+      "partOfSpeech": "verb",
+      "topic": "directions_transport",
+      "exampleEn": "Turn left at the light.",
+      "exampleRu": "Поверни налево у светофора."
+    },
+    {
+      "id": "w_384",
+      "en": "cross",
+      "ru": "переходить (улицу)",
+      "partOfSpeech": "verb",
+      "topic": "directions_transport",
+      "exampleEn": "Cross the street carefully.",
+      "exampleRu": "Переходи улицу осторожно."
+    },
+    {
+      "id": "w_385",
+      "en": "traffic light",
+      "ru": "светофор",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "Stop at the traffic light.",
+      "exampleRu": "Остановись у светофора."
+    },
+    {
+      "id": "w_386",
+      "en": "direction",
+      "ru": "направление",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "I don't know the direction.",
+      "exampleRu": "Я не знаю направление."
+    },
+    {
+      "id": "w_387",
+      "en": "subway",
+      "ru": "метро",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "I take the subway every day.",
+      "exampleRu": "Я езжу на метро каждый день."
+    },
+    {
+      "id": "w_388",
+      "en": "parking",
+      "ru": "парковка",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "The parking is full.",
+      "exampleRu": "Парковка заполнена."
+    },
+    {
+      "id": "w_389",
+      "en": "gas station",
+      "ru": "заправка",
+      "partOfSpeech": "noun",
+      "topic": "directions_transport",
+      "exampleEn": "We need to stop at a gas station.",
+      "exampleRu": "Нам нужно остановиться на заправке."
+    },
+    {
+      "id": "w_390",
+      "en": "pharmacy",
+      "ru": "аптека",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "I need to go to the pharmacy.",
+      "exampleRu": "Мне нужно в аптеку."
+    },
+    {
+      "id": "w_391",
+      "en": "pill",
+      "ru": "таблетка",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "Take one pill twice a day.",
+      "exampleRu": "Принимай одну таблетку дважды в день."
+    },
+    {
+      "id": "w_392",
+      "en": "prescription",
+      "ru": "рецепт на лекарство",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "I need a prescription for this medicine.",
+      "exampleRu": "Мне нужен рецепт на это лекарство."
+    },
+    {
+      "id": "w_393",
+      "en": "appointment",
+      "ru": "приём, запись",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "I have a doctor's appointment.",
+      "exampleRu": "У меня приём у врача."
+    },
+    {
+      "id": "w_394",
+      "en": "nurse",
+      "ru": "медсестра, медбрат",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "The nurse is very kind.",
+      "exampleRu": "Медсестра очень добрая."
+    },
+    {
+      "id": "w_395",
+      "en": "patient",
+      "ru": "пациент",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "The patient feels better.",
+      "exampleRu": "Пациент чувствует себя лучше."
+    },
+    {
+      "id": "w_396",
+      "en": "symptom",
+      "ru": "симптом",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "What are your symptoms?",
+      "exampleRu": "Какие у вас симптомы?"
+    },
+    {
+      "id": "w_397",
+      "en": "temperature",
+      "ru": "температура тела",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "My temperature is high.",
+      "exampleRu": "У меня высокая температура."
+    },
+    {
+      "id": "w_398",
+      "en": "insurance",
+      "ru": "страховка",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "Do you have health insurance?",
+      "exampleRu": "У вас есть медицинская страховка?"
+    },
+    {
+      "id": "w_399",
+      "en": "emergency",
+      "ru": "экстренный случай",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "This is an emergency!",
+      "exampleRu": "Это экстренный случай!"
+    },
+    {
+      "id": "w_400",
+      "en": "ambulance",
+      "ru": "скорая помощь",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "Call an ambulance!",
+      "exampleRu": "Вызовите скорую!"
+    },
+    {
+      "id": "w_401",
+      "en": "clinic",
+      "ru": "клиника",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "The clinic is open now.",
+      "exampleRu": "Клиника сейчас открыта."
+    },
+    {
+      "id": "w_402",
+      "en": "checkup",
+      "ru": "медосмотр",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "I need a checkup.",
+      "exampleRu": "Мне нужен медосмотр."
+    },
+    {
+      "id": "w_403",
+      "en": "allergy",
+      "ru": "аллергия",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "I have an allergy to nuts.",
+      "exampleRu": "У меня аллергия на орехи."
+    },
+    {
+      "id": "w_404",
+      "en": "injury",
+      "ru": "травма",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "He has a leg injury.",
+      "exampleRu": "У него травма ноги."
+    },
+    {
+      "id": "w_405",
+      "en": "bandage",
+      "ru": "бинт, повязка",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "Put a bandage on the cut.",
+      "exampleRu": "Наложи бинт на порез."
+    },
+    {
+      "id": "w_406",
+      "en": "dentist",
+      "ru": "стоматолог",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "I have a dentist appointment.",
+      "exampleRu": "У меня запись к стоматологу."
+    },
+    {
+      "id": "w_407",
+      "en": "X-ray",
+      "ru": "рентген",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "The doctor did an X-ray.",
+      "exampleRu": "Врач сделал рентген."
+    },
+    {
+      "id": "w_408",
+      "en": "cough",
+      "ru": "кашель",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "I have a bad cough.",
+      "exampleRu": "У меня сильный кашель."
+    },
+    {
+      "id": "w_409",
+      "en": "flu",
+      "ru": "грипп",
+      "partOfSpeech": "noun",
+      "topic": "pharmacy_doctor",
+      "exampleEn": "I have the flu.",
+      "exampleRu": "У меня грипп."
+    },
+    {
+      "id": "w_410",
+      "en": "document",
+      "ru": "документ",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "I need this document.",
+      "exampleRu": "Мне нужен этот документ."
+    },
+    {
+      "id": "w_411",
+      "en": "passport",
+      "ru": "паспорт",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "I have my passport with me.",
+      "exampleRu": "У меня с собой паспорт."
+    },
+    {
+      "id": "w_412",
+      "en": "driver's license",
+      "ru": "водительские права",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "I need my driver's license.",
+      "exampleRu": "Мне нужны водительские права."
+    },
+    {
+      "id": "w_413",
+      "en": "ID card",
+      "ru": "удостоверение личности",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "Please show your ID card.",
+      "exampleRu": "Пожалуйста, покажите удостоверение личности."
+    },
+    {
+      "id": "w_414",
+      "en": "social security number",
+      "ru": "номер соц. страхования",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "What is your social security number?",
+      "exampleRu": "Какой у вас номер социального страхования?"
+    },
+    {
+      "id": "w_415",
+      "en": "form",
+      "ru": "бланк, форма",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "Please fill out this form.",
+      "exampleRu": "Пожалуйста, заполните этот бланк."
+    },
+    {
+      "id": "w_416",
+      "en": "signature",
+      "ru": "подпись",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "I need your signature here.",
+      "exampleRu": "Мне нужна ваша подпись здесь."
+    },
+    {
+      "id": "w_417",
+      "en": "bank",
+      "ru": "банк",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "I need to go to the bank.",
+      "exampleRu": "Мне нужно в банк."
+    },
+    {
+      "id": "w_418",
+      "en": "account",
+      "ru": "счёт (банковский)",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "I opened a bank account.",
+      "exampleRu": "Я открыл банковский счёт."
+    },
+    {
+      "id": "w_419",
+      "en": "deposit",
+      "ru": "вносить (деньги)",
+      "partOfSpeech": "verb",
+      "topic": "documents_bank",
+      "exampleEn": "I want to deposit money.",
+      "exampleRu": "Я хочу внести деньги."
+    },
+    {
+      "id": "w_420",
+      "en": "withdraw",
+      "ru": "снимать (деньги)",
+      "partOfSpeech": "verb",
+      "topic": "documents_bank",
+      "exampleEn": "I want to withdraw cash.",
+      "exampleRu": "Я хочу снять наличные."
+    },
+    {
+      "id": "w_421",
+      "en": "application",
+      "ru": "заявление, анкета",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "I filled out the application.",
+      "exampleRu": "Я заполнил анкету."
+    },
+    {
+      "id": "w_422",
+      "en": "date of birth",
+      "ru": "дата рождения",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "What is your date of birth?",
+      "exampleRu": "Какая у вас дата рождения?"
+    },
+    {
+      "id": "w_423",
+      "en": "government",
+      "ru": "правительство, госорган",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "This is a government office.",
+      "exampleRu": "Это государственное учреждение."
+    },
+    {
+      "id": "w_424",
+      "en": "office",
+      "ru": "офис, учреждение",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "The office is closed today.",
+      "exampleRu": "Офис сегодня закрыт."
+    },
+    {
+      "id": "w_425",
+      "en": "department",
+      "ru": "отдел, ведомство",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "Go to the next department.",
+      "exampleRu": "Идите в следующий отдел."
+    },
+    {
+      "id": "w_426",
+      "en": "fee",
+      "ru": "сбор, плата",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "There is a small fee.",
+      "exampleRu": "Есть небольшая плата."
+    },
+    {
+      "id": "w_427",
+      "en": "line",
+      "ru": "очередь",
+      "partOfSpeech": "noun",
+      "topic": "documents_bank",
+      "exampleEn": "The line is very long.",
+      "exampleRu": "Очередь очень длинная."
+    },
+    {
+      "id": "w_428",
+      "en": "wait in line",
+      "ru": "стоять в очереди",
+      "partOfSpeech": "phrase",
+      "topic": "documents_bank",
+      "exampleEn": "We have to wait in line.",
+      "exampleRu": "Нам нужно постоять в очереди."
+    },
+    {
+      "id": "w_429",
+      "en": "renew",
+      "ru": "продлить (документ)",
+      "partOfSpeech": "verb",
+      "topic": "documents_bank",
+      "exampleEn": "I need to renew my license.",
+      "exampleRu": "Мне нужно продлить права."
+    },
+    {
+      "id": "w_430",
+      "en": "job",
+      "ru": "работа (место)",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "I have a new job.",
+      "exampleRu": "У меня новая работа."
+    },
+    {
+      "id": "w_431",
+      "en": "boss",
+      "ru": "начальник",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "My boss is very nice.",
+      "exampleRu": "Мой начальник очень приятный."
+    },
+    {
+      "id": "w_432",
+      "en": "employee",
+      "ru": "сотрудник",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "She is a good employee.",
+      "exampleRu": "Она хороший сотрудник."
+    },
+    {
+      "id": "w_433",
+      "en": "company",
+      "ru": "компания",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "I work for a big company.",
+      "exampleRu": "Я работаю в большой компании."
+    },
+    {
+      "id": "w_434",
+      "en": "salary",
+      "ru": "зарплата",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "The salary is good.",
+      "exampleRu": "Зарплата хорошая."
+    },
+    {
+      "id": "w_435",
+      "en": "schedule",
+      "ru": "расписание, график",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "What is your work schedule?",
+      "exampleRu": "Какой у тебя рабочий график?"
+    },
+    {
+      "id": "w_436",
+      "en": "meeting",
+      "ru": "встреча, совещание",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "We have a meeting at ten.",
+      "exampleRu": "У нас встреча в десять."
+    },
+    {
+      "id": "w_437",
+      "en": "coworker",
+      "ru": "коллега",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "My coworker helped me today.",
+      "exampleRu": "Мой коллега помог мне сегодня."
+    },
+    {
+      "id": "w_438",
+      "en": "resume",
+      "ru": "резюме",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "I sent my resume.",
+      "exampleRu": "Я отправил своё резюме."
+    },
+    {
+      "id": "w_439",
+      "en": "interview",
+      "ru": "собеседование",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "I have a job interview tomorrow.",
+      "exampleRu": "У меня завтра собеседование."
+    },
+    {
+      "id": "w_440",
+      "en": "hire",
+      "ru": "нанимать",
+      "partOfSpeech": "verb",
+      "topic": "work_basic",
+      "exampleEn": "They hired a new manager.",
+      "exampleRu": "Они наняли нового менеджера."
+    },
+    {
+      "id": "w_441",
+      "en": "break",
+      "ru": "перерыв",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "I take a break at noon.",
+      "exampleRu": "Я делаю перерыв в полдень."
+    },
+    {
+      "id": "w_442",
+      "en": "shift",
+      "ru": "смена (рабочая)",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "I work the night shift.",
+      "exampleRu": "Я работаю в ночную смену."
+    },
+    {
+      "id": "w_443",
+      "en": "full-time",
+      "ru": "полная занятость",
+      "partOfSpeech": "adjective",
+      "topic": "work_basic",
+      "exampleEn": "I have a full-time job.",
+      "exampleRu": "У меня работа на полную ставку."
+    },
+    {
+      "id": "w_444",
+      "en": "part-time",
+      "ru": "неполная занятость",
+      "partOfSpeech": "adjective",
+      "topic": "work_basic",
+      "exampleEn": "She works part-time.",
+      "exampleRu": "Она работает неполный день."
+    },
+    {
+      "id": "w_445",
+      "en": "manager",
+      "ru": "менеджер, руководитель",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "The manager is in a meeting.",
+      "exampleRu": "Менеджер на встрече."
+    },
+    {
+      "id": "w_446",
+      "en": "task",
+      "ru": "задача",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "I have many tasks today.",
+      "exampleRu": "У меня сегодня много задач."
+    },
+    {
+      "id": "w_447",
+      "en": "experience",
+      "ru": "опыт работы",
+      "partOfSpeech": "noun",
+      "topic": "work_basic",
+      "exampleEn": "I have five years of experience.",
+      "exampleRu": "У меня пять лет опыта."
+    },
+    {
+      "id": "w_448",
+      "en": "weather",
+      "ru": "погода",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "The weather is nice today.",
+      "exampleRu": "Сегодня хорошая погода."
+    },
+    {
+      "id": "w_449",
+      "en": "sun",
+      "ru": "солнце",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "The sun is shining.",
+      "exampleRu": "Солнце светит."
+    },
+    {
+      "id": "w_450",
+      "en": "sunny",
+      "ru": "солнечный",
+      "partOfSpeech": "adjective",
+      "topic": "weather_seasons",
+      "exampleEn": "It is sunny today.",
+      "exampleRu": "Сегодня солнечно."
+    },
+    {
+      "id": "w_451",
+      "en": "rain",
+      "ru": "дождь",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "I like the sound of rain.",
+      "exampleRu": "Мне нравится звук дождя."
+    },
+    {
+      "id": "w_452",
+      "en": "rainy",
+      "ru": "дождливый",
+      "partOfSpeech": "adjective",
+      "topic": "weather_seasons",
+      "exampleEn": "It is rainy today.",
+      "exampleRu": "Сегодня дождливо."
+    },
+    {
+      "id": "w_453",
+      "en": "snow",
+      "ru": "снег",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "The snow is white.",
+      "exampleRu": "Снег белый."
+    },
+    {
+      "id": "w_454",
+      "en": "snowy",
+      "ru": "снежный",
+      "partOfSpeech": "adjective",
+      "topic": "weather_seasons",
+      "exampleEn": "It is snowy in winter.",
+      "exampleRu": "Зимой снежно."
+    },
+    {
+      "id": "w_455",
+      "en": "wind",
+      "ru": "ветер",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "The wind is strong today.",
+      "exampleRu": "Сегодня сильный ветер."
+    },
+    {
+      "id": "w_456",
+      "en": "windy",
+      "ru": "ветреный",
+      "partOfSpeech": "adjective",
+      "topic": "weather_seasons",
+      "exampleEn": "It is windy today.",
+      "exampleRu": "Сегодня ветрено."
+    },
+    {
+      "id": "w_457",
+      "en": "cloud",
+      "ru": "облако",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "There is one cloud in the sky.",
+      "exampleRu": "На небе одно облако."
+    },
+    {
+      "id": "w_458",
+      "en": "cloudy",
+      "ru": "облачный",
+      "partOfSpeech": "adjective",
+      "topic": "weather_seasons",
+      "exampleEn": "It is cloudy today.",
+      "exampleRu": "Сегодня облачно."
+    },
+    {
+      "id": "w_459",
+      "en": "warm",
+      "ru": "тёплый",
+      "partOfSpeech": "adjective",
+      "topic": "weather_seasons",
+      "exampleEn": "The water is warm.",
+      "exampleRu": "Вода тёплая."
+    },
+    {
+      "id": "w_460",
+      "en": "cool",
+      "ru": "прохладный",
+      "partOfSpeech": "adjective",
+      "topic": "weather_seasons",
+      "exampleEn": "The evening is cool.",
+      "exampleRu": "Вечер прохладный."
+    },
+    {
+      "id": "w_461",
+      "en": "spring",
+      "ru": "весна",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "I like spring.",
+      "exampleRu": "Мне нравится весна."
+    },
+    {
+      "id": "w_462",
+      "en": "summer",
+      "ru": "лето",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "Summer is hot.",
+      "exampleRu": "Лето жаркое."
+    },
+    {
+      "id": "w_463",
+      "en": "autumn",
+      "ru": "осень",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "The leaves fall in autumn.",
+      "exampleRu": "Листья падают осенью."
+    },
+    {
+      "id": "w_464",
+      "en": "winter",
+      "ru": "зима",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "Winter is cold.",
+      "exampleRu": "Зима холодная."
+    },
+    {
+      "id": "w_465",
+      "en": "season",
+      "ru": "время года",
+      "partOfSpeech": "noun",
+      "topic": "weather_seasons",
+      "exampleEn": "What is your favorite season?",
+      "exampleRu": "Какое твоё любимое время года?"
+    },
+    {
+      "id": "w_466",
+      "en": "in",
+      "ru": "в (место/время)",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "The keys are in the bag.",
+      "exampleRu": "Ключи в сумке."
+    },
+    {
+      "id": "w_467",
+      "en": "on",
+      "ru": "на",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "The book is on the table.",
+      "exampleRu": "Книга на столе."
+    },
+    {
+      "id": "w_468",
+      "en": "at",
+      "ru": "у, в (точное место/время)",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "I am at home.",
+      "exampleRu": "Я дома."
+    },
+    {
+      "id": "w_469",
+      "en": "under",
+      "ru": "под",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "The cat is under the table.",
+      "exampleRu": "Кошка под столом."
+    },
+    {
+      "id": "w_470",
+      "en": "over",
+      "ru": "над",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "The lamp is over the table.",
+      "exampleRu": "Лампа над столом."
+    },
+    {
+      "id": "w_471",
+      "en": "next to",
+      "ru": "рядом с",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "The bank is next to the store.",
+      "exampleRu": "Банк рядом с магазином."
+    },
+    {
+      "id": "w_472",
+      "en": "between",
+      "ru": "между",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "The pharmacy is between the bank and the store.",
+      "exampleRu": "Аптека между банком и магазином."
+    },
+    {
+      "id": "w_473",
+      "en": "behind",
+      "ru": "позади, за",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "The garden is behind the house.",
+      "exampleRu": "Сад позади дома."
+    },
+    {
+      "id": "w_474",
+      "en": "in front of",
+      "ru": "перед",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "The car is in front of the house.",
+      "exampleRu": "Машина перед домом."
+    },
+    {
+      "id": "w_475",
+      "en": "before",
+      "ru": "до, перед (время)",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "I eat breakfast before work.",
+      "exampleRu": "Я завтракаю перед работой."
+    },
+    {
+      "id": "w_476",
+      "en": "after",
+      "ru": "после",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "I go home after work.",
+      "exampleRu": "Я иду домой после работы."
+    },
+    {
+      "id": "w_477",
+      "en": "during",
+      "ru": "во время",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "I was quiet during the meeting.",
+      "exampleRu": "Я молчал во время встречи."
+    },
+    {
+      "id": "w_478",
+      "en": "from...to",
+      "ru": "от...до",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "I work from nine to five.",
+      "exampleRu": "Я работаю с девяти до пяти."
+    },
+    {
+      "id": "w_479",
+      "en": "with",
+      "ru": "с (кем-то)",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "I live with my family.",
+      "exampleRu": "Я живу со своей семьёй."
+    },
+    {
+      "id": "w_480",
+      "en": "without",
+      "ru": "без",
+      "partOfSpeech": "preposition",
+      "topic": "prepositions",
+      "exampleEn": "I can't live without coffee.",
+      "exampleRu": "Я не могу жить без кофе."
+    },
+    {
+      "id": "w_481",
+      "en": "there is",
+      "ru": "есть, имеется",
+      "partOfSpeech": "phrase",
+      "topic": "prepositions",
+      "exampleEn": "There is a book on the table.",
+      "exampleRu": "На столе есть книга."
+    },
+    {
+      "id": "w_482",
+      "en": "there are",
+      "ru": "есть, имеются (мн.ч.)",
+      "partOfSpeech": "phrase",
+      "topic": "prepositions",
+      "exampleEn": "There are three chairs in the room.",
+      "exampleRu": "В комнате есть три стула."
+    },
+    {
+      "id": "w_483",
+      "en": "a lot of",
+      "ru": "много",
+      "partOfSpeech": "phrase",
+      "topic": "prepositions",
+      "exampleEn": "There is a lot of food.",
+      "exampleRu": "Здесь много еды."
+    },
+    {
+      "id": "w_484",
+      "en": "some",
+      "ru": "несколько, немного",
+      "partOfSpeech": "determiner",
+      "topic": "prepositions",
+      "exampleEn": "I need some water.",
+      "exampleRu": "Мне нужно немного воды."
+    },
+    {
+      "id": "w_485",
+      "en": "any",
+      "ru": "какой-нибудь, никакой",
+      "partOfSpeech": "determiner",
+      "topic": "prepositions",
+      "exampleEn": "I don't have any money.",
+      "exampleRu": "У меня нет денег."
+    },
+    {
+      "id": "w_486",
+      "en": "what",
+      "ru": "что",
+      "partOfSpeech": "pronoun",
+      "topic": "question_words",
+      "exampleEn": "What is this?",
+      "exampleRu": "Что это?"
+    },
+    {
+      "id": "w_487",
+      "en": "who",
+      "ru": "кто",
+      "partOfSpeech": "pronoun",
+      "topic": "question_words",
+      "exampleEn": "Who is that?",
+      "exampleRu": "Кто это?"
+    },
+    {
+      "id": "w_488",
+      "en": "where",
+      "ru": "где",
+      "partOfSpeech": "adverb",
+      "topic": "question_words",
+      "exampleEn": "Where is the bathroom?",
+      "exampleRu": "Где ванная?"
+    },
+    {
+      "id": "w_489",
+      "en": "when",
+      "ru": "когда",
+      "partOfSpeech": "adverb",
+      "topic": "question_words",
+      "exampleEn": "When is the meeting?",
+      "exampleRu": "Когда встреча?"
+    },
+    {
+      "id": "w_490",
+      "en": "why",
+      "ru": "почему",
+      "partOfSpeech": "adverb",
+      "topic": "question_words",
+      "exampleEn": "Why are you late?",
+      "exampleRu": "Почему ты опоздал?"
+    },
+    {
+      "id": "w_491",
+      "en": "how",
+      "ru": "как",
+      "partOfSpeech": "adverb",
+      "topic": "question_words",
+      "exampleEn": "How do you say this in English?",
+      "exampleRu": "Как это сказать по-английски?"
+    },
+    {
+      "id": "w_492",
+      "en": "which",
+      "ru": "который, какой",
+      "partOfSpeech": "pronoun",
+      "topic": "question_words",
+      "exampleEn": "Which bus goes downtown?",
+      "exampleRu": "Какой автобус едет в центр?"
+    },
+    {
+      "id": "w_493",
+      "en": "whose",
+      "ru": "чей",
+      "partOfSpeech": "pronoun",
+      "topic": "question_words",
+      "exampleEn": "Whose phone is this?",
+      "exampleRu": "Чей это телефон?"
+    },
+    {
+      "id": "w_494",
+      "en": "always",
+      "ru": "всегда",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "I always drink coffee in the morning.",
+      "exampleRu": "Я всегда пью кофе утром."
+    },
+    {
+      "id": "w_495",
+      "en": "usually",
+      "ru": "обычно",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "I usually walk to work.",
+      "exampleRu": "Я обычно хожу на работу пешком."
+    },
+    {
+      "id": "w_496",
+      "en": "sometimes",
+      "ru": "иногда",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "I sometimes cook dinner.",
+      "exampleRu": "Иногда я готовлю ужин."
+    },
+    {
+      "id": "w_497",
+      "en": "never",
+      "ru": "никогда",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "I never eat meat.",
+      "exampleRu": "Я никогда не ем мясо."
+    },
+    {
+      "id": "w_498",
+      "en": "often",
+      "ru": "часто",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "He often calls his mother.",
+      "exampleRu": "Он часто звонит маме."
+    },
+    {
+      "id": "w_499",
+      "en": "also",
+      "ru": "тоже, также",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "I also like tea.",
+      "exampleRu": "Мне тоже нравится чай."
+    },
+    {
+      "id": "w_500",
+      "en": "very",
+      "ru": "очень",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "This soup is very hot.",
+      "exampleRu": "Этот суп очень горячий."
+    },
+    {
+      "id": "w_501",
+      "en": "too",
+      "ru": "тоже",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "I want coffee too.",
+      "exampleRu": "Я тоже хочу кофе."
+    },
+    {
+      "id": "w_502",
+      "en": "here",
+      "ru": "здесь",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "Come here, please.",
+      "exampleRu": "Подойди сюда, пожалуйста."
+    },
+    {
+      "id": "w_503",
+      "en": "there",
+      "ru": "там",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "The keys are there.",
+      "exampleRu": "Ключи там."
+    },
+    {
+      "id": "w_504",
+      "en": "now",
+      "ru": "сейчас",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "I am busy now.",
+      "exampleRu": "Сейчас я занят."
+    },
+    {
+      "id": "w_505",
+      "en": "then",
+      "ru": "потом, тогда",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_words",
+      "exampleEn": "First eat, then sleep.",
+      "exampleRu": "Сначала поешь, потом спи."
+    },
+    {
+      "id": "w_506",
+      "en": "because",
+      "ru": "потому что",
+      "partOfSpeech": "conjunction",
+      "topic": "everyday_words",
+      "exampleEn": "I am tired because I work a lot.",
+      "exampleRu": "Я устал, потому что много работаю."
+    },
+    {
+      "id": "w_507",
+      "en": "but",
+      "ru": "но",
+      "partOfSpeech": "conjunction",
+      "topic": "everyday_words",
+      "exampleEn": "I like tea but not coffee.",
+      "exampleRu": "Мне нравится чай, но не кофе."
+    },
+    {
+      "id": "w_508",
+      "en": "and",
+      "ru": "и",
+      "partOfSpeech": "conjunction",
+      "topic": "everyday_words",
+      "exampleEn": "I have a mother and a father.",
+      "exampleRu": "У меня есть мама и папа."
+    },
+    {
+      "id": "w_509",
+      "en": "or",
+      "ru": "или",
+      "partOfSpeech": "conjunction",
+      "topic": "everyday_words",
+      "exampleEn": "Tea or coffee?",
+      "exampleRu": "Чай или кофе?"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g_001",
+      "title": "Глагол to be",
+      "explanationRu": "Глагол «to be» (быть) — самый важный глагол в английском. В настоящем времени у него три формы: am, is, are. «I am» — я есть, «he/she/it is» — он/она/оно есть, «you/we/they are» — ты/мы/они есть. Отрицание образуется добавлением «not»: is not (isn't), are not (aren't). В вопросах глагол ставится перед подлежащим: «Are you tired?»",
+      "examples": [
+        "I am a student.",
+        "She is happy.",
+        "We are at home.",
+        "They aren't ready.",
+        "Are you from Russia?"
+      ],
+      "exerciseIds": [
+        "ex_001",
+        "ex_002",
+        "ex_003"
+      ]
+    },
+    {
+      "id": "g_002",
+      "title": "Личные и притяжательные местоимения",
+      "explanationRu": "Личные местоимения (I, you, he, she, it, we, they) заменяют существительные и стоят перед глаголом. Притяжательные местоимения (my, your, his, her, its, our, their) показывают, кому что принадлежит, и ставятся перед существительным: «This is my book.»",
+      "examples": [
+        "I live in Miami.",
+        "He is my brother.",
+        "This is her phone.",
+        "Our house is big."
+      ],
+      "exerciseIds": [
+        "ex_004",
+        "ex_005",
+        "ex_006"
+      ]
+    },
+    {
+      "id": "g_003",
+      "title": "Present Simple (простое настоящее время)",
+      "explanationRu": "Present Simple используется для привычных действий и фактов. С I/you/we/they глагол остаётся в базовой форме: «I work». С he/she/it добавляется окончание -s: «He works». Слова-маркеры: usually, often, always, every day.",
+      "examples": [
+        "I work every day.",
+        "She works in a bank.",
+        "They live in New York.",
+        "He drinks coffee every morning."
+      ],
+      "exerciseIds": [
+        "ex_007",
+        "ex_008",
+        "ex_009"
+      ]
+    },
+    {
+      "id": "g_004",
+      "title": "Артикли a / an / the",
+      "explanationRu": "Артикль «a» ставится перед исчисляемым существительным в единственном числе, если оно начинается с согласного звука: «a book». «an» — перед гласным звуком: «an apple». «the» используется, когда речь идёт об уже известном, конкретном предмете: «The book on the table is mine.»",
+      "examples": [
+        "I have a car.",
+        "She ate an apple.",
+        "The sun is bright.",
+        "Give me the pen, please."
+      ],
+      "exerciseIds": [
+        "ex_010",
+        "ex_011",
+        "ex_012"
+      ]
+    },
+    {
+      "id": "g_005",
+      "title": "Вопросы и отрицания",
+      "explanationRu": "Чтобы задать вопрос в Present Simple, перед подлежащим ставится вспомогательный глагол «do» (или «does» для he/she/it): «Do you work?», «Does she work?». Для отрицания используется «don't» / «doesn't»: «I don't know.», «He doesn't like coffee.»",
+      "examples": [
+        "Do you speak English?",
+        "Does he live here?",
+        "I don't understand.",
+        "She doesn't have a car."
+      ],
+      "exerciseIds": [
+        "ex_013",
+        "ex_014",
+        "ex_015"
+      ]
+    },
+    {
+      "id": "g_006",
+      "title": "There is / There are",
+      "explanationRu": "Конструкция «there is» (единственное число) и «there are» (множественное число) используется, чтобы сказать о наличии чего-либо: «There is a book on the table.» — Есть книга на столе. «There are two chairs.» — Есть два стула. Отрицание: «there isn't» / «there aren't».",
+      "examples": [
+        "There is a bank near my house.",
+        "There are five people in my family.",
+        "There isn't any milk.",
+        "Is there a pharmacy near here?"
+      ],
+      "exerciseIds": [
+        "ex_016",
+        "ex_017",
+        "ex_018"
+      ]
+    },
+    {
+      "id": "g_007",
+      "title": "Can / Can't",
+      "explanationRu": "Модальный глагол «can» означает «могу / умею» и используется для способности или разрешения: «I can swim.» Отрицание — «cannot» или «can't»: «I can't drive.» В вопросах «can» ставится перед подлежащим: «Can you help me?»",
+      "examples": [
+        "I can speak English.",
+        "She can't come today.",
+        "Can you help me, please?",
+        "We can meet tomorrow."
+      ],
+      "exerciseIds": [
+        "ex_019",
+        "ex_020",
+        "ex_021"
+      ]
+    },
+    {
+      "id": "g_008",
+      "title": "Предлоги места",
+      "explanationRu": "Предлоги места показывают, где находится предмет: in (в), on (на), under (под), next to (рядом с), between (между), behind (позади), in front of (перед). Пример: «The keys are on the table.» — Ключи на столе.",
+      "examples": [
+        "The cat is under the table.",
+        "The bank is next to the store.",
+        "I live in an apartment.",
+        "The car is in front of the house."
+      ],
+      "exerciseIds": [
+        "ex_022",
+        "ex_023",
+        "ex_024"
+      ]
+    },
+    {
+      "id": "g_009",
+      "title": "Предлоги времени",
+      "explanationRu": "Предлоги времени: in — для месяцев, годов, времён года (in July, in 2024); on — для дней недели и дат (on Monday); at — для точного времени (at five o'clock). Пример: «I work on Monday at nine o'clock.»",
+      "examples": [
+        "My birthday is in June.",
+        "I have a meeting on Friday.",
+        "The shop opens at nine.",
+        "We go on vacation in summer."
+      ],
+      "exerciseIds": [
+        "ex_025",
+        "ex_026",
+        "ex_027"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_001",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_001",
+      "prompt": "I ___ a teacher.",
+      "correctAnswer": "am",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "ex_002",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_001",
+      "prompt": "She ___ happy.",
+      "correctAnswer": "is",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "ex_003",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_001",
+      "prompt": "They ___ my friends.",
+      "correctAnswer": "are",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "ex_004",
+      "type": "choose_translation",
+      "wordIds": [],
+      "grammarId": "g_002",
+      "prompt": "Это моя книга. (This is ___ book.)",
+      "correctAnswer": "my",
+      "options": [
+        "my",
+        "his",
+        "their"
+      ]
+    },
+    {
+      "id": "ex_005",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_002",
+      "prompt": "___ is a doctor. (Он)",
+      "correctAnswer": "He",
+      "options": [
+        "She",
+        "He",
+        "They"
+      ]
+    },
+    {
+      "id": "ex_006",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_002",
+      "prompt": "This is ___ phone. (её)",
+      "correctAnswer": "her",
+      "options": [
+        "her",
+        "his",
+        "your"
+      ]
+    },
+    {
+      "id": "ex_007",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_003",
+      "prompt": "She ___ (work) in a bank.",
+      "correctAnswer": "works",
+      "options": [
+        "work",
+        "works",
+        "working"
+      ]
+    },
+    {
+      "id": "ex_008",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_003",
+      "prompt": "I ___ (live) in New York.",
+      "correctAnswer": "live",
+      "options": [
+        "live",
+        "lives",
+        "living"
+      ]
+    },
+    {
+      "id": "ex_009",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_003",
+      "prompt": "He ___ (drink) coffee every day.",
+      "correctAnswer": "drinks",
+      "options": [
+        "drink",
+        "drinks",
+        "drinking"
+      ]
+    },
+    {
+      "id": "ex_010",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_004",
+      "prompt": "I have ___ apple.",
+      "correctAnswer": "an",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "ex_011",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_004",
+      "prompt": "She has ___ car.",
+      "correctAnswer": "a",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "ex_012",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_004",
+      "prompt": "Give me ___ pen on the table, please.",
+      "correctAnswer": "the",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "ex_013",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_005",
+      "prompt": "___ you speak English?",
+      "correctAnswer": "Do",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "id": "ex_014",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_005",
+      "prompt": "He ___ like coffee.",
+      "correctAnswer": "doesn't",
+      "options": [
+        "don't",
+        "doesn't",
+        "isn't"
+      ]
+    },
+    {
+      "id": "ex_015",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_005",
+      "prompt": "___ she live here?",
+      "correctAnswer": "Does",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "ex_016",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_006",
+      "prompt": "___ a bank near my house.",
+      "correctAnswer": "There is",
+      "options": [
+        "There is",
+        "There are",
+        "There am"
+      ]
+    },
+    {
+      "id": "ex_017",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_006",
+      "prompt": "___ five people in my family.",
+      "correctAnswer": "There are",
+      "options": [
+        "There is",
+        "There are",
+        "There be"
+      ]
+    },
+    {
+      "id": "ex_018",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_006",
+      "prompt": "___ any milk in the fridge.",
+      "correctAnswer": "There isn't",
+      "options": [
+        "There isn't",
+        "There aren't",
+        "There don't"
+      ]
+    },
+    {
+      "id": "ex_019",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_007",
+      "prompt": "I ___ speak English.",
+      "correctAnswer": "can",
+      "options": [
+        "can",
+        "cans",
+        "canning"
+      ]
+    },
+    {
+      "id": "ex_020",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_007",
+      "prompt": "She ___ come today.",
+      "correctAnswer": "can't",
+      "options": [
+        "can't",
+        "isn't",
+        "doesn't"
+      ]
+    },
+    {
+      "id": "ex_021",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_007",
+      "prompt": "___ you help me, please?",
+      "correctAnswer": "Can",
+      "options": [
+        "Can",
+        "Do",
+        "Are"
+      ]
+    },
+    {
+      "id": "ex_022",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_008",
+      "prompt": "The cat is ___ the table.",
+      "correctAnswer": "under",
+      "options": [
+        "under",
+        "on",
+        "between"
+      ]
+    },
+    {
+      "id": "ex_023",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_008",
+      "prompt": "The bank is ___ the store.",
+      "correctAnswer": "next to",
+      "options": [
+        "next to",
+        "under",
+        "behind"
+      ]
+    },
+    {
+      "id": "ex_024",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_008",
+      "prompt": "I live ___ an apartment.",
+      "correctAnswer": "in",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "ex_025",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_009",
+      "prompt": "My birthday is ___ June.",
+      "correctAnswer": "in",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "ex_026",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_009",
+      "prompt": "I have a meeting ___ Friday.",
+      "correctAnswer": "on",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "ex_027",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_009",
+      "prompt": "The shop opens ___ nine o'clock.",
+      "correctAnswer": "at",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d_001",
+      "situation": "Знакомство",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Hello! My name is Anna.",
+          "ru": "Привет! Меня зовут Анна."
+        },
+        {
+          "speaker": "B",
+          "en": "Hi, Anna! I'm Mark. Nice to meet you.",
+          "ru": "Привет, Анна! Я Марк. Приятно познакомиться."
+        },
+        {
+          "speaker": "A",
+          "en": "Nice to meet you too. Where are you from?",
+          "ru": "Мне тоже приятно познакомиться. Ты откуда?"
+        },
+        {
+          "speaker": "B",
+          "en": "I'm from Poland. And you?",
+          "ru": "Я из Польши. А ты?"
+        },
+        {
+          "speaker": "A",
+          "en": "I'm from Russia. I live in Chicago now.",
+          "ru": "Я из России. Сейчас я живу в Чикаго."
+        },
+        {
+          "speaker": "B",
+          "en": "Great! See you around.",
+          "ru": "Отлично! Увидимся."
+        }
+      ]
+    },
+    {
+      "id": "d_002",
+      "situation": "В магазине",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Excuse me, how much is this shirt?",
+          "ru": "Извините, сколько стоит эта рубашка?"
+        },
+        {
+          "speaker": "B",
+          "en": "It's twenty dollars.",
+          "ru": "Она стоит двадцать долларов."
+        },
+        {
+          "speaker": "A",
+          "en": "Do you have a smaller size?",
+          "ru": "У вас есть размер поменьше?"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes, here you are.",
+          "ru": "Да, вот, пожалуйста."
+        },
+        {
+          "speaker": "A",
+          "en": "Great, I'll take it. Can I pay by card?",
+          "ru": "Отлично, я возьму её. Можно расплатиться картой?"
+        },
+        {
+          "speaker": "B",
+          "en": "Of course. Here is your receipt.",
+          "ru": "Конечно. Вот ваш чек."
+        }
+      ]
+    },
+    {
+      "id": "d_003",
+      "situation": "В ресторане",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Good evening! Can I see the menu, please?",
+          "ru": "Добрый вечер! Можно меню, пожалуйста?"
+        },
+        {
+          "speaker": "B",
+          "en": "Of course. Are you ready to order?",
+          "ru": "Конечно. Вы готовы сделать заказ?"
+        },
+        {
+          "speaker": "A",
+          "en": "Yes, I'd like a salad and a coffee, please.",
+          "ru": "Да, я хочу салат и кофе, пожалуйста."
+        },
+        {
+          "speaker": "B",
+          "en": "Anything else?",
+          "ru": "Что-нибудь ещё?"
+        },
+        {
+          "speaker": "A",
+          "en": "No, thank you. That's all.",
+          "ru": "Нет, спасибо. Это всё."
+        },
+        {
+          "speaker": "B",
+          "en": "Okay, it will be ready soon.",
+          "ru": "Хорошо, скоро будет готово."
+        }
+      ]
+    },
+    {
+      "id": "d_004",
+      "situation": "У врача",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Good morning. What's the problem?",
+          "ru": "Доброе утро. Что вас беспокоит?"
+        },
+        {
+          "speaker": "B",
+          "en": "I have a headache and a fever.",
+          "ru": "У меня болит голова и температура."
+        },
+        {
+          "speaker": "A",
+          "en": "How long have you felt sick?",
+          "ru": "Как долго вы себя плохо чувствуете?"
+        },
+        {
+          "speaker": "B",
+          "en": "Since yesterday.",
+          "ru": "Со вчерашнего дня."
+        },
+        {
+          "speaker": "A",
+          "en": "Take this medicine twice a day and drink water.",
+          "ru": "Принимайте это лекарство дважды в день и пейте воду."
+        },
+        {
+          "speaker": "B",
+          "en": "Thank you, doctor.",
+          "ru": "Спасибо, доктор."
+        }
+      ]
+    },
+    {
+      "id": "d_005",
+      "situation": "В аптеке",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Hello, I need medicine for a headache.",
+          "ru": "Здравствуйте, мне нужно лекарство от головной боли."
+        },
+        {
+          "speaker": "B",
+          "en": "Do you have a prescription?",
+          "ru": "У вас есть рецепт?"
+        },
+        {
+          "speaker": "A",
+          "en": "No, I don't. Is it necessary?",
+          "ru": "Нет. Это обязательно?"
+        },
+        {
+          "speaker": "B",
+          "en": "No, this medicine doesn't need one.",
+          "ru": "Нет, для этого лекарства рецепт не нужен."
+        },
+        {
+          "speaker": "A",
+          "en": "Great, how much is it?",
+          "ru": "Отлично, сколько это стоит?"
+        },
+        {
+          "speaker": "B",
+          "en": "It's eight dollars.",
+          "ru": "Восемь долларов."
+        }
+      ]
+    },
+    {
+      "id": "d_006",
+      "situation": "В DMV (получение прав)",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Hello, I need to renew my driver's license.",
+          "ru": "Здравствуйте, мне нужно продлить водительские права."
+        },
+        {
+          "speaker": "B",
+          "en": "Do you have your ID and application form?",
+          "ru": "У вас есть удостоверение личности и заявление?"
+        },
+        {
+          "speaker": "A",
+          "en": "Yes, here they are.",
+          "ru": "Да, вот они."
+        },
+        {
+          "speaker": "B",
+          "en": "Please wait in line, number forty-two.",
+          "ru": "Пожалуйста, подождите в очереди, номер сорок два."
+        },
+        {
+          "speaker": "A",
+          "en": "How long is the wait?",
+          "ru": "Сколько ждать?"
+        },
+        {
+          "speaker": "B",
+          "en": "About twenty minutes.",
+          "ru": "Около двадцати минут."
+        }
+      ]
+    },
+    {
+      "id": "d_007",
+      "situation": "В банке",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Hello, I'd like to open a bank account.",
+          "ru": "Здравствуйте, я хочу открыть банковский счёт."
+        },
+        {
+          "speaker": "B",
+          "en": "Sure, do you have your passport and address?",
+          "ru": "Конечно, у вас есть паспорт и адрес?"
+        },
+        {
+          "speaker": "A",
+          "en": "Yes, here you are.",
+          "ru": "Да, вот, пожалуйста."
+        },
+        {
+          "speaker": "B",
+          "en": "Please fill out this form and sign here.",
+          "ru": "Пожалуйста, заполните эту форму и распишитесь здесь."
+        },
+        {
+          "speaker": "A",
+          "en": "Is there a fee for the account?",
+          "ru": "Есть ли плата за счёт?"
+        },
+        {
+          "speaker": "B",
+          "en": "No, this account is free.",
+          "ru": "Нет, этот счёт бесплатный."
+        }
+      ]
+    },
+    {
+      "id": "d_008",
+      "situation": "Как пройти (направления)",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Excuse me, where is the nearest pharmacy?",
+          "ru": "Извините, где ближайшая аптека?"
+        },
+        {
+          "speaker": "B",
+          "en": "Go straight and turn left at the corner.",
+          "ru": "Идите прямо и поверните налево на углу."
+        },
+        {
+          "speaker": "A",
+          "en": "Is it far from here?",
+          "ru": "Это далеко отсюда?"
+        },
+        {
+          "speaker": "B",
+          "en": "No, it's next to the bank, about five minutes.",
+          "ru": "Нет, это рядом с банком, минут пять."
+        },
+        {
+          "speaker": "A",
+          "en": "Thank you very much!",
+          "ru": "Большое спасибо!"
+        },
+        {
+          "speaker": "B",
+          "en": "You're welcome!",
+          "ru": "Пожалуйста!"
+        }
+      ]
+    }
+  ],
+  "examPool": [
+    "ex_001",
+    "ex_002",
+    "ex_003",
+    "ex_004",
+    "ex_005",
+    "ex_006",
+    "ex_007",
+    "ex_008",
+    "ex_009",
+    "ex_010",
+    "ex_011",
+    "ex_012",
+    "ex_013",
+    "ex_014",
+    "ex_015",
+    "ex_016",
+    "ex_017",
+    "ex_018",
+    "ex_019",
+    "ex_020",
+    "ex_021",
+    "ex_022",
+    "ex_023",
+    "ex_024",
+    "ex_025",
+    "ex_026",
+    "ex_027"
+  ]
+}
