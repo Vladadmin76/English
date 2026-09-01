@@ -518,6 +518,7 @@ function goBack(){ if(navHistory.length>1){ navHistory.pop(); location.hash = na
 
 async function router(){
   await ensureReady();
+  await ensureLevelLoaded();
   const hash = location.hash || "#/menu";
   if(navHistory[navHistory.length-1]!==hash) navHistory.push(hash);
   const [path, query] = hash.slice(2).split("?");
