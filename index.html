@@ -470,17 +470,22 @@ function genListenChoose(word){
   const options = shuffle([word.exampleRu||word.ru, ...distractors.slice(0,3)]);
   return { kind:"listen_repeat", word, audio: word.exampleEn||word.en, options, correct: word.exampleRu||word.ru };
 }
+function genPronounce(word){
+  const phrase = word.exampleEn || word.en;
+  return { kind:"pronounce", word, target: phrase };
+}
 function generateExerciseFor(word, type){
   if(type==="fill_blank") return genFillBlank(word);
   if(type==="build_sentence") return genBuildSentence(word);
   if(type==="listen_repeat") return genListenChoose(word);
+  if(type==="pronounce") return genPronounce(word);
   return genChooseTranslation(word);
 }
 function exerciseQueue(topicId, count){
   const words = wordsInTopics(topicId).filter(w=>STATE.words[w.id] && STATE.words[w.id].status!=="new");
-  const pool = words.length ? words : wordsInTopics(topicId);
-  const chosen = pickRandom(pool, Math.min(count, pool.length));
+  const chosen = pickRandom(words, Math.min(count, words.length));
   const types = ["choose_translation","fill_blank","build_sentence","listen_repeat"];
+  if(Speech.recogSupported && STATE.settings.recognitionEnabled) types.push("pronounce");
   return chosen.map((w,i)=>generateExerciseFor(w, types[i%types.length]));
 }
 
@@ -649,6 +654,7 @@ function renderReviewCard(){
     </div>
     ${revealed ? `<button class="speak-btn" data-action="speak" data-text="${esc(w.en)}">🔊</button>` : ""}
     ${revealed && w.exampleEn ? `<div class="example"><div class="en">${esc(w.exampleEn)}</div><div class="muted">${esc(w.exampleRu||"")}</div></div>` : ""}
+    ${revealed && Speech.recogSupported ? `<button class="btn secondary block" style="margin-top:10px" data-action="pronounce" data-target="${esc(w.en)}" data-wordid="${w.id}">🎤 Проговорить</button>` : ""}
   </div>
   ${!revealed ? `<button class="btn block" data-action="reveal">Показать ответ</button>` :
   `<div class="btn-row">
@@ -667,7 +673,7 @@ route("exercises", async (parts, params)=>{
   return renderExercise();
 });
 function exTitle(kind){
-  return {choose_translation:"Выбери перевод", fill_blank:"Заполни пропуск", build_sentence:"Построй предложение", listen_repeat:"Аудирование"}[kind]||kind;
+  return {choose_translation:"Выбери перевод", fill_blank:"Заполни пропуск", build_sentence:"Построй предложение", listen_repeat:"Аудирование", pronounce:"Произношение"}[kind]||kind;
 }
 function renderExercise(){
   const queue = window.__exQueue||[]; const idx = window.__exIdx||0;
@@ -711,14 +717,28 @@ function renderExercise(){
       <div id="exBody">${ex.options.map(o=>`<button class="opt" data-action="ans-choose" data-val="${esc(o)}">${esc(o)}</button>`).join("")}</div>
     </div>`;
   }
+  if(ex.kind==="pronounce"){
+    return `<div class="card">${head}
+      <p class="muted">Прослушайте и произнесите вслух:</p>
+      <h2 style="margin-top:8px">${esc(ex.target)}</h2>
+      <div class="center" style="margin:14px 0">
+        <button class="speak-btn" data-action="speak" data-text="${esc(ex.target)}">🔊</button>
+      </div>
+      <button class="btn block" id="micBtn" data-action="pronounce-ex" data-target="${esc(ex.target)}">🎤 Начать запись</button>
+      <p id="pronResult" class="muted center" style="margin-top:10px"></p>
+    </div>`;
+  }
   return "";
 }
 function currentExercise(){ return (window.__exQueue||[])[window.__exIdx]; }
-function markExerciseResult(ok){
+function markExerciseResult(ok, delay){
   const ex = currentExercise(); if(!ex) return;
-  const ch = ex.kind==="fill_blank"||ex.kind==="build_sentence" ? "production" : ex.kind==="listen_repeat" ? "listening" : "recall";
+  const ch = ex.kind==="fill_blank"||ex.kind==="build_sentence" ? "production"
+    : ex.kind==="listen_repeat" ? "listening"
+    : ex.kind==="pronounce" ? "pronunciation"
+    : "recall";
   pushChannel(ex.word.id, ch, ok);
-  setTimeout(()=>{ window.__exIdx++; router(); }, 1100);
+  setTimeout(()=>{ window.__exIdx++; router(); }, delay||1100);
 }
 
 route("grammar", async (parts)=>{
@@ -960,6 +980,37 @@ document.addEventListener("click", async (ev)=>{
     return;
   }
 
+  if(action==="pronounce-ex"){
+    const target = el.dataset.target;
+    el.textContent = "🎙 Слушаю…"; el.disabled = true;
+    Speech.recognize().then(alts=>{
+      const ok = alts.some(a=>similar(a, target));
+      document.getElementById("pronResult").textContent = ok ? "✅ Отлично! Произношение верное." : "❌ Не совсем. Правильно: "+target+". Попробуйте ещё раз позже.";
+      el.textContent = "🎤 Начать запись"; el.disabled = false;
+      markExerciseResult(ok, 1800);
+    }).catch(err=>{
+      el.textContent = "🎤 Начать запись"; el.disabled = false;
+      toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
+    });
+    return;
+  }
+  if(action==="pronounce"){
+    const target = el.dataset.target;
+    const wordId = el.dataset.wordid;
+    const original = el.textContent;
+    el.textContent = "🎙 Слушаю…"; el.disabled = true;
+    Speech.recognize().then(alts=>{
+      const ok = alts.some(a=>similar(a, target));
+      el.textContent = ok ? "✅ Отлично!" : "❌ Ещё раз?";
+      el.disabled = false;
+      if(wordId) pushChannel(wordId, "pronunciation", ok);
+      setTimeout(()=>{ el.textContent = original; }, 1600);
+    }).catch(err=>{
+      el.textContent = original; el.disabled = false;
+      toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
+    });
+    return;
+  }
   if(action==="gram-choose"){
     const ok = el.dataset.val===el.dataset.correct;
     recordGrammar(window.__gramGid, ok);
@@ -1032,6 +1083,12 @@ document.addEventListener("input", (ev)=>{
   if(ev.target.id==="immRange") document.getElementById("immVal").textContent = ev.target.value+"%";
 });
 
+function toast(msg){
+  const el = document.createElement("div");
+  el.className = "toast"; el.textContent = msg;
+  document.body.appendChild(el);
+  setTimeout(()=>el.remove(), 2400);
+}
 function exportBackup(){
   const blob = new Blob([JSON.stringify(STATE,null,2)], {type:"application/json"});
   const url = URL.createObjectURL(blob);
