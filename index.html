@@ -193,6 +193,23 @@ function similar(a,b){
   return (1 - dist/longer) >= 0.72;
 }
 
+/* ============================== ALPHABET ============================== */
+const ALPHABET = [
+  {letter:"A", word:"apple", ru:"яблоко"}, {letter:"B", word:"book", ru:"книга"},
+  {letter:"C", word:"cat", ru:"кошка"}, {letter:"D", word:"dog", ru:"собака"},
+  {letter:"E", word:"egg", ru:"яйцо"}, {letter:"F", word:"fish", ru:"рыба"},
+  {letter:"G", word:"girl", ru:"девочка"}, {letter:"H", word:"house", ru:"дом"},
+  {letter:"I", word:"ice", ru:"лёд"}, {letter:"J", word:"juice", ru:"сок"},
+  {letter:"K", word:"key", ru:"ключ"}, {letter:"L", word:"lion", ru:"лев"},
+  {letter:"M", word:"milk", ru:"молоко"}, {letter:"N", word:"name", ru:"имя"},
+  {letter:"O", word:"orange", ru:"апельсин"}, {letter:"P", word:"pizza", ru:"пицца"},
+  {letter:"Q", word:"queen", ru:"королева"}, {letter:"R", word:"rain", ru:"дождь"},
+  {letter:"S", word:"sun", ru:"солнце"}, {letter:"T", word:"tea", ru:"чай"},
+  {letter:"U", word:"umbrella", ru:"зонт"}, {letter:"V", word:"van", ru:"фургон"},
+  {letter:"W", word:"water", ru:"вода"}, {letter:"X", word:"X-ray", ru:"рентген"},
+  {letter:"Y", word:"yellow", ru:"жёлтый"}, {letter:"Z", word:"zebra", ru:"зебра"}
+];
+
 /* ============================== STORAGE ============================== */
 const STORAGE_KEY = "eng0_progress_v1";
 function defaultProgress(){
@@ -202,7 +219,7 @@ function defaultProgress(){
     words: {},
     grammarProgress: {},
     immersionLevel: 0.3,
-    settings: { speechEnabled:true, recognitionEnabled:true },
+    settings: { speechEnabled:true, recognitionEnabled:true, showAlphabet:true },
     examHistory: [],
     stats: { createdAt: todayISO() }
   };
@@ -213,7 +230,9 @@ function loadProgress(){
     const raw = localStorage.getItem(STORAGE_KEY);
     if(!raw) return defaultProgress();
     const parsed = JSON.parse(raw);
-    return Object.assign(defaultProgress(), parsed);
+    const merged = Object.assign(defaultProgress(), parsed);
+    merged.settings = Object.assign(defaultProgress().settings, parsed.settings||{});
+    return merged;
   }catch(e){ console.warn("progress load failed", e); return defaultProgress(); }
 }
 let saveTimer=null;
@@ -558,6 +577,7 @@ route("menu", async ()=>{
     <p class="muted" style="margin-top:8px">Освоено (mastered): ${Math.round(masteredRatio()*100)}% из ${Math.round((LEVEL_DATA.passingThreshold||0.9)*100)}% для экзамена</p>
   </div>
   <div class="col">
+    ${STATE.settings.showAlphabet ? `<button class="btn outline block" data-action="nav" data-route="#/alphabet">🔤 ${t("Алфавит")}</button>` : ""}
     <button class="btn block" data-action="nav" data-route="#/review">🔁 ${t("Повторить слова")} ${due? `<span class="pill" style="background:rgba(255,255,255,.25);color:#fff">${due}</span>`:""}</button>
     <button class="btn secondary block" data-action="nav" data-route="#/new">➕ ${t("Новые слова")} ${newCount? `<span class="pill">${newCount}</span>`:""}</button>
     <button class="btn secondary block" data-action="nav" data-route="#/exercises">✏️ ${t("Упражнения")}</button>
@@ -568,6 +588,24 @@ route("menu", async ()=>{
     <h3>${t("Темы уровня")}</h3>
     ${topicsHtml}
   </div>`;
+});
+
+route("alphabet", async ()=>{
+  document.getElementById("topTitle").textContent = "Алфавит";
+  const cells = ALPHABET.map(a=>`
+    <button class="opt" style="text-align:center;padding:14px 6px" data-action="speak" data-text="${esc(a.letter)}">
+      <div style="font-size:26px;font-weight:700;line-height:1.1">${esc(a.letter)}${esc(a.letter.toLowerCase())}</div>
+      <div class="muted" style="font-size:12px;margin-top:6px" data-action="speak" data-text="${esc(a.word)}">${esc(a.word)} — ${esc(a.ru)}</div>
+    </button>`).join("");
+  return `
+  <div class="card">
+    <h2>Английский алфавит</h2>
+    <p class="muted">26 букв. Нажмите на букву — услышите, как она называется. Нажмите на слово-пример — услышите, как оно произносится.</p>
+  </div>
+  <div class="card">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">${cells}</div>
+  </div>
+  <button class="btn secondary block" data-action="nav" data-route="#/menu">Пропустить, вернуться в меню</button>`;
 });
 
 route("topic", async (parts)=>{
@@ -886,6 +924,8 @@ route("settings", async ()=>{
     <div class="center muted" id="immVal">${Math.round(STATE.immersionLevel*100)}%</div>
   </div>
   <div class="card">
+    <div class="switch-row"><span>Показывать раздел «Алфавит» в меню</span>
+      <input type="checkbox" id="chkAlphabet" ${STATE.settings.showAlphabet?"checked":""}></div>
     <div class="switch-row"><span>Озвучка (Speech Synthesis)</span>
       <input type="checkbox" id="chkSpeech" ${STATE.settings.speechEnabled?"checked":""} ${Speech.synthSupported?"":"disabled"}></div>
     <div class="switch-row"><span>Распознавание речи</span>
@@ -1076,6 +1116,7 @@ document.addEventListener("change", (ev)=>{
     document.getElementById("immVal").textContent = ev.target.value+"%";
     saveProgress();
   }
+  if(ev.target.id==="chkAlphabet"){ STATE.settings.showAlphabet = ev.target.checked; saveProgress(); }
   if(ev.target.id==="chkSpeech"){ STATE.settings.speechEnabled = ev.target.checked; saveProgress(); }
   if(ev.target.id==="chkRecog"){ STATE.settings.recognitionEnabled = ev.target.checked; saveProgress(); }
   if(ev.target.id==="importFile"){ importBackup(ev.target.files[0]); }
