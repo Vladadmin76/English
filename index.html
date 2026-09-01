@@ -195,19 +195,19 @@ function similar(a,b){
 
 /* ============================== ALPHABET ============================== */
 const ALPHABET = [
-  {letter:"A", word:"apple", ru:"яблоко"}, {letter:"B", word:"book", ru:"книга"},
-  {letter:"C", word:"cat", ru:"кошка"}, {letter:"D", word:"dog", ru:"собака"},
-  {letter:"E", word:"egg", ru:"яйцо"}, {letter:"F", word:"fish", ru:"рыба"},
-  {letter:"G", word:"girl", ru:"девочка"}, {letter:"H", word:"house", ru:"дом"},
-  {letter:"I", word:"ice", ru:"лёд"}, {letter:"J", word:"juice", ru:"сок"},
-  {letter:"K", word:"key", ru:"ключ"}, {letter:"L", word:"lion", ru:"лев"},
-  {letter:"M", word:"milk", ru:"молоко"}, {letter:"N", word:"name", ru:"имя"},
-  {letter:"O", word:"orange", ru:"апельсин"}, {letter:"P", word:"pizza", ru:"пицца"},
-  {letter:"Q", word:"queen", ru:"королева"}, {letter:"R", word:"rain", ru:"дождь"},
-  {letter:"S", word:"sun", ru:"солнце"}, {letter:"T", word:"tea", ru:"чай"},
-  {letter:"U", word:"umbrella", ru:"зонт"}, {letter:"V", word:"van", ru:"фургон"},
-  {letter:"W", word:"water", ru:"вода"}, {letter:"X", word:"X-ray", ru:"рентген"},
-  {letter:"Y", word:"yellow", ru:"жёлтый"}, {letter:"Z", word:"zebra", ru:"зебра"}
+  {letter:"A", name:"Ay", word:"apple", ru:"яблоко"}, {letter:"B", name:"Bee", word:"book", ru:"книга"},
+  {letter:"C", name:"See", word:"cat", ru:"кошка"}, {letter:"D", name:"Dee", word:"dog", ru:"собака"},
+  {letter:"E", name:"Ee", word:"egg", ru:"яйцо"}, {letter:"F", name:"Eff", word:"fish", ru:"рыба"},
+  {letter:"G", name:"Jee", word:"girl", ru:"девочка"}, {letter:"H", name:"Aitch", word:"house", ru:"дом"},
+  {letter:"I", name:"Eye", word:"ice", ru:"лёд"}, {letter:"J", name:"Jay", word:"juice", ru:"сок"},
+  {letter:"K", name:"Kay", word:"key", ru:"ключ"}, {letter:"L", name:"El", word:"lion", ru:"лев"},
+  {letter:"M", name:"Em", word:"milk", ru:"молоко"}, {letter:"N", name:"En", word:"name", ru:"имя"},
+  {letter:"O", name:"Oh", word:"orange", ru:"апельсин"}, {letter:"P", name:"Pee", word:"pizza", ru:"пицца"},
+  {letter:"Q", name:"Kyoo", word:"queen", ru:"королева"}, {letter:"R", name:"Ar", word:"rain", ru:"дождь"},
+  {letter:"S", name:"Ess", word:"sun", ru:"солнце"}, {letter:"T", name:"Tee", word:"tea", ru:"чай"},
+  {letter:"U", name:"You", word:"umbrella", ru:"зонт"}, {letter:"V", name:"Vee", word:"van", ru:"фургон"},
+  {letter:"W", name:"Double-you", word:"water", ru:"вода"}, {letter:"X", name:"Ex", word:"X-ray", ru:"рентген"},
+  {letter:"Y", name:"Why", word:"yellow", ru:"жёлтый"}, {letter:"Z", name:"Zee", word:"zebra", ru:"зебра"}
 ];
 
 /* ============================== STORAGE ============================== */
@@ -593,7 +593,7 @@ route("menu", async ()=>{
 route("alphabet", async ()=>{
   document.getElementById("topTitle").textContent = "Алфавит";
   const cells = ALPHABET.map(a=>`
-    <button class="opt" style="text-align:center;padding:14px 6px" data-action="speak" data-text="${esc(a.letter)}">
+    <button class="opt" style="text-align:center;padding:14px 6px" data-action="speak" data-text="${esc(a.name)}">
       <div style="font-size:26px;font-weight:700;line-height:1.1">${esc(a.letter)}${esc(a.letter.toLowerCase())}</div>
       <div class="muted" style="font-size:12px;margin-top:6px" data-action="speak" data-text="${esc(a.word)}">${esc(a.word)} — ${esc(a.ru)}</div>
     </button>`).join("");
