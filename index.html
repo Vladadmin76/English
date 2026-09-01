@@ -11,7 +11,7 @@
     --accent:#2a9578; --accent-ink:#ffffff; --accent-soft:#1f3a33;
     --line:#4a5257; --danger:#e2776a; --warn:#e0ac52; --good:#4cbf8a;
     --shadow:0 2px 10px rgba(0,0,0,.3);
-    --radius:14px; --nav-h:60px;
+    --radius:14px; --nav-h:60px; --fs:1;
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
@@ -26,9 +26,9 @@
     position:sticky;top:0;z-index:5;background:var(--bg);
     padding:14px 16px 8px;display:flex;align-items:center;justify-content:space-between;
   }
-  header.topbar h1{font-size:17px;margin:0;font-weight:700;}
+  header.topbar h1{font-size:calc(17px * var(--fs));margin:0;font-weight:700;}
   header.topbar .back{
-    background:none;border:none;font-size:15px;color:var(--accent);padding:6px 8px;
+    background:none;border:none;font-size:calc(15px * var(--fs));color:var(--accent);padding:6px 8px;
     margin-left:-8px;font-weight:600;cursor:pointer;
   }
   main{padding:8px 16px 24px;}
@@ -38,14 +38,14 @@
   }
   .row{display:flex;align-items:center;justify-content:space-between;gap:10px;}
   .col{display:flex;flex-direction:column;gap:10px;}
-  h2{font-size:16px;margin:0 0 8px;}
-  h3{font-size:15px;margin:0 0 6px;}
+  h2{font-size:calc(16px * var(--fs));margin:0 0 8px;}
+  h3{font-size:calc(15px * var(--fs));margin:0 0 6px;}
   p{margin:0 0 8px;line-height:1.5;}
-  .muted{color:var(--ink-soft);font-size:13px;}
+  .muted{color:var(--ink-soft);font-size:calc(13px * var(--fs));}
   .btn{
     display:inline-flex;align-items:center;justify-content:center;gap:6px;
     background:var(--accent);color:var(--accent-ink);border:none;border-radius:12px;
-    padding:13px 16px;font-size:15px;font-weight:600;cursor:pointer;width:100%;
+    padding:13px 16px;font-size:calc(15px * var(--fs));font-weight:600;cursor:pointer;width:100%;
     -webkit-user-select:none;user-select:none;
   }
   .btn:active{opacity:.85;}
@@ -58,7 +58,7 @@
   .btn-row{display:flex;gap:8px;}
   .btn-row .btn{flex:1;}
   .pill{
-    display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;
+    display:inline-block;padding:3px 10px;border-radius:999px;font-size:calc(12px * var(--fs));font-weight:600;
     background:var(--accent-soft);color:var(--accent);
   }
   .pill.new{background:#282c4d;color:#a5adf0;}
@@ -83,14 +83,14 @@
     max-width:520px;margin:0 auto;
   }
   nav#bottom-nav button{
-    background:none;border:none;font-size:11px;color:var(--ink-soft);
+    background:none;border:none;font-size:calc(11px * var(--fs));color:var(--ink-soft);
     display:flex;flex-direction:column;align-items:center;gap:3px;flex:1;padding:6px 2px;cursor:pointer;
   }
   nav#bottom-nav button.active{color:var(--accent);font-weight:700;}
-  nav#bottom-nav .ic{font-size:19px;line-height:1;}
-  .word-en{font-size:26px;font-weight:700;}
-  .word-ru{font-size:18px;color:var(--ink-soft);}
-  .example{background:var(--accent-soft);border-radius:10px;padding:10px 12px;margin-top:10px;font-size:14px;}
+  nav#bottom-nav .ic{font-size:calc(19px * var(--fs));line-height:1;}
+  .word-en{font-size:calc(26px * var(--fs));font-weight:700;}
+  .word-ru{font-size:calc(18px * var(--fs));color:var(--ink-soft);}
+  .example{background:var(--accent-soft);border-radius:10px;padding:10px 12px;margin-top:10px;font-size:calc(14px * var(--fs));}
   .example .en{font-style:italic;}
   .speak-btn{
     background:var(--accent-soft);color:var(--accent);border:none;border-radius:50%;
@@ -98,42 +98,49 @@
   }
   .opt{
     display:block;width:100%;text-align:left;background:var(--card);border:1.5px solid var(--line);
-    border-radius:10px;padding:12px 14px;margin-bottom:8px;font-size:15px;cursor:pointer;color:var(--ink);
+    border-radius:10px;padding:12px 14px;margin-bottom:8px;font-size:calc(15px * var(--fs));cursor:pointer;color:var(--ink);
   }
-  .opt.correct{border-color:var(--good);background:#1f3d30;}
-  .opt.wrong{border-color:var(--danger);background:#4a2420;}
+  .opt.correct{border-color:var(--good);background:#1f3d30;font-weight:700;font-size:calc(16px * var(--fs));}
+  .opt.wrong{border-color:var(--danger);background:#4a2420;font-weight:700;font-size:calc(16px * var(--fs));}
   .opt[disabled]{pointer-events:none;}
   input[type=text]{
-    width:100%;padding:12px 14px;border-radius:10px;border:1.5px solid var(--line);font-size:16px;
+    width:100%;padding:12px 14px;border-radius:10px;border:1.5px solid var(--line);font-size:calc(16px * var(--fs));
     background:var(--card);color:var(--ink);
   }
   input[type=range]{width:100%;}
   .tokens{display:flex;flex-wrap:wrap;gap:8px;min-height:44px;margin-bottom:14px;padding:8px;border:1.5px dashed var(--line);border-radius:10px;}
   .token{
     background:var(--accent-soft);color:var(--accent);border-radius:8px;padding:8px 12px;
-    font-size:15px;cursor:pointer;border:none;
+    font-size:calc(15px * var(--fs));cursor:pointer;border:none;
   }
   .token[disabled]{opacity:.3;}
   .bank{display:flex;flex-wrap:wrap;gap:8px;}
   .imm-word{color:var(--accent);font-weight:700;border-bottom:1.5px dotted var(--accent);cursor:pointer;}
   .banner{
-    background:#4a3a1f;color:#e3b155;border-radius:10px;padding:10px 12px;font-size:13px;margin-bottom:12px;
+    background:#4a3a1f;color:#e3b155;border-radius:10px;padding:10px 12px;font-size:calc(13px * var(--fs));margin-bottom:12px;
   }
   .center{text-align:center;}
   .toast{
     position:fixed;left:50%;bottom:calc(var(--nav-h) + 16px);transform:translateX(-50%);
-    background:#1a2420;color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:50;
+    background:#1a2420;color:#fff;padding:10px 16px;border-radius:10px;font-size:calc(14px * var(--fs));z-index:50;
     box-shadow:var(--shadow);
   }
   .switch-row{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line);}
   .switch-row:last-child{border-bottom:none;}
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
   .stat{background:var(--accent-soft);border-radius:10px;padding:10px;text-align:center;}
-  .stat b{display:block;font-size:20px;color:var(--accent);}
-  .stat span{font-size:12px;color:var(--ink-soft);}
+  .stat b{display:block;font-size:calc(20px * var(--fs));color:var(--accent);}
+  .stat span{font-size:calc(12px * var(--fs));color:var(--ink-soft);}
   .empty{text-align:center;padding:30px 10px;color:var(--ink-soft);}
-  .empty .ic{font-size:38px;display:block;margin-bottom:8px;}
+  .empty .ic{font-size:calc(38px * var(--fs));display:block;margin-bottom:8px;}
   a.download-link{display:none;}
+  .result-banner{
+    font-size:calc(19px * var(--fs));font-weight:700;text-align:center;border-radius:10px;
+    padding:14px 12px;margin-top:12px;line-height:1.4;
+  }
+  .result-banner.correct{background:#1f3d30;color:var(--good);}
+  .result-banner.wrong{background:#4a2420;color:var(--danger);}
+  .result-banner .sub{display:block;font-size:calc(14px * var(--fs));font-weight:400;color:var(--ink-soft);margin-top:4px;}
 </style>
 </head>
 <body>
@@ -219,7 +226,7 @@ function defaultProgress(){
     words: {},
     grammarProgress: {},
     immersionLevel: 0.3,
-    settings: { speechEnabled:true, recognitionEnabled:true, showAlphabet:true },
+    settings: { speechEnabled:true, recognitionEnabled:true, showAlphabet:true, fontSize:1 },
     examHistory: [],
     stats: { createdAt: todayISO() }
   };
@@ -545,11 +552,16 @@ async function router(){
 }
 window.addEventListener("hashchange", router);
 
+function applyFontScale(){
+  document.documentElement.style.setProperty("--fs", STATE.settings.fontSize || 1);
+}
+
 let readyPromise=null;
 function ensureReady(){
   if(!readyPromise){
     readyPromise = (async ()=>{
       STATE = loadProgress();
+      applyFontScale();
       await loadManifest();
       await ensureLevelLoaded();
     })();
@@ -988,6 +1000,15 @@ route("settings", async ()=>{
     <div class="center muted" id="immVal">${Math.round(STATE.immersionLevel*100)}%</div>
   </div>
   <div class="card">
+    <h3>Размер шрифта</h3>
+    <p class="muted">Если текст мелкий и плохо читается — выберите более крупный размер.</p>
+    <div class="col">
+      <button class="btn block" style="font-size:15px;background:${(STATE.settings.fontSize||1)===1 ? "var(--accent)" : "var(--accent-soft)"};color:${(STATE.settings.fontSize||1)===1 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="1">Обычный</button>
+      <button class="btn block" style="font-size:17px;background:${STATE.settings.fontSize===1.15 ? "var(--accent)" : "var(--accent-soft)"};color:${STATE.settings.fontSize===1.15 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="1.15">Крупный</button>
+      <button class="btn block" style="font-size:19px;background:${STATE.settings.fontSize===1.3 ? "var(--accent)" : "var(--accent-soft)"};color:${STATE.settings.fontSize===1.3 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="1.3">Очень крупный</button>
+    </div>
+  </div>
+  <div class="card">
     <div class="switch-row"><span>Показывать раздел «Алфавит» в меню</span>
       <input type="checkbox" id="chkAlphabet" ${STATE.settings.showAlphabet?"checked":""}></div>
     <div class="switch-row"><span>Озвучка (Speech Synthesis)</span>
@@ -1054,16 +1075,16 @@ document.addEventListener("click", async (ev)=>{
       if(b.dataset.val===ex.correct) b.classList.add("correct");
       else if(b===el) b.classList.add("wrong");
     });
-    markExerciseResult(ok);
+    document.getElementById("exBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+ex.correct));
+    markExerciseResult(ok, RESULT_DELAY);
     return;
   }
   if(action==="ans-fill"){
     const ex = currentExercise();
     const val = document.getElementById("fbInput").value;
     const ok = similar(val, ex.correct);
-    const body = document.getElementById("exBody");
-    body.innerHTML += `<p style="margin-top:10px" class="${ok?'muted':'muted'}">${ok?"✅ Верно":"❌ Правильный ответ: "+esc(ex.correct)}</p>`;
-    markExerciseResult(ok);
+    document.getElementById("exBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+ex.correct));
+    markExerciseResult(ok, RESULT_DELAY);
     return;
   }
   if(action==="tok-pick"){
@@ -1079,9 +1100,9 @@ document.addEventListener("click", async (ev)=>{
     const ex = currentExercise();
     const picked = (window.__picked||[]).map(i=>ex.tokens[i]);
     const ok = picked.join(" ").toLowerCase()===ex.correctOrder.join(" ").toLowerCase();
-    document.getElementById("exBody").innerHTML = `<p class="muted">${ok?"✅ Верно":"❌ Правильно: "+esc(ex.correctOrder.join(" "))}</p>`;
+    document.getElementById("exBody").innerHTML = resultBannerHtml(ok, ok ? "Верно!" : "Правильно: "+ex.correctOrder.join(" "));
     window.__picked=[];
-    markExerciseResult(ok);
+    markExerciseResult(ok, RESULT_DELAY);
     return;
   }
 
@@ -1090,9 +1111,9 @@ document.addEventListener("click", async (ev)=>{
     el.textContent = "🎙 Слушаю…"; el.disabled = true;
     Speech.recognize().then(alts=>{
       const ok = alts.some(a=>similar(a, target));
-      document.getElementById("pronResult").textContent = ok ? "✅ Отлично! Произношение верное." : "❌ Не совсем. Правильно: "+target+". Попробуйте ещё раз позже.";
+      document.getElementById("pronResult").outerHTML = resultBannerHtml(ok, ok ? "Отлично! Произношение верное." : "Не совсем. Правильно: "+target, "pronResult");
       el.textContent = "🎤 Начать запись"; el.disabled = false;
-      markExerciseResult(ok, 1800);
+      markExerciseResult(ok, RESULT_DELAY);
     }).catch(err=>{
       el.textContent = "🎤 Начать запись"; el.disabled = false;
       toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
@@ -1109,7 +1130,7 @@ document.addEventListener("click", async (ev)=>{
       el.textContent = ok ? "✅ Отлично!" : "❌ Ещё раз?";
       el.disabled = false;
       if(wordId) pushChannel(wordId, "pronunciation", ok);
-      setTimeout(()=>{ el.textContent = original; }, 1600);
+      setTimeout(()=>{ el.textContent = original; }, RESULT_DELAY);
     }).catch(err=>{
       el.textContent = original; el.disabled = false;
       toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
@@ -1129,7 +1150,8 @@ document.addEventListener("click", async (ev)=>{
       const correctIdx = line.options.findIndex(o=>o.correct);
       if(correctIdx>=0 && optButtons[correctIdx]) optButtons[correctIdx].classList.add("correct");
     }
-    setTimeout(callAdvance, 1200);
+    document.getElementById("callOpts").insertAdjacentHTML("afterend", resultBannerHtml(opt.correct, opt.correct ? "Верно!" : "Правильно: "+line.options.find(o=>o.correct).en));
+    setTimeout(callAdvance, RESULT_DELAY);
     return;
   }
   if(action==="call-speak"){
@@ -1141,9 +1163,9 @@ document.addEventListener("click", async (ev)=>{
       const matched = line.options.find(o=>alts.some(a=>similar(a, o.en)));
       const ok = matched ? matched.correct : false;
       line._chosen = matched || {en: alts[0]};
-      document.getElementById("callMicResult").textContent = ok ? "✅ Отлично, засчитано!" : "❌ Не совсем то. Идём дальше.";
+      document.getElementById("callMicResult").outerHTML = resultBannerHtml(ok, ok ? "Отлично, засчитано!" : "Не совсем то. Идём дальше.", "callMicResult");
       btn.textContent = "🎤 Ответить голосом"; btn.disabled = false;
-      setTimeout(callAdvance, 1400);
+      setTimeout(callAdvance, RESULT_DELAY);
     }).catch(err=>{
       btn.textContent = "🎤 Ответить голосом"; btn.disabled = false;
       toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
@@ -1154,15 +1176,16 @@ document.addEventListener("click", async (ev)=>{
     const ok = el.dataset.val===el.dataset.correct;
     recordGrammar(window.__gramGid, ok);
     document.querySelectorAll("#gramBody .opt, [data-action=gram-choose]").forEach(b=>{ b.disabled=true; if(b.dataset.val===el.dataset.correct) b.classList.add("correct"); });
-    setTimeout(()=>{ window.__gramIdx=(window.__gramIdx||0)+1; document.getElementById("gramBody").innerHTML = renderGrammarExercise(); }, 900);
+    document.getElementById("gramBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+el.dataset.correct));
+    setTimeout(()=>{ window.__gramIdx=(window.__gramIdx||0)+1; document.getElementById("gramBody").innerHTML = renderGrammarExercise(); }, RESULT_DELAY);
     return;
   }
   if(action==="gram-fill"){
     const val = document.getElementById("gramInput").value;
     const ok = similar(val, el.dataset.correct);
     recordGrammar(window.__gramGid, ok);
-    document.getElementById("gramBody").innerHTML += `<p class="muted">${ok?"✅ Верно":"❌ Правильно: "+esc(el.dataset.correct)}</p>`;
-    setTimeout(()=>{ window.__gramIdx=(window.__gramIdx||0)+1; document.getElementById("gramBody").innerHTML = renderGrammarExercise(); }, 900);
+    document.getElementById("gramBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильно: "+el.dataset.correct));
+    setTimeout(()=>{ window.__gramIdx=(window.__gramIdx||0)+1; document.getElementById("gramBody").innerHTML = renderGrammarExercise(); }, RESULT_DELAY);
     return;
   }
 
@@ -1174,6 +1197,12 @@ document.addEventListener("click", async (ev)=>{
   if(action==="exam-choose"){
     const item = window.__examQueue[window.__examIdx];
     const ok = el.dataset.val===item.correct;
+    document.querySelectorAll("#examBody .opt").forEach(b=>{
+      b.disabled=true;
+      if(b.dataset.val===item.correct) b.classList.add("correct");
+      else if(b===el) b.classList.add("wrong");
+    });
+    document.getElementById("examBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+item.correct));
     handleExamAnswer(item, ok);
     return;
   }
@@ -1181,10 +1210,19 @@ document.addEventListener("click", async (ev)=>{
     const item = window.__examQueue[window.__examIdx];
     const val = document.getElementById("examInput").value;
     const ok = similar(val, item.correct);
+    document.getElementById("examBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+item.correct));
+    document.getElementById("examInput").disabled = true;
     handleExamAnswer(item, ok);
     return;
   }
 
+  if(action==="set-font"){
+    STATE.settings.fontSize = Number(el.dataset.size);
+    applyFontScale();
+    saveProgress();
+    document.getElementById("screen-root").innerHTML = await routes["settings"]([], {});
+    return;
+  }
   if(action==="export"){ exportBackup(); return; }
   if(action==="reset-progress"){
     if(confirm("Точно сбросить весь прогресс? Это действие нельзя отменить.")){
@@ -1198,8 +1236,10 @@ document.addEventListener("click", async (ev)=>{
 function handleExamAnswer(item, ok){
   if(ok) window.__examCorrect=(window.__examCorrect||0)+1;
   else (item.wordIds||[]).forEach(id=>window.__examFailedWords.push(id));
-  window.__examIdx++;
-  document.getElementById("screen-root").innerHTML = renderExamQuestion();
+  setTimeout(()=>{
+    window.__examIdx++;
+    document.getElementById("screen-root").innerHTML = renderExamQuestion();
+  }, RESULT_DELAY);
 }
 function recordGrammar(gid, ok){
   if(!STATE.grammarProgress[gid]) STATE.grammarProgress[gid]={attempts:0,correct:0};
@@ -1223,6 +1263,10 @@ document.addEventListener("input", (ev)=>{
   if(ev.target.id==="immRange") document.getElementById("immVal").textContent = ev.target.value+"%";
 });
 
+const RESULT_DELAY = 2000;
+function resultBannerHtml(ok, text, id){
+  return `<div class="result-banner ${ok?"correct":"wrong"}"${id?` id="${id}"`:""}>${ok?"✅":"❌"} ${esc(text)}</div>`;
+}
 function toast(msg){
   const el = document.createElement("div");
   el.className = "toast"; el.textContent = msg;
