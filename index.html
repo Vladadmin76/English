@@ -11,7 +11,7 @@
     --accent:#2a9578; --accent-ink:#ffffff; --accent-soft:#1f3a33;
     --line:#4a5257; --danger:#e2776a; --warn:#e0ac52; --good:#4cbf8a;
     --shadow:0 2px 10px rgba(0,0,0,.3);
-    --radius:14px; --nav-h:60px; --fs:1;
+    --radius:14px; --nav-h:60px; --fs:2;
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
@@ -236,7 +236,7 @@ function defaultProgress(){
     words: {},
     grammarProgress: {},
     immersionLevel: 0.3,
-    settings: { speechEnabled:true, recognitionEnabled:true, showAlphabet:true, fontSize:1, tutorSecret:"" },
+    settings: { speechEnabled:true, recognitionEnabled:true, showAlphabet:true, fontSize:2, tutorSecret:"" },
     examHistory: [],
     stats: { createdAt: todayISO() }
   };
@@ -249,6 +249,11 @@ function loadProgress(){
     const parsed = JSON.parse(raw);
     const merged = Object.assign(defaultProgress(), parsed);
     merged.settings = Object.assign(defaultProgress().settings, parsed.settings||{});
+    // migrate old (pre-doubling) font-size values to their doubled equivalents
+    const OLD_TO_NEW_FS = {1:2, 1.15:2.3, 1.3:2.6};
+    if(OLD_TO_NEW_FS[merged.settings.fontSize] !== undefined){
+      merged.settings.fontSize = OLD_TO_NEW_FS[merged.settings.fontSize];
+    }
     return merged;
   }catch(e){ console.warn("progress load failed", e); return defaultProgress(); }
 }
@@ -563,7 +568,7 @@ async function router(){
 window.addEventListener("hashchange", router);
 
 function applyFontScale(){
-  document.documentElement.style.setProperty("--fs", STATE.settings.fontSize || 1);
+  document.documentElement.style.setProperty("--fs", STATE.settings.fontSize || 2);
 }
 
 let readyPromise=null;
@@ -624,8 +629,8 @@ route("alphabet", async ()=>{
     </button>`).join("");
   return `
   <div class="card">
-    <h2>Английский алфавит</h2>
-    <p class="muted">26 букв. Нажмите на букву — услышите, как она называется. Нажмите на слово-пример — услышите, как оно произносится.</p>
+    <h2 style="font-size:16px">Английский алфавит</h2>
+    <p class="muted" style="font-size:13px">26 букв. Нажмите на букву — услышите, как она называется. Нажмите на слово-пример — услышите, как оно произносится.</p>
   </div>
   <div class="card">
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">${cells}</div>
@@ -713,7 +718,7 @@ function renderReviewCard(){
   <div class="card center">
     <div class="muted">${idx+1} / ${queue.length}</div>
     <div style="margin:18px 0">
-      <div class="word-ru" style="font-size:22px">${esc(w.ru)}</div>
+      <div class="word-ru" style="font-size:calc(22px * var(--fs))">${esc(w.ru)}</div>
       ${revealed ? `<div class="word-en" style="margin-top:10px">${esc(w.en)}</div>` : ""}
     </div>
     ${revealed ? `<button class="speak-btn" data-action="speak" data-text="${esc(w.en)}">🔊</button>` : ""}
@@ -927,7 +932,7 @@ function renderCallStep(){
     return history + `
     <div class="card">
       <span class="pill">📞 Звонящий</span>
-      <p style="margin-top:8px;font-size:17px">${esc(line.en)}</p>
+      <p style="margin-top:8px;font-size:calc(17px * var(--fs))">${esc(line.en)}</p>
       <p class="muted">${esc(line.ru)}</p>
       <div style="margin-top:10px"><button class="speak-btn" data-action="speak" data-text="${esc(line.en)}">🔊</button></div>
     </div>
@@ -1033,9 +1038,9 @@ route("settings", async ()=>{
     <h3>Размер шрифта</h3>
     <p class="muted">Если текст мелкий и плохо читается — выберите более крупный размер.</p>
     <div class="col">
-      <button class="btn block" style="font-size:15px;background:${(STATE.settings.fontSize||1)===1 ? "var(--accent)" : "var(--accent-soft)"};color:${(STATE.settings.fontSize||1)===1 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="1">Обычный</button>
-      <button class="btn block" style="font-size:17px;background:${STATE.settings.fontSize===1.15 ? "var(--accent)" : "var(--accent-soft)"};color:${STATE.settings.fontSize===1.15 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="1.15">Крупный</button>
-      <button class="btn block" style="font-size:19px;background:${STATE.settings.fontSize===1.3 ? "var(--accent)" : "var(--accent-soft)"};color:${STATE.settings.fontSize===1.3 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="1.3">Очень крупный</button>
+      <button class="btn block" style="font-size:30px;background:${(STATE.settings.fontSize||2)===2 ? "var(--accent)" : "var(--accent-soft)"};color:${(STATE.settings.fontSize||2)===2 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="2">Обычный</button>
+      <button class="btn block" style="font-size:34px;background:${STATE.settings.fontSize===2.3 ? "var(--accent)" : "var(--accent-soft)"};color:${STATE.settings.fontSize===2.3 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="2.3">Крупный</button>
+      <button class="btn block" style="font-size:38px;background:${STATE.settings.fontSize===2.6 ? "var(--accent)" : "var(--accent-soft)"};color:${STATE.settings.fontSize===2.6 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="2.6">Очень крупный</button>
     </div>
   </div>
   <div class="card">
