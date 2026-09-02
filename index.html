@@ -209,6 +209,11 @@ function similar(a,b){
 // who enters their own value here could still call the endpoint) - real
 // protection is the spending cap set on the DeepSeek account itself.
 const TUTOR_API_URL = "https://call.fixtorllc.com/api/tutor-chat";
+// Same server, same shared secret, different endpoint: beacons a
+// progress snapshot so it's readable outside this browser (see the
+// server's own comment for why - this app has no database of its own).
+const PROGRESS_LOG_URL = "https://call.fixtorllc.com/api/english-progress-log";
+const PROGRESS_LOG_MIN_INTERVAL_MS = 3*60*1000;
 
 /* ============================== ALPHABET ============================== */
 const ALPHABET = [
@@ -262,7 +267,32 @@ function saveProgress(){
   clearTimeout(saveTimer);
   saveTimer = setTimeout(()=>{
     try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE)); }catch(e){ console.warn("save failed", e); }
+    syncProgressLog();
   }, 60);
+}
+let lastProgressLogAt = 0;
+function syncProgressLog(){
+  if(!STATE.settings.tutorSecret) return; // opt-in: same password as the AI tutor
+  const now = Date.now();
+  if(now - lastProgressLogAt < PROGRESS_LOG_MIN_INTERVAL_MS) return;
+  lastProgressLogAt = now;
+  try{
+    const counts = {new:0, learning:0, known:0, mastered:0};
+    const masteredWords = [];
+    Object.keys(STATE.words).forEach(id=>{
+      const status = STATE.words[id].status;
+      if(counts[status]!==undefined) counts[status]++;
+      if(status==="mastered" && WORDS_BY_ID[id]){
+        masteredWords.push({en: WORDS_BY_ID[id].en, ru: WORDS_BY_ID[id].ru});
+      }
+    });
+    counts.total = (LEVEL_DATA && LEVEL_DATA.words ? LEVEL_DATA.words.length : Object.keys(STATE.words).length);
+    fetch(PROGRESS_LOG_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Tutor-Secret": STATE.settings.tutorSecret },
+      body: JSON.stringify({ level: STATE.currentLevel||"A1", counts, masteredWords })
+    }).catch(()=>{}); // best-effort, never blocks or surfaces errors to the user
+  }catch(e){ console.warn("progress log sync failed", e); }
 }
 
 /* ============================== DATA ============================== */
