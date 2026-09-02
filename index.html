@@ -794,6 +794,7 @@ function renderExercise(){
   return "";
 }
 function currentExercise(){ return (window.__exQueue||[])[window.__exIdx]; }
+function advanceExercise(){ window.__exIdx=(window.__exIdx||0)+1; router(); }
 function markExerciseResult(ok, delay){
   const ex = currentExercise(); if(!ex) return;
   const ch = ex.kind==="fill_blank"||ex.kind==="build_sentence" ? "production"
@@ -801,7 +802,24 @@ function markExerciseResult(ok, delay){
     : ex.kind==="pronounce" ? "pronunciation"
     : "recall";
   pushChannel(ex.word.id, ch, ok);
-  setTimeout(()=>{ window.__exIdx++; router(); }, delay||1100);
+  if(delay!==null) setTimeout(advanceExercise, delay||1100);
+}
+function mistakeActionsHtml(){
+  return `<div style="margin-top:10px">
+    <button class="btn secondary block" data-action="explain-mistake">🤖 Объяснить ошибку</button>
+    <button class="btn block" data-action="next-exercise">Дальше →</button>
+  </div>`;
+}
+function describeExerciseForAI(ex, userAnswer){
+  if(ex.kind==="choose_translation")
+    return `Упражнение: перевести слово "${ex.prompt}". Ученик выбрал "${userAnswer}", а правильный ответ — "${ex.correct}". Объясни кратко на русском, почему это неверно и как лучше запомнить правильный перевод.`;
+  if(ex.kind==="fill_blank")
+    return `Упражнение на заполнение пропуска: "${ex.sentence}" (перевод: "${ex.sentenceRu}"). Ученик вписал "${userAnswer}", правильный ответ — "${ex.correct}". Объясни кратко на русском, в чём ошибка.`;
+  if(ex.kind==="build_sentence")
+    return `Упражнение на составление предложения (перевод: "${ex.translationRu}"). Ученик составил: "${userAnswer}", правильный порядок слов: "${ex.correctOrder.join(" ")}". Объясни кратко на русском, в чём ошибка порядка слов или грамматики.`;
+  if(ex.kind==="listen_repeat")
+    return `Упражнение на аудирование, фраза: "${ex.audio}". Ученик выбрал перевод "${userAnswer}", правильный — "${ex.correct}". Объясни кратко на русском разницу в значении.`;
+  return `Ученик ответил неправильно в упражнении по слову "${ex.word ? ex.word.en : ""}". Его ответ: "${userAnswer}". Правильный ответ: "${ex.correct||""}". Объясни кратко на русском, в чём ошибка.`;
 }
 
 route("grammar", async (parts)=>{
@@ -1118,7 +1136,9 @@ document.addEventListener("click", async (ev)=>{
       else if(b===el) b.classList.add("wrong");
     });
     document.getElementById("exBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+ex.correct));
-    markExerciseResult(ok, RESULT_DELAY);
+    window.__lastWrongAnswer = el.dataset.val;
+    markExerciseResult(ok, ok ? RESULT_DELAY : null);
+    if(!ok) document.getElementById("exBody").insertAdjacentHTML("beforeend", mistakeActionsHtml());
     return;
   }
   if(action==="ans-fill"){
@@ -1126,7 +1146,9 @@ document.addEventListener("click", async (ev)=>{
     const val = document.getElementById("fbInput").value;
     const ok = similar(val, ex.correct);
     document.getElementById("exBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+ex.correct));
-    markExerciseResult(ok, RESULT_DELAY);
+    window.__lastWrongAnswer = val;
+    markExerciseResult(ok, ok ? RESULT_DELAY : null);
+    if(!ok) document.getElementById("exBody").insertAdjacentHTML("beforeend", mistakeActionsHtml());
     return;
   }
   if(action==="tok-pick"){
@@ -1143,8 +1165,44 @@ document.addEventListener("click", async (ev)=>{
     const picked = (window.__picked||[]).map(i=>ex.tokens[i]);
     const ok = picked.join(" ").toLowerCase()===ex.correctOrder.join(" ").toLowerCase();
     document.getElementById("exBody").innerHTML = resultBannerHtml(ok, ok ? "Верно!" : "Правильно: "+ex.correctOrder.join(" "));
+    window.__lastWrongAnswer = picked.join(" ");
     window.__picked=[];
-    markExerciseResult(ok, RESULT_DELAY);
+    markExerciseResult(ok, ok ? RESULT_DELAY : null);
+    if(!ok) document.getElementById("exBody").insertAdjacentHTML("beforeend", mistakeActionsHtml());
+    return;
+  }
+  if(action==="next-exercise"){ advanceExercise(); return; }
+  if(action==="explain-mistake"){
+    const ex = currentExercise(); if(!ex) return;
+    if(!STATE.settings.tutorSecret){
+      toast("Сначала введите пароль ИИ в Настройках («ИИ-репетитор»).");
+      return;
+    }
+    el.disabled = true;
+    el.textContent = "🤖 Объясняю…";
+    fetch(TUTOR_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Tutor-Secret": STATE.settings.tutorSecret },
+      body: JSON.stringify({
+        level: STATE.currentLevel || "A1",
+        topic: "разбор ошибки в упражнении",
+        message: describeExerciseForAI(ex, window.__lastWrongAnswer||""),
+        history: []
+      })
+    }).then(async (r)=>{
+      if(!r.ok){
+        const text = await r.text().catch(()=>"");
+        throw new Error("HTTP "+r.status+(text ? (": "+text.slice(0,200)) : ""));
+      }
+      return r.json();
+    }).then((data)=>{
+      el.insertAdjacentHTML("beforebegin", `<div class="card" style="margin-top:10px"><p class="muted">Объяснение учителя:</p><p>${esc(data.reply||"")}</p></div>`);
+      el.remove();
+    }).catch((err)=>{
+      el.disabled = false;
+      el.textContent = "🤖 Объяснить ошибку";
+      toast("Не удалось получить объяснение: "+((err&&err.message)||String(err)));
+    });
     return;
   }
 
