@@ -200,6 +200,16 @@ function similar(a,b){
   return (1 - dist/longer) >= 0.72;
 }
 
+/* ============================== AI TUTOR (DeepSeek via proxy) ============================== */
+// The DeepSeek key itself never lives here - it stays on the Render server.
+// The shared secret (TUTOR_PROXY_SECRET on the server) is entered by the
+// user once in Settings and kept only in this device's localStorage - it
+// never goes into this file or the git history. It's a light deterrent
+// against casual abuse of the proxy endpoint, not real security (anyone
+// who enters their own value here could still call the endpoint) - real
+// protection is the spending cap set on the DeepSeek account itself.
+const TUTOR_API_URL = "https://call.fixtorllc.com/api/tutor-chat";
+
 /* ============================== ALPHABET ============================== */
 const ALPHABET = [
   {letter:"A", name:"Ay", word:"apple", ru:"яблоко"}, {letter:"B", name:"Bee", word:"book", ru:"книга"},
@@ -226,7 +236,7 @@ function defaultProgress(){
     words: {},
     grammarProgress: {},
     immersionLevel: 0.3,
-    settings: { speechEnabled:true, recognitionEnabled:true, showAlphabet:true, fontSize:1 },
+    settings: { speechEnabled:true, recognitionEnabled:true, showAlphabet:true, fontSize:1, tutorSecret:"" },
     examHistory: [],
     stats: { createdAt: todayISO() }
   };
@@ -1018,6 +1028,12 @@ route("settings", async ()=>{
     ${!Speech.recogSupported ? "<p class='muted'>Ваш браузер не поддерживает распознавание речи — упражнения на произношение недоступны, канал pronunciation не учитывается.</p>":""}
   </div>
   <div class="card">
+    <h3>ИИ-репетитор</h3>
+    <p class="muted">Пароль для сервера ИИ (хранится только в этом браузере, никогда не попадает в код приложения).</p>
+    <input type="password" id="tutorSecretInput" placeholder="Введите пароль" value="${esc(STATE.settings.tutorSecret||"")}" autocomplete="off" autocapitalize="off">
+    <button class="btn secondary block" style="margin-top:10px" data-action="nav" data-route="#/tutor-test">Проверить связь с ИИ</button>
+  </div>
+  <div class="card">
     <h3>Резервная копия</h3>
     <button class="btn secondary block" data-action="export">⬇ Скачать резервную копию</button>
     <label class="btn outline block" style="display:block;text-align:center">⬆ Загрузить резервную копию
@@ -1028,6 +1044,32 @@ route("settings", async ()=>{
     <button class="btn danger block" data-action="reset-progress">Сбросить весь прогресс</button>
   </div>`;
 });
+
+route("tutor-test", async ()=>{
+  document.getElementById("topTitle").textContent = "Проверка ИИ";
+  return renderTutorTest();
+});
+function renderTutorTest(){
+  const state = window.__tutorTestState || "idle";
+  let body;
+  if(state==="loading"){
+    body = `<p class="muted center">Отправляю запрос… Если сервер долго "спал" — это может занять до минуты.</p>`;
+  } else if(state==="success"){
+    body = `${resultBannerHtml(true, "Связь работает!")}
+      <div class="card" style="margin-top:10px"><p class="muted">Ответ ИИ:</p><p>${esc(window.__tutorTestReply||"")}</p></div>
+      <button class="btn secondary block" style="margin-top:10px" data-action="tutor-test-send">Отправить ещё раз</button>`;
+  } else if(state==="error"){
+    body = `${resultBannerHtml(false, "Не удалось связаться")}
+      <div class="card" style="margin-top:10px"><p class="muted">Подробности:</p><p>${esc(window.__tutorTestError||"")}</p></div>
+      <button class="btn secondary block" style="margin-top:10px" data-action="tutor-test-send">Попробовать снова</button>`;
+  } else {
+    body = `<button class="btn block" data-action="tutor-test-send">Отправить тестовое сообщение</button>`;
+  }
+  return `<div class="card"><h2>Проверка связи с ИИ-репетитором</h2>
+    <p class="muted">Отправляет одно тестовое сообщение на сервер и показывает, что пришло в ответ.</p>
+  </div>
+  <div class="card">${body}</div>`;
+}
 
 /* ============================== EVENT HANDLING ============================== */
 document.addEventListener("click", async (ev)=>{
@@ -1216,6 +1258,41 @@ document.addEventListener("click", async (ev)=>{
     return;
   }
 
+  if(action==="tutor-test-send"){
+    if(!STATE.settings.tutorSecret){
+      window.__tutorTestState = "error";
+      window.__tutorTestError = "Сначала введите пароль в настройках (раздел «ИИ-репетитор»).";
+      document.getElementById("screen-root").innerHTML = renderTutorTest();
+      return;
+    }
+    window.__tutorTestState = "loading";
+    document.getElementById("screen-root").innerHTML = renderTutorTest();
+    fetch(TUTOR_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Tutor-Secret": STATE.settings.tutorSecret },
+      body: JSON.stringify({
+        level: STATE.currentLevel || "A1",
+        topic: "проверка связи",
+        message: "Hello! This is a connection test. Please reply with one short friendly sentence.",
+        history: []
+      })
+    }).then(async (r)=>{
+      if(!r.ok){
+        const text = await r.text().catch(()=>"");
+        throw new Error("HTTP "+r.status+(text ? (": "+text.slice(0,200)) : ""));
+      }
+      return r.json();
+    }).then((data)=>{
+      window.__tutorTestState = "success";
+      window.__tutorTestReply = data.reply || "(пустой ответ)";
+      document.getElementById("screen-root").innerHTML = renderTutorTest();
+    }).catch((err)=>{
+      window.__tutorTestState = "error";
+      window.__tutorTestError = (err && err.message) || String(err);
+      document.getElementById("screen-root").innerHTML = renderTutorTest();
+    });
+    return;
+  }
   if(action==="set-font"){
     STATE.settings.fontSize = Number(el.dataset.size);
     applyFontScale();
@@ -1258,6 +1335,7 @@ document.addEventListener("change", (ev)=>{
   if(ev.target.id==="chkSpeech"){ STATE.settings.speechEnabled = ev.target.checked; saveProgress(); }
   if(ev.target.id==="chkRecog"){ STATE.settings.recognitionEnabled = ev.target.checked; saveProgress(); }
   if(ev.target.id==="importFile"){ importBackup(ev.target.files[0]); }
+  if(ev.target.id==="tutorSecretInput"){ STATE.settings.tutorSecret = ev.target.value; saveProgress(); }
 });
 document.addEventListener("input", (ev)=>{
   if(ev.target.id==="immRange") document.getElementById("immVal").textContent = ev.target.value+"%";
