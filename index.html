@@ -606,6 +606,7 @@ route("menu", async ()=>{
     <button class="btn secondary block" data-action="nav" data-route="#/exercises">✏️ ${t("Упражнения")}</button>
     <button class="btn secondary block" data-action="nav" data-route="#/dialogues">💬 ${t("Диалоги")}</button>
     ${(LEVEL_DATA.calls && LEVEL_DATA.calls.length) ? `<button class="btn secondary block" data-action="nav" data-route="#/calls">📞 ${t("Звонки")}</button>` : ""}
+    <button class="btn secondary block" data-action="nav" data-route="#/tutor">🤖 ${t("ИИ-репетитор")}</button>
     ${examReady() ? `<button class="btn block" style="background:var(--good)" data-action="nav" data-route="#/exam">🏆 ${t("Сдать экзамен")}</button>` : ""}
   </div>
   <div class="card">
@@ -1089,6 +1090,82 @@ function renderTutorTest(){
   <div class="card">${body}</div>`;
 }
 
+route("tutor", async ()=>{
+  document.getElementById("topTitle").textContent = "ИИ-репетитор";
+  return renderTutorChat();
+});
+function renderTutorChat(){
+  if(!window.__tutorChat) window.__tutorChat = { history: [], loading: false, error: null };
+  const chat = window.__tutorChat;
+  if(!STATE.settings.tutorSecret){
+    return `<div class="card"><h2>🤖 ИИ-репетитор</h2>
+      <p class="muted">Чтобы общаться с ИИ-репетитором, сначала введите пароль в Настройках (раздел «ИИ-репетитор»).</p>
+      <button class="btn secondary block" style="margin-top:10px" data-action="nav" data-route="#/settings">Перейти в настройки</button>
+    </div>`;
+  }
+  const msgsHtml = chat.history.map(m => m.role==="user"
+    ? `<div class="card" style="margin-bottom:8px;background:var(--accent-soft)"><span class="pill mastered">🗣 Вы</span><p style="margin-top:8px">${esc(m.content)}</p></div>`
+    : `<div class="card" style="margin-bottom:8px"><span class="pill">🤖 Учитель</span><p style="margin-top:8px">${esc(m.content)}</p></div>`
+  ).join("");
+  return `<div class="card">
+    <h2>🤖 ИИ-репетитор</h2>
+    <p class="muted">Свободное общение на английском. Уровень: ${esc(STATE.currentLevel||"A1")}</p>
+  </div>
+  ${msgsHtml || `<p class="muted center">Задайте вопрос об английском или начните разговор — учитель ответит и поправит ошибки.</p>`}
+  ${chat.loading ? `<p class="muted center">Учитель печатает…</p>` : ""}
+  ${chat.error ? resultBannerHtml(false, "Ошибка: "+chat.error) : ""}
+  <div class="card">
+    <input type="text" id="tutorChatInput" placeholder="Введите сообщение…" ${chat.loading?"disabled":""} autocomplete="off">
+    <div class="row" style="margin-top:10px;gap:8px">
+      <button class="btn block" data-action="tutor-chat-send" ${chat.loading?"disabled":""}>Отправить</button>
+      <button class="btn secondary block" data-action="tutor-chat-reset">Начать заново</button>
+    </div>
+  </div>`;
+}
+function sendTutorChatMessage(){
+  const input = document.getElementById("tutorChatInput");
+  if(!input) return;
+  const text = input.value.trim();
+  if(!text) return;
+  const chat = window.__tutorChat;
+  chat.history.push({ role:"user", content:text });
+  chat.loading = true;
+  chat.error = null;
+  document.getElementById("screen-root").innerHTML = renderTutorChat();
+  fetch(TUTOR_API_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "X-Tutor-Secret": STATE.settings.tutorSecret },
+    body: JSON.stringify({
+      level: STATE.currentLevel || "A1",
+      topic: "свободный разговор",
+      message: text,
+      history: chat.history.slice(0, -1).map(m=>({role:m.role, content:m.content}))
+    })
+  }).then(async (r)=>{
+    if(!r.ok){
+      const t = await r.text().catch(()=>"");
+      throw new Error("HTTP "+r.status+(t ? (": "+t.slice(0,200)) : ""));
+    }
+    return r.json();
+  }).then((data)=>{
+    chat.loading = false;
+    const reply = data.reply || "(пустой ответ)";
+    chat.history.push({ role:"assistant", content:reply });
+    document.getElementById("screen-root").innerHTML = renderTutorChat();
+    Speech.speak(reply);
+  }).catch((err)=>{
+    chat.loading = false;
+    chat.error = (err && err.message) || String(err);
+    document.getElementById("screen-root").innerHTML = renderTutorChat();
+  });
+}
+document.addEventListener("keydown", (ev)=>{
+  if(ev.key==="Enter" && ev.target && ev.target.id==="tutorChatInput"){
+    ev.preventDefault();
+    sendTutorChatMessage();
+  }
+});
+
 /* ============================== EVENT HANDLING ============================== */
 document.addEventListener("click", async (ev)=>{
   const el = ev.target.closest("[data-action]");
@@ -1349,6 +1426,12 @@ document.addEventListener("click", async (ev)=>{
       window.__tutorTestError = (err && err.message) || String(err);
       document.getElementById("screen-root").innerHTML = renderTutorTest();
     });
+    return;
+  }
+  if(action==="tutor-chat-send"){ sendTutorChatMessage(); return; }
+  if(action==="tutor-chat-reset"){
+    window.__tutorChat = { history: [], loading: false, error: null };
+    document.getElementById("screen-root").innerHTML = renderTutorChat();
     return;
   }
   if(action==="set-font"){
