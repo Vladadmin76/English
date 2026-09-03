@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
 <title>English from Zero</title>
-<meta name="theme-color" content="#1c6b5a">
+<meta name="theme-color" content="#33383c">
 <style>
   :root{
-    --bg:#f4f6f5; --card:#ffffff; --ink:#1a2420; --ink-soft:#5c6b65;
-    --accent:#1c6b5a; --accent-ink:#ffffff; --accent-soft:#e2f2ec;
-    --line:#e2e6e4; --danger:#c0392b; --warn:#c78a1f; --good:#2f9e63;
-    --shadow:0 2px 10px rgba(20,30,25,.08);
-    --radius:14px; --nav-h:60px;
+    --bg:#33383c; --card:#3d4348; --ink:#e9ebec; --ink-soft:#a2a9ae;
+    --accent:#2a9578; --accent-ink:#ffffff; --accent-soft:#1f3a33;
+    --line:#4a5257; --danger:#e2776a; --warn:#e0ac52; --good:#4cbf8a;
+    --shadow:0 2px 10px rgba(0,0,0,.3);
+    --radius:14px; --nav-h:60px; --fs:1.5;
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
@@ -38,14 +38,14 @@
   }
   .row{display:flex;align-items:center;justify-content:space-between;gap:10px;}
   .col{display:flex;flex-direction:column;gap:10px;}
-  h2{font-size:16px;margin:0 0 8px;}
-  h3{font-size:15px;margin:0 0 6px;}
+  h2{font-size:calc(16px * var(--fs));margin:0 0 8px;}
+  h3{font-size:calc(15px * var(--fs));margin:0 0 6px;}
   p{margin:0 0 8px;line-height:1.5;}
-  .muted{color:var(--ink-soft);font-size:13px;}
+  .muted{color:var(--ink-soft);font-size:calc(13px * var(--fs));}
   .btn{
     display:inline-flex;align-items:center;justify-content:center;gap:6px;
     background:var(--accent);color:var(--accent-ink);border:none;border-radius:12px;
-    padding:13px 16px;font-size:15px;font-weight:600;cursor:pointer;width:100%;
+    padding:13px 16px;font-size:calc(15px * var(--fs));font-weight:600;cursor:pointer;width:100%;
     -webkit-user-select:none;user-select:none;
   }
   .btn:active{opacity:.85;}
@@ -58,13 +58,13 @@
   .btn-row{display:flex;gap:8px;}
   .btn-row .btn{flex:1;}
   .pill{
-    display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;
+    display:inline-block;padding:3px 10px;border-radius:999px;font-size:calc(12px * var(--fs));font-weight:600;
     background:var(--accent-soft);color:var(--accent);
   }
-  .pill.new{background:#eef0ff;color:#4952c7;}
-  .pill.learning{background:#fff4e2;color:var(--warn);}
-  .pill.known{background:#e6f2ff;color:#2470b8;}
-  .pill.mastered{background:#e7f7ee;color:var(--good);}
+  .pill.new{background:#282c4d;color:#a5adf0;}
+  .pill.learning{background:#4a3a1f;color:var(--warn);}
+  .pill.known{background:#1f3a4a;color:#82c2ec;}
+  .pill.mastered{background:#1f3d30;color:var(--good);}
   .progress-bar{height:8px;border-radius:999px;background:var(--line);overflow:hidden;}
   .progress-bar > div{height:100%;background:var(--accent);border-radius:999px;transition:width .3s;}
   .list-item{
@@ -73,8 +73,8 @@
   }
   .list-item:last-child{border-bottom:none;}
   .dot{width:9px;height:9px;border-radius:50%;flex:none;}
-  .dot.new{background:#9aa0e8;} .dot.learning{background:#e8b355;}
-  .dot.known{background:#5aa7e0;} .dot.mastered{background:var(--good);}
+  .dot.new{background:#a5adf0;} .dot.learning{background:#e8b355;}
+  .dot.known{background:#7bbde8;} .dot.mastered{background:var(--good);}
   nav#bottom-nav{
     position:fixed;left:0;right:0;bottom:0;z-index:10;
     background:var(--card);border-top:1px solid var(--line);
@@ -88,9 +88,9 @@
   }
   nav#bottom-nav button.active{color:var(--accent);font-weight:700;}
   nav#bottom-nav .ic{font-size:19px;line-height:1;}
-  .word-en{font-size:26px;font-weight:700;}
-  .word-ru{font-size:18px;color:var(--ink-soft);}
-  .example{background:var(--accent-soft);border-radius:10px;padding:10px 12px;margin-top:10px;font-size:14px;}
+  .word-en{font-size:calc(26px * var(--fs));font-weight:700;}
+  .word-ru{font-size:calc(18px * var(--fs));color:var(--ink-soft);}
+  .example{background:var(--accent-soft);border-radius:10px;padding:10px 12px;margin-top:10px;font-size:calc(14px * var(--fs));}
   .example .en{font-style:italic;}
   .speak-btn{
     background:var(--accent-soft);color:var(--accent);border:none;border-radius:50%;
@@ -98,41 +98,49 @@
   }
   .opt{
     display:block;width:100%;text-align:left;background:var(--card);border:1.5px solid var(--line);
-    border-radius:10px;padding:12px 14px;margin-bottom:8px;font-size:15px;cursor:pointer;color:var(--ink);
+    border-radius:10px;padding:12px 14px;margin-bottom:8px;font-size:calc(15px * var(--fs));cursor:pointer;color:var(--ink);
   }
-  .opt.correct{border-color:var(--good);background:#eafaf1;}
-  .opt.wrong{border-color:var(--danger);background:#fcecea;}
+  .opt.correct{border-color:var(--good);background:#1f3d30;font-weight:700;font-size:calc(16px * var(--fs));}
+  .opt.wrong{border-color:var(--danger);background:#4a2420;font-weight:700;font-size:calc(16px * var(--fs));}
   .opt[disabled]{pointer-events:none;}
   input[type=text]{
-    width:100%;padding:12px 14px;border-radius:10px;border:1.5px solid var(--line);font-size:16px;
+    width:100%;padding:12px 14px;border-radius:10px;border:1.5px solid var(--line);font-size:calc(16px * var(--fs));
+    background:var(--card);color:var(--ink);
   }
   input[type=range]{width:100%;}
   .tokens{display:flex;flex-wrap:wrap;gap:8px;min-height:44px;margin-bottom:14px;padding:8px;border:1.5px dashed var(--line);border-radius:10px;}
   .token{
     background:var(--accent-soft);color:var(--accent);border-radius:8px;padding:8px 12px;
-    font-size:15px;cursor:pointer;border:none;
+    font-size:calc(15px * var(--fs));cursor:pointer;border:none;
   }
   .token[disabled]{opacity:.3;}
   .bank{display:flex;flex-wrap:wrap;gap:8px;}
   .imm-word{color:var(--accent);font-weight:700;border-bottom:1.5px dotted var(--accent);cursor:pointer;}
   .banner{
-    background:#fff4e2;color:#8a5c10;border-radius:10px;padding:10px 12px;font-size:13px;margin-bottom:12px;
+    background:#4a3a1f;color:#e3b155;border-radius:10px;padding:10px 12px;font-size:calc(13px * var(--fs));margin-bottom:12px;
   }
   .center{text-align:center;}
   .toast{
     position:fixed;left:50%;bottom:calc(var(--nav-h) + 16px);transform:translateX(-50%);
-    background:#1a2420;color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:50;
+    background:#1a2420;color:#fff;padding:10px 16px;border-radius:10px;font-size:calc(14px * var(--fs));z-index:50;
     box-shadow:var(--shadow);
   }
   .switch-row{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line);}
   .switch-row:last-child{border-bottom:none;}
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
   .stat{background:var(--accent-soft);border-radius:10px;padding:10px;text-align:center;}
-  .stat b{display:block;font-size:20px;color:var(--accent);}
-  .stat span{font-size:12px;color:var(--ink-soft);}
+  .stat b{display:block;font-size:calc(20px * var(--fs));color:var(--accent);}
+  .stat span{font-size:calc(12px * var(--fs));color:var(--ink-soft);}
   .empty{text-align:center;padding:30px 10px;color:var(--ink-soft);}
-  .empty .ic{font-size:38px;display:block;margin-bottom:8px;}
+  .empty .ic{font-size:calc(38px * var(--fs));display:block;margin-bottom:8px;}
   a.download-link{display:none;}
+  .result-banner{
+    font-size:calc(19px * var(--fs));font-weight:700;text-align:center;border-radius:10px;
+    padding:14px 12px;margin-top:12px;line-height:1.4;
+  }
+  .result-banner.correct{background:#1f3d30;color:var(--good);}
+  .result-banner.wrong{background:#4a2420;color:var(--danger);}
+  .result-banner .sub{display:block;font-size:calc(14px * var(--fs));font-weight:400;color:var(--ink-soft);margin-top:4px;}
 </style>
 </head>
 <body>
@@ -192,6 +200,38 @@ function similar(a,b){
   return (1 - dist/longer) >= 0.72;
 }
 
+/* ============================== AI TUTOR (DeepSeek via proxy) ============================== */
+// The DeepSeek key itself never lives here - it stays on the Render server.
+// The shared secret (TUTOR_PROXY_SECRET on the server) is entered by the
+// user once in Settings and kept only in this device's localStorage - it
+// never goes into this file or the git history. It's a light deterrent
+// against casual abuse of the proxy endpoint, not real security (anyone
+// who enters their own value here could still call the endpoint) - real
+// protection is the spending cap set on the DeepSeek account itself.
+const TUTOR_API_URL = "https://call.fixtorllc.com/api/tutor-chat";
+// Same server, same shared secret, different endpoint: beacons a
+// progress snapshot so it's readable outside this browser (see the
+// server's own comment for why - this app has no database of its own).
+const PROGRESS_LOG_URL = "https://call.fixtorllc.com/api/english-progress-log";
+const PROGRESS_LOG_MIN_INTERVAL_MS = 3*60*1000;
+
+/* ============================== ALPHABET ============================== */
+const ALPHABET = [
+  {letter:"A", name:"Ay", word:"apple", ru:"яблоко"}, {letter:"B", name:"Bee", word:"book", ru:"книга"},
+  {letter:"C", name:"See", word:"cat", ru:"кошка"}, {letter:"D", name:"Dee", word:"dog", ru:"собака"},
+  {letter:"E", name:"Ee", word:"egg", ru:"яйцо"}, {letter:"F", name:"Eff", word:"fish", ru:"рыба"},
+  {letter:"G", name:"Jee", word:"girl", ru:"девочка"}, {letter:"H", name:"Aitch", word:"house", ru:"дом"},
+  {letter:"I", name:"Eye", word:"ice", ru:"лёд"}, {letter:"J", name:"Jay", word:"juice", ru:"сок"},
+  {letter:"K", name:"Kay", word:"key", ru:"ключ"}, {letter:"L", name:"El", word:"lion", ru:"лев"},
+  {letter:"M", name:"Em", word:"milk", ru:"молоко"}, {letter:"N", name:"En", word:"name", ru:"имя"},
+  {letter:"O", name:"Oh", word:"orange", ru:"апельсин"}, {letter:"P", name:"Pee", word:"pizza", ru:"пицца"},
+  {letter:"Q", name:"Kyoo", word:"queen", ru:"королева"}, {letter:"R", name:"Ar", word:"rain", ru:"дождь"},
+  {letter:"S", name:"Ess", word:"sun", ru:"солнце"}, {letter:"T", name:"Tee", word:"tea", ru:"чай"},
+  {letter:"U", name:"You", word:"umbrella", ru:"зонт"}, {letter:"V", name:"Vee", word:"van", ru:"фургон"},
+  {letter:"W", name:"Double-you", word:"water", ru:"вода"}, {letter:"X", name:"Ex", word:"X-ray", ru:"рентген"},
+  {letter:"Y", name:"Why", word:"yellow", ru:"жёлтый"}, {letter:"Z", name:"Zee", word:"zebra", ru:"зебра"}
+];
+
 /* ============================== STORAGE ============================== */
 const STORAGE_KEY = "eng0_progress_v1";
 function defaultProgress(){
@@ -201,7 +241,7 @@ function defaultProgress(){
     words: {},
     grammarProgress: {},
     immersionLevel: 0.3,
-    settings: { speechEnabled:true, recognitionEnabled:true },
+    settings: { speechEnabled:true, recognitionEnabled:true, showAlphabet:true, fontSize:1.5, tutorSecret:"" },
     examHistory: [],
     stats: { createdAt: todayISO() }
   };
@@ -212,7 +252,14 @@ function loadProgress(){
     const raw = localStorage.getItem(STORAGE_KEY);
     if(!raw) return defaultProgress();
     const parsed = JSON.parse(raw);
-    return Object.assign(defaultProgress(), parsed);
+    const merged = Object.assign(defaultProgress(), parsed);
+    merged.settings = Object.assign(defaultProgress().settings, parsed.settings||{});
+    // migrate old (pre-doubling) font-size values to their doubled equivalents
+    const OLD_TO_NEW_FS = {1:1.5, 1.15:1.8, 1.3:2.1, 2:1.5, 2.3:1.8, 2.6:2.1};
+    if(OLD_TO_NEW_FS[merged.settings.fontSize] !== undefined){
+      merged.settings.fontSize = OLD_TO_NEW_FS[merged.settings.fontSize];
+    }
+    return merged;
   }catch(e){ console.warn("progress load failed", e); return defaultProgress(); }
 }
 let saveTimer=null;
@@ -220,7 +267,32 @@ function saveProgress(){
   clearTimeout(saveTimer);
   saveTimer = setTimeout(()=>{
     try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE)); }catch(e){ console.warn("save failed", e); }
+    syncProgressLog();
   }, 60);
+}
+let lastProgressLogAt = 0;
+function syncProgressLog(){
+  if(!STATE.settings.tutorSecret) return; // opt-in: same password as the AI tutor
+  const now = Date.now();
+  if(now - lastProgressLogAt < PROGRESS_LOG_MIN_INTERVAL_MS) return;
+  lastProgressLogAt = now;
+  try{
+    const counts = {new:0, learning:0, known:0, mastered:0};
+    const masteredWords = [];
+    Object.keys(STATE.words).forEach(id=>{
+      const status = STATE.words[id].status;
+      if(counts[status]!==undefined) counts[status]++;
+      if(status==="mastered" && WORDS_BY_ID[id]){
+        masteredWords.push({en: WORDS_BY_ID[id].en, ru: WORDS_BY_ID[id].ru});
+      }
+    });
+    counts.total = (LEVEL_DATA && LEVEL_DATA.words ? LEVEL_DATA.words.length : Object.keys(STATE.words).length);
+    fetch(PROGRESS_LOG_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Tutor-Secret": STATE.settings.tutorSecret },
+      body: JSON.stringify({ level: STATE.currentLevel||"A1", counts, masteredWords })
+    }).catch(()=>{}); // best-effort, never blocks or surfaces errors to the user
+  }catch(e){ console.warn("progress log sync failed", e); }
 }
 
 /* ============================== DATA ============================== */
@@ -470,17 +542,22 @@ function genListenChoose(word){
   const options = shuffle([word.exampleRu||word.ru, ...distractors.slice(0,3)]);
   return { kind:"listen_repeat", word, audio: word.exampleEn||word.en, options, correct: word.exampleRu||word.ru };
 }
+function genPronounce(word){
+  const phrase = word.exampleEn || word.en;
+  return { kind:"pronounce", word, target: phrase };
+}
 function generateExerciseFor(word, type){
   if(type==="fill_blank") return genFillBlank(word);
   if(type==="build_sentence") return genBuildSentence(word);
   if(type==="listen_repeat") return genListenChoose(word);
+  if(type==="pronounce") return genPronounce(word);
   return genChooseTranslation(word);
 }
 function exerciseQueue(topicId, count){
   const words = wordsInTopics(topicId).filter(w=>STATE.words[w.id] && STATE.words[w.id].status!=="new");
-  const pool = words.length ? words : wordsInTopics(topicId);
-  const chosen = pickRandom(pool, Math.min(count, pool.length));
+  const chosen = pickRandom(words, Math.min(count, words.length));
   const types = ["choose_translation","fill_blank","build_sentence","listen_repeat"];
+  if(Speech.recogSupported && STATE.settings.recognitionEnabled) types.push("pronounce");
   return chosen.map((w,i)=>generateExerciseFor(w, types[i%types.length]));
 }
 
@@ -493,6 +570,7 @@ function goBack(){ if(navHistory.length>1){ navHistory.pop(); location.hash = na
 
 async function router(){
   await ensureReady();
+  await ensureLevelLoaded();
   const hash = location.hash || "#/menu";
   if(navHistory[navHistory.length-1]!==hash) navHistory.push(hash);
   const [path, query] = hash.slice(2).split("?");
@@ -519,11 +597,16 @@ async function router(){
 }
 window.addEventListener("hashchange", router);
 
+function applyFontScale(){
+  document.documentElement.style.setProperty("--fs", STATE.settings.fontSize || 1.5);
+}
+
 let readyPromise=null;
 function ensureReady(){
   if(!readyPromise){
     readyPromise = (async ()=>{
       STATE = loadProgress();
+      applyFontScale();
       await loadManifest();
       await ensureLevelLoaded();
     })();
@@ -552,16 +635,37 @@ route("menu", async ()=>{
     <p class="muted" style="margin-top:8px">Освоено (mastered): ${Math.round(masteredRatio()*100)}% из ${Math.round((LEVEL_DATA.passingThreshold||0.9)*100)}% для экзамена</p>
   </div>
   <div class="col">
+    ${STATE.settings.showAlphabet ? `<button class="btn outline block" data-action="nav" data-route="#/alphabet">🔤 ${t("Алфавит")}</button>` : ""}
     <button class="btn block" data-action="nav" data-route="#/review">🔁 ${t("Повторить слова")} ${due? `<span class="pill" style="background:rgba(255,255,255,.25);color:#fff">${due}</span>`:""}</button>
     <button class="btn secondary block" data-action="nav" data-route="#/new">➕ ${t("Новые слова")} ${newCount? `<span class="pill">${newCount}</span>`:""}</button>
     <button class="btn secondary block" data-action="nav" data-route="#/exercises">✏️ ${t("Упражнения")}</button>
     <button class="btn secondary block" data-action="nav" data-route="#/dialogues">💬 ${t("Диалоги")}</button>
+    ${(LEVEL_DATA.calls && LEVEL_DATA.calls.length) ? `<button class="btn secondary block" data-action="nav" data-route="#/calls">📞 ${t("Звонки")}</button>` : ""}
+    <button class="btn secondary block" data-action="nav" data-route="#/tutor">🤖 ${t("ИИ-репетитор")}</button>
     ${examReady() ? `<button class="btn block" style="background:var(--good)" data-action="nav" data-route="#/exam">🏆 ${t("Сдать экзамен")}</button>` : ""}
   </div>
   <div class="card">
     <h3>${t("Темы уровня")}</h3>
     ${topicsHtml}
   </div>`;
+});
+
+route("alphabet", async ()=>{
+  document.getElementById("topTitle").textContent = "Алфавит";
+  const cells = ALPHABET.map(a=>`
+    <button class="opt" style="text-align:center;padding:14px 6px" data-action="speak" data-text="${esc(a.name)}">
+      <div style="font-size:26px;font-weight:700;line-height:1.1">${esc(a.letter)}${esc(a.letter.toLowerCase())}</div>
+      <div class="muted" style="font-size:12px;margin-top:6px" data-action="speak" data-text="${esc(a.word)}">${esc(a.word)} — ${esc(a.ru)}</div>
+    </button>`).join("");
+  return `
+  <div class="card">
+    <h2 style="font-size:16px">Английский алфавит</h2>
+    <p class="muted" style="font-size:13px">26 букв. Нажмите на букву — услышите, как она называется. Нажмите на слово-пример — услышите, как оно произносится.</p>
+  </div>
+  <div class="card">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">${cells}</div>
+  </div>
+  <button class="btn secondary block" data-action="nav" data-route="#/menu">Пропустить, вернуться в меню</button>`;
 });
 
 route("topic", async (parts)=>{
@@ -644,11 +748,12 @@ function renderReviewCard(){
   <div class="card center">
     <div class="muted">${idx+1} / ${queue.length}</div>
     <div style="margin:18px 0">
-      <div class="word-ru" style="font-size:22px">${esc(w.ru)}</div>
+      <div class="word-ru" style="font-size:calc(22px * var(--fs))">${esc(w.ru)}</div>
       ${revealed ? `<div class="word-en" style="margin-top:10px">${esc(w.en)}</div>` : ""}
     </div>
     ${revealed ? `<button class="speak-btn" data-action="speak" data-text="${esc(w.en)}">🔊</button>` : ""}
     ${revealed && w.exampleEn ? `<div class="example"><div class="en">${esc(w.exampleEn)}</div><div class="muted">${esc(w.exampleRu||"")}</div></div>` : ""}
+    ${revealed && Speech.recogSupported ? `<button class="btn secondary block" style="margin-top:10px" data-action="pronounce" data-target="${esc(w.en)}" data-wordid="${w.id}">🎤 Проговорить</button>` : ""}
   </div>
   ${!revealed ? `<button class="btn block" data-action="reveal">Показать ответ</button>` :
   `<div class="btn-row">
@@ -667,7 +772,7 @@ route("exercises", async (parts, params)=>{
   return renderExercise();
 });
 function exTitle(kind){
-  return {choose_translation:"Выбери перевод", fill_blank:"Заполни пропуск", build_sentence:"Построй предложение", listen_repeat:"Аудирование"}[kind]||kind;
+  return {choose_translation:"Выбери перевод", fill_blank:"Заполни пропуск", build_sentence:"Построй предложение", listen_repeat:"Аудирование", pronounce:"Произношение"}[kind]||kind;
 }
 function renderExercise(){
   const queue = window.__exQueue||[]; const idx = window.__exIdx||0;
@@ -711,14 +816,47 @@ function renderExercise(){
       <div id="exBody">${ex.options.map(o=>`<button class="opt" data-action="ans-choose" data-val="${esc(o)}">${esc(o)}</button>`).join("")}</div>
     </div>`;
   }
+  if(ex.kind==="pronounce"){
+    return `<div class="card">${head}
+      <p class="muted">Прослушайте и произнесите вслух:</p>
+      <h2 style="margin-top:8px">${esc(ex.target)}</h2>
+      <div class="center" style="margin:14px 0">
+        <button class="speak-btn" data-action="speak" data-text="${esc(ex.target)}">🔊</button>
+      </div>
+      <button class="btn block" id="micBtn" data-action="pronounce-ex" data-target="${esc(ex.target)}">🎤 Начать запись</button>
+      <p id="pronResult" class="muted center" style="margin-top:10px"></p>
+    </div>`;
+  }
   return "";
 }
 function currentExercise(){ return (window.__exQueue||[])[window.__exIdx]; }
-function markExerciseResult(ok){
+function advanceExercise(){ window.__exIdx=(window.__exIdx||0)+1; router(); }
+function markExerciseResult(ok, delay){
   const ex = currentExercise(); if(!ex) return;
-  const ch = ex.kind==="fill_blank"||ex.kind==="build_sentence" ? "production" : ex.kind==="listen_repeat" ? "listening" : "recall";
+  const ch = ex.kind==="fill_blank"||ex.kind==="build_sentence" ? "production"
+    : ex.kind==="listen_repeat" ? "listening"
+    : ex.kind==="pronounce" ? "pronunciation"
+    : "recall";
   pushChannel(ex.word.id, ch, ok);
-  setTimeout(()=>{ window.__exIdx++; router(); }, 1100);
+  if(delay!==null) setTimeout(advanceExercise, delay||1100);
+}
+function mistakeActionsHtml(){
+  return `<div style="margin-top:10px">
+    <button class="btn secondary block" data-action="explain-mistake">🤖 Объяснить ошибку</button>
+    <button class="btn block" data-action="next-exercise">Дальше →</button>
+  </div>`;
+}
+function describeExerciseForAI(ex, userAnswer){
+  const RU_ONLY = "ВАЖНО: ответь целиком на русском языке, без английских предложений (английские слова допустимы только как отдельные примеры в кавычках). ";
+  if(ex.kind==="choose_translation")
+    return RU_ONLY + `Упражнение: перевести слово "${ex.prompt}". Ученик выбрал "${userAnswer}", а правильный ответ — "${ex.correct}". Объясни кратко на русском, почему это неверно и как лучше запомнить правильный перевод.`;
+  if(ex.kind==="fill_blank")
+    return RU_ONLY + `Упражнение на заполнение пропуска: "${ex.sentence}" (перевод: "${ex.sentenceRu}"). Ученик вписал "${userAnswer}", правильный ответ — "${ex.correct}". Объясни кратко на русском, в чём ошибка.`;
+  if(ex.kind==="build_sentence")
+    return RU_ONLY + `Упражнение на составление предложения (перевод: "${ex.translationRu}"). Ученик составил: "${userAnswer}", правильный порядок слов: "${ex.correctOrder.join(" ")}". Объясни кратко на русском, в чём ошибка порядка слов или грамматики.`;
+  if(ex.kind==="listen_repeat")
+    return RU_ONLY + `Упражнение на аудирование, фраза: "${ex.audio}". Ученик выбрал перевод "${userAnswer}", правильный — "${ex.correct}". Объясни кратко на русском разницу в значении.`;
+  return RU_ONLY + `Ученик ответил неправильно в упражнении по слову "${ex.word ? ex.word.en : ""}". Его ответ: "${userAnswer}". Правильный ответ: "${ex.correct||""}". Объясни кратко на русском, в чём ошибка.`;
 }
 
 route("grammar", async (parts)=>{
@@ -783,6 +921,68 @@ function renderDialogueDetail(did){
       <p style="margin-top:8px"><b>${esc(l.en)}</b></p><p class="muted">${esc(l.ru)}</p>
     </div>`).join("");
   return `<h2 style="padding:0 4px">${t(d.situation)}</h2>${lines}`;
+}
+
+route("calls", async (parts)=>{
+  document.getElementById("topTitle").textContent = "Звонки";
+  if(parts[0]) return renderCallDetail(parts[0]);
+  const items = (LEVEL_DATA.calls||[]).map(c=>`
+    <div class="list-item" data-action="nav" data-route="#/calls/${c.id}">
+      <b>${t(c.situation)}</b><span>›</span>
+    </div>`).join("");
+  return `<div class="card"><h2>${t("Имитация звонка")}</h2>
+    <p class="muted">Вам звонят и задают вопросы. Слушайте и отвечайте — голосом или выбором варианта.</p>
+    ${items||"<p class='muted'>Пока нет сценариев</p>"}</div>`;
+});
+function callData(cid){ return (LEVEL_DATA.calls||[]).find(c=>c.id===cid); }
+function renderCallDetail(cid){
+  const call = callData(cid);
+  if(!call) return "<div class='card'>Не найдено</div>";
+  document.getElementById("topTitle").textContent = call.situation;
+  if(window.__callId !== cid || window.__callIdx >= call.lines.length){
+    window.__callId = cid; window.__callIdx = 0;
+    if(call.lines[0] && call.lines[0].speaker==="caller") Speech.speak(call.lines[0].en);
+  }
+  return renderCallStep();
+}
+function renderCallStep(){
+  const call = callData(window.__callId);
+  const lines = call.lines;
+  const idx = window.__callIdx;
+  const history = lines.slice(0, idx).map(l=>{
+    if(l.speaker==="caller") return `<div class="card" style="margin-bottom:8px"><span class="pill">📞 Звонящий</span><p style="margin-top:8px">${esc(l.en)}</p><p class="muted">${esc(l.ru)}</p></div>`;
+    const chosen = l._chosen || {en:"…"};
+    return `<div class="card" style="margin-bottom:8px;background:var(--accent-soft)"><span class="pill mastered">🗣 Вы</span><p style="margin-top:8px">${esc(chosen.en)}</p></div>`;
+  }).join("");
+  if(idx>=lines.length){
+    return history + `<div class="empty"><span class="ic">📴</span><p>Звонок завершён.</p><button class="btn" data-action="nav-hash" data-route="#/calls">К списку звонков</button></div>`;
+  }
+  const line = lines[idx];
+  if(line.speaker==="caller"){
+    return history + `
+    <div class="card">
+      <span class="pill">📞 Звонящий</span>
+      <p style="margin-top:8px;font-size:calc(17px * var(--fs))">${esc(line.en)}</p>
+      <p class="muted">${esc(line.ru)}</p>
+      <div style="margin-top:10px"><button class="speak-btn" data-action="speak" data-text="${esc(line.en)}">🔊</button></div>
+    </div>
+    <button class="btn block" data-action="call-next">Далее →</button>`;
+  }
+  const opts = line.options||[];
+  return history + `
+  <div class="card">
+    <span class="pill learning">🗣 Ваш ответ</span>
+    <p class="muted" style="margin-top:8px">Выберите ответ или произнесите его вслух</p>
+    <div id="callOpts">${opts.map((o,i)=>`<button class="opt" data-action="call-choose" data-i="${i}">${esc(o.en)}</button>`).join("")}</div>
+    ${Speech.recogSupported && STATE.settings.recognitionEnabled ? `<button class="btn secondary block" style="margin-top:10px" id="callMic" data-action="call-speak">🎤 Ответить голосом</button><p id="callMicResult" class="muted center" style="margin-top:6px"></p>` : ""}
+  </div>`;
+}
+function callAdvance(){
+  const call = callData(window.__callId);
+  window.__callIdx++;
+  document.getElementById("screen-root").innerHTML = renderCallStep();
+  const next = call.lines[window.__callIdx];
+  if(next && next.speaker==="caller") Speech.speak(next.en);
 }
 
 route("exam", async ()=>{
@@ -865,11 +1065,28 @@ route("settings", async ()=>{
     <div class="center muted" id="immVal">${Math.round(STATE.immersionLevel*100)}%</div>
   </div>
   <div class="card">
+    <h3>Размер шрифта</h3>
+    <p class="muted">Если текст мелкий и плохо читается — выберите более крупный размер.</p>
+    <div class="col">
+      <button class="btn block" style="font-size:22px;background:${(STATE.settings.fontSize||1.5)===1.5 ? "var(--accent)" : "var(--accent-soft)"};color:${(STATE.settings.fontSize||1.5)===1.5 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="1.5">Обычный</button>
+      <button class="btn block" style="font-size:25px;background:${STATE.settings.fontSize===1.8 ? "var(--accent)" : "var(--accent-soft)"};color:${STATE.settings.fontSize===1.8 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="1.8">Крупный</button>
+      <button class="btn block" style="font-size:28px;background:${STATE.settings.fontSize===2.1 ? "var(--accent)" : "var(--accent-soft)"};color:${STATE.settings.fontSize===2.1 ? "var(--accent-ink)" : "var(--accent)"}" data-action="set-font" data-size="2.1">Очень крупный</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="switch-row"><span>Показывать раздел «Алфавит» в меню</span>
+      <input type="checkbox" id="chkAlphabet" ${STATE.settings.showAlphabet?"checked":""}></div>
     <div class="switch-row"><span>Озвучка (Speech Synthesis)</span>
       <input type="checkbox" id="chkSpeech" ${STATE.settings.speechEnabled?"checked":""} ${Speech.synthSupported?"":"disabled"}></div>
     <div class="switch-row"><span>Распознавание речи</span>
       <input type="checkbox" id="chkRecog" ${STATE.settings.recognitionEnabled?"checked":""} ${Speech.recogSupported?"":"disabled"}></div>
     ${!Speech.recogSupported ? "<p class='muted'>Ваш браузер не поддерживает распознавание речи — упражнения на произношение недоступны, канал pronunciation не учитывается.</p>":""}
+  </div>
+  <div class="card">
+    <h3>ИИ-репетитор</h3>
+    <p class="muted">Пароль для сервера ИИ (хранится только в этом браузере, никогда не попадает в код приложения).</p>
+    <input type="password" id="tutorSecretInput" placeholder="Введите пароль" value="${esc(STATE.settings.tutorSecret||"")}" autocomplete="off" autocapitalize="off">
+    <button class="btn secondary block" style="margin-top:10px" data-action="nav" data-route="#/tutor-test">Проверить связь с ИИ</button>
   </div>
   <div class="card">
     <h3>Резервная копия</h3>
@@ -881,6 +1098,108 @@ route("settings", async ()=>{
   <div class="card">
     <button class="btn danger block" data-action="reset-progress">Сбросить весь прогресс</button>
   </div>`;
+});
+
+route("tutor-test", async ()=>{
+  document.getElementById("topTitle").textContent = "Проверка ИИ";
+  return renderTutorTest();
+});
+function renderTutorTest(){
+  const state = window.__tutorTestState || "idle";
+  let body;
+  if(state==="loading"){
+    body = `<p class="muted center">Отправляю запрос… Если сервер долго "спал" — это может занять до минуты.</p>`;
+  } else if(state==="success"){
+    body = `${resultBannerHtml(true, "Связь работает!")}
+      <div class="card" style="margin-top:10px"><p class="muted">Ответ ИИ:</p><p>${esc(window.__tutorTestReply||"")}</p></div>
+      <button class="btn secondary block" style="margin-top:10px" data-action="tutor-test-send">Отправить ещё раз</button>`;
+  } else if(state==="error"){
+    body = `${resultBannerHtml(false, "Не удалось связаться")}
+      <div class="card" style="margin-top:10px"><p class="muted">Подробности:</p><p>${esc(window.__tutorTestError||"")}</p></div>
+      <button class="btn secondary block" style="margin-top:10px" data-action="tutor-test-send">Попробовать снова</button>`;
+  } else {
+    body = `<button class="btn block" data-action="tutor-test-send">Отправить тестовое сообщение</button>`;
+  }
+  return `<div class="card"><h2>Проверка связи с ИИ-репетитором</h2>
+    <p class="muted">Отправляет одно тестовое сообщение на сервер и показывает, что пришло в ответ.</p>
+  </div>
+  <div class="card">${body}</div>`;
+}
+
+route("tutor", async ()=>{
+  document.getElementById("topTitle").textContent = "ИИ-репетитор";
+  return renderTutorChat();
+});
+function renderTutorChat(){
+  if(!window.__tutorChat) window.__tutorChat = { history: [], loading: false, error: null };
+  const chat = window.__tutorChat;
+  if(!STATE.settings.tutorSecret){
+    return `<div class="card"><h2>🤖 ИИ-репетитор</h2>
+      <p class="muted">Чтобы общаться с ИИ-репетитором, сначала введите пароль в Настройках (раздел «ИИ-репетитор»).</p>
+      <button class="btn secondary block" style="margin-top:10px" data-action="nav" data-route="#/settings">Перейти в настройки</button>
+    </div>`;
+  }
+  const msgsHtml = chat.history.map(m => m.role==="user"
+    ? `<div class="card" style="margin-bottom:8px;background:var(--accent-soft)"><span class="pill mastered">🗣 Вы</span><p style="margin-top:8px">${esc(m.content)}</p></div>`
+    : `<div class="card" style="margin-bottom:8px"><span class="pill">🤖 Учитель</span><p style="margin-top:8px">${esc(m.content)}</p></div>`
+  ).join("");
+  return `<div class="card">
+    <h2>🤖 ИИ-репетитор</h2>
+    <p class="muted">Свободное общение на английском. Уровень: ${esc(STATE.currentLevel||"A1")}</p>
+  </div>
+  ${msgsHtml || `<p class="muted center">Задайте вопрос об английском или начните разговор — учитель ответит и поправит ошибки.</p>`}
+  ${chat.loading ? `<p class="muted center">Учитель печатает…</p>` : ""}
+  ${chat.error ? resultBannerHtml(false, "Ошибка: "+chat.error) : ""}
+  <div class="card">
+    <input type="text" id="tutorChatInput" placeholder="Введите сообщение…" ${chat.loading?"disabled":""} autocomplete="off">
+    <div class="row" style="margin-top:10px;gap:8px">
+      <button class="btn block" data-action="tutor-chat-send" ${chat.loading?"disabled":""}>Отправить</button>
+      <button class="btn secondary block" data-action="tutor-chat-reset">Начать заново</button>
+    </div>
+  </div>`;
+}
+function sendTutorChatMessage(){
+  const input = document.getElementById("tutorChatInput");
+  if(!input) return;
+  const text = input.value.trim();
+  if(!text) return;
+  const chat = window.__tutorChat;
+  chat.history.push({ role:"user", content:text });
+  chat.loading = true;
+  chat.error = null;
+  document.getElementById("screen-root").innerHTML = renderTutorChat();
+  fetch(TUTOR_API_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "X-Tutor-Secret": STATE.settings.tutorSecret },
+    body: JSON.stringify({
+      level: STATE.currentLevel || "A1",
+      topic: "свободный разговор",
+      message: text,
+      history: chat.history.slice(0, -1).map(m=>({role:m.role, content:m.content}))
+    })
+  }).then(async (r)=>{
+    if(!r.ok){
+      const t = await r.text().catch(()=>"");
+      throw new Error("HTTP "+r.status+(t ? (": "+t.slice(0,200)) : ""));
+    }
+    return r.json();
+  }).then((data)=>{
+    chat.loading = false;
+    const reply = data.reply || "(пустой ответ)";
+    chat.history.push({ role:"assistant", content:reply });
+    document.getElementById("screen-root").innerHTML = renderTutorChat();
+    Speech.speak(reply);
+  }).catch((err)=>{
+    chat.loading = false;
+    chat.error = (err && err.message) || String(err);
+    document.getElementById("screen-root").innerHTML = renderTutorChat();
+  });
+}
+document.addEventListener("keydown", (ev)=>{
+  if(ev.key==="Enter" && ev.target && ev.target.id==="tutorChatInput"){
+    ev.preventDefault();
+    sendTutorChatMessage();
+  }
 });
 
 /* ============================== EVENT HANDLING ============================== */
@@ -929,16 +1248,20 @@ document.addEventListener("click", async (ev)=>{
       if(b.dataset.val===ex.correct) b.classList.add("correct");
       else if(b===el) b.classList.add("wrong");
     });
-    markExerciseResult(ok);
+    document.getElementById("exBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+ex.correct));
+    window.__lastWrongAnswer = el.dataset.val;
+    markExerciseResult(ok, ok ? RESULT_DELAY : null);
+    if(!ok) document.getElementById("exBody").insertAdjacentHTML("beforeend", mistakeActionsHtml());
     return;
   }
   if(action==="ans-fill"){
     const ex = currentExercise();
     const val = document.getElementById("fbInput").value;
     const ok = similar(val, ex.correct);
-    const body = document.getElementById("exBody");
-    body.innerHTML += `<p style="margin-top:10px" class="${ok?'muted':'muted'}">${ok?"✅ Верно":"❌ Правильный ответ: "+esc(ex.correct)}</p>`;
-    markExerciseResult(ok);
+    document.getElementById("exBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+ex.correct));
+    window.__lastWrongAnswer = val;
+    markExerciseResult(ok, ok ? RESULT_DELAY : null);
+    if(!ok) document.getElementById("exBody").insertAdjacentHTML("beforeend", mistakeActionsHtml());
     return;
   }
   if(action==="tok-pick"){
@@ -954,25 +1277,128 @@ document.addEventListener("click", async (ev)=>{
     const ex = currentExercise();
     const picked = (window.__picked||[]).map(i=>ex.tokens[i]);
     const ok = picked.join(" ").toLowerCase()===ex.correctOrder.join(" ").toLowerCase();
-    document.getElementById("exBody").innerHTML = `<p class="muted">${ok?"✅ Верно":"❌ Правильно: "+esc(ex.correctOrder.join(" "))}</p>`;
+    document.getElementById("exBody").innerHTML = resultBannerHtml(ok, ok ? "Верно!" : "Правильно: "+ex.correctOrder.join(" "));
+    window.__lastWrongAnswer = picked.join(" ");
     window.__picked=[];
-    markExerciseResult(ok);
+    markExerciseResult(ok, ok ? RESULT_DELAY : null);
+    if(!ok) document.getElementById("exBody").insertAdjacentHTML("beforeend", mistakeActionsHtml());
+    return;
+  }
+  if(action==="next-exercise"){ advanceExercise(); return; }
+  if(action==="explain-mistake"){
+    const ex = currentExercise(); if(!ex) return;
+    if(!STATE.settings.tutorSecret){
+      toast("Сначала введите пароль ИИ в Настройках («ИИ-репетитор»).");
+      return;
+    }
+    el.disabled = true;
+    el.textContent = "🤖 Объясняю…";
+    fetch(TUTOR_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Tutor-Secret": STATE.settings.tutorSecret },
+      body: JSON.stringify({
+        level: STATE.currentLevel || "A1",
+        topic: "разбор ошибки в упражнении",
+        message: describeExerciseForAI(ex, window.__lastWrongAnswer||""),
+        history: []
+      })
+    }).then(async (r)=>{
+      if(!r.ok){
+        const text = await r.text().catch(()=>"");
+        throw new Error("HTTP "+r.status+(text ? (": "+text.slice(0,200)) : ""));
+      }
+      return r.json();
+    }).then((data)=>{
+      el.insertAdjacentHTML("beforebegin", `<div class="card" style="margin-top:10px"><p class="muted">Объяснение учителя:</p><p>${esc(data.reply||"")}</p></div>`);
+      el.remove();
+    }).catch((err)=>{
+      el.disabled = false;
+      el.textContent = "🤖 Объяснить ошибку";
+      toast("Не удалось получить объяснение: "+((err&&err.message)||String(err)));
+    });
     return;
   }
 
+  if(action==="pronounce-ex"){
+    const target = el.dataset.target;
+    el.textContent = "🎙 Слушаю…"; el.disabled = true;
+    Speech.recognize().then(alts=>{
+      const ok = alts.some(a=>similar(a, target));
+      document.getElementById("pronResult").outerHTML = resultBannerHtml(ok, ok ? "Отлично! Произношение верное." : "Не совсем. Правильно: "+target, "pronResult");
+      el.textContent = "🎤 Начать запись"; el.disabled = false;
+      markExerciseResult(ok, RESULT_DELAY);
+    }).catch(err=>{
+      el.textContent = "🎤 Начать запись"; el.disabled = false;
+      toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
+    });
+    return;
+  }
+  if(action==="pronounce"){
+    const target = el.dataset.target;
+    const wordId = el.dataset.wordid;
+    const original = el.textContent;
+    el.textContent = "🎙 Слушаю…"; el.disabled = true;
+    Speech.recognize().then(alts=>{
+      const ok = alts.some(a=>similar(a, target));
+      el.textContent = ok ? "✅ Отлично!" : "❌ Ещё раз?";
+      el.disabled = false;
+      if(wordId) pushChannel(wordId, "pronunciation", ok);
+      setTimeout(()=>{ el.textContent = original; }, RESULT_DELAY);
+    }).catch(err=>{
+      el.textContent = original; el.disabled = false;
+      toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
+    });
+    return;
+  }
+  if(action==="call-next"){ callAdvance(); return; }
+  if(action==="call-choose"){
+    const call = callData(window.__callId);
+    const line = call.lines[window.__callIdx];
+    const opt = line.options[Number(el.dataset.i)];
+    line._chosen = opt;
+    const optButtons = [...document.querySelectorAll("#callOpts .opt")];
+    optButtons.forEach(b=>b.disabled=true);
+    el.classList.add(opt.correct?"correct":"wrong");
+    if(!opt.correct){
+      const correctIdx = line.options.findIndex(o=>o.correct);
+      if(correctIdx>=0 && optButtons[correctIdx]) optButtons[correctIdx].classList.add("correct");
+    }
+    document.getElementById("callOpts").insertAdjacentHTML("afterend", resultBannerHtml(opt.correct, opt.correct ? "Верно!" : "Правильно: "+line.options.find(o=>o.correct).en));
+    setTimeout(callAdvance, RESULT_DELAY);
+    return;
+  }
+  if(action==="call-speak"){
+    const call = callData(window.__callId);
+    const line = call.lines[window.__callIdx];
+    const btn = el;
+    btn.textContent = "🎙 Слушаю…"; btn.disabled = true;
+    Speech.recognize().then(alts=>{
+      const matched = line.options.find(o=>alts.some(a=>similar(a, o.en)));
+      const ok = matched ? matched.correct : false;
+      line._chosen = matched || {en: alts[0]};
+      document.getElementById("callMicResult").outerHTML = resultBannerHtml(ok, ok ? "Отлично, засчитано!" : "Не совсем то. Идём дальше.", "callMicResult");
+      btn.textContent = "🎤 Ответить голосом"; btn.disabled = false;
+      setTimeout(callAdvance, RESULT_DELAY);
+    }).catch(err=>{
+      btn.textContent = "🎤 Ответить голосом"; btn.disabled = false;
+      toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
+    });
+    return;
+  }
   if(action==="gram-choose"){
     const ok = el.dataset.val===el.dataset.correct;
     recordGrammar(window.__gramGid, ok);
     document.querySelectorAll("#gramBody .opt, [data-action=gram-choose]").forEach(b=>{ b.disabled=true; if(b.dataset.val===el.dataset.correct) b.classList.add("correct"); });
-    setTimeout(()=>{ window.__gramIdx=(window.__gramIdx||0)+1; document.getElementById("gramBody").innerHTML = renderGrammarExercise(); }, 900);
+    document.getElementById("gramBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+el.dataset.correct));
+    setTimeout(()=>{ window.__gramIdx=(window.__gramIdx||0)+1; document.getElementById("gramBody").innerHTML = renderGrammarExercise(); }, RESULT_DELAY);
     return;
   }
   if(action==="gram-fill"){
     const val = document.getElementById("gramInput").value;
     const ok = similar(val, el.dataset.correct);
     recordGrammar(window.__gramGid, ok);
-    document.getElementById("gramBody").innerHTML += `<p class="muted">${ok?"✅ Верно":"❌ Правильно: "+esc(el.dataset.correct)}</p>`;
-    setTimeout(()=>{ window.__gramIdx=(window.__gramIdx||0)+1; document.getElementById("gramBody").innerHTML = renderGrammarExercise(); }, 900);
+    document.getElementById("gramBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильно: "+el.dataset.correct));
+    setTimeout(()=>{ window.__gramIdx=(window.__gramIdx||0)+1; document.getElementById("gramBody").innerHTML = renderGrammarExercise(); }, RESULT_DELAY);
     return;
   }
 
@@ -984,6 +1410,12 @@ document.addEventListener("click", async (ev)=>{
   if(action==="exam-choose"){
     const item = window.__examQueue[window.__examIdx];
     const ok = el.dataset.val===item.correct;
+    document.querySelectorAll("#examBody .opt").forEach(b=>{
+      b.disabled=true;
+      if(b.dataset.val===item.correct) b.classList.add("correct");
+      else if(b===el) b.classList.add("wrong");
+    });
+    document.getElementById("examBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+item.correct));
     handleExamAnswer(item, ok);
     return;
   }
@@ -991,10 +1423,60 @@ document.addEventListener("click", async (ev)=>{
     const item = window.__examQueue[window.__examIdx];
     const val = document.getElementById("examInput").value;
     const ok = similar(val, item.correct);
+    document.getElementById("examBody").insertAdjacentHTML("beforeend", resultBannerHtml(ok, ok ? "Верно!" : "Правильный ответ: "+item.correct));
+    document.getElementById("examInput").disabled = true;
     handleExamAnswer(item, ok);
     return;
   }
 
+  if(action==="tutor-test-send"){
+    if(!STATE.settings.tutorSecret){
+      window.__tutorTestState = "error";
+      window.__tutorTestError = "Сначала введите пароль в настройках (раздел «ИИ-репетитор»).";
+      document.getElementById("screen-root").innerHTML = renderTutorTest();
+      return;
+    }
+    window.__tutorTestState = "loading";
+    document.getElementById("screen-root").innerHTML = renderTutorTest();
+    fetch(TUTOR_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Tutor-Secret": STATE.settings.tutorSecret },
+      body: JSON.stringify({
+        level: STATE.currentLevel || "A1",
+        topic: "проверка связи",
+        message: "Hello! This is a connection test. Please reply with one short friendly sentence.",
+        history: []
+      })
+    }).then(async (r)=>{
+      if(!r.ok){
+        const text = await r.text().catch(()=>"");
+        throw new Error("HTTP "+r.status+(text ? (": "+text.slice(0,200)) : ""));
+      }
+      return r.json();
+    }).then((data)=>{
+      window.__tutorTestState = "success";
+      window.__tutorTestReply = data.reply || "(пустой ответ)";
+      document.getElementById("screen-root").innerHTML = renderTutorTest();
+    }).catch((err)=>{
+      window.__tutorTestState = "error";
+      window.__tutorTestError = (err && err.message) || String(err);
+      document.getElementById("screen-root").innerHTML = renderTutorTest();
+    });
+    return;
+  }
+  if(action==="tutor-chat-send"){ sendTutorChatMessage(); return; }
+  if(action==="tutor-chat-reset"){
+    window.__tutorChat = { history: [], loading: false, error: null };
+    document.getElementById("screen-root").innerHTML = renderTutorChat();
+    return;
+  }
+  if(action==="set-font"){
+    STATE.settings.fontSize = Number(el.dataset.size);
+    applyFontScale();
+    saveProgress();
+    document.getElementById("screen-root").innerHTML = await routes["settings"]([], {});
+    return;
+  }
   if(action==="export"){ exportBackup(); return; }
   if(action==="reset-progress"){
     if(confirm("Точно сбросить весь прогресс? Это действие нельзя отменить.")){
@@ -1008,8 +1490,10 @@ document.addEventListener("click", async (ev)=>{
 function handleExamAnswer(item, ok){
   if(ok) window.__examCorrect=(window.__examCorrect||0)+1;
   else (item.wordIds||[]).forEach(id=>window.__examFailedWords.push(id));
-  window.__examIdx++;
-  document.getElementById("screen-root").innerHTML = renderExamQuestion();
+  setTimeout(()=>{
+    window.__examIdx++;
+    document.getElementById("screen-root").innerHTML = renderExamQuestion();
+  }, RESULT_DELAY);
 }
 function recordGrammar(gid, ok){
   if(!STATE.grammarProgress[gid]) STATE.grammarProgress[gid]={attempts:0,correct:0};
@@ -1024,14 +1508,26 @@ document.addEventListener("change", (ev)=>{
     document.getElementById("immVal").textContent = ev.target.value+"%";
     saveProgress();
   }
+  if(ev.target.id==="chkAlphabet"){ STATE.settings.showAlphabet = ev.target.checked; saveProgress(); }
   if(ev.target.id==="chkSpeech"){ STATE.settings.speechEnabled = ev.target.checked; saveProgress(); }
   if(ev.target.id==="chkRecog"){ STATE.settings.recognitionEnabled = ev.target.checked; saveProgress(); }
   if(ev.target.id==="importFile"){ importBackup(ev.target.files[0]); }
+  if(ev.target.id==="tutorSecretInput"){ STATE.settings.tutorSecret = ev.target.value; saveProgress(); }
 });
 document.addEventListener("input", (ev)=>{
   if(ev.target.id==="immRange") document.getElementById("immVal").textContent = ev.target.value+"%";
 });
 
+const RESULT_DELAY = 2000;
+function resultBannerHtml(ok, text, id){
+  return `<div class="result-banner ${ok?"correct":"wrong"}"${id?` id="${id}"`:""}>${ok?"✅":"❌"} ${esc(text)}</div>`;
+}
+function toast(msg){
+  const el = document.createElement("div");
+  el.className = "toast"; el.textContent = msg;
+  document.body.appendChild(el);
+  setTimeout(()=>el.remove(), 2400);
+}
 function exportBackup(){
   const blob = new Blob([JSON.stringify(STATE,null,2)], {type:"application/json"});
   const url = URL.createObjectURL(blob);

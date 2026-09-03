@@ -687,6 +687,41 @@
         "w_509"
       ],
       "grammar": []
+    },
+    {
+      "id": "hobbies",
+      "title": "Хобби и музыка",
+      "words": [
+        "w_510",
+        "w_511",
+        "w_512",
+        "w_513",
+        "w_514",
+        "w_515",
+        "w_516",
+        "w_517",
+        "w_518",
+        "w_519",
+        "w_520",
+        "w_521",
+        "w_522",
+        "w_523",
+        "w_524",
+        "w_525",
+        "w_526",
+        "w_527",
+        "w_528",
+        "w_529",
+        "w_530",
+        "w_531",
+        "w_532",
+        "w_533",
+        "w_534",
+        "w_535",
+        "w_536",
+        "w_537"
+      ],
+      "grammar": []
     }
   ],
   "words": [
@@ -5270,6 +5305,258 @@
       "topic": "everyday_words",
       "exampleEn": "Tea or coffee?",
       "exampleRu": "Чай или кофе?"
+    },
+    {
+      "id": "w_510",
+      "en": "hobby",
+      "ru": "хобби, увлечение",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "Reading is my hobby.",
+      "exampleRu": "Чтение — моё хобби."
+    },
+    {
+      "id": "w_511",
+      "en": "music",
+      "ru": "музыка",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "I like music.",
+      "exampleRu": "Мне нравится музыка."
+    },
+    {
+      "id": "w_512",
+      "en": "song",
+      "ru": "песня",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "This is my favorite song.",
+      "exampleRu": "Это моя любимая песня."
+    },
+    {
+      "id": "w_513",
+      "en": "sing",
+      "ru": "петь",
+      "partOfSpeech": "verb",
+      "topic": "hobbies",
+      "exampleEn": "She likes to sing.",
+      "exampleRu": "Ей нравится петь."
+    },
+    {
+      "id": "w_514",
+      "en": "dance",
+      "ru": "танцевать",
+      "partOfSpeech": "verb",
+      "topic": "hobbies",
+      "exampleEn": "We dance every weekend.",
+      "exampleRu": "Мы танцуем каждые выходные."
+    },
+    {
+      "id": "w_515",
+      "en": "guitar",
+      "ru": "гитара",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "He plays the guitar.",
+      "exampleRu": "Он играет на гитаре."
+    },
+    {
+      "id": "w_516",
+      "en": "piano",
+      "ru": "пианино",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "She plays the piano.",
+      "exampleRu": "Она играет на пианино."
+    },
+    {
+      "id": "w_517",
+      "en": "instrument",
+      "ru": "музыкальный инструмент",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "Do you play an instrument?",
+      "exampleRu": "Ты играешь на каком-нибудь инструменте?"
+    },
+    {
+      "id": "w_518",
+      "en": "listen to music",
+      "ru": "слушать музыку",
+      "partOfSpeech": "phrase",
+      "topic": "hobbies",
+      "exampleEn": "I listen to music every day.",
+      "exampleRu": "Я слушаю музыку каждый день."
+    },
+    {
+      "id": "w_519",
+      "en": "concert",
+      "ru": "концерт",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "We went to a concert.",
+      "exampleRu": "Мы ходили на концерт."
+    },
+    {
+      "id": "w_520",
+      "en": "movie",
+      "ru": "фильм",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "I like this movie.",
+      "exampleRu": "Мне нравится этот фильм."
+    },
+    {
+      "id": "w_521",
+      "en": "watch a movie",
+      "ru": "смотреть фильм",
+      "partOfSpeech": "phrase",
+      "topic": "hobbies",
+      "exampleEn": "Let's watch a movie tonight.",
+      "exampleRu": "Давай посмотрим фильм сегодня вечером."
+    },
+    {
+      "id": "w_522",
+      "en": "book",
+      "ru": "книга",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "I am reading a good book.",
+      "exampleRu": "Я читаю хорошую книгу."
+    },
+    {
+      "id": "w_523",
+      "en": "read a book",
+      "ru": "читать книгу",
+      "partOfSpeech": "phrase",
+      "topic": "hobbies",
+      "exampleEn": "I read a book every week.",
+      "exampleRu": "Я читаю книгу каждую неделю."
+    },
+    {
+      "id": "w_524",
+      "en": "sport",
+      "ru": "спорт",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "I like sport.",
+      "exampleRu": "Мне нравится спорт."
+    },
+    {
+      "id": "w_525",
+      "en": "football",
+      "ru": "футбол",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "He plays football.",
+      "exampleRu": "Он играет в футбол."
+    },
+    {
+      "id": "w_526",
+      "en": "basketball",
+      "ru": "баскетбол",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "They play basketball.",
+      "exampleRu": "Они играют в баскетбол."
+    },
+    {
+      "id": "w_527",
+      "en": "swim",
+      "ru": "плавать",
+      "partOfSpeech": "verb",
+      "topic": "hobbies",
+      "exampleEn": "I swim every summer.",
+      "exampleRu": "Я плаваю каждое лето."
+    },
+    {
+      "id": "w_528",
+      "en": "draw",
+      "ru": "рисовать",
+      "partOfSpeech": "verb",
+      "topic": "hobbies",
+      "exampleEn": "My daughter likes to draw.",
+      "exampleRu": "Моя дочь любит рисовать."
+    },
+    {
+      "id": "w_529",
+      "en": "painting",
+      "ru": "рисование, живопись",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "Painting is relaxing.",
+      "exampleRu": "Рисование расслабляет."
+    },
+    {
+      "id": "w_530",
+      "en": "photography",
+      "ru": "фотография (занятие)",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "Photography is his hobby.",
+      "exampleRu": "Фотография — его хобби."
+    },
+    {
+      "id": "w_531",
+      "en": "travel",
+      "ru": "путешествовать",
+      "partOfSpeech": "verb",
+      "topic": "hobbies",
+      "exampleEn": "We travel every summer.",
+      "exampleRu": "Мы путешествуем каждое лето."
+    },
+    {
+      "id": "w_532",
+      "en": "game",
+      "ru": "игра",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "Let's play a game.",
+      "exampleRu": "Давай сыграем в игру."
+    },
+    {
+      "id": "w_533",
+      "en": "team",
+      "ru": "команда",
+      "partOfSpeech": "noun",
+      "topic": "hobbies",
+      "exampleEn": "I play on a team.",
+      "exampleRu": "Я играю в команде."
+    },
+    {
+      "id": "w_534",
+      "en": "favorite",
+      "ru": "любимый",
+      "partOfSpeech": "adjective",
+      "topic": "hobbies",
+      "exampleEn": "What is your favorite hobby?",
+      "exampleRu": "Какое твоё любимое хобби?"
+    },
+    {
+      "id": "w_535",
+      "en": "interesting",
+      "ru": "интересный",
+      "partOfSpeech": "adjective",
+      "topic": "hobbies",
+      "exampleEn": "This book is interesting.",
+      "exampleRu": "Эта книга интересная."
+    },
+    {
+      "id": "w_536",
+      "en": "boring",
+      "ru": "скучный",
+      "partOfSpeech": "adjective",
+      "topic": "hobbies",
+      "exampleEn": "This movie is boring.",
+      "exampleRu": "Этот фильм скучный."
+    },
+    {
+      "id": "w_537",
+      "en": "free time",
+      "ru": "свободное время",
+      "partOfSpeech": "phrase",
+      "topic": "hobbies",
+      "exampleEn": "What do you do in your free time?",
+      "exampleRu": "Что ты делаешь в свободное время?"
     }
   ],
   "grammar": [
@@ -6058,6 +6345,42 @@
           "speaker": "B",
           "en": "You're welcome!",
           "ru": "Пожалуйста!"
+        }
+      ]
+    },
+    {
+      "id": "d_009",
+      "situation": "Разговор о хобби",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "What do you do in your free time?",
+          "ru": "Что ты делаешь в свободное время?"
+        },
+        {
+          "speaker": "B",
+          "en": "I like to listen to music and read books. And you?",
+          "ru": "Мне нравится слушать музыку и читать книги. А ты?"
+        },
+        {
+          "speaker": "A",
+          "en": "I play football on weekends.",
+          "ru": "Я играю в футбол по выходным."
+        },
+        {
+          "speaker": "B",
+          "en": "That's great! Do you play on a team?",
+          "ru": "Здорово! Ты играешь в команде?"
+        },
+        {
+          "speaker": "A",
+          "en": "Yes, with my friends. It's a lot of fun.",
+          "ru": "Да, с друзьями. Это очень весело."
+        },
+        {
+          "speaker": "B",
+          "en": "I'd like to try that sometime.",
+          "ru": "Я бы тоже хотел как-нибудь попробовать."
         }
       ]
     }
