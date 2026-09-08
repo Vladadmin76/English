@@ -119,6 +119,9 @@
   .story-text{font-size:calc(17px * var(--fs));line-height:1.8;}
   .story-word{cursor:pointer;border-bottom:1.5px dotted var(--ink-soft);}
   .story-word.known{color:var(--accent);font-weight:700;border-bottom-color:var(--accent);}
+  .story-sentence{padding:8px 10px;border-radius:8px;margin:0 0 6px;}
+  .story-sentence.correct{background:#1f3d30;border-left:3px solid var(--good);}
+  .story-sentence.wrong{background:#4a2420;border-left:3px solid var(--danger);}
   .banner{
     background:#4a3a1f;color:#e3b155;border-radius:10px;padding:10px 12px;font-size:calc(13px * var(--fs));margin-bottom:12px;
   }
@@ -1248,9 +1251,17 @@ function renderStoryScreen(){
     body = `${resultBannerHtml(false, "Не удалось составить рассказ")}
       <div class="card" style="margin-top:10px"><p class="muted">${esc(s.error)}</p></div>`;
   } else if(s.sentences && s.sentences.length){
-    body = `<div class="story-text">${s.sentences.map(sen=>`<p>${tapWordsHtml(sen)}</p>`).join("")}</div>
+    if(!s.readStatus) s.readStatus = new Array(s.sentences.length).fill(null);
+    body = `<div class="story-text">${s.sentences.map((sen,i)=>{
+        const status = s.readStatus[i];
+        const cls = "story-sentence"+(status==="correct"?" correct":status==="wrong"?" wrong":"");
+        const reading = s.reading===i;
+        const btnLabel = status==="correct" ? "✅ Прочитано верно" : reading ? "🎙 Слушаю…" : status==="wrong" ? "🎤 Прочитать ещё раз" : "🎤 Прочитать вслух";
+        return `<p class="${cls}">${tapWordsHtml(sen)}</p>
+          <button class="btn secondary block" style="margin-bottom:10px" data-action="story-read-sentence" data-idx="${i}" ${reading||status==="correct"?"disabled":""}>${btnLabel}</button>`;
+      }).join("")}</div>
       ${s.translation ? `<div class="card" style="margin-top:10px;background:var(--accent-soft)"><p class="muted">Перевод:</p><p>${esc(s.translation)}</p></div>` : ""}
-      <p class="muted" style="margin-top:10px">Нажимайте на незнакомые слова — перевод, озвучка и добавление в список на изучение.</p>`;
+      <p class="muted" style="margin-top:10px">Нажимайте на незнакомые слова — перевод, озвучка и добавление в список на изучение. Кнопкой ниже каждой строки — читайте вслух, приложение проверит произношение.</p>`;
   } else {
     body = "";
   }
@@ -1296,6 +1307,8 @@ function generateStory(){
     s.sentences = parsed.sentences;
     s.glossary = parsed.glossary;
     s.translation = null;
+    s.readStatus = new Array(parsed.sentences.length).fill(null);
+    s.reading = null;
     document.getElementById("screen-root").innerHTML = renderStoryScreen();
   }).catch((err)=>{
     s.loading = false;
@@ -1317,6 +1330,23 @@ function tapStoryWord(word){
   Speech.speak(key);
   s.translation = key + " — " + ru;
   document.getElementById("screen-root").innerHTML = renderStoryScreen();
+}
+function readStorySentence(idx){
+  const s = window.__storyState;
+  if(!s || !s.sentences || !s.sentences[idx]) return;
+  const target = s.sentences[idx];
+  s.reading = idx;
+  document.getElementById("screen-root").innerHTML = renderStoryScreen();
+  Speech.recognize().then(alts=>{
+    const ok = alts.some(a=>similar(a, target));
+    s.readStatus[idx] = ok ? "correct" : "wrong";
+    s.reading = null;
+    document.getElementById("screen-root").innerHTML = renderStoryScreen();
+  }).catch(err=>{
+    s.reading = null;
+    document.getElementById("screen-root").innerHTML = renderStoryScreen();
+    toast(err.message==="unsupported" ? "Распознавание речи недоступно в этом браузере" : "Не удалось распознать речь. Попробуйте снова.");
+  });
 }
 route("story", async ()=>{
   document.getElementById("topTitle").textContent = "Мой рассказ";
@@ -1593,6 +1623,7 @@ document.addEventListener("click", async (ev)=>{
   }
   if(action==="story-generate"){ generateStory(); return; }
   if(action==="story-word-tap"){ tapStoryWord(el.dataset.word); return; }
+  if(action==="story-read-sentence"){ readStorySentence(Number(el.dataset.idx)); return; }
   if(action==="set-font"){
     STATE.settings.fontSize = Number(el.dataset.size);
     applyFontScale();
