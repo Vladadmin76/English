@@ -266,6 +266,13 @@ function loadProgress(){
     if(OLD_TO_NEW_FS[merged.settings.fontSize] !== undefined){
       merged.settings.fontSize = OLD_TO_NEW_FS[merged.settings.fontSize];
     }
+    // repair custom words saved before they carried their own `id` field
+    // (that bug made review grade a bogus "undefined" entry instead of the
+    // real word, which never got its review date pushed forward)
+    Object.keys(merged.customWords||{}).forEach(id=>{
+      if(!merged.customWords[id].id) merged.customWords[id].id = id;
+    });
+    if(merged.words && merged.words["undefined"]) delete merged.words["undefined"];
     return merged;
   }catch(e){ console.warn("progress load failed", e); return defaultProgress(); }
 }
@@ -614,6 +621,7 @@ function ensureReady(){
   if(!readyPromise){
     readyPromise = (async ()=>{
       STATE = loadProgress();
+      saveProgress(); // persist any migrations loadProgress() applied (e.g. id backfill, corrupt-entry cleanup)
       applyFontScale();
       await loadManifest();
       await ensureLevelLoaded();
@@ -1323,7 +1331,7 @@ function tapStoryWord(word){
   const ru = s.glossary[key] || s.glossary[word];
   if(!ru){ toast("Перевод для этого слова не найден."); return; }
   const id = customWordId(key);
-  if(!STATE.customWords[id]) STATE.customWords[id] = { en: key, ru, addedAt: todayISO() };
+  if(!STATE.customWords[id]) STATE.customWords[id] = { id, en: key, ru, addedAt: todayISO() };
   WORDS_BY_ID[id] = STATE.customWords[id];
   introduceWord(id);
   saveProgress();
