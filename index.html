@@ -116,6 +116,9 @@
   .token[disabled]{opacity:.3;}
   .bank{display:flex;flex-wrap:wrap;gap:8px;}
   .imm-word{color:var(--accent);font-weight:700;border-bottom:1.5px dotted var(--accent);cursor:pointer;}
+  .story-text{font-size:calc(17px * var(--fs));line-height:1.8;}
+  .story-word{cursor:pointer;border-bottom:1.5px dotted var(--ink-soft);}
+  .story-word.known{color:var(--accent);font-weight:700;border-bottom-color:var(--accent);}
   .banner{
     background:#4a3a1f;color:#e3b155;border-radius:10px;padding:10px 12px;font-size:calc(13px * var(--fs));margin-bottom:12px;
   }
@@ -239,6 +242,7 @@ function defaultProgress(){
     currentLevel: null,
     completedLevels: [],
     words: {},
+    customWords: {}, // words the user added themselves via "Мой рассказ" - not part of any level's curated list
     grammarProgress: {},
     immersionLevel: 0.3,
     settings: { speechEnabled:true, recognitionEnabled:true, showAlphabet:true, fontSize:1.5, tutorSecret:"" },
@@ -315,6 +319,7 @@ async function loadLevel(levelId){
   if(!entry) throw new Error("Уровень не найден: "+levelId);
   LEVEL_DATA = await fetchJSON(entry.file);
   WORDS_BY_ID = byId(LEVEL_DATA.words);
+  Object.assign(WORDS_BY_ID, STATE.customWords||{}); // words added via "Мой рассказ" work everywhere a curated word does
   GRAMMAR_BY_ID = byId(LEVEL_DATA.grammar);
   EXERCISES_BY_ID = byId(LEVEL_DATA.exercises);
   DIALOGUES_BY_ID = byId(LEVEL_DATA.dialogues);
@@ -642,6 +647,7 @@ route("menu", async ()=>{
     <button class="btn secondary block" data-action="nav" data-route="#/dialogues">💬 ${t("Диалоги")}</button>
     ${(LEVEL_DATA.calls && LEVEL_DATA.calls.length) ? `<button class="btn secondary block" data-action="nav" data-route="#/calls">📞 ${t("Звонки")}</button>` : ""}
     <button class="btn secondary block" data-action="nav" data-route="#/tutor">🤖 ${t("ИИ-репетитор")}</button>
+    <button class="btn secondary block" data-action="nav" data-route="#/story">📖 ${t("Мой рассказ")}</button>
     ${examReady() ? `<button class="btn block" style="background:var(--good)" data-action="nav" data-route="#/exam">🏆 ${t("Сдать экзамен")}</button>` : ""}
   </div>
   <div class="card">
@@ -1200,6 +1206,121 @@ document.addEventListener("keydown", (ev)=>{
     ev.preventDefault();
     sendTutorChatMessage();
   }
+  if(ev.key==="Enter" && ev.target && ev.target.id==="storyWordsInput"){
+    ev.preventDefault();
+    generateStory();
+  }
+});
+
+/* ============================== MY STORY (personal words -> AI story) ============================== */
+function customWordId(en){
+  return "c_" + String(en).toLowerCase().trim().replace(/[^a-z0-9]+/g,"_").replace(/^_+|_+$/g,"");
+}
+function parseStoryReply(text){
+  let raw = String(text||"").trim();
+  const fenceMatch = raw.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  if(fenceMatch) raw = fenceMatch[1].trim();
+  try{
+    const data = JSON.parse(raw);
+    if(data && Array.isArray(data.sentences)){
+      return { sentences: data.sentences.map(String), glossary: (data.glossary && typeof data.glossary==="object") ? data.glossary : {} };
+    }
+  }catch(e){ /* fall through to plain-text fallback below */ }
+  const sentences = raw.split(/(?<=[.!?])\s+/).map(s=>s.trim()).filter(Boolean);
+  return { sentences, glossary: {} };
+}
+function tapWordsHtml(sentence){
+  // splits on word boundaries, wraps each alphabetic token in a tappable span, leaves punctuation/spaces as-is
+  return sentence.replace(/[A-Za-z']+/g, (word)=>{
+    const key = word.toLowerCase();
+    const id = customWordId(key);
+    const known = !!(STATE.words[id] && STATE.words[id].status!=="new");
+    return `<span class="story-word${known?" known":""}" data-action="story-word-tap" data-word="${esc(key)}">${esc(word)}</span>`;
+  });
+}
+function renderStoryScreen(){
+  if(!window.__storyState) window.__storyState = { wordsInput:"", sentences:null, glossary:{}, loading:false, error:null, translation:null };
+  const s = window.__storyState;
+  let body;
+  if(s.loading){
+    body = `<p class="muted center">Составляю рассказ… это может занять до минуты, если сервер "спал".</p>`;
+  } else if(s.error){
+    body = `${resultBannerHtml(false, "Не удалось составить рассказ")}
+      <div class="card" style="margin-top:10px"><p class="muted">${esc(s.error)}</p></div>`;
+  } else if(s.sentences && s.sentences.length){
+    body = `<div class="story-text">${s.sentences.map(sen=>`<p>${tapWordsHtml(sen)}</p>`).join("")}</div>
+      ${s.translation ? `<div class="card" style="margin-top:10px;background:var(--accent-soft)"><p class="muted">Перевод:</p><p>${esc(s.translation)}</p></div>` : ""}
+      <p class="muted" style="margin-top:10px">Нажимайте на незнакомые слова — перевод, озвучка и добавление в список на изучение.</p>`;
+  } else {
+    body = "";
+  }
+  return `<div class="card">
+    <h2>📖 Мой рассказ</h2>
+    <p class="muted">Введите через запятую русские слова, которые хотите узнать по-английски — ИИ составит короткий рассказ с этими словами.</p>
+    <input type="text" id="storyWordsInput" placeholder="например: яйца, сыр, магазин, дорога" value="${esc(s.wordsInput)}" autocomplete="off">
+    <button class="btn block" style="margin-top:10px" data-action="story-generate" ${s.loading?"disabled":""}>Составить рассказ</button>
+  </div>
+  ${body ? `<div class="card">${body}</div>` : ""}`;
+}
+function generateStory(){
+  const s = window.__storyState;
+  const input = document.getElementById("storyWordsInput");
+  const wordsInput = input ? input.value.trim() : "";
+  if(!wordsInput) return;
+  if(!STATE.settings.tutorSecret){
+    toast("Сначала введите пароль ИИ в Настройках («ИИ-репетитор»).");
+    return;
+  }
+  s.wordsInput = wordsInput;
+  s.loading = true;
+  s.error = null;
+  document.getElementById("screen-root").innerHTML = renderStoryScreen();
+  fetch(TUTOR_API_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "X-Tutor-Secret": STATE.settings.tutorSecret },
+    body: JSON.stringify({
+      level: STATE.currentLevel || "A1",
+      topic: "составление рассказа по словам",
+      message: wordsInput,
+      history: []
+    })
+  }).then(async (r)=>{
+    if(!r.ok){
+      const t = await r.text().catch(()=>"");
+      throw new Error("HTTP "+r.status+(t ? (": "+t.slice(0,200)) : ""));
+    }
+    return r.json();
+  }).then((data)=>{
+    const parsed = parseStoryReply(data.reply||"");
+    s.loading = false;
+    s.sentences = parsed.sentences;
+    s.glossary = parsed.glossary;
+    s.translation = null;
+    document.getElementById("screen-root").innerHTML = renderStoryScreen();
+  }).catch((err)=>{
+    s.loading = false;
+    s.error = (err && err.message) || String(err);
+    document.getElementById("screen-root").innerHTML = renderStoryScreen();
+  });
+}
+function tapStoryWord(word){
+  const s = window.__storyState;
+  if(!s) return;
+  const key = word.toLowerCase();
+  const ru = s.glossary[key] || s.glossary[word];
+  if(!ru){ toast("Перевод для этого слова не найден."); return; }
+  const id = customWordId(key);
+  if(!STATE.customWords[id]) STATE.customWords[id] = { en: key, ru, addedAt: todayISO() };
+  WORDS_BY_ID[id] = STATE.customWords[id];
+  introduceWord(id);
+  saveProgress();
+  Speech.speak(key);
+  s.translation = key + " — " + ru;
+  document.getElementById("screen-root").innerHTML = renderStoryScreen();
+}
+route("story", async ()=>{
+  document.getElementById("topTitle").textContent = "Мой рассказ";
+  return renderStoryScreen();
 });
 
 /* ============================== EVENT HANDLING ============================== */
@@ -1470,6 +1591,8 @@ document.addEventListener("click", async (ev)=>{
     document.getElementById("screen-root").innerHTML = renderTutorChat();
     return;
   }
+  if(action==="story-generate"){ generateStory(); return; }
+  if(action==="story-word-tap"){ tapStoryWord(el.dataset.word); return; }
   if(action==="set-font"){
     STATE.settings.fontSize = Number(el.dataset.size);
     applyFontScale();
