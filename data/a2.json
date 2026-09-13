@@ -1,0 +1,7069 @@
+{
+  "level": "A2",
+  "title": "Элементарный уровень",
+  "passingThreshold": 0.9,
+  "topics": [
+    {
+      "id": "work_detailed",
+      "title": "Работа (подробнее)",
+      "words": [
+        "w_538",
+        "w_539",
+        "w_540",
+        "w_541",
+        "w_542",
+        "w_543",
+        "w_544",
+        "w_545",
+        "w_546",
+        "w_547",
+        "w_548",
+        "w_549",
+        "w_550",
+        "w_551",
+        "w_552",
+        "w_553",
+        "w_554",
+        "w_555",
+        "w_556",
+        "w_557",
+        "w_558",
+        "w_559",
+        "w_560",
+        "w_561",
+        "w_562",
+        "w_563",
+        "w_564",
+        "w_565",
+        "w_566",
+        "w_567",
+        "w_568",
+        "w_569",
+        "w_570",
+        "w_571",
+        "w_572",
+        "w_573",
+        "w_574"
+      ],
+      "grammar": [
+        "g_014"
+      ]
+    },
+    {
+      "id": "housing",
+      "title": "Жильё",
+      "words": [
+        "w_575",
+        "w_576",
+        "w_577",
+        "w_578",
+        "w_579",
+        "w_580",
+        "w_581",
+        "w_582",
+        "w_583",
+        "w_584",
+        "w_585",
+        "w_586",
+        "w_587",
+        "w_588",
+        "w_589",
+        "w_590",
+        "w_591",
+        "w_592",
+        "w_593",
+        "w_594",
+        "w_595",
+        "w_596",
+        "w_597",
+        "w_598",
+        "w_599",
+        "w_600",
+        "w_601",
+        "w_602",
+        "w_603",
+        "w_604",
+        "w_605",
+        "w_606",
+        "w_607",
+        "w_608",
+        "w_609"
+      ],
+      "grammar": [
+        "g_010"
+      ]
+    },
+    {
+      "id": "past_time",
+      "title": "Прошлое и время",
+      "words": [
+        "w_610",
+        "w_611",
+        "w_612",
+        "w_613",
+        "w_614",
+        "w_615",
+        "w_616",
+        "w_617",
+        "w_618",
+        "w_619",
+        "w_620",
+        "w_621",
+        "w_622",
+        "w_623",
+        "w_624",
+        "w_625",
+        "w_626",
+        "w_627",
+        "w_628",
+        "w_629",
+        "w_630",
+        "w_631",
+        "w_632"
+      ],
+      "grammar": [
+        "g_010"
+      ]
+    },
+    {
+      "id": "future_plans",
+      "title": "Планы на будущее",
+      "words": [
+        "w_633",
+        "w_634",
+        "w_635",
+        "w_636",
+        "w_637",
+        "w_638",
+        "w_639",
+        "w_640",
+        "w_641",
+        "w_642",
+        "w_643",
+        "w_644",
+        "w_645",
+        "w_646",
+        "w_647",
+        "w_648",
+        "w_649",
+        "w_650",
+        "w_651"
+      ],
+      "grammar": [
+        "g_012"
+      ]
+    },
+    {
+      "id": "feelings_emotions",
+      "title": "Чувства и эмоции",
+      "words": [
+        "w_652",
+        "w_653",
+        "w_654",
+        "w_655",
+        "w_656",
+        "w_657",
+        "w_658",
+        "w_659",
+        "w_660",
+        "w_661",
+        "w_662",
+        "w_663",
+        "w_664",
+        "w_665",
+        "w_666",
+        "w_667",
+        "w_668",
+        "w_669",
+        "w_670",
+        "w_671",
+        "w_672",
+        "w_673",
+        "w_674",
+        "w_675",
+        "w_676",
+        "w_677",
+        "w_678"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "personality",
+      "title": "Черты характера",
+      "words": [
+        "w_679",
+        "w_680",
+        "w_681",
+        "w_682",
+        "w_683",
+        "w_684",
+        "w_685",
+        "w_686",
+        "w_687",
+        "w_688",
+        "w_689",
+        "w_690",
+        "w_691",
+        "w_692",
+        "w_693",
+        "w_694",
+        "w_695",
+        "w_696",
+        "w_697",
+        "w_698",
+        "w_699",
+        "w_700",
+        "w_701",
+        "w_702",
+        "w_703",
+        "w_704"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "opinions_comparisons",
+      "title": "Мнения и сравнения",
+      "words": [
+        "w_705",
+        "w_706",
+        "w_707",
+        "w_708",
+        "w_709",
+        "w_710",
+        "w_711",
+        "w_712",
+        "w_713",
+        "w_714",
+        "w_715",
+        "w_716",
+        "w_717",
+        "w_718",
+        "w_719",
+        "w_720",
+        "w_721",
+        "w_722",
+        "w_723",
+        "w_724"
+      ],
+      "grammar": [
+        "g_013"
+      ]
+    },
+    {
+      "id": "phone_communication",
+      "title": "Телефон и связь",
+      "words": [
+        "w_725",
+        "w_726",
+        "w_727",
+        "w_728",
+        "w_729",
+        "w_730",
+        "w_731",
+        "w_732",
+        "w_733",
+        "w_734",
+        "w_735",
+        "w_736",
+        "w_737",
+        "w_738",
+        "w_739",
+        "w_740",
+        "w_741",
+        "w_742",
+        "w_743",
+        "w_744",
+        "w_745",
+        "w_746",
+        "w_747",
+        "w_748",
+        "w_749"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "technology",
+      "title": "Техника и интернет",
+      "words": [
+        "w_750",
+        "w_751",
+        "w_752",
+        "w_753",
+        "w_754",
+        "w_755",
+        "w_756",
+        "w_757",
+        "w_758",
+        "w_759",
+        "w_760",
+        "w_761",
+        "w_762",
+        "w_763",
+        "w_764",
+        "w_765",
+        "w_766",
+        "w_767",
+        "w_768",
+        "w_769",
+        "w_770",
+        "w_771",
+        "w_772",
+        "w_773"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "travel_vacation",
+      "title": "Путешествия и отпуск",
+      "words": [
+        "w_774",
+        "w_775",
+        "w_776",
+        "w_777",
+        "w_778",
+        "w_779",
+        "w_780",
+        "w_781",
+        "w_782",
+        "w_783",
+        "w_784",
+        "w_785",
+        "w_786",
+        "w_787",
+        "w_788",
+        "w_789",
+        "w_790",
+        "w_791",
+        "w_792",
+        "w_793",
+        "w_794",
+        "w_795",
+        "w_796",
+        "w_797",
+        "w_798",
+        "w_799",
+        "w_800",
+        "w_801",
+        "w_802",
+        "w_803"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "quantities",
+      "title": "Количества",
+      "words": [
+        "w_804",
+        "w_805",
+        "w_806",
+        "w_807",
+        "w_808",
+        "w_809",
+        "w_810",
+        "w_811",
+        "w_812",
+        "w_813",
+        "w_814",
+        "w_815",
+        "w_816",
+        "w_817",
+        "w_818"
+      ],
+      "grammar": [
+        "g_015"
+      ]
+    },
+    {
+      "id": "verbs_a2",
+      "title": "Дополнительные глаголы",
+      "words": [
+        "w_819",
+        "w_820",
+        "w_821",
+        "w_822",
+        "w_823",
+        "w_824",
+        "w_825",
+        "w_826",
+        "w_827",
+        "w_828",
+        "w_829",
+        "w_830",
+        "w_831",
+        "w_832",
+        "w_833",
+        "w_834",
+        "w_835",
+        "w_836",
+        "w_837",
+        "w_838",
+        "w_839",
+        "w_840",
+        "w_841",
+        "w_842",
+        "w_843",
+        "w_844",
+        "w_845",
+        "w_846",
+        "w_847",
+        "w_848",
+        "w_849",
+        "w_850",
+        "w_851",
+        "w_852",
+        "w_853",
+        "w_854",
+        "w_855",
+        "w_856",
+        "w_857",
+        "w_858",
+        "w_859"
+      ],
+      "grammar": [
+        "g_016"
+      ]
+    },
+    {
+      "id": "adjectives_a2",
+      "title": "Дополнительные прилагательные",
+      "words": [
+        "w_860",
+        "w_861",
+        "w_862",
+        "w_863",
+        "w_864",
+        "w_865",
+        "w_866",
+        "w_867",
+        "w_868",
+        "w_869",
+        "w_870",
+        "w_871",
+        "w_872",
+        "w_873",
+        "w_874",
+        "w_875",
+        "w_876",
+        "w_877",
+        "w_878",
+        "w_879",
+        "w_880",
+        "w_881",
+        "w_882",
+        "w_883",
+        "w_884",
+        "w_885",
+        "w_886",
+        "w_887"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "places_community",
+      "title": "Общественные места",
+      "words": [
+        "w_888",
+        "w_889",
+        "w_890",
+        "w_891",
+        "w_892",
+        "w_893",
+        "w_894",
+        "w_895",
+        "w_896",
+        "w_897",
+        "w_898",
+        "w_899",
+        "w_900",
+        "w_901",
+        "w_902",
+        "w_903",
+        "w_904",
+        "w_905",
+        "w_906",
+        "w_907",
+        "w_908",
+        "w_909",
+        "w_910",
+        "w_911",
+        "w_912",
+        "w_913"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "health_a2",
+      "title": "Здоровье (подробнее)",
+      "words": [
+        "w_914",
+        "w_915",
+        "w_916",
+        "w_917",
+        "w_918",
+        "w_919",
+        "w_920",
+        "w_921",
+        "w_922",
+        "w_923",
+        "w_924",
+        "w_925",
+        "w_926",
+        "w_927",
+        "w_928",
+        "w_929",
+        "w_930",
+        "w_931",
+        "w_932",
+        "w_933",
+        "w_934",
+        "w_935",
+        "w_936",
+        "w_937",
+        "w_938"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "money_finance",
+      "title": "Деньги и финансы",
+      "words": [
+        "w_939",
+        "w_940",
+        "w_941",
+        "w_942",
+        "w_943",
+        "w_944",
+        "w_945",
+        "w_946",
+        "w_947",
+        "w_948",
+        "w_949",
+        "w_950",
+        "w_951",
+        "w_952",
+        "w_953",
+        "w_954",
+        "w_955",
+        "w_956",
+        "w_957",
+        "w_958",
+        "w_959",
+        "w_960"
+      ],
+      "grammar": [
+        "g_015"
+      ]
+    },
+    {
+      "id": "education",
+      "title": "Образование",
+      "words": [
+        "w_961",
+        "w_962",
+        "w_963",
+        "w_964",
+        "w_965",
+        "w_966",
+        "w_967",
+        "w_968",
+        "w_969",
+        "w_970",
+        "w_971",
+        "w_972",
+        "w_973",
+        "w_974",
+        "w_975",
+        "w_976",
+        "w_977",
+        "w_978",
+        "w_979",
+        "w_980",
+        "w_981",
+        "w_982"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "shopping_appearance_a2",
+      "title": "Одежда, внешность и покупки (доп.)",
+      "words": [
+        "w_983",
+        "w_984",
+        "w_985",
+        "w_986",
+        "w_987",
+        "w_988",
+        "w_989",
+        "w_990",
+        "w_991",
+        "w_992",
+        "w_993",
+        "w_994",
+        "w_995",
+        "w_996",
+        "w_997",
+        "w_998",
+        "w_999",
+        "w_1000",
+        "w_1001",
+        "w_1002",
+        "w_1003",
+        "w_1004"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "weather_nature_a2",
+      "title": "Природа и климат (доп.)",
+      "words": [
+        "w_1005",
+        "w_1006",
+        "w_1007",
+        "w_1008",
+        "w_1009",
+        "w_1010",
+        "w_1011",
+        "w_1012",
+        "w_1013",
+        "w_1014",
+        "w_1015",
+        "w_1016",
+        "w_1017",
+        "w_1018",
+        "w_1019",
+        "w_1020",
+        "w_1021",
+        "w_1022"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "daily_routine_a2",
+      "title": "Распорядок дня (доп.)",
+      "words": [
+        "w_1023",
+        "w_1024",
+        "w_1025",
+        "w_1026",
+        "w_1027",
+        "w_1028",
+        "w_1029",
+        "w_1030",
+        "w_1031",
+        "w_1032",
+        "w_1033",
+        "w_1034",
+        "w_1035",
+        "w_1036",
+        "w_1037",
+        "w_1038",
+        "w_1039"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "numbers_time_a2",
+      "title": "Числа и время (доп.)",
+      "words": [
+        "w_1040",
+        "w_1041",
+        "w_1042",
+        "w_1043",
+        "w_1044",
+        "w_1045",
+        "w_1046",
+        "w_1047",
+        "w_1048",
+        "w_1049",
+        "w_1050",
+        "w_1051",
+        "w_1052",
+        "w_1053",
+        "w_1054"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "driving_car_a2",
+      "title": "Вождение и автомобиль",
+      "words": [
+        "w_1055",
+        "w_1056",
+        "w_1057",
+        "w_1058",
+        "w_1059",
+        "w_1060",
+        "w_1061",
+        "w_1062",
+        "w_1063",
+        "w_1064",
+        "w_1065",
+        "w_1066",
+        "w_1067",
+        "w_1068",
+        "w_1069",
+        "w_1070",
+        "w_1071",
+        "w_1072",
+        "w_1073",
+        "w_1074",
+        "w_1075"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "dining_out_a2",
+      "title": "В ресторане (подробнее)",
+      "words": [
+        "w_1076",
+        "w_1077",
+        "w_1078",
+        "w_1079",
+        "w_1080",
+        "w_1081",
+        "w_1082",
+        "w_1083",
+        "w_1084",
+        "w_1085",
+        "w_1086",
+        "w_1087",
+        "w_1088",
+        "w_1089",
+        "w_1090",
+        "w_1091",
+        "w_1092",
+        "w_1093"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "relationships_a2",
+      "title": "Отношения",
+      "words": [
+        "w_1094",
+        "w_1095",
+        "w_1096",
+        "w_1097",
+        "w_1098",
+        "w_1099",
+        "w_1100",
+        "w_1101",
+        "w_1102",
+        "w_1103",
+        "w_1104",
+        "w_1105",
+        "w_1106",
+        "w_1107",
+        "w_1108",
+        "w_1109",
+        "w_1110",
+        "w_1111",
+        "w_1112",
+        "w_1113"
+      ],
+      "grammar": []
+    },
+    {
+      "id": "everyday_extra_a2",
+      "title": "Ещё повседневные слова",
+      "words": [
+        "w_1114",
+        "w_1115",
+        "w_1116",
+        "w_1117",
+        "w_1118",
+        "w_1119",
+        "w_1120",
+        "w_1121",
+        "w_1122",
+        "w_1123",
+        "w_1124",
+        "w_1125",
+        "w_1126",
+        "w_1127",
+        "w_1128",
+        "w_1129",
+        "w_1130",
+        "w_1131",
+        "w_1132",
+        "w_1133",
+        "w_1134",
+        "w_1135",
+        "w_1136",
+        "w_1137",
+        "w_1138",
+        "w_1139"
+      ],
+      "grammar": []
+    }
+  ],
+  "words": [
+    {
+      "id": "w_538",
+      "en": "occupation",
+      "ru": "профессия",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "What is your occupation?",
+      "exampleRu": "Кем вы работаете?"
+    },
+    {
+      "id": "w_539",
+      "en": "career",
+      "ru": "карьера",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "She has a good career.",
+      "exampleRu": "У неё хорошая карьера."
+    },
+    {
+      "id": "w_540",
+      "en": "apply for a job",
+      "ru": "подавать заявку на работу",
+      "partOfSpeech": "phrase",
+      "topic": "work_detailed",
+      "exampleEn": "I applied for a job online.",
+      "exampleRu": "Я подал заявку на работу онлайн."
+    },
+    {
+      "id": "w_541",
+      "en": "promotion",
+      "ru": "повышение",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "He got a promotion last month.",
+      "exampleRu": "Он получил повышение в прошлом месяце."
+    },
+    {
+      "id": "w_542",
+      "en": "deadline",
+      "ru": "крайний срок",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "The deadline is Friday.",
+      "exampleRu": "Крайний срок — пятница."
+    },
+    {
+      "id": "w_543",
+      "en": "project",
+      "ru": "проект",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "We finished the project on time.",
+      "exampleRu": "Мы закончили проект вовремя."
+    },
+    {
+      "id": "w_544",
+      "en": "client",
+      "ru": "клиент (деловой)",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "I have a meeting with a client.",
+      "exampleRu": "У меня встреча с клиентом."
+    },
+    {
+      "id": "w_545",
+      "en": "remote work",
+      "ru": "удалённая работа",
+      "partOfSpeech": "phrase",
+      "topic": "work_detailed",
+      "exampleEn": "I do remote work now.",
+      "exampleRu": "Сейчас я работаю удалённо."
+    },
+    {
+      "id": "w_546",
+      "en": "overtime",
+      "ru": "сверхурочные",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "I worked overtime yesterday.",
+      "exampleRu": "Вчера я работал сверхурочно."
+    },
+    {
+      "id": "w_547",
+      "en": "vacation days",
+      "ru": "отпускные дни",
+      "partOfSpeech": "phrase",
+      "topic": "work_detailed",
+      "exampleEn": "I have ten vacation days.",
+      "exampleRu": "У меня десять отпускных дней."
+    },
+    {
+      "id": "w_548",
+      "en": "sick leave",
+      "ru": "больничный",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "She is on sick leave.",
+      "exampleRu": "Она на больничном."
+    },
+    {
+      "id": "w_549",
+      "en": "paycheck",
+      "ru": "зарплатный чек",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "I got my paycheck today.",
+      "exampleRu": "Сегодня я получил зарплату."
+    },
+    {
+      "id": "w_550",
+      "en": "raise",
+      "ru": "прибавка к зарплате",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "I asked for a raise.",
+      "exampleRu": "Я попросил прибавку к зарплате."
+    },
+    {
+      "id": "w_551",
+      "en": "quit",
+      "ru": "уволиться (по своей воле)",
+      "partOfSpeech": "verb",
+      "topic": "work_detailed",
+      "exampleEn": "He quit his job.",
+      "exampleRu": "Он уволился с работы."
+    },
+    {
+      "id": "w_552",
+      "en": "retire",
+      "ru": "выйти на пенсию",
+      "partOfSpeech": "verb",
+      "topic": "work_detailed",
+      "exampleEn": "My father retired last year.",
+      "exampleRu": "Мой отец вышел на пенсию в прошлом году."
+    },
+    {
+      "id": "w_553",
+      "en": "professional",
+      "ru": "профессиональный",
+      "partOfSpeech": "adjective",
+      "topic": "work_detailed",
+      "exampleEn": "She is a professional cook.",
+      "exampleRu": "Она профессиональный повар."
+    },
+    {
+      "id": "w_554",
+      "en": "skill",
+      "ru": "навык",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "Communication is an important skill.",
+      "exampleRu": "Общение — важный навык."
+    },
+    {
+      "id": "w_555",
+      "en": "qualification",
+      "ru": "квалификация",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "Do you have the right qualifications?",
+      "exampleRu": "У вас есть нужная квалификация?"
+    },
+    {
+      "id": "w_556",
+      "en": "degree",
+      "ru": "учёная степень, диплом",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "She has a degree in nursing.",
+      "exampleRu": "У неё диплом медсестры."
+    },
+    {
+      "id": "w_557",
+      "en": "certificate",
+      "ru": "сертификат",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "I got a certificate for the course.",
+      "exampleRu": "Я получил сертификат за курс."
+    },
+    {
+      "id": "w_558",
+      "en": "employer",
+      "ru": "работодатель",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "My employer is very fair.",
+      "exampleRu": "Мой работодатель очень справедливый."
+    },
+    {
+      "id": "w_559",
+      "en": "supervisor",
+      "ru": "руководитель, начальник",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "My supervisor is helpful.",
+      "exampleRu": "Мой руководитель мне помогает."
+    },
+    {
+      "id": "w_560",
+      "en": "warehouse",
+      "ru": "склад",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "He works in a warehouse.",
+      "exampleRu": "Он работает на складе."
+    },
+    {
+      "id": "w_561",
+      "en": "factory",
+      "ru": "фабрика, завод",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "She works at a factory.",
+      "exampleRu": "Она работает на заводе."
+    },
+    {
+      "id": "w_562",
+      "en": "construction",
+      "ru": "строительство",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "He works in construction.",
+      "exampleRu": "Он работает в строительстве."
+    },
+    {
+      "id": "w_563",
+      "en": "teamwork",
+      "ru": "командная работа",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "Teamwork is important here.",
+      "exampleRu": "Здесь важна командная работа."
+    },
+    {
+      "id": "w_564",
+      "en": "training",
+      "ru": "обучение (на работе)",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "New employees need training.",
+      "exampleRu": "Новым сотрудникам нужно обучение."
+    },
+    {
+      "id": "w_565",
+      "en": "apply",
+      "ru": "подавать заявление",
+      "partOfSpeech": "verb",
+      "topic": "work_detailed",
+      "exampleEn": "I want to apply for this position.",
+      "exampleRu": "Я хочу подать заявление на эту должность."
+    },
+    {
+      "id": "w_566",
+      "en": "position",
+      "ru": "должность",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "This is a full-time position.",
+      "exampleRu": "Это должность на полную ставку."
+    },
+    {
+      "id": "w_567",
+      "en": "duty",
+      "ru": "обязанность",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "Cleaning is one of my duties.",
+      "exampleRu": "Уборка — одна из моих обязанностей."
+    },
+    {
+      "id": "w_568",
+      "en": "report",
+      "ru": "отчёт",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "I need to write a report.",
+      "exampleRu": "Мне нужно написать отчёт."
+    },
+    {
+      "id": "w_569",
+      "en": "union",
+      "ru": "профсоюз",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "He is a member of a union.",
+      "exampleRu": "Он состоит в профсоюзе."
+    },
+    {
+      "id": "w_570",
+      "en": "benefits",
+      "ru": "льготы (на работе)",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "This job has good benefits.",
+      "exampleRu": "На этой работе хорошие льготы."
+    },
+    {
+      "id": "w_571",
+      "en": "freelance",
+      "ru": "фриланс, внештатная работа",
+      "partOfSpeech": "adjective",
+      "topic": "work_detailed",
+      "exampleEn": "She works freelance.",
+      "exampleRu": "Она работает фрилансером."
+    },
+    {
+      "id": "w_572",
+      "en": "license",
+      "ru": "лицензия",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "You need a license for this job.",
+      "exampleRu": "Для этой работы нужна лицензия."
+    },
+    {
+      "id": "w_573",
+      "en": "minimum wage",
+      "ru": "минимальная зарплата",
+      "partOfSpeech": "phrase",
+      "topic": "work_detailed",
+      "exampleEn": "The minimum wage went up.",
+      "exampleRu": "Минимальная зарплата выросла."
+    },
+    {
+      "id": "w_574",
+      "en": "staff",
+      "ru": "персонал",
+      "partOfSpeech": "noun",
+      "topic": "work_detailed",
+      "exampleEn": "The staff is very friendly.",
+      "exampleRu": "Персонал очень дружелюбный."
+    },
+    {
+      "id": "w_575",
+      "en": "rent",
+      "ru": "арендная плата",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "The rent is $1,200 a month.",
+      "exampleRu": "Арендная плата — 1200 долларов в месяц."
+    },
+    {
+      "id": "w_576",
+      "en": "to rent",
+      "ru": "снимать, арендовать",
+      "partOfSpeech": "verb",
+      "topic": "housing",
+      "exampleEn": "We want to rent an apartment.",
+      "exampleRu": "Мы хотим снять квартиру."
+    },
+    {
+      "id": "w_577",
+      "en": "landlord",
+      "ru": "арендодатель, хозяин жилья",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "I called my landlord about the leak.",
+      "exampleRu": "Я позвонил хозяину квартиры насчёт протечки."
+    },
+    {
+      "id": "w_578",
+      "en": "tenant",
+      "ru": "арендатор, квартиросъёмщик",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "The tenant pays rent every month.",
+      "exampleRu": "Арендатор платит аренду каждый месяц."
+    },
+    {
+      "id": "w_579",
+      "en": "lease",
+      "ru": "договор аренды",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "I signed a one-year lease.",
+      "exampleRu": "Я подписал договор аренды на год."
+    },
+    {
+      "id": "w_580",
+      "en": "security deposit",
+      "ru": "залог (при аренде)",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "I paid a security deposit.",
+      "exampleRu": "Я заплатил залог."
+    },
+    {
+      "id": "w_581",
+      "en": "utilities",
+      "ru": "коммунальные услуги",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "Utilities are not included in the rent.",
+      "exampleRu": "Коммунальные услуги не включены в аренду."
+    },
+    {
+      "id": "w_582",
+      "en": "neighbor",
+      "ru": "сосед",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "My neighbor is very quiet.",
+      "exampleRu": "Мой сосед очень тихий."
+    },
+    {
+      "id": "w_583",
+      "en": "neighborhood",
+      "ru": "район (жилой)",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "This is a safe neighborhood.",
+      "exampleRu": "Это безопасный район."
+    },
+    {
+      "id": "w_584",
+      "en": "move in",
+      "ru": "переехать (въехать)",
+      "partOfSpeech": "phrase",
+      "topic": "housing",
+      "exampleEn": "We move in next week.",
+      "exampleRu": "Мы въезжаем на следующей неделе."
+    },
+    {
+      "id": "w_585",
+      "en": "move out",
+      "ru": "съехать (выехать)",
+      "partOfSpeech": "phrase",
+      "topic": "housing",
+      "exampleEn": "They are moving out soon.",
+      "exampleRu": "Они скоро съезжают."
+    },
+    {
+      "id": "w_586",
+      "en": "furnished",
+      "ru": "меблированный",
+      "partOfSpeech": "adjective",
+      "topic": "housing",
+      "exampleEn": "The apartment is furnished.",
+      "exampleRu": "Квартира меблированная."
+    },
+    {
+      "id": "w_587",
+      "en": "roommate",
+      "ru": "сосед по квартире",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "I have two roommates.",
+      "exampleRu": "У меня два соседа по квартире."
+    },
+    {
+      "id": "w_588",
+      "en": "mortgage",
+      "ru": "ипотека",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "We are paying off our mortgage.",
+      "exampleRu": "Мы выплачиваем ипотеку."
+    },
+    {
+      "id": "w_589",
+      "en": "own",
+      "ru": "владеть",
+      "partOfSpeech": "verb",
+      "topic": "housing",
+      "exampleEn": "They own their house.",
+      "exampleRu": "У них дом в собственности."
+    },
+    {
+      "id": "w_590",
+      "en": "monthly payment",
+      "ru": "ежемесячный платёж",
+      "partOfSpeech": "phrase",
+      "topic": "housing",
+      "exampleEn": "The monthly payment is high.",
+      "exampleRu": "Ежемесячный платёж высокий."
+    },
+    {
+      "id": "w_591",
+      "en": "maintenance",
+      "ru": "обслуживание, ремонт (здания)",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "The building has good maintenance.",
+      "exampleRu": "В здании хорошее обслуживание."
+    },
+    {
+      "id": "w_592",
+      "en": "repair",
+      "ru": "ремонт, чинить",
+      "partOfSpeech": "verb",
+      "topic": "housing",
+      "exampleEn": "We need to repair the sink.",
+      "exampleRu": "Нам нужно починить раковину."
+    },
+    {
+      "id": "w_593",
+      "en": "broken",
+      "ru": "сломанный",
+      "partOfSpeech": "adjective",
+      "topic": "housing",
+      "exampleEn": "The heater is broken.",
+      "exampleRu": "Обогреватель сломан."
+    },
+    {
+      "id": "w_594",
+      "en": "plumber",
+      "ru": "сантехник",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "I called a plumber.",
+      "exampleRu": "Я вызвал сантехника."
+    },
+    {
+      "id": "w_595",
+      "en": "electrician",
+      "ru": "электрик",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "The electrician fixed the lights.",
+      "exampleRu": "Электрик починил свет."
+    },
+    {
+      "id": "w_596",
+      "en": "notice",
+      "ru": "уведомление (о выезде)",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "I gave 30 days notice.",
+      "exampleRu": "Я подал уведомление за 30 дней."
+    },
+    {
+      "id": "w_597",
+      "en": "heating",
+      "ru": "отопление",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "The heating doesn't work.",
+      "exampleRu": "Отопление не работает."
+    },
+    {
+      "id": "w_598",
+      "en": "air conditioning",
+      "ru": "кондиционер (система)",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "The air conditioning is broken.",
+      "exampleRu": "Кондиционер сломан."
+    },
+    {
+      "id": "w_599",
+      "en": "elevator",
+      "ru": "лифт",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "The elevator is out of service.",
+      "exampleRu": "Лифт не работает."
+    },
+    {
+      "id": "w_600",
+      "en": "balcony",
+      "ru": "балкон",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "We have a small balcony.",
+      "exampleRu": "У нас маленький балкон."
+    },
+    {
+      "id": "w_601",
+      "en": "yard",
+      "ru": "двор",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "The kids play in the yard.",
+      "exampleRu": "Дети играют во дворе."
+    },
+    {
+      "id": "w_602",
+      "en": "lease agreement",
+      "ru": "договор аренды (документ)",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "Read the lease agreement carefully.",
+      "exampleRu": "Внимательно прочитайте договор аренды."
+    },
+    {
+      "id": "w_603",
+      "en": "studio apartment",
+      "ru": "квартира-студия",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "I live in a studio apartment.",
+      "exampleRu": "Я живу в квартире-студии."
+    },
+    {
+      "id": "w_604",
+      "en": "building",
+      "ru": "здание",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "This building is very old.",
+      "exampleRu": "Это здание очень старое."
+    },
+    {
+      "id": "w_605",
+      "en": "floor plan",
+      "ru": "планировка",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "I like the floor plan.",
+      "exampleRu": "Мне нравится планировка."
+    },
+    {
+      "id": "w_606",
+      "en": "downtown",
+      "ru": "центр города",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "I live downtown.",
+      "exampleRu": "Я живу в центре города."
+    },
+    {
+      "id": "w_607",
+      "en": "suburb",
+      "ru": "пригород",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "We live in the suburbs.",
+      "exampleRu": "Мы живём в пригороде."
+    },
+    {
+      "id": "w_608",
+      "en": "lock",
+      "ru": "замок",
+      "partOfSpeech": "noun",
+      "topic": "housing",
+      "exampleEn": "Change the lock, please.",
+      "exampleRu": "Поменяйте замок, пожалуйста."
+    },
+    {
+      "id": "w_609",
+      "en": "renovate",
+      "ru": "делать ремонт (обновлять)",
+      "partOfSpeech": "verb",
+      "topic": "housing",
+      "exampleEn": "We renovated the kitchen.",
+      "exampleRu": "Мы сделали ремонт на кухне."
+    },
+    {
+      "id": "w_610",
+      "en": "ago",
+      "ru": "назад (о времени)",
+      "partOfSpeech": "adverb",
+      "topic": "past_time",
+      "exampleEn": "I moved here two years ago.",
+      "exampleRu": "Я переехал сюда два года назад."
+    },
+    {
+      "id": "w_611",
+      "en": "last week",
+      "ru": "на прошлой неделе",
+      "partOfSpeech": "phrase",
+      "topic": "past_time",
+      "exampleEn": "I was sick last week.",
+      "exampleRu": "На прошлой неделе я болел."
+    },
+    {
+      "id": "w_612",
+      "en": "last month",
+      "ru": "в прошлом месяце",
+      "partOfSpeech": "phrase",
+      "topic": "past_time",
+      "exampleEn": "We traveled last month.",
+      "exampleRu": "Мы путешествовали в прошлом месяце."
+    },
+    {
+      "id": "w_613",
+      "en": "last year",
+      "ru": "в прошлом году",
+      "partOfSpeech": "phrase",
+      "topic": "past_time",
+      "exampleEn": "I graduated last year.",
+      "exampleRu": "Я закончил учёбу в прошлом году."
+    },
+    {
+      "id": "w_614",
+      "en": "when I was",
+      "ru": "когда я был",
+      "partOfSpeech": "phrase",
+      "topic": "past_time",
+      "exampleEn": "When I was young, I lived in Texas.",
+      "exampleRu": "Когда я был молодым, я жил в Техасе."
+    },
+    {
+      "id": "w_615",
+      "en": "childhood",
+      "ru": "детство",
+      "partOfSpeech": "noun",
+      "topic": "past_time",
+      "exampleEn": "I had a happy childhood.",
+      "exampleRu": "У меня было счастливое детство."
+    },
+    {
+      "id": "w_616",
+      "en": "grow up",
+      "ru": "расти, вырасти",
+      "partOfSpeech": "verb",
+      "topic": "past_time",
+      "exampleEn": "I grew up in a small town.",
+      "exampleRu": "Я вырос в маленьком городе."
+    },
+    {
+      "id": "w_617",
+      "en": "was born",
+      "ru": "родился",
+      "partOfSpeech": "phrase",
+      "topic": "past_time",
+      "exampleEn": "I was born in 1990.",
+      "exampleRu": "Я родился в 1990 году."
+    },
+    {
+      "id": "w_618",
+      "en": "graduate",
+      "ru": "закончить учёбу",
+      "partOfSpeech": "verb",
+      "topic": "past_time",
+      "exampleEn": "She graduated from college.",
+      "exampleRu": "Она закончила колледж."
+    },
+    {
+      "id": "w_619",
+      "en": "already",
+      "ru": "уже",
+      "partOfSpeech": "adverb",
+      "topic": "past_time",
+      "exampleEn": "I already ate lunch.",
+      "exampleRu": "Я уже пообедал."
+    },
+    {
+      "id": "w_620",
+      "en": "just",
+      "ru": "только что",
+      "partOfSpeech": "adverb",
+      "topic": "past_time",
+      "exampleEn": "I just finished my work.",
+      "exampleRu": "Я только что закончил работу."
+    },
+    {
+      "id": "w_621",
+      "en": "once",
+      "ru": "однажды, один раз",
+      "partOfSpeech": "adverb",
+      "topic": "past_time",
+      "exampleEn": "I visited Paris once.",
+      "exampleRu": "Я однажды был в Париже."
+    },
+    {
+      "id": "w_622",
+      "en": "recently",
+      "ru": "недавно",
+      "partOfSpeech": "adverb",
+      "topic": "past_time",
+      "exampleEn": "I moved recently.",
+      "exampleRu": "Я недавно переехал."
+    },
+    {
+      "id": "w_623",
+      "en": "event",
+      "ru": "событие",
+      "partOfSpeech": "noun",
+      "topic": "past_time",
+      "exampleEn": "It was an important event.",
+      "exampleRu": "Это было важное событие."
+    },
+    {
+      "id": "w_624",
+      "en": "happen",
+      "ru": "случаться, происходить",
+      "partOfSpeech": "verb",
+      "topic": "past_time",
+      "exampleEn": "What happened yesterday?",
+      "exampleRu": "Что случилось вчера?"
+    },
+    {
+      "id": "w_625",
+      "en": "remember",
+      "ru": "помнить, вспоминать",
+      "partOfSpeech": "verb",
+      "topic": "past_time",
+      "exampleEn": "I remember that day.",
+      "exampleRu": "Я помню тот день."
+    },
+    {
+      "id": "w_626",
+      "en": "forget",
+      "ru": "забывать",
+      "partOfSpeech": "verb",
+      "topic": "past_time",
+      "exampleEn": "I forgot my keys.",
+      "exampleRu": "Я забыл ключи."
+    },
+    {
+      "id": "w_627",
+      "en": "past",
+      "ru": "прошлое",
+      "partOfSpeech": "noun",
+      "topic": "past_time",
+      "exampleEn": "Let's not talk about the past.",
+      "exampleRu": "Давай не будем говорить о прошлом."
+    },
+    {
+      "id": "w_628",
+      "en": "history",
+      "ru": "история",
+      "partOfSpeech": "noun",
+      "topic": "past_time",
+      "exampleEn": "I like American history.",
+      "exampleRu": "Мне нравится американская история."
+    },
+    {
+      "id": "w_629",
+      "en": "memory",
+      "ru": "воспоминание, память",
+      "partOfSpeech": "noun",
+      "topic": "past_time",
+      "exampleEn": "I have good memories of that trip.",
+      "exampleRu": "У меня хорошие воспоминания об этой поездке."
+    },
+    {
+      "id": "w_630",
+      "en": "used to",
+      "ru": "раньше (делал что-то)",
+      "partOfSpeech": "phrase",
+      "topic": "past_time",
+      "exampleEn": "I used to live in Texas.",
+      "exampleRu": "Раньше я жил в Техасе."
+    },
+    {
+      "id": "w_631",
+      "en": "decade",
+      "ru": "десятилетие",
+      "partOfSpeech": "noun",
+      "topic": "past_time",
+      "exampleEn": "I lived there for a decade.",
+      "exampleRu": "Я жил там десять лет."
+    },
+    {
+      "id": "w_632",
+      "en": "generation",
+      "ru": "поколение",
+      "partOfSpeech": "noun",
+      "topic": "past_time",
+      "exampleEn": "My generation grew up with computers.",
+      "exampleRu": "Моё поколение выросло с компьютерами."
+    },
+    {
+      "id": "w_633",
+      "en": "plan",
+      "ru": "план, планировать",
+      "partOfSpeech": "noun",
+      "topic": "future_plans",
+      "exampleEn": "I have a plan for the weekend.",
+      "exampleRu": "У меня есть план на выходные."
+    },
+    {
+      "id": "w_634",
+      "en": "goal",
+      "ru": "цель",
+      "partOfSpeech": "noun",
+      "topic": "future_plans",
+      "exampleEn": "My goal is to learn English.",
+      "exampleRu": "Моя цель — выучить английский."
+    },
+    {
+      "id": "w_635",
+      "en": "dream",
+      "ru": "мечта",
+      "partOfSpeech": "noun",
+      "topic": "future_plans",
+      "exampleEn": "It's my dream to travel.",
+      "exampleRu": "Путешествовать — моя мечта."
+    },
+    {
+      "id": "w_636",
+      "en": "dream about",
+      "ru": "мечтать о",
+      "partOfSpeech": "phrase",
+      "topic": "future_plans",
+      "exampleEn": "I dream about a new house.",
+      "exampleRu": "Я мечтаю о новом доме."
+    },
+    {
+      "id": "w_637",
+      "en": "intend",
+      "ru": "намереваться",
+      "partOfSpeech": "verb",
+      "topic": "future_plans",
+      "exampleEn": "I intend to finish soon.",
+      "exampleRu": "Я намереваюсь закончить скоро."
+    },
+    {
+      "id": "w_638",
+      "en": "future",
+      "ru": "будущее",
+      "partOfSpeech": "noun",
+      "topic": "future_plans",
+      "exampleEn": "I am excited about the future.",
+      "exampleRu": "Я рад будущему."
+    },
+    {
+      "id": "w_639",
+      "en": "someday",
+      "ru": "когда-нибудь",
+      "partOfSpeech": "adverb",
+      "topic": "future_plans",
+      "exampleEn": "Someday I will visit Japan.",
+      "exampleRu": "Когда-нибудь я посещу Японию."
+    },
+    {
+      "id": "w_640",
+      "en": "next week",
+      "ru": "на следующей неделе",
+      "partOfSpeech": "phrase",
+      "topic": "future_plans",
+      "exampleEn": "I start my new job next week.",
+      "exampleRu": "Я начинаю новую работу на следующей неделе."
+    },
+    {
+      "id": "w_641",
+      "en": "next month",
+      "ru": "в следующем месяце",
+      "partOfSpeech": "phrase",
+      "topic": "future_plans",
+      "exampleEn": "We are moving next month.",
+      "exampleRu": "Мы переезжаем в следующем месяце."
+    },
+    {
+      "id": "w_642",
+      "en": "soon",
+      "ru": "скоро",
+      "partOfSpeech": "adverb",
+      "topic": "future_plans",
+      "exampleEn": "I will call you soon.",
+      "exampleRu": "Я скоро тебе позвоню."
+    },
+    {
+      "id": "w_643",
+      "en": "eventually",
+      "ru": "в конце концов, со временем",
+      "partOfSpeech": "adverb",
+      "topic": "future_plans",
+      "exampleEn": "Eventually, I will learn English well.",
+      "exampleRu": "Со временем я выучу английский хорошо."
+    },
+    {
+      "id": "w_644",
+      "en": "decide",
+      "ru": "решить, принять решение",
+      "partOfSpeech": "verb",
+      "topic": "future_plans",
+      "exampleEn": "I decided to stay.",
+      "exampleRu": "Я решил остаться."
+    },
+    {
+      "id": "w_645",
+      "en": "hope",
+      "ru": "надеяться",
+      "partOfSpeech": "verb",
+      "topic": "future_plans",
+      "exampleEn": "I hope to see you soon.",
+      "exampleRu": "Я надеюсь скоро увидеться."
+    },
+    {
+      "id": "w_646",
+      "en": "expect",
+      "ru": "ожидать",
+      "partOfSpeech": "verb",
+      "topic": "future_plans",
+      "exampleEn": "I expect good news.",
+      "exampleRu": "Я ожидаю хороших новостей."
+    },
+    {
+      "id": "w_647",
+      "en": "achieve",
+      "ru": "достигать",
+      "partOfSpeech": "verb",
+      "topic": "future_plans",
+      "exampleEn": "I want to achieve my goals.",
+      "exampleRu": "Я хочу достичь своих целей."
+    },
+    {
+      "id": "w_648",
+      "en": "succeed",
+      "ru": "преуспеть, добиться успеха",
+      "partOfSpeech": "verb",
+      "topic": "future_plans",
+      "exampleEn": "She will succeed.",
+      "exampleRu": "У неё всё получится."
+    },
+    {
+      "id": "w_649",
+      "en": "prepare",
+      "ru": "готовиться",
+      "partOfSpeech": "verb",
+      "topic": "future_plans",
+      "exampleEn": "I am preparing for the exam.",
+      "exampleRu": "Я готовлюсь к экзамену."
+    },
+    {
+      "id": "w_650",
+      "en": "opportunity",
+      "ru": "возможность",
+      "partOfSpeech": "noun",
+      "topic": "future_plans",
+      "exampleEn": "This is a great opportunity.",
+      "exampleRu": "Это отличная возможность."
+    },
+    {
+      "id": "w_651",
+      "en": "possible",
+      "ru": "возможный",
+      "partOfSpeech": "adjective",
+      "topic": "future_plans",
+      "exampleEn": "It is possible to change plans.",
+      "exampleRu": "Можно изменить планы."
+    },
+    {
+      "id": "w_652",
+      "en": "excited",
+      "ru": "взволнованный (радостно)",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am excited about the trip.",
+      "exampleRu": "Я взволнован поездкой."
+    },
+    {
+      "id": "w_653",
+      "en": "nervous",
+      "ru": "нервничающий",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am nervous about the interview.",
+      "exampleRu": "Я нервничаю перед собеседованием."
+    },
+    {
+      "id": "w_654",
+      "en": "worried",
+      "ru": "обеспокоенный",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "She is worried about her son.",
+      "exampleRu": "Она беспокоится о сыне."
+    },
+    {
+      "id": "w_655",
+      "en": "angry",
+      "ru": "злой, сердитый",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "He is angry at me.",
+      "exampleRu": "Он злится на меня."
+    },
+    {
+      "id": "w_656",
+      "en": "surprised",
+      "ru": "удивлённый",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I was surprised by the news.",
+      "exampleRu": "Я был удивлён новостью."
+    },
+    {
+      "id": "w_657",
+      "en": "confused",
+      "ru": "растерянный, сбитый с толку",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am confused about the schedule.",
+      "exampleRu": "Я запутался в расписании."
+    },
+    {
+      "id": "w_658",
+      "en": "proud",
+      "ru": "гордый",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am proud of you.",
+      "exampleRu": "Я горжусь тобой."
+    },
+    {
+      "id": "w_659",
+      "en": "embarrassed",
+      "ru": "смущённый",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I felt embarrassed.",
+      "exampleRu": "Мне было неловко."
+    },
+    {
+      "id": "w_660",
+      "en": "disappointed",
+      "ru": "разочарованный",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am disappointed in the result.",
+      "exampleRu": "Я разочарован результатом."
+    },
+    {
+      "id": "w_661",
+      "en": "relieved",
+      "ru": "испытывающий облегчение",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am relieved it's over.",
+      "exampleRu": "Я рад, что это закончилось."
+    },
+    {
+      "id": "w_662",
+      "en": "confident",
+      "ru": "уверенный (в себе)",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "She feels confident.",
+      "exampleRu": "Она чувствует себя уверенно."
+    },
+    {
+      "id": "w_663",
+      "en": "curious",
+      "ru": "любопытный",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am curious about your job.",
+      "exampleRu": "Мне любопытна твоя работа."
+    },
+    {
+      "id": "w_664",
+      "en": "bored",
+      "ru": "скучающий",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am bored at home.",
+      "exampleRu": "Мне скучно дома."
+    },
+    {
+      "id": "w_665",
+      "en": "lonely",
+      "ru": "одинокий",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "He feels lonely sometimes.",
+      "exampleRu": "Иногда он чувствует себя одиноко."
+    },
+    {
+      "id": "w_666",
+      "en": "grateful",
+      "ru": "благодарный",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am grateful for your help.",
+      "exampleRu": "Я благодарен за твою помощь."
+    },
+    {
+      "id": "w_667",
+      "en": "scared",
+      "ru": "испуганный",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "The child is scared of the dark.",
+      "exampleRu": "Ребёнок боится темноты."
+    },
+    {
+      "id": "w_668",
+      "en": "calm",
+      "ru": "спокойный",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "Stay calm, please.",
+      "exampleRu": "Пожалуйста, оставайся спокойным."
+    },
+    {
+      "id": "w_669",
+      "en": "upset",
+      "ru": "расстроенный",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "She is upset about the news.",
+      "exampleRu": "Она расстроена новостью."
+    },
+    {
+      "id": "w_670",
+      "en": "relaxed",
+      "ru": "расслабленный",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I feel relaxed on vacation.",
+      "exampleRu": "В отпуске я чувствую себя расслабленным."
+    },
+    {
+      "id": "w_671",
+      "en": "stressed",
+      "ru": "напряжённый, в стрессе",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am stressed about work.",
+      "exampleRu": "Я в стрессе из-за работы."
+    },
+    {
+      "id": "w_672",
+      "en": "jealous",
+      "ru": "завистливый, ревнивый",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "He is jealous of his brother.",
+      "exampleRu": "Он завидует брату."
+    },
+    {
+      "id": "w_673",
+      "en": "disgusted",
+      "ru": "испытывающий отвращение",
+      "partOfSpeech": "adjective",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am disgusted by that smell.",
+      "exampleRu": "Мне противен этот запах."
+    },
+    {
+      "id": "w_674",
+      "en": "feeling",
+      "ru": "чувство",
+      "partOfSpeech": "noun",
+      "topic": "feelings_emotions",
+      "exampleEn": "Tell me your feelings.",
+      "exampleRu": "Расскажи мне о своих чувствах."
+    },
+    {
+      "id": "w_675",
+      "en": "emotion",
+      "ru": "эмоция",
+      "partOfSpeech": "noun",
+      "topic": "feelings_emotions",
+      "exampleEn": "It is hard to hide emotion.",
+      "exampleRu": "Трудно скрыть эмоцию."
+    },
+    {
+      "id": "w_676",
+      "en": "mood",
+      "ru": "настроение",
+      "partOfSpeech": "noun",
+      "topic": "feelings_emotions",
+      "exampleEn": "I am in a good mood.",
+      "exampleRu": "У меня хорошее настроение."
+    },
+    {
+      "id": "w_677",
+      "en": "laugh",
+      "ru": "смеяться",
+      "partOfSpeech": "verb",
+      "topic": "feelings_emotions",
+      "exampleEn": "We laughed all night.",
+      "exampleRu": "Мы смеялись всю ночь."
+    },
+    {
+      "id": "w_678",
+      "en": "cry",
+      "ru": "плакать",
+      "partOfSpeech": "verb",
+      "topic": "feelings_emotions",
+      "exampleEn": "The baby is crying.",
+      "exampleRu": "Ребёнок плачет."
+    },
+    {
+      "id": "w_679",
+      "en": "friendly",
+      "ru": "дружелюбный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "My neighbor is very friendly.",
+      "exampleRu": "Мой сосед очень дружелюбный."
+    },
+    {
+      "id": "w_680",
+      "en": "kind",
+      "ru": "добрый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "She is a kind person.",
+      "exampleRu": "Она добрый человек."
+    },
+    {
+      "id": "w_681",
+      "en": "honest",
+      "ru": "честный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "He is always honest.",
+      "exampleRu": "Он всегда честен."
+    },
+    {
+      "id": "w_682",
+      "en": "funny",
+      "ru": "смешной, забавный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "My brother is very funny.",
+      "exampleRu": "Мой брат очень смешной."
+    },
+    {
+      "id": "w_683",
+      "en": "serious",
+      "ru": "серьёзный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "My boss is very serious.",
+      "exampleRu": "Мой начальник очень серьёзный."
+    },
+    {
+      "id": "w_684",
+      "en": "shy",
+      "ru": "застенчивый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "The new student is shy.",
+      "exampleRu": "Новый ученик застенчивый."
+    },
+    {
+      "id": "w_685",
+      "en": "polite",
+      "ru": "вежливый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "The staff is polite.",
+      "exampleRu": "Персонал вежливый."
+    },
+    {
+      "id": "w_686",
+      "en": "rude",
+      "ru": "грубый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "It's rude to interrupt.",
+      "exampleRu": "Перебивать — грубо."
+    },
+    {
+      "id": "w_687",
+      "en": "patient",
+      "ru": "терпеливый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "You need to be patient.",
+      "exampleRu": "Нужно быть терпеливым."
+    },
+    {
+      "id": "w_688",
+      "en": "lazy",
+      "ru": "ленивый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "He is too lazy to cook.",
+      "exampleRu": "Ему слишком лень готовить."
+    },
+    {
+      "id": "w_689",
+      "en": "hardworking",
+      "ru": "трудолюбивый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "She is very hardworking.",
+      "exampleRu": "Она очень трудолюбивая."
+    },
+    {
+      "id": "w_690",
+      "en": "generous",
+      "ru": "щедрый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "My uncle is generous.",
+      "exampleRu": "Мой дядя щедрый."
+    },
+    {
+      "id": "w_691",
+      "en": "smart",
+      "ru": "умный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "My daughter is very smart.",
+      "exampleRu": "Моя дочь очень умная."
+    },
+    {
+      "id": "w_692",
+      "en": "creative",
+      "ru": "творческий",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "He is a creative person.",
+      "exampleRu": "Он творческий человек."
+    },
+    {
+      "id": "w_693",
+      "en": "brave",
+      "ru": "смелый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "The firefighter is brave.",
+      "exampleRu": "Пожарный смелый."
+    },
+    {
+      "id": "w_694",
+      "en": "careful",
+      "ru": "осторожный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "Be careful on the road.",
+      "exampleRu": "Будь осторожен на дороге."
+    },
+    {
+      "id": "w_695",
+      "en": "careless",
+      "ru": "неосторожный, небрежный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "Don't be careless with money.",
+      "exampleRu": "Не будь небрежным с деньгами."
+    },
+    {
+      "id": "w_696",
+      "en": "selfish",
+      "ru": "эгоистичный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "He can be selfish sometimes.",
+      "exampleRu": "Иногда он бывает эгоистичным."
+    },
+    {
+      "id": "w_697",
+      "en": "stubborn",
+      "ru": "упрямый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "My father is stubborn.",
+      "exampleRu": "Мой отец упрямый."
+    },
+    {
+      "id": "w_698",
+      "en": "talkative",
+      "ru": "разговорчивый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "My sister is very talkative.",
+      "exampleRu": "Моя сестра очень разговорчивая."
+    },
+    {
+      "id": "w_699",
+      "en": "optimistic",
+      "ru": "оптимистичный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "She is always optimistic.",
+      "exampleRu": "Она всегда оптимистична."
+    },
+    {
+      "id": "w_700",
+      "en": "pessimistic",
+      "ru": "пессимистичный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "Don't be so pessimistic.",
+      "exampleRu": "Не будь таким пессимистом."
+    },
+    {
+      "id": "w_701",
+      "en": "independent",
+      "ru": "самостоятельный, независимый",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "My son is independent.",
+      "exampleRu": "Мой сын самостоятельный."
+    },
+    {
+      "id": "w_702",
+      "en": "responsible",
+      "ru": "ответственный",
+      "partOfSpeech": "adjective",
+      "topic": "personality",
+      "exampleEn": "She is a responsible worker.",
+      "exampleRu": "Она ответственный работник."
+    },
+    {
+      "id": "w_703",
+      "en": "character",
+      "ru": "характер",
+      "partOfSpeech": "noun",
+      "topic": "personality",
+      "exampleEn": "He has a strong character.",
+      "exampleRu": "У него сильный характер."
+    },
+    {
+      "id": "w_704",
+      "en": "personality",
+      "ru": "личность, характер",
+      "partOfSpeech": "noun",
+      "topic": "personality",
+      "exampleEn": "She has a great personality.",
+      "exampleRu": "У неё отличный характер."
+    },
+    {
+      "id": "w_705",
+      "en": "better",
+      "ru": "лучше",
+      "partOfSpeech": "adjective",
+      "topic": "opinions_comparisons",
+      "exampleEn": "This phone is better.",
+      "exampleRu": "Этот телефон лучше."
+    },
+    {
+      "id": "w_706",
+      "en": "worse",
+      "ru": "хуже",
+      "partOfSpeech": "adjective",
+      "topic": "opinions_comparisons",
+      "exampleEn": "The traffic is worse today.",
+      "exampleRu": "Сегодня пробки хуже."
+    },
+    {
+      "id": "w_707",
+      "en": "best",
+      "ru": "лучший",
+      "partOfSpeech": "adjective",
+      "topic": "opinions_comparisons",
+      "exampleEn": "This is the best coffee shop.",
+      "exampleRu": "Это лучшая кофейня."
+    },
+    {
+      "id": "w_708",
+      "en": "worst",
+      "ru": "худший",
+      "partOfSpeech": "adjective",
+      "topic": "opinions_comparisons",
+      "exampleEn": "That was the worst movie.",
+      "exampleRu": "Это был худший фильм."
+    },
+    {
+      "id": "w_709",
+      "en": "more",
+      "ru": "больше",
+      "partOfSpeech": "adverb",
+      "topic": "opinions_comparisons",
+      "exampleEn": "This one is more expensive.",
+      "exampleRu": "Этот дороже."
+    },
+    {
+      "id": "w_710",
+      "en": "less",
+      "ru": "меньше",
+      "partOfSpeech": "adverb",
+      "topic": "opinions_comparisons",
+      "exampleEn": "I eat less sugar now.",
+      "exampleRu": "Теперь я ем меньше сахара."
+    },
+    {
+      "id": "w_711",
+      "en": "in my opinion",
+      "ru": "по-моему, на мой взгляд",
+      "partOfSpeech": "phrase",
+      "topic": "opinions_comparisons",
+      "exampleEn": "In my opinion, it's a good idea.",
+      "exampleRu": "По-моему, это хорошая идея."
+    },
+    {
+      "id": "w_712",
+      "en": "I think that",
+      "ru": "я думаю, что",
+      "partOfSpeech": "phrase",
+      "topic": "opinions_comparisons",
+      "exampleEn": "I think that he is right.",
+      "exampleRu": "Я думаю, что он прав."
+    },
+    {
+      "id": "w_713",
+      "en": "agree",
+      "ru": "соглашаться",
+      "partOfSpeech": "verb",
+      "topic": "opinions_comparisons",
+      "exampleEn": "I agree with you.",
+      "exampleRu": "Я согласен с тобой."
+    },
+    {
+      "id": "w_714",
+      "en": "disagree",
+      "ru": "не соглашаться",
+      "partOfSpeech": "verb",
+      "topic": "opinions_comparisons",
+      "exampleEn": "I disagree with that.",
+      "exampleRu": "Я не согласен с этим."
+    },
+    {
+      "id": "w_715",
+      "en": "prefer",
+      "ru": "предпочитать",
+      "partOfSpeech": "verb",
+      "topic": "opinions_comparisons",
+      "exampleEn": "I prefer tea to coffee.",
+      "exampleRu": "Я предпочитаю чай кофе."
+    },
+    {
+      "id": "w_716",
+      "en": "compare",
+      "ru": "сравнивать",
+      "partOfSpeech": "verb",
+      "topic": "opinions_comparisons",
+      "exampleEn": "Let's compare the prices.",
+      "exampleRu": "Давай сравним цены."
+    },
+    {
+      "id": "w_717",
+      "en": "similar",
+      "ru": "похожий",
+      "partOfSpeech": "adjective",
+      "topic": "opinions_comparisons",
+      "exampleEn": "These two houses are similar.",
+      "exampleRu": "Эти два дома похожи."
+    },
+    {
+      "id": "w_718",
+      "en": "opinion",
+      "ru": "мнение",
+      "partOfSpeech": "noun",
+      "topic": "opinions_comparisons",
+      "exampleEn": "What is your opinion?",
+      "exampleRu": "Какое твоё мнение?"
+    },
+    {
+      "id": "w_719",
+      "en": "than",
+      "ru": "чем (при сравнении)",
+      "partOfSpeech": "conjunction",
+      "topic": "opinions_comparisons",
+      "exampleEn": "She is taller than me.",
+      "exampleRu": "Она выше меня."
+    },
+    {
+      "id": "w_720",
+      "en": "as...as",
+      "ru": "так же... как",
+      "partOfSpeech": "phrase",
+      "topic": "opinions_comparisons",
+      "exampleEn": "He is as tall as his father.",
+      "exampleRu": "Он такой же высокий, как его отец."
+    },
+    {
+      "id": "w_721",
+      "en": "though",
+      "ru": "хотя",
+      "partOfSpeech": "conjunction",
+      "topic": "opinions_comparisons",
+      "exampleEn": "It's cheap, though it's good quality.",
+      "exampleRu": "Это дёшево, хотя качество хорошее."
+    },
+    {
+      "id": "w_722",
+      "en": "however",
+      "ru": "однако",
+      "partOfSpeech": "conjunction",
+      "topic": "opinions_comparisons",
+      "exampleEn": "I like it, however it's expensive.",
+      "exampleRu": "Мне это нравится, однако это дорого."
+    },
+    {
+      "id": "w_723",
+      "en": "depend on",
+      "ru": "зависеть от",
+      "partOfSpeech": "phrase",
+      "topic": "opinions_comparisons",
+      "exampleEn": "It depends on the weather.",
+      "exampleRu": "Это зависит от погоды."
+    },
+    {
+      "id": "w_724",
+      "en": "matter",
+      "ru": "иметь значение",
+      "partOfSpeech": "verb",
+      "topic": "opinions_comparisons",
+      "exampleEn": "Your opinion matters to me.",
+      "exampleRu": "Твоё мнение важно для меня."
+    },
+    {
+      "id": "w_725",
+      "en": "phone call",
+      "ru": "телефонный звонок",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "I got a phone call.",
+      "exampleRu": "Мне позвонили."
+    },
+    {
+      "id": "w_726",
+      "en": "answer the phone",
+      "ru": "ответить на звонок",
+      "partOfSpeech": "phrase",
+      "topic": "phone_communication",
+      "exampleEn": "Please answer the phone.",
+      "exampleRu": "Пожалуйста, ответь на звонок."
+    },
+    {
+      "id": "w_727",
+      "en": "hang up",
+      "ru": "повесить трубку",
+      "partOfSpeech": "phrase",
+      "topic": "phone_communication",
+      "exampleEn": "She hung up quickly.",
+      "exampleRu": "Она быстро повесила трубку."
+    },
+    {
+      "id": "w_728",
+      "en": "voicemail",
+      "ru": "голосовая почта",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "Leave a voicemail, please.",
+      "exampleRu": "Оставьте голосовое сообщение, пожалуйста."
+    },
+    {
+      "id": "w_729",
+      "en": "text message",
+      "ru": "смс-сообщение",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "I sent a text message.",
+      "exampleRu": "Я отправил смс."
+    },
+    {
+      "id": "w_730",
+      "en": "contact",
+      "ru": "контакт",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "Save this contact.",
+      "exampleRu": "Сохрани этот контакт."
+    },
+    {
+      "id": "w_731",
+      "en": "missed call",
+      "ru": "пропущенный звонок",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "I have a missed call.",
+      "exampleRu": "У меня пропущенный звонок."
+    },
+    {
+      "id": "w_732",
+      "en": "the line is busy",
+      "ru": "линия занята",
+      "partOfSpeech": "phrase",
+      "topic": "phone_communication",
+      "exampleEn": "Sorry, the line is busy.",
+      "exampleRu": "Извините, линия занята."
+    },
+    {
+      "id": "w_733",
+      "en": "hold on",
+      "ru": "подождать (на линии)",
+      "partOfSpeech": "phrase",
+      "topic": "phone_communication",
+      "exampleEn": "Please hold on a moment.",
+      "exampleRu": "Пожалуйста, подождите минутку."
+    },
+    {
+      "id": "w_734",
+      "en": "call back",
+      "ru": "перезвонить",
+      "partOfSpeech": "phrase",
+      "topic": "phone_communication",
+      "exampleEn": "I will call you back.",
+      "exampleRu": "Я тебе перезвоню."
+    },
+    {
+      "id": "w_735",
+      "en": "wrong number",
+      "ru": "не тот номер",
+      "partOfSpeech": "phrase",
+      "topic": "phone_communication",
+      "exampleEn": "Sorry, wrong number.",
+      "exampleRu": "Извините, не туда попал."
+    },
+    {
+      "id": "w_736",
+      "en": "area code",
+      "ru": "код города/региона",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "What is the area code?",
+      "exampleRu": "Какой код региона?"
+    },
+    {
+      "id": "w_737",
+      "en": "extension",
+      "ru": "добавочный номер",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "Dial extension 205.",
+      "exampleRu": "Наберите добавочный 205."
+    },
+    {
+      "id": "w_738",
+      "en": "signal",
+      "ru": "сигнал (связи)",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "There is no signal here.",
+      "exampleRu": "Здесь нет сигнала."
+    },
+    {
+      "id": "w_739",
+      "en": "charge",
+      "ru": "заряжать",
+      "partOfSpeech": "verb",
+      "topic": "phone_communication",
+      "exampleEn": "I need to charge my phone.",
+      "exampleRu": "Мне нужно зарядить телефон."
+    },
+    {
+      "id": "w_740",
+      "en": "battery",
+      "ru": "батарея, аккумулятор",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "My battery is low.",
+      "exampleRu": "У меня разряжается батарея."
+    },
+    {
+      "id": "w_741",
+      "en": "ring",
+      "ru": "звонить (о звонке)",
+      "partOfSpeech": "verb",
+      "topic": "phone_communication",
+      "exampleEn": "The phone is ringing.",
+      "exampleRu": "Телефон звонит."
+    },
+    {
+      "id": "w_742",
+      "en": "speak louder",
+      "ru": "говорить громче",
+      "partOfSpeech": "phrase",
+      "topic": "phone_communication",
+      "exampleEn": "Can you speak louder?",
+      "exampleRu": "Можете говорить громче?"
+    },
+    {
+      "id": "w_743",
+      "en": "repeat",
+      "ru": "повторить",
+      "partOfSpeech": "verb",
+      "topic": "phone_communication",
+      "exampleEn": "Can you repeat that, please?",
+      "exampleRu": "Можете повторить, пожалуйста?"
+    },
+    {
+      "id": "w_744",
+      "en": "connection",
+      "ru": "связь, соединение",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "The connection is bad.",
+      "exampleRu": "Связь плохая."
+    },
+    {
+      "id": "w_745",
+      "en": "mute",
+      "ru": "выключить звук",
+      "partOfSpeech": "verb",
+      "topic": "phone_communication",
+      "exampleEn": "Please mute your phone.",
+      "exampleRu": "Пожалуйста, выключите звук на телефоне."
+    },
+    {
+      "id": "w_746",
+      "en": "available",
+      "ru": "доступный, свободный",
+      "partOfSpeech": "adjective",
+      "topic": "phone_communication",
+      "exampleEn": "Is he available now?",
+      "exampleRu": "Он сейчас свободен?"
+    },
+    {
+      "id": "w_747",
+      "en": "urgent",
+      "ru": "срочный",
+      "partOfSpeech": "adjective",
+      "topic": "phone_communication",
+      "exampleEn": "This is urgent.",
+      "exampleRu": "Это срочно."
+    },
+    {
+      "id": "w_748",
+      "en": "message",
+      "ru": "сообщение",
+      "partOfSpeech": "noun",
+      "topic": "phone_communication",
+      "exampleEn": "I left you a message.",
+      "exampleRu": "Я оставил тебе сообщение."
+    },
+    {
+      "id": "w_749",
+      "en": "reach",
+      "ru": "связаться (с кем-то)",
+      "partOfSpeech": "verb",
+      "topic": "phone_communication",
+      "exampleEn": "I couldn't reach you.",
+      "exampleRu": "Я не смог с тобой связаться."
+    },
+    {
+      "id": "w_750",
+      "en": "laptop",
+      "ru": "ноутбук",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "I work on my laptop.",
+      "exampleRu": "Я работаю за ноутбуком."
+    },
+    {
+      "id": "w_751",
+      "en": "tablet",
+      "ru": "планшет",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "My daughter has a tablet.",
+      "exampleRu": "У моей дочери есть планшет."
+    },
+    {
+      "id": "w_752",
+      "en": "charger",
+      "ru": "зарядное устройство",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "Do you have a charger?",
+      "exampleRu": "У тебя есть зарядка?"
+    },
+    {
+      "id": "w_753",
+      "en": "wifi",
+      "ru": "вайфай",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "Is there free wifi here?",
+      "exampleRu": "Здесь есть бесплатный вайфай?"
+    },
+    {
+      "id": "w_754",
+      "en": "internet",
+      "ru": "интернет",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "I need internet for work.",
+      "exampleRu": "Мне нужен интернет для работы."
+    },
+    {
+      "id": "w_755",
+      "en": "app",
+      "ru": "приложение",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "I downloaded a new app.",
+      "exampleRu": "Я скачал новое приложение."
+    },
+    {
+      "id": "w_756",
+      "en": "password",
+      "ru": "пароль",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "I forgot my password.",
+      "exampleRu": "Я забыл пароль."
+    },
+    {
+      "id": "w_757",
+      "en": "screen",
+      "ru": "экран",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "The screen is broken.",
+      "exampleRu": "Экран разбит."
+    },
+    {
+      "id": "w_758",
+      "en": "printer",
+      "ru": "принтер",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "The printer is out of paper.",
+      "exampleRu": "В принтере закончилась бумага."
+    },
+    {
+      "id": "w_759",
+      "en": "camera",
+      "ru": "камера, фотоаппарат",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "My phone has a good camera.",
+      "exampleRu": "У моего телефона хорошая камера."
+    },
+    {
+      "id": "w_760",
+      "en": "headphones",
+      "ru": "наушники",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "I listen to music with headphones.",
+      "exampleRu": "Я слушаю музыку в наушниках."
+    },
+    {
+      "id": "w_761",
+      "en": "website",
+      "ru": "веб-сайт",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "Visit our website.",
+      "exampleRu": "Посетите наш сайт."
+    },
+    {
+      "id": "w_762",
+      "en": "download",
+      "ru": "скачивать",
+      "partOfSpeech": "verb",
+      "topic": "technology",
+      "exampleEn": "Download the app first.",
+      "exampleRu": "Сначала скачай приложение."
+    },
+    {
+      "id": "w_763",
+      "en": "upload",
+      "ru": "загружать (в интернет)",
+      "partOfSpeech": "verb",
+      "topic": "technology",
+      "exampleEn": "Upload the photo, please.",
+      "exampleRu": "Загрузи фото, пожалуйста."
+    },
+    {
+      "id": "w_764",
+      "en": "click",
+      "ru": "нажимать (мышью)",
+      "partOfSpeech": "verb",
+      "topic": "technology",
+      "exampleEn": "Click this button.",
+      "exampleRu": "Нажми эту кнопку."
+    },
+    {
+      "id": "w_765",
+      "en": "save",
+      "ru": "сохранять",
+      "partOfSpeech": "verb",
+      "topic": "technology",
+      "exampleEn": "Save the document.",
+      "exampleRu": "Сохрани документ."
+    },
+    {
+      "id": "w_766",
+      "en": "delete",
+      "ru": "удалять",
+      "partOfSpeech": "verb",
+      "topic": "technology",
+      "exampleEn": "Delete this file.",
+      "exampleRu": "Удали этот файл."
+    },
+    {
+      "id": "w_767",
+      "en": "update",
+      "ru": "обновлять",
+      "partOfSpeech": "verb",
+      "topic": "technology",
+      "exampleEn": "Update your app.",
+      "exampleRu": "Обнови своё приложение."
+    },
+    {
+      "id": "w_768",
+      "en": "device",
+      "ru": "устройство",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "Turn off the device.",
+      "exampleRu": "Выключи устройство."
+    },
+    {
+      "id": "w_769",
+      "en": "online",
+      "ru": "онлайн",
+      "partOfSpeech": "adverb",
+      "topic": "technology",
+      "exampleEn": "I shop online.",
+      "exampleRu": "Я делаю покупки онлайн."
+    },
+    {
+      "id": "w_770",
+      "en": "search",
+      "ru": "искать",
+      "partOfSpeech": "verb",
+      "topic": "technology",
+      "exampleEn": "Search for the address online.",
+      "exampleRu": "Найди адрес онлайн."
+    },
+    {
+      "id": "w_771",
+      "en": "social media",
+      "ru": "социальные сети",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "I don't use social media much.",
+      "exampleRu": "Я не особо пользуюсь соцсетями."
+    },
+    {
+      "id": "w_772",
+      "en": "video",
+      "ru": "видео",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "Watch this video.",
+      "exampleRu": "Посмотри это видео."
+    },
+    {
+      "id": "w_773",
+      "en": "settings",
+      "ru": "настройки",
+      "partOfSpeech": "noun",
+      "topic": "technology",
+      "exampleEn": "Check the settings.",
+      "exampleRu": "Проверь настройки."
+    },
+    {
+      "id": "w_774",
+      "en": "vacation",
+      "ru": "отпуск, каникулы",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "We are on vacation.",
+      "exampleRu": "Мы в отпуске."
+    },
+    {
+      "id": "w_775",
+      "en": "trip",
+      "ru": "поездка",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "We had a great trip.",
+      "exampleRu": "У нас была отличная поездка."
+    },
+    {
+      "id": "w_776",
+      "en": "hotel",
+      "ru": "отель",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "We stayed at a nice hotel.",
+      "exampleRu": "Мы остановились в хорошем отеле."
+    },
+    {
+      "id": "w_777",
+      "en": "reservation",
+      "ru": "бронирование",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "I made a reservation.",
+      "exampleRu": "Я сделал бронирование."
+    },
+    {
+      "id": "w_778",
+      "en": "luggage",
+      "ru": "багаж",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "My luggage is heavy.",
+      "exampleRu": "Мой багаж тяжёлый."
+    },
+    {
+      "id": "w_779",
+      "en": "suitcase",
+      "ru": "чемодан",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "Pack your suitcase.",
+      "exampleRu": "Собери чемодан."
+    },
+    {
+      "id": "w_780",
+      "en": "tourist",
+      "ru": "турист",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "There are many tourists here.",
+      "exampleRu": "Здесь много туристов."
+    },
+    {
+      "id": "w_781",
+      "en": "sightseeing",
+      "ru": "осмотр достопримечательностей",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "We went sightseeing.",
+      "exampleRu": "Мы ходили смотреть достопримечательности."
+    },
+    {
+      "id": "w_782",
+      "en": "souvenir",
+      "ru": "сувенир",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "I bought a souvenir.",
+      "exampleRu": "Я купил сувенир."
+    },
+    {
+      "id": "w_783",
+      "en": "flight",
+      "ru": "рейс, полёт",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "Our flight is delayed.",
+      "exampleRu": "Наш рейс задерживается."
+    },
+    {
+      "id": "w_784",
+      "en": "boarding pass",
+      "ru": "посадочный талон",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "Show your boarding pass.",
+      "exampleRu": "Покажите посадочный талон."
+    },
+    {
+      "id": "w_785",
+      "en": "check in",
+      "ru": "регистрация (на рейс/в отель)",
+      "partOfSpeech": "phrase",
+      "topic": "travel_vacation",
+      "exampleEn": "We need to check in.",
+      "exampleRu": "Нам нужно зарегистрироваться."
+    },
+    {
+      "id": "w_786",
+      "en": "customs",
+      "ru": "таможня",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "We went through customs.",
+      "exampleRu": "Мы прошли таможню."
+    },
+    {
+      "id": "w_787",
+      "en": "guide",
+      "ru": "гид, экскурсовод",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "Our guide spoke English.",
+      "exampleRu": "Наш гид говорил по-английски."
+    },
+    {
+      "id": "w_788",
+      "en": "beach",
+      "ru": "пляж",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "We relaxed on the beach.",
+      "exampleRu": "Мы отдыхали на пляже."
+    },
+    {
+      "id": "w_789",
+      "en": "mountain",
+      "ru": "гора",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "We hiked in the mountains.",
+      "exampleRu": "Мы ходили в поход в горы."
+    },
+    {
+      "id": "w_790",
+      "en": "lake",
+      "ru": "озеро",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "The lake is beautiful.",
+      "exampleRu": "Озеро красивое."
+    },
+    {
+      "id": "w_791",
+      "en": "island",
+      "ru": "остров",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "We visited a small island.",
+      "exampleRu": "Мы посетили маленький остров."
+    },
+    {
+      "id": "w_792",
+      "en": "abroad",
+      "ru": "за границей, за границу",
+      "partOfSpeech": "adverb",
+      "topic": "travel_vacation",
+      "exampleEn": "I want to travel abroad.",
+      "exampleRu": "Я хочу путешествовать за границу."
+    },
+    {
+      "id": "w_793",
+      "en": "destination",
+      "ru": "пункт назначения",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "What is your destination?",
+      "exampleRu": "Какой у вас пункт назначения?"
+    },
+    {
+      "id": "w_794",
+      "en": "itinerary",
+      "ru": "маршрут поездки",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "Here is our itinerary.",
+      "exampleRu": "Вот наш маршрут."
+    },
+    {
+      "id": "w_795",
+      "en": "delay",
+      "ru": "задержка",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "There is a delay.",
+      "exampleRu": "Есть задержка."
+    },
+    {
+      "id": "w_796",
+      "en": "cancel",
+      "ru": "отменять",
+      "partOfSpeech": "verb",
+      "topic": "travel_vacation",
+      "exampleEn": "They canceled the flight.",
+      "exampleRu": "Они отменили рейс."
+    },
+    {
+      "id": "w_797",
+      "en": "pack",
+      "ru": "собирать вещи (в дорогу)",
+      "partOfSpeech": "verb",
+      "topic": "travel_vacation",
+      "exampleEn": "I need to pack.",
+      "exampleRu": "Мне нужно собрать вещи."
+    },
+    {
+      "id": "w_798",
+      "en": "explore",
+      "ru": "исследовать",
+      "partOfSpeech": "verb",
+      "topic": "travel_vacation",
+      "exampleEn": "We explored the city.",
+      "exampleRu": "Мы исследовали город."
+    },
+    {
+      "id": "w_799",
+      "en": "local",
+      "ru": "местный",
+      "partOfSpeech": "adjective",
+      "topic": "travel_vacation",
+      "exampleEn": "We ate at a local restaurant.",
+      "exampleRu": "Мы ели в местном ресторане."
+    },
+    {
+      "id": "w_800",
+      "en": "foreign",
+      "ru": "иностранный",
+      "partOfSpeech": "adjective",
+      "topic": "travel_vacation",
+      "exampleEn": "I like foreign food.",
+      "exampleRu": "Мне нравится иностранная еда."
+    },
+    {
+      "id": "w_801",
+      "en": "crowded",
+      "ru": "переполненный, людный",
+      "partOfSpeech": "adjective",
+      "topic": "travel_vacation",
+      "exampleEn": "The beach was crowded.",
+      "exampleRu": "Пляж был переполнен."
+    },
+    {
+      "id": "w_802",
+      "en": "adventure",
+      "ru": "приключение",
+      "partOfSpeech": "noun",
+      "topic": "travel_vacation",
+      "exampleEn": "It was a great adventure.",
+      "exampleRu": "Это было отличное приключение."
+    },
+    {
+      "id": "w_803",
+      "en": "memorable",
+      "ru": "запоминающийся",
+      "partOfSpeech": "adjective",
+      "topic": "travel_vacation",
+      "exampleEn": "It was a memorable trip.",
+      "exampleRu": "Это была запоминающаяся поездка."
+    },
+    {
+      "id": "w_804",
+      "en": "a few",
+      "ru": "несколько (с исч.)",
+      "partOfSpeech": "phrase",
+      "topic": "quantities",
+      "exampleEn": "I have a few friends here.",
+      "exampleRu": "У меня здесь несколько друзей."
+    },
+    {
+      "id": "w_805",
+      "en": "a little",
+      "ru": "немного (с неисч.)",
+      "partOfSpeech": "phrase",
+      "topic": "quantities",
+      "exampleEn": "I need a little help.",
+      "exampleRu": "Мне нужна небольшая помощь."
+    },
+    {
+      "id": "w_806",
+      "en": "several",
+      "ru": "несколько, несколько штук",
+      "partOfSpeech": "determiner",
+      "topic": "quantities",
+      "exampleEn": "I called several times.",
+      "exampleRu": "Я звонил несколько раз."
+    },
+    {
+      "id": "w_807",
+      "en": "enough",
+      "ru": "достаточно",
+      "partOfSpeech": "adverb",
+      "topic": "quantities",
+      "exampleEn": "Is this enough money?",
+      "exampleRu": "Этого денег достаточно?"
+    },
+    {
+      "id": "w_808",
+      "en": "too much",
+      "ru": "слишком много (с неисч.)",
+      "partOfSpeech": "phrase",
+      "topic": "quantities",
+      "exampleEn": "That's too much sugar.",
+      "exampleRu": "Это слишком много сахара."
+    },
+    {
+      "id": "w_809",
+      "en": "too many",
+      "ru": "слишком много (с исч.)",
+      "partOfSpeech": "phrase",
+      "topic": "quantities",
+      "exampleEn": "There are too many people.",
+      "exampleRu": "Здесь слишком много людей."
+    },
+    {
+      "id": "w_810",
+      "en": "plenty of",
+      "ru": "много, достаточно",
+      "partOfSpeech": "phrase",
+      "topic": "quantities",
+      "exampleEn": "We have plenty of time.",
+      "exampleRu": "У нас достаточно времени."
+    },
+    {
+      "id": "w_811",
+      "en": "most of",
+      "ru": "большинство",
+      "partOfSpeech": "determiner",
+      "topic": "quantities",
+      "exampleEn": "Most of my friends work here.",
+      "exampleRu": "Большинство моих друзей работают здесь."
+    },
+    {
+      "id": "w_812",
+      "en": "none",
+      "ru": "никто, ничего (из)",
+      "partOfSpeech": "pronoun",
+      "topic": "quantities",
+      "exampleEn": "None of them called.",
+      "exampleRu": "Никто из них не позвонил."
+    },
+    {
+      "id": "w_813",
+      "en": "all",
+      "ru": "все, весь",
+      "partOfSpeech": "determiner",
+      "topic": "quantities",
+      "exampleEn": "All the seats are taken.",
+      "exampleRu": "Все места заняты."
+    },
+    {
+      "id": "w_814",
+      "en": "each",
+      "ru": "каждый",
+      "partOfSpeech": "determiner",
+      "topic": "quantities",
+      "exampleEn": "Each person gets one ticket.",
+      "exampleRu": "Каждый получает один билет."
+    },
+    {
+      "id": "w_815",
+      "en": "every",
+      "ru": "каждый (из всех)",
+      "partOfSpeech": "determiner",
+      "topic": "quantities",
+      "exampleEn": "Every day I go to work.",
+      "exampleRu": "Каждый день я хожу на работу."
+    },
+    {
+      "id": "w_816",
+      "en": "half",
+      "ru": "половина",
+      "partOfSpeech": "noun",
+      "topic": "quantities",
+      "exampleEn": "I ate half the pizza.",
+      "exampleRu": "Я съел половину пиццы."
+    },
+    {
+      "id": "w_817",
+      "en": "whole",
+      "ru": "весь, целый",
+      "partOfSpeech": "adjective",
+      "topic": "quantities",
+      "exampleEn": "I read the whole book.",
+      "exampleRu": "Я прочитал всю книгу."
+    },
+    {
+      "id": "w_818",
+      "en": "extra",
+      "ru": "дополнительный",
+      "partOfSpeech": "adjective",
+      "topic": "quantities",
+      "exampleEn": "Can I get extra cheese?",
+      "exampleRu": "Можно мне дополнительный сыр?"
+    },
+    {
+      "id": "w_819",
+      "en": "choose",
+      "ru": "выбирать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Choose one option.",
+      "exampleRu": "Выбери один вариант."
+    },
+    {
+      "id": "w_820",
+      "en": "promise",
+      "ru": "обещать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I promise to help.",
+      "exampleRu": "Я обещаю помочь."
+    },
+    {
+      "id": "w_821",
+      "en": "borrow",
+      "ru": "брать взаймы",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Can I borrow your pen?",
+      "exampleRu": "Можно взять твою ручку?"
+    },
+    {
+      "id": "w_822",
+      "en": "lend",
+      "ru": "давать взаймы",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Can you lend me $10?",
+      "exampleRu": "Можешь одолжить мне 10 долларов?"
+    },
+    {
+      "id": "w_823",
+      "en": "share",
+      "ru": "делиться",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Let's share the pizza.",
+      "exampleRu": "Давай поделим пиццу."
+    },
+    {
+      "id": "w_824",
+      "en": "complain",
+      "ru": "жаловаться",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "She complained about the noise.",
+      "exampleRu": "Она пожаловалась на шум."
+    },
+    {
+      "id": "w_825",
+      "en": "apologize",
+      "ru": "извиняться",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I apologize for being late.",
+      "exampleRu": "Извиняюсь за опоздание."
+    },
+    {
+      "id": "w_826",
+      "en": "forgive",
+      "ru": "прощать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Please forgive me.",
+      "exampleRu": "Пожалуйста, прости меня."
+    },
+    {
+      "id": "w_827",
+      "en": "invite",
+      "ru": "приглашать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I invited my friends.",
+      "exampleRu": "Я пригласил друзей."
+    },
+    {
+      "id": "w_828",
+      "en": "join",
+      "ru": "присоединяться",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Join us for dinner.",
+      "exampleRu": "Присоединяйся к нам на ужин."
+    },
+    {
+      "id": "w_829",
+      "en": "avoid",
+      "ru": "избегать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I avoid sugar.",
+      "exampleRu": "Я избегаю сахара."
+    },
+    {
+      "id": "w_830",
+      "en": "suggest",
+      "ru": "предлагать (идею)",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I suggest we leave early.",
+      "exampleRu": "Предлагаю выйти пораньше."
+    },
+    {
+      "id": "w_831",
+      "en": "recommend",
+      "ru": "рекомендовать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I recommend this restaurant.",
+      "exampleRu": "Рекомендую этот ресторан."
+    },
+    {
+      "id": "w_832",
+      "en": "warn",
+      "ru": "предупреждать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "She warned me about the traffic.",
+      "exampleRu": "Она предупредила меня о пробках."
+    },
+    {
+      "id": "w_833",
+      "en": "explain",
+      "ru": "объяснять",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Can you explain this word?",
+      "exampleRu": "Можешь объяснить это слово?"
+    },
+    {
+      "id": "w_834",
+      "en": "discuss",
+      "ru": "обсуждать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Let's discuss the plan.",
+      "exampleRu": "Давайте обсудим план."
+    },
+    {
+      "id": "w_835",
+      "en": "argue",
+      "ru": "спорить",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "They argued about money.",
+      "exampleRu": "Они спорили из-за денег."
+    },
+    {
+      "id": "w_836",
+      "en": "allow",
+      "ru": "разрешать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "They don't allow pets here.",
+      "exampleRu": "Здесь не разрешают домашних животных."
+    },
+    {
+      "id": "w_837",
+      "en": "forbid",
+      "ru": "запрещать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Smoking is forbidden here.",
+      "exampleRu": "Здесь запрещено курить."
+    },
+    {
+      "id": "w_838",
+      "en": "lose",
+      "ru": "терять",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I lost my wallet.",
+      "exampleRu": "Я потерял кошелёк."
+    },
+    {
+      "id": "w_839",
+      "en": "find",
+      "ru": "находить",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I found my keys.",
+      "exampleRu": "Я нашёл ключи."
+    },
+    {
+      "id": "w_840",
+      "en": "fix",
+      "ru": "чинить, исправлять",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Can you fix this?",
+      "exampleRu": "Можешь это починить?"
+    },
+    {
+      "id": "w_841",
+      "en": "break",
+      "ru": "ломать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Don't break the glass.",
+      "exampleRu": "Не разбей стакан."
+    },
+    {
+      "id": "w_842",
+      "en": "build",
+      "ru": "строить",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "They are building a house.",
+      "exampleRu": "Они строят дом."
+    },
+    {
+      "id": "w_843",
+      "en": "grow",
+      "ru": "расти, выращивать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "The plant is growing fast.",
+      "exampleRu": "Растение быстро растёт."
+    },
+    {
+      "id": "w_844",
+      "en": "push",
+      "ru": "толкать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Push the door.",
+      "exampleRu": "Толкни дверь."
+    },
+    {
+      "id": "w_845",
+      "en": "pull",
+      "ru": "тянуть",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Pull the handle.",
+      "exampleRu": "Потяни за ручку."
+    },
+    {
+      "id": "w_846",
+      "en": "carry",
+      "ru": "нести",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Can you carry this bag?",
+      "exampleRu": "Можешь понести эту сумку?"
+    },
+    {
+      "id": "w_847",
+      "en": "throw",
+      "ru": "бросать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Throw me the ball.",
+      "exampleRu": "Брось мне мяч."
+    },
+    {
+      "id": "w_848",
+      "en": "catch",
+      "ru": "ловить",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Catch the ball!",
+      "exampleRu": "Поймай мяч!"
+    },
+    {
+      "id": "w_849",
+      "en": "hold",
+      "ru": "держать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Hold my hand.",
+      "exampleRu": "Держи меня за руку."
+    },
+    {
+      "id": "w_850",
+      "en": "touch",
+      "ru": "трогать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Don't touch that.",
+      "exampleRu": "Не трогай это."
+    },
+    {
+      "id": "w_851",
+      "en": "hurt",
+      "ru": "причинять боль, болеть",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "My back hurts.",
+      "exampleRu": "У меня болит спина."
+    },
+    {
+      "id": "w_852",
+      "en": "save money",
+      "ru": "копить деньги, экономить",
+      "partOfSpeech": "phrase",
+      "topic": "verbs_a2",
+      "exampleEn": "I try to save money.",
+      "exampleRu": "Я стараюсь экономить деньги."
+    },
+    {
+      "id": "w_853",
+      "en": "spend",
+      "ru": "тратить",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I spend too much on coffee.",
+      "exampleRu": "Я трачу слишком много на кофе."
+    },
+    {
+      "id": "w_854",
+      "en": "waste",
+      "ru": "тратить впустую",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Don't waste your time.",
+      "exampleRu": "Не трать время впустую."
+    },
+    {
+      "id": "w_855",
+      "en": "earn",
+      "ru": "зарабатывать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I earn a good salary.",
+      "exampleRu": "Я зарабатываю хорошую зарплату."
+    },
+    {
+      "id": "w_856",
+      "en": "owe",
+      "ru": "быть должным (деньги)",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "I owe you $20.",
+      "exampleRu": "Я должен тебе 20 долларов."
+    },
+    {
+      "id": "w_857",
+      "en": "unlock",
+      "ru": "отпирать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Unlock the door, please.",
+      "exampleRu": "Отопри дверь, пожалуйста."
+    },
+    {
+      "id": "w_858",
+      "en": "continue",
+      "ru": "продолжать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Please continue.",
+      "exampleRu": "Пожалуйста, продолжайте."
+    },
+    {
+      "id": "w_859",
+      "en": "follow",
+      "ru": "следовать",
+      "partOfSpeech": "verb",
+      "topic": "verbs_a2",
+      "exampleEn": "Follow me, please.",
+      "exampleRu": "Следуй за мной, пожалуйста."
+    },
+    {
+      "id": "w_860",
+      "en": "comfortable",
+      "ru": "удобный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "This chair is comfortable.",
+      "exampleRu": "Этот стул удобный."
+    },
+    {
+      "id": "w_861",
+      "en": "uncomfortable",
+      "ru": "неудобный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "These shoes are uncomfortable.",
+      "exampleRu": "Эта обувь неудобная."
+    },
+    {
+      "id": "w_862",
+      "en": "convenient",
+      "ru": "удобный (по расположению/времени)",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The location is convenient.",
+      "exampleRu": "Расположение удобное."
+    },
+    {
+      "id": "w_863",
+      "en": "dangerous",
+      "ru": "опасный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "This road is dangerous.",
+      "exampleRu": "Эта дорога опасная."
+    },
+    {
+      "id": "w_864",
+      "en": "safe",
+      "ru": "безопасный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "This neighborhood is safe.",
+      "exampleRu": "Этот район безопасный."
+    },
+    {
+      "id": "w_865",
+      "en": "successful",
+      "ru": "успешный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "She is a successful lawyer.",
+      "exampleRu": "Она успешный юрист."
+    },
+    {
+      "id": "w_866",
+      "en": "popular",
+      "ru": "популярный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "This restaurant is popular.",
+      "exampleRu": "Этот ресторан популярный."
+    },
+    {
+      "id": "w_867",
+      "en": "famous",
+      "ru": "известный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "He is a famous actor.",
+      "exampleRu": "Он известный актёр."
+    },
+    {
+      "id": "w_868",
+      "en": "wealthy",
+      "ru": "состоятельный, богатый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "They are a wealthy family.",
+      "exampleRu": "Это состоятельная семья."
+    },
+    {
+      "id": "w_869",
+      "en": "modern",
+      "ru": "современный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The kitchen is modern.",
+      "exampleRu": "Кухня современная."
+    },
+    {
+      "id": "w_870",
+      "en": "traditional",
+      "ru": "традиционный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "We ate traditional food.",
+      "exampleRu": "Мы ели традиционную еду."
+    },
+    {
+      "id": "w_871",
+      "en": "various",
+      "ru": "разные, разнообразные",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The store has various products.",
+      "exampleRu": "В магазине разные товары."
+    },
+    {
+      "id": "w_872",
+      "en": "common",
+      "ru": "обычный, распространённый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "This is a common problem.",
+      "exampleRu": "Это распространённая проблема."
+    },
+    {
+      "id": "w_873",
+      "en": "rare",
+      "ru": "редкий",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "This bird is rare.",
+      "exampleRu": "Эта птица редкая."
+    },
+    {
+      "id": "w_874",
+      "en": "impossible",
+      "ru": "невозможный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "It's impossible to finish today.",
+      "exampleRu": "Невозможно закончить сегодня."
+    },
+    {
+      "id": "w_875",
+      "en": "necessary",
+      "ru": "необходимый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "Water is necessary for life.",
+      "exampleRu": "Вода необходима для жизни."
+    },
+    {
+      "id": "w_876",
+      "en": "unnecessary",
+      "ru": "ненужный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "This step is unnecessary.",
+      "exampleRu": "Этот шаг ненужен."
+    },
+    {
+      "id": "w_877",
+      "en": "useful",
+      "ru": "полезный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "This app is useful.",
+      "exampleRu": "Это приложение полезное."
+    },
+    {
+      "id": "w_878",
+      "en": "useless",
+      "ru": "бесполезный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "This tool is useless.",
+      "exampleRu": "Этот инструмент бесполезен."
+    },
+    {
+      "id": "w_879",
+      "en": "huge",
+      "ru": "огромный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "It's a huge house.",
+      "exampleRu": "Это огромный дом."
+    },
+    {
+      "id": "w_880",
+      "en": "tiny",
+      "ru": "крошечный",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The kitten is tiny.",
+      "exampleRu": "Котёнок крошечный."
+    },
+    {
+      "id": "w_881",
+      "en": "wide",
+      "ru": "широкий",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The street is wide.",
+      "exampleRu": "Улица широкая."
+    },
+    {
+      "id": "w_882",
+      "en": "narrow",
+      "ru": "узкий",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The hallway is narrow.",
+      "exampleRu": "Коридор узкий."
+    },
+    {
+      "id": "w_883",
+      "en": "deep",
+      "ru": "глубокий",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The lake is deep.",
+      "exampleRu": "Озеро глубокое."
+    },
+    {
+      "id": "w_884",
+      "en": "shallow",
+      "ru": "мелкий (неглубокий)",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The pool is shallow here.",
+      "exampleRu": "Здесь бассейн мелкий."
+    },
+    {
+      "id": "w_885",
+      "en": "sharp",
+      "ru": "острый",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "Be careful, the knife is sharp.",
+      "exampleRu": "Осторожно, нож острый."
+    },
+    {
+      "id": "w_886",
+      "en": "smooth",
+      "ru": "гладкий",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The road is smooth.",
+      "exampleRu": "Дорога гладкая."
+    },
+    {
+      "id": "w_887",
+      "en": "rough",
+      "ru": "шершавый, грубый (о поверхности)",
+      "partOfSpeech": "adjective",
+      "topic": "adjectives_a2",
+      "exampleEn": "The wood feels rough.",
+      "exampleRu": "Дерево на ощупь шершавое."
+    },
+    {
+      "id": "w_888",
+      "en": "library",
+      "ru": "библиотека",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "I borrowed a book from the library.",
+      "exampleRu": "Я взял книгу в библиотеке."
+    },
+    {
+      "id": "w_889",
+      "en": "gym",
+      "ru": "спортзал",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "I go to the gym every morning.",
+      "exampleRu": "Я хожу в спортзал каждое утро."
+    },
+    {
+      "id": "w_890",
+      "en": "park",
+      "ru": "парк",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "We walked in the park.",
+      "exampleRu": "Мы гуляли в парке."
+    },
+    {
+      "id": "w_891",
+      "en": "church",
+      "ru": "церковь",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "They go to church on Sunday.",
+      "exampleRu": "Они ходят в церковь по воскресеньям."
+    },
+    {
+      "id": "w_892",
+      "en": "mosque",
+      "ru": "мечеть",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "The mosque is downtown.",
+      "exampleRu": "Мечеть находится в центре города."
+    },
+    {
+      "id": "w_893",
+      "en": "temple",
+      "ru": "храм",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "We visited a beautiful temple.",
+      "exampleRu": "Мы посетили красивый храм."
+    },
+    {
+      "id": "w_894",
+      "en": "museum",
+      "ru": "музей",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "The museum is closed on Monday.",
+      "exampleRu": "Музей закрыт по понедельникам."
+    },
+    {
+      "id": "w_895",
+      "en": "theater",
+      "ru": "театр, кинотеатр",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "We watched a play at the theater.",
+      "exampleRu": "Мы смотрели спектакль в театре."
+    },
+    {
+      "id": "w_896",
+      "en": "mall",
+      "ru": "торговый центр",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "Let's go to the mall.",
+      "exampleRu": "Давай сходим в торговый центр."
+    },
+    {
+      "id": "w_897",
+      "en": "salon",
+      "ru": "салон (красоты)",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "She got her hair done at the salon.",
+      "exampleRu": "Она сделала причёску в салоне."
+    },
+    {
+      "id": "w_898",
+      "en": "laundromat",
+      "ru": "прачечная самообслуживания",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "I wash my clothes at the laundromat.",
+      "exampleRu": "Я стираю вещи в прачечной."
+    },
+    {
+      "id": "w_899",
+      "en": "post office",
+      "ru": "почта",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "I need to go to the post office.",
+      "exampleRu": "Мне нужно на почту."
+    },
+    {
+      "id": "w_900",
+      "en": "police station",
+      "ru": "полицейский участок",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "The police station is nearby.",
+      "exampleRu": "Полицейский участок рядом."
+    },
+    {
+      "id": "w_901",
+      "en": "fire station",
+      "ru": "пожарная станция",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "The fire station is on Elm Street.",
+      "exampleRu": "Пожарная станция на Элм-стрит."
+    },
+    {
+      "id": "w_902",
+      "en": "city hall",
+      "ru": "мэрия",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "You can register at city hall.",
+      "exampleRu": "Зарегистрироваться можно в мэрии."
+    },
+    {
+      "id": "w_903",
+      "en": "community center",
+      "ru": "общественный центр",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "There is a class at the community center.",
+      "exampleRu": "В общественном центре проходят занятия."
+    },
+    {
+      "id": "w_904",
+      "en": "playground",
+      "ru": "детская площадка",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "The kids are at the playground.",
+      "exampleRu": "Дети на детской площадке."
+    },
+    {
+      "id": "w_905",
+      "en": "parking lot",
+      "ru": "парковка (место)",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "The parking lot is full.",
+      "exampleRu": "Парковка заполнена."
+    },
+    {
+      "id": "w_906",
+      "en": "sidewalk",
+      "ru": "тротуар",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "Walk on the sidewalk.",
+      "exampleRu": "Иди по тротуару."
+    },
+    {
+      "id": "w_907",
+      "en": "block",
+      "ru": "квартал",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "The store is two blocks away.",
+      "exampleRu": "Магазин в двух кварталах отсюда."
+    },
+    {
+      "id": "w_908",
+      "en": "square",
+      "ru": "площадь (городская)",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "We met at the square.",
+      "exampleRu": "Мы встретились на площади."
+    },
+    {
+      "id": "w_909",
+      "en": "crosswalk",
+      "ru": "пешеходный переход",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "Use the crosswalk.",
+      "exampleRu": "Пользуйся пешеходным переходом."
+    },
+    {
+      "id": "w_910",
+      "en": "public",
+      "ru": "общественный",
+      "partOfSpeech": "adjective",
+      "topic": "places_community",
+      "exampleEn": "This is a public park.",
+      "exampleRu": "Это общественный парк."
+    },
+    {
+      "id": "w_911",
+      "en": "local government",
+      "ru": "местные власти",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "The local government helps residents.",
+      "exampleRu": "Местные власти помогают жителям."
+    },
+    {
+      "id": "w_912",
+      "en": "resident",
+      "ru": "житель",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "Every resident got a letter.",
+      "exampleRu": "Каждый житель получил письмо."
+    },
+    {
+      "id": "w_913",
+      "en": "community",
+      "ru": "сообщество",
+      "partOfSpeech": "noun",
+      "topic": "places_community",
+      "exampleEn": "Our community is very friendly.",
+      "exampleRu": "Наше сообщество очень дружелюбное."
+    },
+    {
+      "id": "w_914",
+      "en": "specialist",
+      "ru": "специалист (врач)",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "You need to see a specialist.",
+      "exampleRu": "Вам нужно к специалисту."
+    },
+    {
+      "id": "w_915",
+      "en": "surgery",
+      "ru": "операция",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "She had surgery last month.",
+      "exampleRu": "В прошлом месяце ей сделали операцию."
+    },
+    {
+      "id": "w_916",
+      "en": "treatment",
+      "ru": "лечение",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "The treatment worked well.",
+      "exampleRu": "Лечение прошло хорошо."
+    },
+    {
+      "id": "w_917",
+      "en": "diagnosis",
+      "ru": "диагноз",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "The doctor gave a diagnosis.",
+      "exampleRu": "Врач поставил диагноз."
+    },
+    {
+      "id": "w_918",
+      "en": "vaccine",
+      "ru": "вакцина",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "I got a flu vaccine.",
+      "exampleRu": "Я сделал прививку от гриппа."
+    },
+    {
+      "id": "w_919",
+      "en": "insurance card",
+      "ru": "страховая карта",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "Bring your insurance card.",
+      "exampleRu": "Возьмите свою страховую карту."
+    },
+    {
+      "id": "w_920",
+      "en": "copay",
+      "ru": "доплата (за приём врача)",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "The copay is $20.",
+      "exampleRu": "Доплата — 20 долларов."
+    },
+    {
+      "id": "w_921",
+      "en": "refill",
+      "ru": "повторный рецепт (лекарства)",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "I need a refill on my prescription.",
+      "exampleRu": "Мне нужно продлить рецепт."
+    },
+    {
+      "id": "w_922",
+      "en": "emergency room",
+      "ru": "приёмный покой",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "We went to the emergency room.",
+      "exampleRu": "Мы поехали в приёмный покой."
+    },
+    {
+      "id": "w_923",
+      "en": "urgent care",
+      "ru": "неотложная помощь (клиника)",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "Urgent care is open now.",
+      "exampleRu": "Клиника неотложной помощи сейчас открыта."
+    },
+    {
+      "id": "w_924",
+      "en": "physical exam",
+      "ru": "медицинский осмотр",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "I need a physical exam.",
+      "exampleRu": "Мне нужен медосмотр."
+    },
+    {
+      "id": "w_925",
+      "en": "blood pressure",
+      "ru": "кровяное давление",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "My blood pressure is normal.",
+      "exampleRu": "У меня нормальное давление."
+    },
+    {
+      "id": "w_926",
+      "en": "weight",
+      "ru": "вес",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "The doctor checked my weight.",
+      "exampleRu": "Врач проверил мой вес."
+    },
+    {
+      "id": "w_927",
+      "en": "height",
+      "ru": "рост",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "What is your height?",
+      "exampleRu": "Какой у тебя рост?"
+    },
+    {
+      "id": "w_928",
+      "en": "diet",
+      "ru": "диета, питание",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "I am on a diet.",
+      "exampleRu": "Я на диете."
+    },
+    {
+      "id": "w_929",
+      "en": "exercise",
+      "ru": "физические упражнения",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "Exercise is good for health.",
+      "exampleRu": "Физические упражнения полезны для здоровья."
+    },
+    {
+      "id": "w_930",
+      "en": "rest",
+      "ru": "отдых",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "You need rest.",
+      "exampleRu": "Тебе нужен отдых."
+    },
+    {
+      "id": "w_931",
+      "en": "injured",
+      "ru": "раненый, травмированный",
+      "partOfSpeech": "adjective",
+      "topic": "health_a2",
+      "exampleEn": "He is injured.",
+      "exampleRu": "Он травмирован."
+    },
+    {
+      "id": "w_932",
+      "en": "recover",
+      "ru": "выздоравливать",
+      "partOfSpeech": "verb",
+      "topic": "health_a2",
+      "exampleEn": "I hope you recover soon.",
+      "exampleRu": "Надеюсь, ты скоро поправишься."
+    },
+    {
+      "id": "w_933",
+      "en": "pregnant",
+      "ru": "беременная",
+      "partOfSpeech": "adjective",
+      "topic": "health_a2",
+      "exampleEn": "My sister is pregnant.",
+      "exampleRu": "Моя сестра беременна."
+    },
+    {
+      "id": "w_934",
+      "en": "diabetes",
+      "ru": "диабет",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "He has diabetes.",
+      "exampleRu": "У него диабет."
+    },
+    {
+      "id": "w_935",
+      "en": "asthma",
+      "ru": "астма",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "She has asthma.",
+      "exampleRu": "У неё астма."
+    },
+    {
+      "id": "w_936",
+      "en": "allergic",
+      "ru": "аллергичный",
+      "partOfSpeech": "adjective",
+      "topic": "health_a2",
+      "exampleEn": "I am allergic to peanuts.",
+      "exampleRu": "У меня аллергия на арахис."
+    },
+    {
+      "id": "w_937",
+      "en": "side effect",
+      "ru": "побочный эффект",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "This medicine has side effects.",
+      "exampleRu": "У этого лекарства есть побочные эффекты."
+    },
+    {
+      "id": "w_938",
+      "en": "dose",
+      "ru": "доза",
+      "partOfSpeech": "noun",
+      "topic": "health_a2",
+      "exampleEn": "Take one dose in the morning.",
+      "exampleRu": "Принимайте одну дозу утром."
+    },
+    {
+      "id": "w_939",
+      "en": "budget",
+      "ru": "бюджет",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "We have a family budget.",
+      "exampleRu": "У нас семейный бюджет."
+    },
+    {
+      "id": "w_940",
+      "en": "income",
+      "ru": "доход",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "My income increased this year.",
+      "exampleRu": "Мой доход вырос в этом году."
+    },
+    {
+      "id": "w_941",
+      "en": "expense",
+      "ru": "расход",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "Rent is my biggest expense.",
+      "exampleRu": "Аренда — мой самый большой расход."
+    },
+    {
+      "id": "w_942",
+      "en": "bill",
+      "ru": "счёт (к оплате)",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "I need to pay this bill.",
+      "exampleRu": "Мне нужно оплатить этот счёт."
+    },
+    {
+      "id": "w_943",
+      "en": "debt",
+      "ru": "долг",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "I have some debt.",
+      "exampleRu": "У меня есть долг."
+    },
+    {
+      "id": "w_944",
+      "en": "loan",
+      "ru": "кредит, заём",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "We took out a loan.",
+      "exampleRu": "Мы взяли кредит."
+    },
+    {
+      "id": "w_945",
+      "en": "interest rate",
+      "ru": "процентная ставка",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "The interest rate is high.",
+      "exampleRu": "Процентная ставка высокая."
+    },
+    {
+      "id": "w_946",
+      "en": "credit score",
+      "ru": "кредитный рейтинг",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "A good credit score helps you.",
+      "exampleRu": "Хороший кредитный рейтинг помогает."
+    },
+    {
+      "id": "w_947",
+      "en": "tax",
+      "ru": "налог",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "I pay tax every year.",
+      "exampleRu": "Я плачу налоги каждый год."
+    },
+    {
+      "id": "w_948",
+      "en": "ATM",
+      "ru": "банкомат",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "There is an ATM nearby.",
+      "exampleRu": "Рядом есть банкомат."
+    },
+    {
+      "id": "w_949",
+      "en": "check",
+      "ru": "чек (банковский)",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "I paid by check.",
+      "exampleRu": "Я заплатил чеком."
+    },
+    {
+      "id": "w_950",
+      "en": "transfer",
+      "ru": "перевод (денег)",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "I made a bank transfer.",
+      "exampleRu": "Я сделал банковский перевод."
+    },
+    {
+      "id": "w_951",
+      "en": "savings",
+      "ru": "сбережения",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "I have some savings.",
+      "exampleRu": "У меня есть сбережения."
+    },
+    {
+      "id": "w_952",
+      "en": "afford",
+      "ru": "позволить себе (финансово)",
+      "partOfSpeech": "verb",
+      "topic": "money_finance",
+      "exampleEn": "I can't afford that car.",
+      "exampleRu": "Я не могу себе позволить эту машину."
+    },
+    {
+      "id": "w_953",
+      "en": "worth",
+      "ru": "стоящий (о ценности)",
+      "partOfSpeech": "adjective",
+      "topic": "money_finance",
+      "exampleEn": "This ring is worth a lot.",
+      "exampleRu": "Это кольцо стоит дорого."
+    },
+    {
+      "id": "w_954",
+      "en": "value",
+      "ru": "ценность, стоимость",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "The house increased in value.",
+      "exampleRu": "Дом вырос в цене."
+    },
+    {
+      "id": "w_955",
+      "en": "currency",
+      "ru": "валюта",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "What is the local currency?",
+      "exampleRu": "Какая здесь местная валюта."
+    },
+    {
+      "id": "w_956",
+      "en": "exchange rate",
+      "ru": "обменный курс",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "The exchange rate changed.",
+      "exampleRu": "Обменный курс изменился."
+    },
+    {
+      "id": "w_957",
+      "en": "invest",
+      "ru": "инвестировать",
+      "partOfSpeech": "verb",
+      "topic": "money_finance",
+      "exampleEn": "I want to invest my money.",
+      "exampleRu": "Я хочу инвестировать деньги."
+    },
+    {
+      "id": "w_958",
+      "en": "refund",
+      "ru": "возврат денег",
+      "partOfSpeech": "noun",
+      "topic": "money_finance",
+      "exampleEn": "I got a refund.",
+      "exampleRu": "Мне вернули деньги."
+    },
+    {
+      "id": "w_959",
+      "en": "overdue",
+      "ru": "просроченный",
+      "partOfSpeech": "adjective",
+      "topic": "money_finance",
+      "exampleEn": "This bill is overdue.",
+      "exampleRu": "Этот счёт просрочен."
+    },
+    {
+      "id": "w_960",
+      "en": "financial",
+      "ru": "финансовый",
+      "partOfSpeech": "adjective",
+      "topic": "money_finance",
+      "exampleEn": "I need financial advice.",
+      "exampleRu": "Мне нужен финансовый совет."
+    },
+    {
+      "id": "w_961",
+      "en": "school",
+      "ru": "школа",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "My kids go to school.",
+      "exampleRu": "Мои дети ходят в школу."
+    },
+    {
+      "id": "w_962",
+      "en": "college",
+      "ru": "колледж",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "She studies at college.",
+      "exampleRu": "Она учится в колледже."
+    },
+    {
+      "id": "w_963",
+      "en": "university",
+      "ru": "университет",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "He graduated from university.",
+      "exampleRu": "Он закончил университет."
+    },
+    {
+      "id": "w_964",
+      "en": "class",
+      "ru": "урок, занятие",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "The class starts at nine.",
+      "exampleRu": "Занятие начинается в девять."
+    },
+    {
+      "id": "w_965",
+      "en": "teacher",
+      "ru": "учитель, преподаватель",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "My teacher is very patient.",
+      "exampleRu": "Мой преподаватель очень терпеливый."
+    },
+    {
+      "id": "w_966",
+      "en": "student",
+      "ru": "студент, ученик",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "I am a student.",
+      "exampleRu": "Я студент."
+    },
+    {
+      "id": "w_967",
+      "en": "lesson",
+      "ru": "урок",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "The lesson was interesting.",
+      "exampleRu": "Урок был интересным."
+    },
+    {
+      "id": "w_968",
+      "en": "homework",
+      "ru": "домашнее задание",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "I finished my homework.",
+      "exampleRu": "Я закончил домашнее задание."
+    },
+    {
+      "id": "w_969",
+      "en": "test",
+      "ru": "тест, контрольная",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "We have a test tomorrow.",
+      "exampleRu": "У нас завтра тест."
+    },
+    {
+      "id": "w_970",
+      "en": "grade",
+      "ru": "оценка",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "She got a good grade.",
+      "exampleRu": "Она получила хорошую оценку."
+    },
+    {
+      "id": "w_971",
+      "en": "exam",
+      "ru": "экзамен",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "I have an exam next week.",
+      "exampleRu": "У меня экзамен на следующей неделе."
+    },
+    {
+      "id": "w_972",
+      "en": "subject",
+      "ru": "предмет (учебный)",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "Math is my favorite subject.",
+      "exampleRu": "Математика — мой любимый предмет."
+    },
+    {
+      "id": "w_973",
+      "en": "diploma",
+      "ru": "диплом",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "She received her diploma.",
+      "exampleRu": "Она получила диплом."
+    },
+    {
+      "id": "w_974",
+      "en": "scholarship",
+      "ru": "стипендия",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "He got a scholarship.",
+      "exampleRu": "Он получил стипендию."
+    },
+    {
+      "id": "w_975",
+      "en": "tuition",
+      "ru": "плата за обучение",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "Tuition is expensive.",
+      "exampleRu": "Плата за обучение высокая."
+    },
+    {
+      "id": "w_976",
+      "en": "enroll",
+      "ru": "записаться (на курс)",
+      "partOfSpeech": "verb",
+      "topic": "education",
+      "exampleEn": "I enrolled in an English class.",
+      "exampleRu": "Я записался на курс английского."
+    },
+    {
+      "id": "w_977",
+      "en": "attend",
+      "ru": "посещать (занятия)",
+      "partOfSpeech": "verb",
+      "topic": "education",
+      "exampleEn": "I attend classes twice a week.",
+      "exampleRu": "Я посещаю занятия дважды в неделю."
+    },
+    {
+      "id": "w_978",
+      "en": "pass",
+      "ru": "сдать (экзамен)",
+      "partOfSpeech": "verb",
+      "topic": "education",
+      "exampleEn": "I passed the exam.",
+      "exampleRu": "Я сдал экзамен."
+    },
+    {
+      "id": "w_979",
+      "en": "fail",
+      "ru": "провалить (экзамен)",
+      "partOfSpeech": "verb",
+      "topic": "education",
+      "exampleEn": "I failed my first test.",
+      "exampleRu": "Я провалил свой первый тест."
+    },
+    {
+      "id": "w_980",
+      "en": "knowledge",
+      "ru": "знание",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "He has a lot of knowledge.",
+      "exampleRu": "У него много знаний."
+    },
+    {
+      "id": "w_981",
+      "en": "practice",
+      "ru": "практика",
+      "partOfSpeech": "noun",
+      "topic": "education",
+      "exampleEn": "Practice makes perfect.",
+      "exampleRu": "Практика ведёт к совершенству."
+    },
+    {
+      "id": "w_982",
+      "en": "improve",
+      "ru": "улучшать(ся)",
+      "partOfSpeech": "verb",
+      "topic": "education",
+      "exampleEn": "I want to improve my English.",
+      "exampleRu": "Я хочу улучшить свой английский."
+    },
+    {
+      "id": "w_983",
+      "en": "try on",
+      "ru": "примерить",
+      "partOfSpeech": "phrase",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "Can I try this on?",
+      "exampleRu": "Можно это примерить?"
+    },
+    {
+      "id": "w_984",
+      "en": "fit",
+      "ru": "подходить (по размеру)",
+      "partOfSpeech": "verb",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "These shoes don't fit.",
+      "exampleRu": "Эта обувь не подходит."
+    },
+    {
+      "id": "w_985",
+      "en": "fitting room",
+      "ru": "примерочная",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "Where is the fitting room?",
+      "exampleRu": "Где примерочная?"
+    },
+    {
+      "id": "w_986",
+      "en": "exchange",
+      "ru": "обменять (товар)",
+      "partOfSpeech": "verb",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "I want to exchange this shirt.",
+      "exampleRu": "Я хочу обменять эту рубашку."
+    },
+    {
+      "id": "w_987",
+      "en": "return",
+      "ru": "вернуть (товар)",
+      "partOfSpeech": "verb",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "I want to return this.",
+      "exampleRu": "Я хочу это вернуть."
+    },
+    {
+      "id": "w_988",
+      "en": "appearance",
+      "ru": "внешность",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "Appearance isn't everything.",
+      "exampleRu": "Внешность — не главное."
+    },
+    {
+      "id": "w_989",
+      "en": "handsome",
+      "ru": "красивый (о мужчине)",
+      "partOfSpeech": "adjective",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "He is handsome.",
+      "exampleRu": "Он красив."
+    },
+    {
+      "id": "w_990",
+      "en": "pretty",
+      "ru": "красивая, симпатичная",
+      "partOfSpeech": "adjective",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "She is very pretty.",
+      "exampleRu": "Она очень красивая."
+    },
+    {
+      "id": "w_991",
+      "en": "attractive",
+      "ru": "привлекательный",
+      "partOfSpeech": "adjective",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "That is an attractive design.",
+      "exampleRu": "Это привлекательный дизайн."
+    },
+    {
+      "id": "w_992",
+      "en": "overweight",
+      "ru": "с избыточным весом",
+      "partOfSpeech": "adjective",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "The doctor said I am overweight.",
+      "exampleRu": "Врач сказал, что у меня избыточный вес."
+    },
+    {
+      "id": "w_993",
+      "en": "skinny",
+      "ru": "худой, худощавый",
+      "partOfSpeech": "adjective",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "He is very skinny.",
+      "exampleRu": "Он очень худой."
+    },
+    {
+      "id": "w_994",
+      "en": "bald",
+      "ru": "лысый",
+      "partOfSpeech": "adjective",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "My grandfather is bald.",
+      "exampleRu": "Мой дедушка лысый."
+    },
+    {
+      "id": "w_995",
+      "en": "curly",
+      "ru": "кудрявый",
+      "partOfSpeech": "adjective",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "She has curly hair.",
+      "exampleRu": "У неё кудрявые волосы."
+    },
+    {
+      "id": "w_996",
+      "en": "straight",
+      "ru": "прямой (о волосах)",
+      "partOfSpeech": "adjective",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "My hair is straight.",
+      "exampleRu": "У меня прямые волосы."
+    },
+    {
+      "id": "w_997",
+      "en": "beard",
+      "ru": "борода",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "He has a beard.",
+      "exampleRu": "У него борода."
+    },
+    {
+      "id": "w_998",
+      "en": "mustache",
+      "ru": "усы",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "My father has a mustache.",
+      "exampleRu": "У моего отца усы."
+    },
+    {
+      "id": "w_999",
+      "en": "glasses",
+      "ru": "очки",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "I wear glasses.",
+      "exampleRu": "Я ношу очки."
+    },
+    {
+      "id": "w_1000",
+      "en": "jewelry",
+      "ru": "украшения",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "She likes jewelry.",
+      "exampleRu": "Ей нравятся украшения."
+    },
+    {
+      "id": "w_1001",
+      "en": "gold ring",
+      "ru": "кольцо",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "She wears a gold ring.",
+      "exampleRu": "Она носит золотое кольцо."
+    },
+    {
+      "id": "w_1002",
+      "en": "necklace",
+      "ru": "ожерелье",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "She got a necklace as a gift.",
+      "exampleRu": "Ей подарили ожерелье."
+    },
+    {
+      "id": "w_1003",
+      "en": "earrings",
+      "ru": "серьги",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "She is wearing earrings.",
+      "exampleRu": "На ней серьги."
+    },
+    {
+      "id": "w_1004",
+      "en": "wristwatch",
+      "ru": "наручные часы",
+      "partOfSpeech": "noun",
+      "topic": "shopping_appearance_a2",
+      "exampleEn": "He wears a nice wristwatch.",
+      "exampleRu": "Он носит красивые наручные часы."
+    },
+    {
+      "id": "w_1005",
+      "en": "nature",
+      "ru": "природа",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "I love spending time in nature.",
+      "exampleRu": "Я люблю проводить время на природе."
+    },
+    {
+      "id": "w_1006",
+      "en": "forest",
+      "ru": "лес",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "We walked through the forest.",
+      "exampleRu": "Мы гуляли по лесу."
+    },
+    {
+      "id": "w_1007",
+      "en": "river",
+      "ru": "река",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "The river is very long.",
+      "exampleRu": "Река очень длинная."
+    },
+    {
+      "id": "w_1008",
+      "en": "ocean",
+      "ru": "океан",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "The ocean is beautiful.",
+      "exampleRu": "Океан красивый."
+    },
+    {
+      "id": "w_1009",
+      "en": "desert",
+      "ru": "пустыня",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "It's very hot in the desert.",
+      "exampleRu": "В пустыне очень жарко."
+    },
+    {
+      "id": "w_1010",
+      "en": "climate",
+      "ru": "климат",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "The climate here is mild.",
+      "exampleRu": "Здесь мягкий климат."
+    },
+    {
+      "id": "w_1011",
+      "en": "storm",
+      "ru": "шторм, буря",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "A storm is coming.",
+      "exampleRu": "Приближается шторм."
+    },
+    {
+      "id": "w_1012",
+      "en": "thunder",
+      "ru": "гром",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "I heard thunder last night.",
+      "exampleRu": "Прошлой ночью я слышал гром."
+    },
+    {
+      "id": "w_1013",
+      "en": "lightning",
+      "ru": "молния",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "Lightning struck the tree.",
+      "exampleRu": "Молния ударила в дерево."
+    },
+    {
+      "id": "w_1014",
+      "en": "fog",
+      "ru": "туман",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "There is a lot of fog this morning.",
+      "exampleRu": "Сегодня утром сильный туман."
+    },
+    {
+      "id": "w_1015",
+      "en": "humid",
+      "ru": "влажный (о погоде)",
+      "partOfSpeech": "adjective",
+      "topic": "weather_nature_a2",
+      "exampleEn": "It's very humid today.",
+      "exampleRu": "Сегодня очень влажно."
+    },
+    {
+      "id": "w_1016",
+      "en": "freezing",
+      "ru": "ледяной, очень холодный",
+      "partOfSpeech": "adjective",
+      "topic": "weather_nature_a2",
+      "exampleEn": "It's freezing outside.",
+      "exampleRu": "На улице ужасно холодно."
+    },
+    {
+      "id": "w_1017",
+      "en": "forecast",
+      "ru": "прогноз (погоды)",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "The forecast says rain.",
+      "exampleRu": "Прогноз обещает дождь."
+    },
+    {
+      "id": "w_1018",
+      "en": "environment",
+      "ru": "окружающая среда",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "We should protect the environment.",
+      "exampleRu": "Нам следует беречь окружающую среду."
+    },
+    {
+      "id": "w_1019",
+      "en": "pollution",
+      "ru": "загрязнение",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "Air pollution is a problem.",
+      "exampleRu": "Загрязнение воздуха — это проблема."
+    },
+    {
+      "id": "w_1020",
+      "en": "recycle",
+      "ru": "перерабатывать (отходы)",
+      "partOfSpeech": "verb",
+      "topic": "weather_nature_a2",
+      "exampleEn": "We recycle paper and plastic.",
+      "exampleRu": "Мы перерабатываем бумагу и пластик."
+    },
+    {
+      "id": "w_1021",
+      "en": "plant",
+      "ru": "растение",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "I have many plants at home.",
+      "exampleRu": "У меня дома много растений."
+    },
+    {
+      "id": "w_1022",
+      "en": "wildlife",
+      "ru": "дикая природа, животный мир",
+      "partOfSpeech": "noun",
+      "topic": "weather_nature_a2",
+      "exampleEn": "The park protects wildlife.",
+      "exampleRu": "Парк защищает дикую природу."
+    },
+    {
+      "id": "w_1023",
+      "en": "routine",
+      "ru": "распорядок, рутина",
+      "partOfSpeech": "noun",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I have a morning routine.",
+      "exampleRu": "У меня есть утренний распорядок."
+    },
+    {
+      "id": "w_1024",
+      "en": "wake up",
+      "ru": "просыпаться",
+      "partOfSpeech": "phrase",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I wake up at six.",
+      "exampleRu": "Я просыпаюсь в шесть."
+    },
+    {
+      "id": "w_1025",
+      "en": "get dressed",
+      "ru": "одеваться",
+      "partOfSpeech": "phrase",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I get dressed quickly.",
+      "exampleRu": "Я быстро одеваюсь."
+    },
+    {
+      "id": "w_1026",
+      "en": "brush teeth",
+      "ru": "чистить зубы",
+      "partOfSpeech": "phrase",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I brush my teeth twice a day.",
+      "exampleRu": "Я чищу зубы дважды в день."
+    },
+    {
+      "id": "w_1027",
+      "en": "take a shower",
+      "ru": "принимать душ",
+      "partOfSpeech": "phrase",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I always take a shower before bed.",
+      "exampleRu": "Я всегда принимаю душ перед сном."
+    },
+    {
+      "id": "w_1028",
+      "en": "make the bed",
+      "ru": "заправлять кровать",
+      "partOfSpeech": "phrase",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I make the bed every morning.",
+      "exampleRu": "Я заправляю кровать каждое утро."
+    },
+    {
+      "id": "w_1029",
+      "en": "commute",
+      "ru": "добираться до работы",
+      "partOfSpeech": "verb",
+      "topic": "daily_routine_a2",
+      "exampleEn": "My commute takes an hour.",
+      "exampleRu": "Дорога на работу занимает час."
+    },
+    {
+      "id": "w_1030",
+      "en": "errand",
+      "ru": "поручение, дело (по хозяйству)",
+      "partOfSpeech": "noun",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I have errands to run.",
+      "exampleRu": "Мне нужно сделать несколько дел."
+    },
+    {
+      "id": "w_1031",
+      "en": "chore",
+      "ru": "домашняя обязанность",
+      "partOfSpeech": "noun",
+      "topic": "daily_routine_a2",
+      "exampleEn": "Doing chores takes time.",
+      "exampleRu": "Домашние дела занимают время."
+    },
+    {
+      "id": "w_1032",
+      "en": "laundry",
+      "ru": "стирка, бельё",
+      "partOfSpeech": "noun",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I do laundry on Sundays.",
+      "exampleRu": "Я стираю по воскресеньям."
+    },
+    {
+      "id": "w_1033",
+      "en": "grocery shopping",
+      "ru": "поход за продуктами",
+      "partOfSpeech": "noun",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I do grocery shopping weekly.",
+      "exampleRu": "Я хожу за продуктами раз в неделю."
+    },
+    {
+      "id": "w_1034",
+      "en": "relax",
+      "ru": "расслабляться, отдыхать",
+      "partOfSpeech": "verb",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I relax after work.",
+      "exampleRu": "Я отдыхаю после работы."
+    },
+    {
+      "id": "w_1035",
+      "en": "nap",
+      "ru": "вздремнуть",
+      "partOfSpeech": "noun",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I took a short nap.",
+      "exampleRu": "Я немного вздремнул."
+    },
+    {
+      "id": "w_1036",
+      "en": "alarm clock",
+      "ru": "будильник",
+      "partOfSpeech": "noun",
+      "topic": "daily_routine_a2",
+      "exampleEn": "My alarm clock didn't ring.",
+      "exampleRu": "Мой будильник не зазвонил."
+    },
+    {
+      "id": "w_1037",
+      "en": "habit",
+      "ru": "привычка",
+      "partOfSpeech": "noun",
+      "topic": "daily_routine_a2",
+      "exampleEn": "Reading is a good habit.",
+      "exampleRu": "Чтение — хорошая привычка."
+    },
+    {
+      "id": "w_1038",
+      "en": "in a hurry",
+      "ru": "торопиться, спешить",
+      "partOfSpeech": "phrase",
+      "topic": "daily_routine_a2",
+      "exampleEn": "I am in a hurry.",
+      "exampleRu": "Я тороплюсь."
+    },
+    {
+      "id": "w_1039",
+      "en": "on time",
+      "ru": "вовремя",
+      "partOfSpeech": "phrase",
+      "topic": "daily_routine_a2",
+      "exampleEn": "Please arrive on time.",
+      "exampleRu": "Пожалуйста, приходи вовремя."
+    },
+    {
+      "id": "w_1040",
+      "en": "thousand",
+      "ru": "тысяча",
+      "partOfSpeech": "number",
+      "topic": "numbers_time_a2",
+      "exampleEn": "The city has ten thousand people.",
+      "exampleRu": "В городе десять тысяч человек."
+    },
+    {
+      "id": "w_1041",
+      "en": "million",
+      "ru": "миллион",
+      "partOfSpeech": "number",
+      "topic": "numbers_time_a2",
+      "exampleEn": "The company is worth a million dollars.",
+      "exampleRu": "Компания стоит миллион долларов."
+    },
+    {
+      "id": "w_1042",
+      "en": "quarter",
+      "ru": "четверть",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "It's a quarter past five.",
+      "exampleRu": "Сейчас четверть шестого."
+    },
+    {
+      "id": "w_1043",
+      "en": "percent",
+      "ru": "процент",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "Fifty percent of people agree.",
+      "exampleRu": "Пятьдесят процентов людей согласны."
+    },
+    {
+      "id": "w_1044",
+      "en": "century",
+      "ru": "век, столетие",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "This building is a century old.",
+      "exampleRu": "Этому зданию сто лет."
+    },
+    {
+      "id": "w_1045",
+      "en": "period",
+      "ru": "период",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "It was a difficult period.",
+      "exampleRu": "Это был трудный период."
+    },
+    {
+      "id": "w_1046",
+      "en": "approximately",
+      "ru": "примерно",
+      "partOfSpeech": "adverb",
+      "topic": "numbers_time_a2",
+      "exampleEn": "It costs approximately $50.",
+      "exampleRu": "Это стоит примерно 50 долларов."
+    },
+    {
+      "id": "w_1047",
+      "en": "exactly",
+      "ru": "точно, ровно",
+      "partOfSpeech": "adverb",
+      "topic": "numbers_time_a2",
+      "exampleEn": "It's exactly noon.",
+      "exampleRu": "Сейчас ровно полдень."
+    },
+    {
+      "id": "w_1048",
+      "en": "weekday",
+      "ru": "будний день",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "I work on weekdays.",
+      "exampleRu": "Я работаю по будним дням."
+    },
+    {
+      "id": "w_1049",
+      "en": "weekend",
+      "ru": "выходные",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "See you on the weekend.",
+      "exampleRu": "Увидимся на выходных."
+    },
+    {
+      "id": "w_1050",
+      "en": "holiday",
+      "ru": "праздник, выходной",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "Today is a holiday.",
+      "exampleRu": "Сегодня праздник."
+    },
+    {
+      "id": "w_1051",
+      "en": "anniversary",
+      "ru": "годовщина",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "Happy anniversary!",
+      "exampleRu": "С годовщиной!"
+    },
+    {
+      "id": "w_1052",
+      "en": "birthday",
+      "ru": "день рождения",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "My birthday is in May.",
+      "exampleRu": "Мой день рождения в мае."
+    },
+    {
+      "id": "w_1053",
+      "en": "era",
+      "ru": "эпоха",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "It was a different era.",
+      "exampleRu": "Это была другая эпоха."
+    },
+    {
+      "id": "w_1054",
+      "en": "moment",
+      "ru": "момент",
+      "partOfSpeech": "noun",
+      "topic": "numbers_time_a2",
+      "exampleEn": "Wait a moment.",
+      "exampleRu": "Подожди момент."
+    },
+    {
+      "id": "w_1055",
+      "en": "driver",
+      "ru": "водитель",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "The driver was careful.",
+      "exampleRu": "Водитель был осторожен."
+    },
+    {
+      "id": "w_1056",
+      "en": "passenger",
+      "ru": "пассажир",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "There are three passengers.",
+      "exampleRu": "Здесь три пассажира."
+    },
+    {
+      "id": "w_1057",
+      "en": "seatbelt",
+      "ru": "ремень безопасности",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "Put on your seatbelt.",
+      "exampleRu": "Пристегни ремень безопасности."
+    },
+    {
+      "id": "w_1058",
+      "en": "speed limit",
+      "ru": "ограничение скорости",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "The speed limit is 30.",
+      "exampleRu": "Ограничение скорости — 30."
+    },
+    {
+      "id": "w_1059",
+      "en": "traffic",
+      "ru": "трафик, движение (дорожное)",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "The traffic is heavy today.",
+      "exampleRu": "Сегодня сильный трафик."
+    },
+    {
+      "id": "w_1060",
+      "en": "traffic jam",
+      "ru": "пробка",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "We were stuck in a traffic jam.",
+      "exampleRu": "Мы застряли в пробке."
+    },
+    {
+      "id": "w_1061",
+      "en": "highway",
+      "ru": "шоссе, автомагистраль",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "Take the highway.",
+      "exampleRu": "Поезжай по шоссе."
+    },
+    {
+      "id": "w_1062",
+      "en": "lane",
+      "ru": "полоса (движения)",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "Stay in your lane.",
+      "exampleRu": "Держись своей полосы."
+    },
+    {
+      "id": "w_1063",
+      "en": "traffic ticket",
+      "ru": "штраф за нарушение",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "I got a traffic ticket.",
+      "exampleRu": "Я получил штраф."
+    },
+    {
+      "id": "w_1064",
+      "en": "gas",
+      "ru": "бензин",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "I need to buy gas.",
+      "exampleRu": "Мне нужно купить бензин."
+    },
+    {
+      "id": "w_1065",
+      "en": "tank",
+      "ru": "бак (топливный)",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "The tank is empty.",
+      "exampleRu": "Бак пуст."
+    },
+    {
+      "id": "w_1066",
+      "en": "flat tire",
+      "ru": "спущенное колесо",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "I have a flat tire.",
+      "exampleRu": "У меня спустило колесо."
+    },
+    {
+      "id": "w_1067",
+      "en": "mechanic",
+      "ru": "автомеханик",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "The mechanic fixed my car.",
+      "exampleRu": "Автомеханик починил мою машину."
+    },
+    {
+      "id": "w_1068",
+      "en": "car insurance",
+      "ru": "автостраховка",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "I need car insurance.",
+      "exampleRu": "Мне нужна автостраховка."
+    },
+    {
+      "id": "w_1069",
+      "en": "registration",
+      "ru": "регистрация (авто)",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "My registration expired.",
+      "exampleRu": "Моя регистрация истекла."
+    },
+    {
+      "id": "w_1070",
+      "en": "pull over",
+      "ru": "остановиться (у обочины)",
+      "partOfSpeech": "phrase",
+      "topic": "driving_car_a2",
+      "exampleEn": "The police asked me to pull over.",
+      "exampleRu": "Полиция попросила меня остановиться."
+    },
+    {
+      "id": "w_1071",
+      "en": "park the car",
+      "ru": "парковать(ся)",
+      "partOfSpeech": "verb",
+      "topic": "driving_car_a2",
+      "exampleEn": "I parked the car near the store.",
+      "exampleRu": "Я припарковался рядом с магазином."
+    },
+    {
+      "id": "w_1072",
+      "en": "reverse",
+      "ru": "задний ход",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "Put the car in reverse.",
+      "exampleRu": "Включи задний ход."
+    },
+    {
+      "id": "w_1073",
+      "en": "brake",
+      "ru": "тормоз",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "Press the brake.",
+      "exampleRu": "Нажми на тормоз."
+    },
+    {
+      "id": "w_1074",
+      "en": "steering wheel",
+      "ru": "руль",
+      "partOfSpeech": "noun",
+      "topic": "driving_car_a2",
+      "exampleEn": "Hold the steering wheel.",
+      "exampleRu": "Держи руль."
+    },
+    {
+      "id": "w_1075",
+      "en": "honk",
+      "ru": "сигналить (клаксоном)",
+      "partOfSpeech": "verb",
+      "topic": "driving_car_a2",
+      "exampleEn": "Don't honk, please.",
+      "exampleRu": "Не сигналь, пожалуйста."
+    },
+    {
+      "id": "w_1076",
+      "en": "waiter",
+      "ru": "официант",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "The waiter took our order.",
+      "exampleRu": "Официант принял наш заказ."
+    },
+    {
+      "id": "w_1077",
+      "en": "waitress",
+      "ru": "официантка",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "The waitress was friendly.",
+      "exampleRu": "Официантка была приветливой."
+    },
+    {
+      "id": "w_1078",
+      "en": "table for two",
+      "ru": "столик на двоих",
+      "partOfSpeech": "phrase",
+      "topic": "dining_out_a2",
+      "exampleEn": "A table for two, please.",
+      "exampleRu": "Столик на двоих, пожалуйста."
+    },
+    {
+      "id": "w_1079",
+      "en": "order",
+      "ru": "заказывать",
+      "partOfSpeech": "verb",
+      "topic": "dining_out_a2",
+      "exampleEn": "I would like to order now.",
+      "exampleRu": "Я хотел бы сделать заказ сейчас."
+    },
+    {
+      "id": "w_1080",
+      "en": "appetizer",
+      "ru": "закуска",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "We ordered an appetizer.",
+      "exampleRu": "Мы заказали закуску."
+    },
+    {
+      "id": "w_1081",
+      "en": "main course",
+      "ru": "основное блюдо",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "What is the main course?",
+      "exampleRu": "Какое основное блюдо?"
+    },
+    {
+      "id": "w_1082",
+      "en": "dessert",
+      "ru": "десерт",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "Let's order dessert.",
+      "exampleRu": "Давай закажем десерт."
+    },
+    {
+      "id": "w_1083",
+      "en": "tip",
+      "ru": "чаевые",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "We left a tip.",
+      "exampleRu": "Мы оставили чаевые."
+    },
+    {
+      "id": "w_1084",
+      "en": "spicy",
+      "ru": "острый (о еде)",
+      "partOfSpeech": "adjective",
+      "topic": "dining_out_a2",
+      "exampleEn": "This soup is spicy.",
+      "exampleRu": "Этот суп острый."
+    },
+    {
+      "id": "w_1085",
+      "en": "fresh",
+      "ru": "свежий",
+      "partOfSpeech": "adjective",
+      "topic": "dining_out_a2",
+      "exampleEn": "The fish is fresh.",
+      "exampleRu": "Рыба свежая."
+    },
+    {
+      "id": "w_1086",
+      "en": "vegetarian",
+      "ru": "вегетарианец, вегетарианский",
+      "partOfSpeech": "adjective",
+      "topic": "dining_out_a2",
+      "exampleEn": "I am vegetarian.",
+      "exampleRu": "Я вегетарианец."
+    },
+    {
+      "id": "w_1087",
+      "en": "vegan",
+      "ru": "веган, веганский",
+      "partOfSpeech": "adjective",
+      "topic": "dining_out_a2",
+      "exampleEn": "This dish is vegan.",
+      "exampleRu": "Это блюдо веганское."
+    },
+    {
+      "id": "w_1088",
+      "en": "takeout",
+      "ru": "еда на вынос",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "Can I get this as takeout?",
+      "exampleRu": "Можно это на вынос?"
+    },
+    {
+      "id": "w_1089",
+      "en": "delivery",
+      "ru": "доставка",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "Do you offer delivery?",
+      "exampleRu": "У вас есть доставка?"
+    },
+    {
+      "id": "w_1090",
+      "en": "portion",
+      "ru": "порция",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "The portion is big.",
+      "exampleRu": "Порция большая."
+    },
+    {
+      "id": "w_1091",
+      "en": "napkin",
+      "ru": "салфетка",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "Can I have a napkin?",
+      "exampleRu": "Можно салфетку?"
+    },
+    {
+      "id": "w_1092",
+      "en": "straw",
+      "ru": "трубочка (для питья)",
+      "partOfSpeech": "noun",
+      "topic": "dining_out_a2",
+      "exampleEn": "Can I have a straw?",
+      "exampleRu": "Можно трубочку?"
+    },
+    {
+      "id": "w_1093",
+      "en": "check please",
+      "ru": "счёт, пожалуйста",
+      "partOfSpeech": "phrase",
+      "topic": "dining_out_a2",
+      "exampleEn": "Check, please.",
+      "exampleRu": "Счёт, пожалуйста."
+    },
+    {
+      "id": "w_1094",
+      "en": "boyfriend",
+      "ru": "парень (возлюбленный)",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "This is my boyfriend.",
+      "exampleRu": "Это мой парень."
+    },
+    {
+      "id": "w_1095",
+      "en": "girlfriend",
+      "ru": "девушка (возлюбленная)",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "He introduced his girlfriend.",
+      "exampleRu": "Он познакомил всех со своей девушкой."
+    },
+    {
+      "id": "w_1096",
+      "en": "fiance",
+      "ru": "жених",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "He is my fiance.",
+      "exampleRu": "Он мой жених."
+    },
+    {
+      "id": "w_1097",
+      "en": "engaged",
+      "ru": "помолвлен(а)",
+      "partOfSpeech": "adjective",
+      "topic": "relationships_a2",
+      "exampleEn": "We are engaged.",
+      "exampleRu": "Мы помолвлены."
+    },
+    {
+      "id": "w_1098",
+      "en": "divorced",
+      "ru": "разведён(а)",
+      "partOfSpeech": "adjective",
+      "topic": "relationships_a2",
+      "exampleEn": "They are divorced.",
+      "exampleRu": "Они в разводе."
+    },
+    {
+      "id": "w_1099",
+      "en": "single",
+      "ru": "холост, не замужем",
+      "partOfSpeech": "adjective",
+      "topic": "relationships_a2",
+      "exampleEn": "I am single.",
+      "exampleRu": "Я не женат."
+    },
+    {
+      "id": "w_1100",
+      "en": "widow",
+      "ru": "вдова",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "She is a widow.",
+      "exampleRu": "Она вдова."
+    },
+    {
+      "id": "w_1101",
+      "en": "widower",
+      "ru": "вдовец",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "He is a widower.",
+      "exampleRu": "Он вдовец."
+    },
+    {
+      "id": "w_1102",
+      "en": "stepmother",
+      "ru": "мачеха",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "My stepmother is kind.",
+      "exampleRu": "Моя мачеха добрая."
+    },
+    {
+      "id": "w_1103",
+      "en": "stepfather",
+      "ru": "отчим",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "My stepfather works nearby.",
+      "exampleRu": "Мой отчим работает неподалёку."
+    },
+    {
+      "id": "w_1104",
+      "en": "in-laws",
+      "ru": "родственники со стороны супруга(и)",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "My in-laws are visiting.",
+      "exampleRu": "Мои родственники со стороны мужа/жены в гостях."
+    },
+    {
+      "id": "w_1105",
+      "en": "niece",
+      "ru": "племянница",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "My niece is five.",
+      "exampleRu": "Моей племяннице пять лет."
+    },
+    {
+      "id": "w_1106",
+      "en": "nephew",
+      "ru": "племянник",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "My nephew loves soccer.",
+      "exampleRu": "Мой племянник любит футбол."
+    },
+    {
+      "id": "w_1107",
+      "en": "close",
+      "ru": "близкий",
+      "partOfSpeech": "adjective",
+      "topic": "relationships_a2",
+      "exampleEn": "We are close friends.",
+      "exampleRu": "Мы близкие друзья."
+    },
+    {
+      "id": "w_1108",
+      "en": "trust",
+      "ru": "доверять",
+      "partOfSpeech": "verb",
+      "topic": "relationships_a2",
+      "exampleEn": "I trust my friend.",
+      "exampleRu": "Я доверяю своему другу."
+    },
+    {
+      "id": "w_1109",
+      "en": "support",
+      "ru": "поддерживать",
+      "partOfSpeech": "verb",
+      "topic": "relationships_a2",
+      "exampleEn": "My family supports me.",
+      "exampleRu": "Моя семья меня поддерживает."
+    },
+    {
+      "id": "w_1110",
+      "en": "relationship",
+      "ru": "отношения",
+      "partOfSpeech": "noun",
+      "topic": "relationships_a2",
+      "exampleEn": "We have a good relationship.",
+      "exampleRu": "У нас хорошие отношения."
+    },
+    {
+      "id": "w_1111",
+      "en": "get along",
+      "ru": "ладить",
+      "partOfSpeech": "phrase",
+      "topic": "relationships_a2",
+      "exampleEn": "We get along well.",
+      "exampleRu": "Мы хорошо ладим."
+    },
+    {
+      "id": "w_1112",
+      "en": "miss",
+      "ru": "скучать (по кому-то)",
+      "partOfSpeech": "verb",
+      "topic": "relationships_a2",
+      "exampleEn": "I miss my family.",
+      "exampleRu": "Я скучаю по семье."
+    },
+    {
+      "id": "w_1113",
+      "en": "hug",
+      "ru": "обнимать(ся)",
+      "partOfSpeech": "verb",
+      "topic": "relationships_a2",
+      "exampleEn": "We hugged at the airport.",
+      "exampleRu": "Мы обнялись в аэропорту."
+    },
+    {
+      "id": "w_1114",
+      "en": "actually",
+      "ru": "на самом деле",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Actually, I disagree.",
+      "exampleRu": "На самом деле, я не согласен."
+    },
+    {
+      "id": "w_1115",
+      "en": "probably",
+      "ru": "вероятно",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "It will probably rain.",
+      "exampleRu": "Вероятно, будет дождь."
+    },
+    {
+      "id": "w_1116",
+      "en": "maybe",
+      "ru": "может быть",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Maybe I will come.",
+      "exampleRu": "Может быть, я приду."
+    },
+    {
+      "id": "w_1117",
+      "en": "certainly",
+      "ru": "конечно, определённо",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "I will certainly help.",
+      "exampleRu": "Я определённо помогу."
+    },
+    {
+      "id": "w_1118",
+      "en": "especially",
+      "ru": "особенно",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "I like fruit, especially apples.",
+      "exampleRu": "Мне нравятся фрукты, особенно яблоки."
+    },
+    {
+      "id": "w_1119",
+      "en": "almost",
+      "ru": "почти",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "I am almost done.",
+      "exampleRu": "Я почти закончил."
+    },
+    {
+      "id": "w_1120",
+      "en": "nearly",
+      "ru": "почти, около",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "It's nearly six o'clock.",
+      "exampleRu": "Уже почти шесть."
+    },
+    {
+      "id": "w_1121",
+      "en": "suddenly",
+      "ru": "внезапно",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Suddenly it started to rain.",
+      "exampleRu": "Внезапно пошёл дождь."
+    },
+    {
+      "id": "w_1122",
+      "en": "finally",
+      "ru": "наконец",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Finally, I finished the report.",
+      "exampleRu": "Наконец я закончил отчёт."
+    },
+    {
+      "id": "w_1123",
+      "en": "immediately",
+      "ru": "немедленно",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Call me immediately.",
+      "exampleRu": "Позвони мне немедленно."
+    },
+    {
+      "id": "w_1124",
+      "en": "instead",
+      "ru": "вместо (этого)",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Let's go there instead.",
+      "exampleRu": "Давай пойдём туда вместо этого."
+    },
+    {
+      "id": "w_1125",
+      "en": "anyway",
+      "ru": "в любом случае",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Anyway, let's continue.",
+      "exampleRu": "В любом случае, продолжим."
+    },
+    {
+      "id": "w_1126",
+      "en": "somewhere",
+      "ru": "где-то",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "I left it somewhere.",
+      "exampleRu": "Я оставил это где-то."
+    },
+    {
+      "id": "w_1127",
+      "en": "nowhere",
+      "ru": "нигде",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "There is nowhere to sit.",
+      "exampleRu": "Здесь негде сесть."
+    },
+    {
+      "id": "w_1128",
+      "en": "everywhere",
+      "ru": "везде",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "I looked everywhere.",
+      "exampleRu": "Я искал везде."
+    },
+    {
+      "id": "w_1129",
+      "en": "anywhere",
+      "ru": "где угодно, где-нибудь",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "You can sit anywhere.",
+      "exampleRu": "Можешь сесть где угодно."
+    },
+    {
+      "id": "w_1130",
+      "en": "someone",
+      "ru": "кто-то",
+      "partOfSpeech": "pronoun",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Someone called you.",
+      "exampleRu": "Кто-то тебе звонил."
+    },
+    {
+      "id": "w_1131",
+      "en": "no one",
+      "ru": "никто",
+      "partOfSpeech": "pronoun",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "No one answered.",
+      "exampleRu": "Никто не ответил."
+    },
+    {
+      "id": "w_1132",
+      "en": "everyone",
+      "ru": "все, каждый",
+      "partOfSpeech": "pronoun",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Everyone likes her.",
+      "exampleRu": "Она всем нравится."
+    },
+    {
+      "id": "w_1133",
+      "en": "anyone",
+      "ru": "кто-нибудь, кто угодно",
+      "partOfSpeech": "pronoun",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Does anyone know?",
+      "exampleRu": "Кто-нибудь знает?"
+    },
+    {
+      "id": "w_1134",
+      "en": "something",
+      "ru": "что-то",
+      "partOfSpeech": "pronoun",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "I need something to drink.",
+      "exampleRu": "Мне нужно что-то попить."
+    },
+    {
+      "id": "w_1135",
+      "en": "nothing",
+      "ru": "ничего",
+      "partOfSpeech": "pronoun",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "There is nothing here.",
+      "exampleRu": "Здесь ничего нет."
+    },
+    {
+      "id": "w_1136",
+      "en": "everything",
+      "ru": "всё",
+      "partOfSpeech": "pronoun",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Everything is fine.",
+      "exampleRu": "Всё в порядке."
+    },
+    {
+      "id": "w_1137",
+      "en": "anything",
+      "ru": "что-нибудь, что угодно",
+      "partOfSpeech": "pronoun",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Do you need anything?",
+      "exampleRu": "Тебе что-нибудь нужно?"
+    },
+    {
+      "id": "w_1138",
+      "en": "either",
+      "ru": "тоже (в отриц.), любой из двух",
+      "partOfSpeech": "adverb",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "I don't like it either.",
+      "exampleRu": "Мне это тоже не нравится."
+    },
+    {
+      "id": "w_1139",
+      "en": "neither",
+      "ru": "ни тот, ни другой",
+      "partOfSpeech": "determiner",
+      "topic": "everyday_extra_a2",
+      "exampleEn": "Neither option works.",
+      "exampleRu": "Ни один вариант не подходит."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g_010",
+      "title": "Past Simple (простое прошедшее время)",
+      "explanationRu": "Past Simple используется для завершённых действий в прошлом. Глагол «to be» имеет формы was (I/he/she/it) и were (you/we/they). Правильные глаголы получают окончание -ed: work → worked. Многие частотные глаголы неправильные и меняют форму полностью: go → went, have → had, see → saw. Вопросы и отрицания образуются с помощью did/didn't + базовая форма глагола: «Did you go?», «I didn't go».",
+      "examples": [
+        "I was at home yesterday.",
+        "She worked late last night.",
+        "We went to the park.",
+        "Did you see that movie?",
+        "I didn't call him."
+      ],
+      "exerciseIds": [
+        "ex_028",
+        "ex_029",
+        "ex_030"
+      ]
+    },
+    {
+      "id": "g_011",
+      "title": "Present Continuous (настоящее длительное время)",
+      "explanationRu": "Present Continuous (be + глагол-ing) используется для действий, происходящих прямо сейчас, или временных ситуаций. Например: «I am working now» — я сейчас работаю. Не путайте с Present Simple, который описывает привычки: «I work every day» (обычно) и «I am working now» (сейчас).",
+      "examples": [
+        "I am reading a book right now.",
+        "She is cooking dinner.",
+        "They are watching TV.",
+        "What are you doing?",
+        "It is raining outside."
+      ],
+      "exerciseIds": [
+        "ex_031",
+        "ex_032",
+        "ex_033"
+      ]
+    },
+    {
+      "id": "g_012",
+      "title": "Будущее время: going to / will",
+      "explanationRu": "«going to» используется для планов, которые вы уже решили: «I am going to visit my parents this weekend.» «will» используется для быстрых решений, обещаний и предсказаний: «I will call you later.», «It will rain tomorrow.»",
+      "examples": [
+        "I am going to start a new job.",
+        "We are going to move next month.",
+        "I will help you.",
+        "She will be happy.",
+        "Will you come to the party?"
+      ],
+      "exerciseIds": [
+        "ex_034",
+        "ex_035",
+        "ex_036"
+      ]
+    },
+    {
+      "id": "g_013",
+      "title": "Сравнительная и превосходная степень",
+      "explanationRu": "Для коротких прилагательных добавляется -er/-est: cheap → cheaper → the cheapest. Для длинных прилагательных используются more/the most: expensive → more expensive → the most expensive. Сравнение двух предметов использует «than»: «This is cheaper than that.»",
+      "examples": [
+        "This apartment is bigger than mine.",
+        "He is the tallest in his family.",
+        "This job is more interesting than my old one.",
+        "She is the most patient teacher."
+      ],
+      "exerciseIds": [
+        "ex_037",
+        "ex_038",
+        "ex_039"
+      ]
+    },
+    {
+      "id": "g_014",
+      "title": "Модальные глаголы should / must / have to",
+      "explanationRu": "«should» — совет, «стоит сделать»: «You should call the landlord.» «must» и «have to» — обязанность, «должен»: «I have to pay rent on the first.» «must» чаще используется для строгих правил, «have to» — для повседневных обязанностей. Отрицание «don't have to» означает «не обязательно», а не запрет.",
+      "examples": [
+        "You should see a doctor.",
+        "I have to work tomorrow.",
+        "You must wear a seatbelt.",
+        "You don't have to come if you're busy."
+      ],
+      "exerciseIds": [
+        "ex_040",
+        "ex_041",
+        "ex_042"
+      ]
+    },
+    {
+      "id": "g_015",
+      "title": "Some / any / much / many / a lot of",
+      "explanationRu": "«some» используется в утвердительных предложениях (some water, some apples), «any» — в вопросах и отрицаниях (Do you have any money? I don't have any time). «much» — с неисчисляемыми существительными (much money), «many» — с исчисляемыми (many friends). «a lot of» подходит для обоих типов.",
+      "examples": [
+        "I have some questions.",
+        "Do you have any experience?",
+        "I don't have much time.",
+        "How many people work here?",
+        "We have a lot of work today."
+      ],
+      "exerciseIds": [
+        "ex_043",
+        "ex_044",
+        "ex_045"
+      ]
+    },
+    {
+      "id": "g_016",
+      "title": "Местоимения-дополнения (object pronouns)",
+      "explanationRu": "Местоимения-дополнения (me, you, him, her, it, us, them) используются после глагола или предлога, вместо подлежащего: I → me, he → him, she → her, we → us, they → them. Например: «Call me.», «I saw her yesterday.», «Give it to them.»",
+      "examples": [
+        "Can you help me?",
+        "I called him yesterday.",
+        "She gave it to us.",
+        "Please tell them the news."
+      ],
+      "exerciseIds": [
+        "ex_046",
+        "ex_047",
+        "ex_048"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_028",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_010",
+      "prompt": "I ___ (be) at home yesterday.",
+      "correctAnswer": "was",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ]
+    },
+    {
+      "id": "ex_029",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_010",
+      "prompt": "She ___ (work) late last night.",
+      "correctAnswer": "worked",
+      "options": [
+        "work",
+        "worked",
+        "working"
+      ]
+    },
+    {
+      "id": "ex_030",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_010",
+      "prompt": "___ you see that movie?",
+      "correctAnswer": "Did",
+      "options": [
+        "Did",
+        "Do",
+        "Was"
+      ]
+    },
+    {
+      "id": "ex_031",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_011",
+      "prompt": "I ___ (read) a book right now.",
+      "correctAnswer": "am reading",
+      "options": [
+        "read",
+        "am reading",
+        "reads"
+      ]
+    },
+    {
+      "id": "ex_032",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_011",
+      "prompt": "She ___ (cook) dinner.",
+      "correctAnswer": "is cooking",
+      "options": [
+        "is cooking",
+        "cooks",
+        "cook"
+      ]
+    },
+    {
+      "id": "ex_033",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_011",
+      "prompt": "What ___ you doing?",
+      "correctAnswer": "are",
+      "options": [
+        "are",
+        "is",
+        "do"
+      ]
+    },
+    {
+      "id": "ex_034",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_012",
+      "prompt": "I ___ start a new job next month. (уже решено)",
+      "correctAnswer": "am going to",
+      "options": [
+        "am going to",
+        "will",
+        "am"
+      ]
+    },
+    {
+      "id": "ex_035",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_012",
+      "prompt": "It's cold, I ___ close the window. (быстрое решение)",
+      "correctAnswer": "will",
+      "options": [
+        "am going to",
+        "will",
+        "am"
+      ]
+    },
+    {
+      "id": "ex_036",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_012",
+      "prompt": "___ you come to the party?",
+      "correctAnswer": "Will",
+      "options": [
+        "Will",
+        "Do",
+        "Are"
+      ]
+    },
+    {
+      "id": "ex_037",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_013",
+      "prompt": "This apartment is ___ (big) than mine.",
+      "correctAnswer": "bigger",
+      "options": [
+        "bigger",
+        "more big",
+        "biggest"
+      ]
+    },
+    {
+      "id": "ex_038",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_013",
+      "prompt": "He is the ___ (tall) in his family.",
+      "correctAnswer": "tallest",
+      "options": [
+        "taller",
+        "tallest",
+        "more tall"
+      ]
+    },
+    {
+      "id": "ex_039",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_013",
+      "prompt": "This job is ___ (interesting) than my old one.",
+      "correctAnswer": "more interesting",
+      "options": [
+        "more interesting",
+        "interestinger",
+        "most interesting"
+      ]
+    },
+    {
+      "id": "ex_040",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_014",
+      "prompt": "You ___ see a doctor. (совет)",
+      "correctAnswer": "should",
+      "options": [
+        "should",
+        "must",
+        "can"
+      ]
+    },
+    {
+      "id": "ex_041",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_014",
+      "prompt": "I ___ work tomorrow. (обязанность)",
+      "correctAnswer": "have to",
+      "options": [
+        "have to",
+        "should",
+        "can"
+      ]
+    },
+    {
+      "id": "ex_042",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_014",
+      "prompt": "You ___ wear a seatbelt. (строгое правило)",
+      "correctAnswer": "must",
+      "options": [
+        "must",
+        "should",
+        "can"
+      ]
+    },
+    {
+      "id": "ex_043",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_015",
+      "prompt": "I have ___ questions.",
+      "correctAnswer": "some",
+      "options": [
+        "some",
+        "any",
+        "much"
+      ]
+    },
+    {
+      "id": "ex_044",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_015",
+      "prompt": "Do you have ___ experience?",
+      "correctAnswer": "any",
+      "options": [
+        "some",
+        "any",
+        "much"
+      ]
+    },
+    {
+      "id": "ex_045",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_015",
+      "prompt": "How ___ people work here?",
+      "correctAnswer": "many",
+      "options": [
+        "much",
+        "many",
+        "some"
+      ]
+    },
+    {
+      "id": "ex_046",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_016",
+      "prompt": "Can you help ___? (я)",
+      "correctAnswer": "me",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ]
+    },
+    {
+      "id": "ex_047",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_016",
+      "prompt": "I called ___ yesterday. (он)",
+      "correctAnswer": "him",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ]
+    },
+    {
+      "id": "ex_048",
+      "type": "fill_blank",
+      "wordIds": [],
+      "grammarId": "g_016",
+      "prompt": "She gave it to ___. (мы)",
+      "correctAnswer": "us",
+      "options": [
+        "we",
+        "us",
+        "our"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d_010",
+      "situation": "Собеседование на работу",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Thank you for coming in today. Tell me about your work experience.",
+          "ru": "Спасибо, что пришли сегодня. Расскажите о своём опыте работы."
+        },
+        {
+          "speaker": "B",
+          "en": "I worked as a cashier for two years.",
+          "ru": "Я два года работал кассиром."
+        },
+        {
+          "speaker": "A",
+          "en": "Why do you want this job?",
+          "ru": "Почему вы хотите получить эту работу?"
+        },
+        {
+          "speaker": "B",
+          "en": "I am hardworking, and I want to learn new skills.",
+          "ru": "Я трудолюбивый, и хочу освоить новые навыки."
+        },
+        {
+          "speaker": "A",
+          "en": "Great. When can you start?",
+          "ru": "Отлично. Когда вы можете начать?"
+        },
+        {
+          "speaker": "B",
+          "en": "I can start next week.",
+          "ru": "Я могу начать на следующей неделе."
+        }
+      ]
+    },
+    {
+      "id": "d_011",
+      "situation": "Разговор с арендодателем",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Hi, the heating in my apartment is broken.",
+          "ru": "Здравствуйте, у меня в квартире сломано отопление."
+        },
+        {
+          "speaker": "B",
+          "en": "I'm sorry to hear that. I will send someone today.",
+          "ru": "Мне жаль это слышать. Я сегодня же кого-нибудь пришлю."
+        },
+        {
+          "speaker": "A",
+          "en": "Thank you. Also, when is the rent due?",
+          "ru": "Спасибо. И ещё, когда нужно платить аренду?"
+        },
+        {
+          "speaker": "B",
+          "en": "Rent is due on the first of the month.",
+          "ru": "Аренду нужно платить первого числа месяца."
+        },
+        {
+          "speaker": "A",
+          "en": "Okay, got it.",
+          "ru": "Хорошо, понятно."
+        },
+        {
+          "speaker": "B",
+          "en": "Let me know if you need anything else.",
+          "ru": "Дайте знать, если понадобится что-то ещё."
+        }
+      ]
+    },
+    {
+      "id": "d_012",
+      "situation": "Разговор о прошлых выходных",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "How was your weekend?",
+          "ru": "Как прошли твои выходные?"
+        },
+        {
+          "speaker": "B",
+          "en": "It was great! I visited my parents.",
+          "ru": "Отлично! Я навестил родителей."
+        },
+        {
+          "speaker": "A",
+          "en": "What did you do there?",
+          "ru": "Что вы там делали?"
+        },
+        {
+          "speaker": "B",
+          "en": "We cooked dinner and watched a movie.",
+          "ru": "Мы приготовили ужин и посмотрели фильм."
+        },
+        {
+          "speaker": "A",
+          "en": "That sounds nice.",
+          "ru": "Звучит здорово."
+        },
+        {
+          "speaker": "B",
+          "en": "Yes, it was very relaxing.",
+          "ru": "Да, это было очень расслабляюще."
+        }
+      ]
+    },
+    {
+      "id": "d_013",
+      "situation": "Планы на будущее",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "What are your plans for next year?",
+          "ru": "Какие у тебя планы на следующий год?"
+        },
+        {
+          "speaker": "B",
+          "en": "I am going to look for a new job.",
+          "ru": "Я собираюсь искать новую работу."
+        },
+        {
+          "speaker": "A",
+          "en": "That's exciting! What kind of job?",
+          "ru": "Здорово! Какую работу?"
+        },
+        {
+          "speaker": "B",
+          "en": "Something in technology, I hope.",
+          "ru": "Надеюсь, что-то в сфере технологий."
+        },
+        {
+          "speaker": "A",
+          "en": "I hope it works out for you.",
+          "ru": "Надеюсь, у тебя всё получится."
+        },
+        {
+          "speaker": "B",
+          "en": "Thank you!",
+          "ru": "Спасибо!"
+        }
+      ]
+    },
+    {
+      "id": "d_014",
+      "situation": "Жалоба на шум",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Excuse me, could you turn down the music? It's very loud.",
+          "ru": "Извините, не могли бы вы сделать музыку потише? Очень громко."
+        },
+        {
+          "speaker": "B",
+          "en": "Oh, I'm sorry. I didn't realize it was so late.",
+          "ru": "Ой, извините. Я не заметил, что уже так поздно."
+        },
+        {
+          "speaker": "A",
+          "en": "No problem, I just have to work early tomorrow.",
+          "ru": "Ничего страшного, просто мне рано на работу завтра."
+        },
+        {
+          "speaker": "B",
+          "en": "I understand. I will turn it down now.",
+          "ru": "Понимаю. Сейчас сделаю тише."
+        },
+        {
+          "speaker": "A",
+          "en": "Thank you, I appreciate it.",
+          "ru": "Спасибо, я это ценю."
+        },
+        {
+          "speaker": "B",
+          "en": "Have a good night.",
+          "ru": "Спокойной ночи."
+        }
+      ]
+    },
+    {
+      "id": "d_015",
+      "situation": "Запись к специалисту",
+      "lines": [
+        {
+          "speaker": "A",
+          "en": "Hello, I need to make an appointment with a specialist.",
+          "ru": "Здравствуйте, мне нужно записаться к специалисту."
+        },
+        {
+          "speaker": "B",
+          "en": "What is the problem?",
+          "ru": "В чём проблема?"
+        },
+        {
+          "speaker": "A",
+          "en": "I have pain in my back.",
+          "ru": "У меня болит спина."
+        },
+        {
+          "speaker": "B",
+          "en": "The doctor is available on Thursday at 3 PM.",
+          "ru": "Врач свободен в четверг в 15:00."
+        },
+        {
+          "speaker": "A",
+          "en": "That works for me.",
+          "ru": "Мне подходит."
+        },
+        {
+          "speaker": "B",
+          "en": "Great, see you then.",
+          "ru": "Отлично, до встречи."
+        }
+      ]
+    }
+  ],
+  "calls": [
+    {
+      "id": "call_001",
+      "situation": "Звонок от арендодателя",
+      "lines": [
+        {
+          "speaker": "caller",
+          "en": "Hello, this is your landlord. Is this a good time to talk?",
+          "ru": "Здравствуйте, это ваш арендодатель. Сейчас удобно говорить?"
+        },
+        {
+          "speaker": "you",
+          "options": [
+            {
+              "en": "Yes, of course.",
+              "ru": "Да, конечно.",
+              "correct": true
+            },
+            {
+              "en": "I don't have an apartment.",
+              "ru": "У меня нет квартиры.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "speaker": "caller",
+          "en": "Your lease ends next month. Do you want to renew it?",
+          "ru": "Ваш договор аренды заканчивается в следующем месяце. Хотите продлить?"
+        },
+        {
+          "speaker": "you",
+          "options": [
+            {
+              "en": "Yes, I would like to renew it.",
+              "ru": "Да, я хотел бы продлить.",
+              "correct": true
+            },
+            {
+              "en": "I like pizza.",
+              "ru": "Мне нравится пицца.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "speaker": "caller",
+          "en": "Great. The new rent will be $1,300 a month.",
+          "ru": "Отлично. Новая арендная плата будет 1300 долларов в месяц."
+        },
+        {
+          "speaker": "you",
+          "options": [
+            {
+              "en": "Okay, that works for me.",
+              "ru": "Хорошо, меня это устраивает.",
+              "correct": true
+            },
+            {
+              "en": "I am from Russia.",
+              "ru": "Я из России.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "speaker": "caller",
+          "en": "Perfect. I will send you the new contract.",
+          "ru": "Отлично. Я пришлю вам новый договор."
+        }
+      ]
+    },
+    {
+      "id": "call_002",
+      "situation": "Звонок от работодателя",
+      "lines": [
+        {
+          "speaker": "caller",
+          "en": "Hi, this is Karen from ABC Company. Is this Ivan?",
+          "ru": "Здравствуйте, это Карен из компании ABC. Это Иван?"
+        },
+        {
+          "speaker": "you",
+          "options": [
+            {
+              "en": "Yes, this is Ivan.",
+              "ru": "Да, это Иван.",
+              "correct": true
+            },
+            {
+              "en": "No, thank you.",
+              "ru": "Нет, спасибо.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "speaker": "caller",
+          "en": "We would like to offer you the position. Are you still interested?",
+          "ru": "Мы хотели бы предложить вам эту должность. Вам всё ещё интересно?"
+        },
+        {
+          "speaker": "you",
+          "options": [
+            {
+              "en": "Yes, I am very interested.",
+              "ru": "Да, мне очень интересно.",
+              "correct": true
+            },
+            {
+              "en": "I don't know you.",
+              "ru": "Я вас не знаю.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "speaker": "caller",
+          "en": "Great. Can you start on Monday?",
+          "ru": "Отлично. Вы можете начать в понедельник?"
+        },
+        {
+          "speaker": "you",
+          "options": [
+            {
+              "en": "Yes, Monday works for me.",
+              "ru": "Да, понедельник мне подходит.",
+              "correct": true
+            },
+            {
+              "en": "The weather is nice today.",
+              "ru": "Сегодня хорошая погода.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "speaker": "caller",
+          "en": "Wonderful. Welcome to the team!",
+          "ru": "Замечательно. Добро пожаловать в команду!"
+        }
+      ]
+    },
+    {
+      "id": "call_003",
+      "situation": "Звонок из поликлиники",
+      "lines": [
+        {
+          "speaker": "caller",
+          "en": "Hello, this is the clinic calling to confirm your appointment tomorrow at 10 AM.",
+          "ru": "Здравствуйте, это звонок из клиники, чтобы подтвердить ваш приём завтра в 10 утра."
+        },
+        {
+          "speaker": "you",
+          "options": [
+            {
+              "en": "Yes, I will be there.",
+              "ru": "Да, я приду.",
+              "correct": true
+            },
+            {
+              "en": "I like coffee.",
+              "ru": "Мне нравится кофе.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "speaker": "caller",
+          "en": "Great. Please bring your insurance card.",
+          "ru": "Отлично. Пожалуйста, возьмите вашу страховую карту."
+        },
+        {
+          "speaker": "you",
+          "options": [
+            {
+              "en": "Okay, I will bring it.",
+              "ru": "Хорошо, я возьму её.",
+              "correct": true
+            },
+            {
+              "en": "I am going to the beach.",
+              "ru": "Я еду на пляж.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "speaker": "caller",
+          "en": "Also, please arrive 15 minutes early.",
+          "ru": "И, пожалуйста, приходите на 15 минут раньше."
+        },
+        {
+          "speaker": "you",
+          "options": [
+            {
+              "en": "No problem, I will be early.",
+              "ru": "Без проблем, я приду пораньше.",
+              "correct": true
+            },
+            {
+              "en": "I don't have a car.",
+              "ru": "У меня нет машины.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "speaker": "caller",
+          "en": "Perfect, see you tomorrow!",
+          "ru": "Отлично, до завтра!"
+        }
+      ]
+    }
+  ],
+  "examPool": [
+    "ex_028",
+    "ex_029",
+    "ex_030",
+    "ex_031",
+    "ex_032",
+    "ex_033",
+    "ex_034",
+    "ex_035",
+    "ex_036",
+    "ex_037",
+    "ex_038",
+    "ex_039",
+    "ex_040",
+    "ex_041",
+    "ex_042",
+    "ex_043",
+    "ex_044",
+    "ex_045",
+    "ex_046",
+    "ex_047",
+    "ex_048"
+  ]
+}

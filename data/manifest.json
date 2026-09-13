@@ -1,5 +1,6 @@
 {
   "levels": [
-    { "id": "A1", "title": "Начальный уровень", "file": "data/a1.json" }
+    { "id": "A1", "title": "Начальный уровень", "file": "data/a1.json" },
+    { "id": "A2", "title": "Элементарный уровень", "file": "data/a2.json" }
   ]
 }
