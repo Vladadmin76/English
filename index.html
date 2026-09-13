@@ -1266,10 +1266,13 @@ function renderStoryScreen(){
         const reading = s.reading===i;
         const btnLabel = status==="correct" ? "✅ Прочитано верно" : reading ? "🎙 Слушаю…" : status==="wrong" ? "🎤 Прочитать ещё раз" : "🎤 Прочитать вслух";
         return `<p class="${cls}">${tapWordsHtml(sen)}</p>
-          <button class="btn secondary block" style="margin-bottom:10px" data-action="story-read-sentence" data-idx="${i}" ${reading||status==="correct"?"disabled":""}>${btnLabel}</button>`;
+          <div class="btn-row" style="margin-bottom:10px">
+            <button class="btn outline" data-action="speak" data-text="${esc(sen)}">🔊 Послушать</button>
+            <button class="btn secondary" data-action="story-read-sentence" data-idx="${i}" ${reading||status==="correct"?"disabled":""}>${btnLabel}</button>
+          </div>`;
       }).join("")}</div>
       ${s.translation ? `<div class="card" style="margin-top:10px;background:var(--accent-soft)"><p class="muted">Перевод:</p><p>${esc(s.translation)}</p></div>` : ""}
-      <p class="muted" style="margin-top:10px">Нажимайте на незнакомые слова — перевод, озвучка и добавление в список на изучение. Кнопкой ниже каждой строки — читайте вслух, приложение проверит произношение.</p>`;
+      <p class="muted" style="margin-top:10px">Нажимайте на незнакомые слова — перевод, озвучка и добавление в список на изучение. «Послушать» — озвучит строку, «Прочитать вслух» — проверит ваше произношение.</p>`;
   } else {
     body = "";
   }
